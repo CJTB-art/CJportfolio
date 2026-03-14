@@ -42,34 +42,15 @@
         cursor: none;
       }
 
-      /* SCROLL INDICATOR (hide native scrollbar) */
+      /* HIDE SCROLLBAR (keep scrolling) */
       html {
         scrollbar-width: none; /* Firefox */
       }
+      body {
+        -ms-overflow-style: none; /* IE/Edge Legacy */
+      }
       body::-webkit-scrollbar {
-        width: 0;
-        height: 0;
-      }
-      #scroll-indicator {
-        position: fixed;
-        top: 10px;
-        right: 10px;
-        height: calc(100vh - 20px);
-        width: 6px;
-        border-radius: 999px;
-        background: rgba(14, 13, 11, 0.12);
-        z-index: 210;
-        pointer-events: none;
-        opacity: 0.9;
-      }
-      #scroll-thumb {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 0;
-        border-radius: 999px;
-        background: rgba(14, 13, 11, 0.35);
+        display: none; /* Chrome/Safari */
       }
 
       /* SCROLL PROGRESS */
@@ -1059,9 +1040,6 @@
         }
       }
       @media (max-width: 900px) {
-        #scroll-indicator {
-          display: none;
-        }
         nav {
           padding: 18px 24px;
         }
@@ -1216,7 +1194,6 @@
   </head>
   <body class="hero-active">
     <div id="progress-bar"></div>
-    <div id="scroll-indicator" aria-hidden="true"><div id="scroll-thumb"></div></div>
     <div class="cursor" id="cur"></div>
     <div class="cursor-ring" id="ring"></div>
     <button
@@ -1877,8 +1854,6 @@
 
       // Scroll progress bar
       const bar = document.getElementById("progress-bar");
-      const scrollIndicator = document.getElementById("scroll-indicator");
-      const scrollThumb = document.getElementById("scroll-thumb");
       const btn = document.getElementById("back-top");
       const nav = document.getElementById("nav");
       const heroEl = document.getElementById("hero");
@@ -1891,12 +1866,6 @@
         const maxScroll = h.scrollHeight - h.clientHeight;
         const pct = maxScroll > 0 ? (h.scrollTop / maxScroll) * 100 : 0;
         bar.style.width = pct + "%";
-        // Scroll indicator
-        if (scrollIndicator && scrollThumb) {
-          const trackH = scrollIndicator.clientHeight;
-          const prog = maxScroll > 0 ? h.scrollTop / maxScroll : 0;
-          scrollThumb.style.height = Math.round(trackH * prog) + "px";
-        }
         // Back to top
         btn.classList.toggle("visible", h.scrollTop > 400);
         // Nav theme
@@ -1918,7 +1887,6 @@
         );
       }
       window.addEventListener("scroll", onScroll, { passive: true });
-      window.addEventListener("resize", onScroll, { passive: true });
       onScroll();
 
       // Cursor grow on links
