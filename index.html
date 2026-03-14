@@ -42,24 +42,34 @@
         cursor: none;
       }
 
-      /* SCROLLBAR */
+      /* SCROLL INDICATOR (hide native scrollbar) */
       html {
-        scrollbar-width: thin; /* Firefox */
-        scrollbar-color: rgba(14, 13, 11, 0.45) rgba(14, 13, 11, 0.08);
+        scrollbar-width: none; /* Firefox */
       }
       body::-webkit-scrollbar {
-        width: 10px;
+        width: 0;
+        height: 0;
       }
-      body::-webkit-scrollbar-track {
-        background: rgba(14, 13, 11, 0.08);
-      }
-      body::-webkit-scrollbar-thumb {
-        background: rgba(14, 13, 11, 0.35);
+      #scroll-indicator {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        height: calc(100vh - 20px);
+        width: 6px;
         border-radius: 999px;
-        border: 2px solid rgba(14, 13, 11, 0.08);
+        background: rgba(14, 13, 11, 0.12);
+        z-index: 210;
+        pointer-events: none;
+        opacity: 0.9;
       }
-      body::-webkit-scrollbar-thumb:hover {
-        background: rgba(168, 32, 32, 0.7);
+      #scroll-thumb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        border-radius: 999px;
+        background: rgba(14, 13, 11, 0.35);
       }
 
       /* SCROLL PROGRESS */
@@ -1049,6 +1059,9 @@
         }
       }
       @media (max-width: 900px) {
+        #scroll-indicator {
+          display: none;
+        }
         nav {
           padding: 18px 24px;
         }
@@ -1203,6 +1216,7 @@
   </head>
   <body class="hero-active">
     <div id="progress-bar"></div>
+    <div id="scroll-indicator" aria-hidden="true"><div id="scroll-thumb"></div></div>
     <div class="cursor" id="cur"></div>
     <div class="cursor-ring" id="ring"></div>
     <button
@@ -1863,6 +1877,8 @@
 
       // Scroll progress bar
       const bar = document.getElementById("progress-bar");
+      const scrollIndicator = document.getElementById("scroll-indicator");
+      const scrollThumb = document.getElementById("scroll-thumb");
       const btn = document.getElementById("back-top");
       const nav = document.getElementById("nav");
       const heroEl = document.getElementById("hero");
@@ -1872,8 +1888,15 @@
       function onScroll() {
         // Progress bar
         const h = document.documentElement;
-        const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+        const maxScroll = h.scrollHeight - h.clientHeight;
+        const pct = maxScroll > 0 ? (h.scrollTop / maxScroll) * 100 : 0;
         bar.style.width = pct + "%";
+        // Scroll indicator
+        if (scrollIndicator && scrollThumb) {
+          const trackH = scrollIndicator.clientHeight;
+          const prog = maxScroll > 0 ? h.scrollTop / maxScroll : 0;
+          scrollThumb.style.height = Math.round(trackH * prog) + "px";
+        }
         // Back to top
         btn.classList.toggle("visible", h.scrollTop > 400);
         // Nav theme
@@ -1895,6 +1918,7 @@
         );
       }
       window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", onScroll, { passive: true });
       onScroll();
 
       // Cursor grow on links
