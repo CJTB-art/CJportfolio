@@ -349,10 +349,10 @@
         color: var(--white);
       }
       .stat-label {
-        font-size: 10px;
+        font-size: 11px;
         letter-spacing: 0.12em;
         text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.7);
         margin-top: 5px;
       }
       .hero-title {
@@ -366,32 +366,34 @@
         color: var(--white);
       }
       .hero-subtitle {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 300;
-        color: rgba(255, 255, 255, 0.6);
+        color: rgba(255, 255, 255, 0.8);
         margin-top: 22px;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.03em;
+        line-height: 1.7;
         animation: fadeUp 0.8s ease 0.65s forwards;
         opacity: 0;
       }
       .hero-subtitle span {
         font-style: italic;
-        color: #f4a0a0;
-        font-weight: 400;
+        color: #ffd0d0;
+        font-weight: 500;
       }
       .hero-role-badge {
         display: inline-block;
         margin-top: 16px;
         padding: 7px 16px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        font-size: 10px;
-        letter-spacing: 0.18em;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        font-size: 11px;
+        letter-spacing: 0.14em;
         text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.78);
         animation: fadeUp 0.8s ease 0.8s forwards;
         opacity: 0;
       }
       .vertical-label {
+        display: none;
         position: absolute;
         left: 16px;
         top: 50%;
@@ -1003,27 +1005,6 @@
       }
 
       /* RESPONSIVE */
-      @media (max-width: 1100px) {
-        .vertical-label {
-          display: none;
-        }
-        .hero-subtitle {
-          font-size: 14px;
-          color: rgba(255, 255, 255, 0.72);
-          letter-spacing: 0.035em;
-        }
-        .hero-subtitle span {
-          color: #ffd0d0;
-          font-weight: 500;
-        }
-        .hero-role-badge {
-          font-size: 11px;
-          letter-spacing: 0.14em;
-        }
-        .stat-label {
-          font-size: 11px;
-        }
-      }
       @media (max-width: 900px) {
         nav {
           padding: 18px 24px;
