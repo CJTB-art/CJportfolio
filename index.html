@@ -1003,6 +1003,27 @@
       }
 
       /* RESPONSIVE */
+      @media (max-width: 1100px) {
+        .vertical-label {
+          display: none;
+        }
+        .hero-subtitle {
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.72);
+          letter-spacing: 0.035em;
+        }
+        .hero-subtitle span {
+          color: #ffd0d0;
+          font-weight: 500;
+        }
+        .hero-role-badge {
+          font-size: 11px;
+          letter-spacing: 0.14em;
+        }
+        .stat-label {
+          font-size: 11px;
+        }
+      }
       @media (max-width: 900px) {
         nav {
           padding: 18px 24px;
@@ -1022,6 +1043,25 @@
         }
         .hero-content {
           width: 100%;
+        }
+        .hero-stats {
+          flex-wrap: wrap;
+          gap: 28px;
+        }
+        .hero-subtitle {
+          font-size: 15px;
+          color: rgba(255, 255, 255, 0.78);
+          letter-spacing: 0.03em;
+        }
+        .hero-role-badge {
+          font-size: 11px;
+          letter-spacing: 0.13em;
+        }
+        .stat-num {
+          font-size: 34px;
+        }
+        .stat-label {
+          font-size: 11px;
         }
         .hero-photo-wrap {
           position: relative;
