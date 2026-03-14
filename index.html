@@ -42,6 +42,26 @@
         cursor: none;
       }
 
+      /* SCROLLBAR */
+      html {
+        scrollbar-width: thin; /* Firefox */
+        scrollbar-color: rgba(14, 13, 11, 0.45) rgba(14, 13, 11, 0.08);
+      }
+      body::-webkit-scrollbar {
+        width: 10px;
+      }
+      body::-webkit-scrollbar-track {
+        background: rgba(14, 13, 11, 0.08);
+      }
+      body::-webkit-scrollbar-thumb {
+        background: rgba(14, 13, 11, 0.35);
+        border-radius: 999px;
+        border: 2px solid rgba(14, 13, 11, 0.08);
+      }
+      body::-webkit-scrollbar-thumb:hover {
+        background: rgba(168, 32, 32, 0.7);
+      }
+
       /* SCROLL PROGRESS */
       #progress-bar {
         position: fixed;
