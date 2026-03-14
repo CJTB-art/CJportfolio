@@ -331,7 +331,9 @@
       .hero-content {
         position: relative;
         z-index: 2;
-        width: 46%;
+        width: 52%;
+        max-width: 720px;
+        margin-left: clamp(0px, 4vw, 70px);
       }
       .hero-stats {
         display: flex;
@@ -342,14 +344,14 @@
       }
       .stat-num {
         font-family: "Cormorant Garamond", serif;
-        font-size: 38px;
+        font-size: 42px;
         font-weight: 300;
         line-height: 1;
         display: block;
         color: var(--white);
       }
       .stat-label {
-        font-size: 11px;
+        font-size: 12px;
         letter-spacing: 0.12em;
         text-transform: uppercase;
         color: rgba(255, 255, 255, 0.7);
@@ -366,7 +368,7 @@
         color: var(--white);
       }
       .hero-subtitle {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 300;
         color: rgba(255, 255, 255, 0.8);
         margin-top: 22px;
@@ -383,9 +385,9 @@
       .hero-role-badge {
         display: inline-block;
         margin-top: 16px;
-        padding: 7px 16px;
+        padding: 9px 18px;
         border: 1px solid rgba(255, 255, 255, 0.35);
-        font-size: 11px;
+        font-size: 12px;
         letter-spacing: 0.14em;
         text-transform: uppercase;
         color: rgba(255, 255, 255, 0.78);
