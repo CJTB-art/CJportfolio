@@ -1,0 +1,560 @@
+/* SHARED PAGE SKELETON. Same structure as Home (src/routes/+page.svelte), so every page feels like one app.
+   Header, then a hero ring card beside a "side" card, then a row of three equal cards, then one wide card.
+   Sizes come from the box (cqh/cqw), rows share height with fr units, and low-priority blocks drop instead of scrolling.
+   Pages use these classes: pg, pg-grid, pg-head, pg-pill, pg-card, pg-hero, pg-side, pg-subs, pg-sgrid, pg-s, pg-note, pg-bottom.
+   A page may override the wide row proportions with --pg-rows. Do not restyle these per page; change them here. */
+
+.pg { container: pg / size; flex: 1 1 0; min-height: 0; min-width: 0; }
+
+.pg-grid {
+  --gap: clamp(0.5rem, 1.8cqh, 1.5rem);
+  --pad: clamp(0.625rem, min(2.6cqh, 3.4cqw), 1.75rem);
+  --hero: clamp(1.25rem, min(4.2cqh, 7cqw), 2.25rem);
+  --h2: clamp(0.95rem, min(2.8cqh, 5.2cqw), 1.5rem);
+  --h3: clamp(0.8125rem, min(1.9cqh, 4cqw), 1rem);
+  --h3b: clamp(0.95rem, min(2.4cqh, 5cqw), 1.25rem);
+  --ring: clamp(4rem, min(14cqh, 26cqw), 6.5rem);
+  height: 100%;
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto auto auto minmax(6rem, 1fr);
+  grid-template-areas: 'head' 'hero' 'side' 'subs' 'bottom';
+}
+.pg-head { grid-area: head; display: flex; align-items: center; gap: 0.75rem; min-width: 0; }
+.pg-hero { grid-area: hero; }
+.pg-side { grid-area: side; }
+.pg-subs { grid-area: subs; display: flex; flex-direction: column; gap: calc(var(--gap) * 0.5); min-height: 0; }
+.pg-bottom { grid-area: bottom; }
+
+.pg-pill { flex-shrink: 0; white-space: nowrap; border-radius: 9999px; background: var(--color-brand-soft); color: var(--color-brand-text); padding: 0.35rem 0.8rem; font-size: 0.75rem; }
+.pg-card { background: transparent; box-shadow: none; border-radius: 0; border-top: 1px solid var(--hair); padding: var(--pad) 0 0; min-width: 0; min-height: 0; }
+.pg-track { height: clamp(0.5rem, 1.8cqh, 1rem); border-radius: 9999px; background: var(--color-bg); overflow: hidden; }
+
+/* hero card: ring + text */
+.pg-hero { display: flex; align-items: center; gap: clamp(0.75rem, 3cqw, 2rem); padding-left: calc(var(--pad) + 1rem); }
+.pg-ring, .pg-ring * { outline: 0 !important; border: 0 !important; box-shadow: none !important; -webkit-tap-highlight-color: transparent; user-select: none; }
+.pg-ring { position: relative; flex-shrink: 0; width: var(--ring); height: var(--ring); }
+.pg-ring .tnum { font-family: var(--font-display); font-weight: 800; font-variant-numeric: lining-nums; font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 72; }
+.pg-verdict { margin-top: 0.4rem; }
+
+/* side card: label, big number, bar, one line, button */
+.pg-side { display: flex; flex-direction: column; justify-content: space-between; gap: calc(var(--gap) * 0.6); }
+.pg-side-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 0.75rem; }
+.pg-cta { display: flex; align-items: center; justify-content: center; gap: 0.5rem; white-space: nowrap; flex-shrink: 0; height: clamp(2.25rem, 5.5cqh, 3.5rem); padding: 0 1.25rem; border-radius: 999px; background: var(--color-brand); color: var(--color-on-brand); font-family: var(--font-accent); font-weight: 700; font-size: 0.875rem; box-shadow: var(--shadow-sticker); }
+.pg-link { display: flex; align-items: center; gap: 0.25rem; font-size: var(--fs-small); color: var(--color-mute); width: fit-content; text-align: left; }
+button.pg-link:hover, a.pg-link:hover { color: var(--color-brand-text); }
+
+/* three-up row */
+.pg-sgrid { display: grid; gap: calc(var(--gap) * 0.75); grid-template-columns: minmax(0, 1fr); min-height: 0; flex: 1; }
+.pg-s { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 0.75rem; row-gap: 0.3rem; padding-block: calc(var(--pad) * 0.6); }
+.pg-s .pg-track { grid-column: 1 / -1; height: clamp(0.4rem, 1.3cqh, 0.9rem); }
+.pg-sname { font-size: var(--h3); }
+.pg-s p { font-size: clamp(1.05rem, min(3cqh, 6cqw), 1.5rem); }
+
+.pg-bottom { display: flex; flex-direction: column; gap: 0.25rem; }
+
+/* PHONE (portrait): same compact scale as Home's phone layout */
+@container pg (max-width: 39.99rem) and (min-height: 26.01rem) {
+  .pg-grid {
+    --gap: clamp(0.5rem, min(2.1cqh, 4.2cqw), 1.125rem);
+    --pad: clamp(0.625rem, min(2.6cqh, 4.7cqw), 1.125rem);
+    --hero: clamp(1.25rem, min(4.2cqh, 6.2cqw), 1.5rem);
+    --h2: clamp(0.8rem, min(2.8cqh, 3.76cqw), 0.9rem);
+    --h3: clamp(0.75rem, min(1.9cqh, 3.4cqw), 0.8125rem);
+    --h3b: clamp(0.9rem, min(2.4cqh, 4.5cqw), 1.08rem);
+    --name: clamp(0.7rem, min(1.7cqh, 3.05cqw), 0.73rem);
+    --pct: clamp(0.8rem, min(2cqh, 3.6cqw), 0.875rem);
+    --ring: clamp(4rem, min(14.5cqh, 25.9cqw), 6.25rem);
+  }
+  .pg-hero { gap: clamp(1rem, 7cqw, 1.75rem); padding-left: var(--pad); }
+  .pg-tick, .pg-low { display: none; }
+  .pg-hero h2 { font-size: clamp(0.72rem, 3.2cqw, 0.8125rem); font-weight: 500; color: var(--color-mute); }
+  .pg-verdict { margin-top: 0.25rem; }
+  .pg-verdict p:first-child { font-size: clamp(1.05rem, min(2.8cqh, 5.4cqw), 1.3rem); }
+
+  .pg-side { gap: 0.375rem; justify-content: flex-start; padding-block: calc(var(--pad) * 0.85); }
+  .pg-side-top { display: contents; }
+  .pg-side-label { color: var(--color-mute); line-height: 1.2; }
+  .pg-side-top > div { order: 0; }
+  .pg-side-top p { line-height: 1.15; }
+  .pg-side .pg-track { order: 1; height: clamp(0.5rem, 1.35cqh, 0.66rem); margin-top: 0.1rem; }
+  .pg-side .pg-link { order: 2; margin-top: 0.125rem; }
+  .pg-side .pg-cta { order: 3; position: relative; width: 100%; height: clamp(1.875rem, 4.2cqh, 2.125rem); margin-top: 0.2rem; font-size: clamp(0.7rem, 3.2cqw, 0.775rem); box-shadow: var(--shadow-brand); }
+  .pg-side .pg-cta::after { content: ''; position: absolute; inset: -0.4rem 0; }
+
+  .pg-sgrid { gap: calc(var(--gap) * 0.85); }
+  .pg-s { padding-top: calc(var(--pad) * 0.68); padding-bottom: calc(var(--pad) * 0.9); row-gap: 0.45rem; }
+  .pg-sname { font-size: var(--name); line-height: 1.15; }
+  .pg-s p { font-size: var(--pct); line-height: 1.15; }
+  .pg-s .pg-track { height: clamp(0.4rem, 1.1cqh, 0.5rem); }
+  .pg-note { padding-inline: 0 !important; }
+  .pg-bottom { padding-top: calc(var(--pad) * 0.7); padding-bottom: calc(var(--pad) * 0.5); }
+}
+
+/* WIDE: two columns */
+@container pg (min-width: 40rem) {
+  .pg-grid {
+    --gap: clamp(0.75rem, min(3cqh, 2.2cqw), 2rem);
+    --ring: clamp(4rem, min(19cqh, 16cqw), 9.75rem);
+    --hero: clamp(1.5rem, min(4.2cqh, 4.2cqw), 2.25rem);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: var(--pg-rows, auto minmax(0, 1.5fr) minmax(0, 1fr) minmax(0, 1.5fr));
+    grid-template-areas: 'head head' 'hero side' 'subs subs' 'bottom bottom';
+  }
+  .pg-pill { font-size: 0.875rem; padding: 0.4rem 1rem; }
+  .pg-verdict { border-left: 1px solid var(--color-line); padding-left: 1rem; margin-top: 0.75rem; }
+  .pg-sgrid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); }
+  .pg-s { display: flex; flex-direction: column; align-items: stretch; justify-content: space-between; gap: 0.35rem; padding-block: var(--pad); }
+  .pg-s p { font-size: var(--hero); }
+  .pg-side-top { display: contents; }
+  .pg-side-top > div { order: 0; }
+  .pg-side .pg-track { order: 1; }
+  .pg-side .pg-link { order: 2; }
+  .pg-side-top .pg-cta { order: 3; }
+}
+
+/* Medium-short phones (e.g. 360x640): the cards no longer fit, so drop the bottom row first, like Home does on shorter screens */
+@container pg (max-width: 39.99rem) and (max-height: 36rem) and (min-height: 26.01rem) {
+  .pg-bottom, .pg-note { display: none; }
+  .pg-grid { grid-template-rows: auto auto auto auto; align-content: start; grid-template-areas: 'head' 'hero' 'side' 'subs'; }
+}
+
+/* Short screens: drop the bottom row and notes, never scroll */
+@container pg (max-height: 33rem) {
+  .pg-bottom, .pg-note, .pg-link, .pg-low { display: none; }
+  .pg-grid { grid-template-rows: auto auto auto auto; align-content: start; grid-template-areas: 'head' 'hero' 'side' 'subs'; }
+}
+@container pg (min-width: 40rem) and (max-height: 33rem) {
+  .pg-grid { grid-template-rows: auto minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: 'head head' 'hero side' 'subs subs'; align-content: stretch; }
+}
+/* Landscape phone (wide-ish and very short): two columns, one-line cards */
+@container pg (min-width: 28rem) and (max-height: 26rem) {
+  .pg-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: 'head head' 'hero side' 'subs subs'; align-content: stretch; --ring: clamp(3rem, 22cqh, 5rem); --hero: 1.25rem; }
+  .pg-hero { padding-left: var(--pad); }
+  .pg-verdict { margin-top: 0.15rem; }
+  .pg-side-top { display: contents; }
+  .pg-side-top .pg-cta { order: 3; height: 2rem; }
+  .pg-side .pg-track { order: 1; }
+  .pg-sgrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .pg-s { display: flex; flex-direction: column; justify-content: center; gap: 0.15rem; padding-block: 0.4rem; }
+  .pg-s p { font-size: 1.1rem; }
+  .pg-s .pg-track { height: 0.4rem; }
+}
+@container pg (max-height: 20rem) { .pg-grid { --gap: 0.35rem; --pad: 0.5rem; } .pg-head .pg-pill { display: none; } .pg-tick { display: none; } .pg-grid .pg-side { gap: 0.1rem; padding-block: 0.2rem; } .pg-grid .pg-side .pg-cta { margin-top: 0; } }
+
+/* ================================================================== */
+/* TWO-PANEL PAGES (TwoPanel.svelte): every page except Home          */
+/* Title row, then LEFT panel + RIGHT panel. Phones: one panel at a time via .tp-tabs. */
+/* ================================================================== */
+.tp { container: tp / size; flex: 1 1 0; min-height: 0; min-width: 0; }
+.tp-grid {
+  --gap: clamp(0.75rem, 2.2cqh, 1.5rem);
+  --pad: clamp(0.75rem, min(2.6cqh, 3.4cqw), 1.75rem);
+  height: 100%;
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto minmax(0, 1fr);
+  grid-template-areas: 'head' 'tabs' 'panel';
+}
+.tp-head, .tp-tabs { position: relative; z-index: 1; }
+.tp-head { grid-area: head; display: flex; align-items: center; gap: 0.75rem; min-width: 0; }
+/* The Study Buddy button is fixed top-right (3.5rem wide plus its gutter); titles stay clear. */
+.tp-head, .pg-head { padding-right: 3.5rem; }
+@media (min-width: 40rem) { .tp-head, .pg-head { padding-right: 6.75rem; } }
+@media (min-width: 64rem) { .tp-head, .pg-head { padding-right: 7.75rem; } }
+.tp-head h1 { font-size: calc(clamp(1.25rem, min(4.2cqh, 6.2cqw), 2.25rem) * 1.25); }
+.tp-pill { flex-shrink: 0; white-space: nowrap; border-radius: 9999px; background: transparent; border: 1px solid color-mix(in srgb, var(--color-brand) 55%, transparent); color: var(--color-ink); padding: 0.35rem 0.8rem; font-size: 0.75rem; }
+
+.tp-tabs { grid-area: tabs; }
+.tp-tabs .ck-btn { min-height: 2.25rem; }
+
+.tp-panel {
+  grid-area: panel; display: flex; flex-direction: column; gap: calc(var(--gap) * 0.75);
+  min-width: 0; min-height: 0; padding: var(--pad);
+  background: var(--color-bg); box-shadow: var(--shadow-raised); border-radius: clamp(1rem, 3cqh, 1.25rem);
+  overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none;
+}
+.tp-panel::-webkit-scrollbar { display: none; }
+.tp-grid[data-view='0'] .tp-right, .tp-grid[data-view='1'] .tp-left { display: none; }
+
+/* panel inner helpers: a small label row, a scrolling list, a footer that stays at the bottom */
+.tp-title { display: flex; align-items: center; gap: 0.625rem; font-size: 1.15rem; flex-shrink: 0; }
+.tp-title-icon { display: inline-grid; place-items: center; flex-shrink: 0; width: 2rem; height: 2rem; margin-right: -0.125rem; border-radius: 9999px; background: var(--color-bg); box-shadow: var(--shadow-raised-sm); color: var(--color-brand-text); }
+.tp-list { display: flex; flex-direction: column; gap: 0.5rem; flex: 1 1 0; min-height: 0; overflow-y: auto; padding: 0.75rem 0.75rem 0.25rem; margin: -0.75rem -0.75rem 0; overscroll-behavior: contain; scrollbar-width: none; }
+/* Scroll shadows: local covers hide the soft shadows at an edge until content exists past it. Cover color = the element's own surface. */
+:root { --scroll-shade: rgb(0 0 0 / 0.45); }
+:root[data-theme='light'] { --scroll-shade: color-mix(in srgb, var(--neu-shade) 70%, transparent); }
+.tp-panel, .tp-list, .nav-list {
+  --scroll-bg: var(--color-bg);
+  background-image:
+    linear-gradient(var(--scroll-bg) 30%, transparent), linear-gradient(transparent, var(--scroll-bg) 70%),
+    radial-gradient(farthest-side at 50% 0, var(--scroll-shade), transparent), radial-gradient(farthest-side at 50% 100%, var(--scroll-shade), transparent);
+  background-size: 100% 2rem, 100% 2rem, 100% 0.875rem, 100% 0.875rem;
+  background-position: top, bottom, top, bottom;
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll;
+}
+.bg-panel .nav-list { --scroll-bg: var(--color-panel); }
+/* .nav-list overlaps its neighbours (negative margin for the glow), so keep the scroll shadow inside its content box. */
+.nav-list { background-origin: content-box; background-clip: content-box; }
+@media (pointer: fine) {
+  .tp-panel, .tp-list, .nav-list { scrollbar-width: thin; scrollbar-color: var(--color-bar) transparent; }
+}
+.tp-foot { margin-top: auto; flex-shrink: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+
+/* Roomier variants (unlayered, so Tailwind gap-* utilities cannot override .tp-list's own gap). */
+.tp-list.form { gap: 1.25rem; padding-bottom: 1.5rem; }
+.tp-list.rows { gap: 0.125rem; }
+/* soft fade where a scrolling form/list runs under the footer button */
+.tp-fade { mask-image: linear-gradient(to bottom, #000 calc(100% - 1.25rem), transparent); }
+/* a section label with its value on the right (counters, hints) */
+.tp-field { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
+.tp-field > .tp-lbl { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem; }
+.tp-field .opt { font-weight: 400; color: var(--color-mute); }
+.tp-field .count { font-size: 0.75rem; font-weight: 400; color: var(--color-mute); }
+
+/* WIDE: both panels side by side */
+@container tp (min-width: 40rem) {
+  .tp-grid { --gap: clamp(1rem, min(3.4cqh, 2.6cqw), 2.25rem); }
+  .tp-grid { grid-template-columns: var(--cols, 1fr 1.4fr); grid-template-rows: auto minmax(0, 1fr); grid-template-areas: 'head head' 'left right'; }
+  .tp-grid .tp-tabs { display: none; }
+  .tp-left { grid-area: left; }
+  .tp-right { grid-area: right; }
+  .tp-grid[data-view] .tp-left, .tp-grid[data-view] .tp-right { display: flex; }
+  .tp-pill { font-size: 0.875rem; padding: 0.4rem 1rem; }
+}
+/* PHONES: optional pinned footer (TwoPanel `foot` snippet). It sits in the grid under the panel, so it is always right above the nav bar and never covers content. */
+.tp-footbar { display: none; }
+@container tp (max-width: 39.99rem) {
+  .tp-grid { --gap: clamp(0.375rem, min(1.5cqh, 2.5cqw), 0.625rem); --pad: clamp(0.5rem, min(1.8cqh, 3cqw), 0.75rem); }
+  /* Small screens have the buddy control in the mobile top bar, so keep page titles whole. */
+  .tp-head { gap: 0.375rem; padding-right: 0; }
+  .tp-head h1 { min-width: 0; flex: 0 1 auto; overflow: hidden; font-size: clamp(1.15rem, min(4cqh, 5.6cqw), 1.45rem); text-overflow: ellipsis; white-space: nowrap; }
+  .tp-head .tp-page-art { width: 2rem !important; height: 2rem !important; flex: 0 0 2rem !important; }
+  .tp-panel { gap: calc(var(--gap) * 0.6); border-radius: 0.875rem; }
+  .tp-title { gap: 0.5rem; font-size: 1rem; }
+  .tp-title-icon { width: 1.75rem; height: 1.75rem; }
+  .tp-list { gap: 0.375rem; padding: 0.5rem 0.5rem 0.25rem; margin: -0.5rem -0.5rem 0; }
+  .tp-list.form { gap: 0.75rem; padding-bottom: 1rem; }
+  .tp-field { gap: 0.375rem; }
+  .tp-foot { gap: 0.375rem; }
+  .tp-pill { display: none; }
+  .tp-tabs .ck-btn { min-height: 2rem; }
+  .tp-grid.has-foot { grid-template-rows: auto auto minmax(0, 1fr) auto; grid-template-areas: 'head' 'tabs' 'panel' 'foot'; }
+  .tp-footbar { display: block; grid-area: foot; position: relative; z-index: 1; }
+  .tp-hide-narrow { display: none !important; }
+}
+/* On short portrait phones, recover a little more content height from repeated card gaps. */
+@container tp (max-width: 39.99rem) and (max-height: 42rem) {
+  .tp-grid { --gap: 0.375rem; --pad: 0.5rem; }
+  .tp-list.form { gap: 0.625rem; padding-bottom: 0.75rem; }
+}
+/* very short: header goes, panels keep the room */
+@container tp (max-height: 20rem) { .tp-head { display: none; } }
+/* Phone mode has THREE areas (head, tabs, panel). With the head gone, name only the two that remain; the old two-row template gave the tab row 1fr/0 height and the first card slid over the tabs. */
+@container tp (max-height: 20rem) and (max-width: 39.99rem) { .tp-grid:not(.has-foot) { grid-template-rows: auto minmax(0, 1fr); grid-template-areas: 'tabs' 'panel'; } }
+/* With the header gone, keep landscape panels and tabs clear of the 3.5rem Buddy button. */
+@container tp (max-height: 20rem) and (max-width: 39.99rem) { .tp-tabs { margin-right: 5rem; } }
+@container tp (min-width: 40rem) and (max-height: 20rem) { .tp-grid { grid-template-rows: minmax(0, 1fr); grid-template-areas: 'left right'; padding-right: 5rem; } }
+/* ^ landscape phones: the header is gone, so keep both panels clear of the fixed Study Buddy button. */
+
+/* ------------------------------------------------------------------ */
+/* STACK MODE (<TwoPanel stack>): each panel is a column of Home-style cards instead of one big card. */
+/* Group a panel's content into .tp-card blocks: one idea per card, like Home. Add .grow to the card that should fill the rest. */
+/* ------------------------------------------------------------------ */
+.tp-grid.stack .tp-panel {
+  background: none; box-shadow: none; border-radius: 0; overflow-y: auto;
+  /* A scroll box clips everything outside it, and the card glow is up to 28px (-8px -8px 20px on desktop).
+     --reach is that room on EVERY side (it used to be 12px top/left, which cut the white glow into a hard edge).
+     The negative margin hands the room back, so the cards do not move. */
+  /* The redesign uses a tighter paper shadow than the old neumorphic shell.
+     Keep enough room for it without letting the panel extend past the app viewport. */
+  --reach: 1rem;
+  padding: var(--reach); margin: calc(var(--reach) * -1);
+  gap: var(--gap);
+}
+/* Phones and tablets have a bottom nav 1rem below the panels. The full 28px vertical reach let scrolled cards show through the nav, so keep it under 1rem there (the glow is a 1px hairline now). */
+@media (max-width: 63.99rem) {
+  .tp-grid.stack .tp-panel { --reach-y: 0.75rem; padding-block: var(--reach-y); margin-block: calc(var(--reach-y) * -1); }
+}
+.tp-card {
+  display: flex; flex-direction: column; gap: calc(var(--gap) * 0.6); flex-shrink: 0; min-width: 0; min-height: 0;
+  background: var(--color-bg); box-shadow: var(--shadow-raised); border-radius: clamp(1rem, 3cqh, 1.25rem); padding: var(--pad);
+}
+.tp-card.grow { flex: 1 0 auto; }
+.tp-card.tight { gap: 0.35rem; }
+.tp-lbl { font-size: var(--fs-small); font-weight: 600; color: var(--color-ink); }
+.tp-sub { font-size: var(--fs-small); color: var(--color-mute); }
+.tp-big { font-size: clamp(1.5rem, 5cqh, 2.25rem); font-weight: 600; line-height: 1.1; }
+.tp-big small { font-size: 0.5em; font-weight: 400; color: var(--color-mute); }
+.tp-bar { height: clamp(0.5rem, 1.6cqh, 0.75rem); border-radius: 9999px; background: var(--color-bg); box-shadow: var(--shadow-inset); overflow: hidden; flex-shrink: 0; }
+.tp-bar > i { display: block; height: 100%; border-radius: 9999px; background: var(--color-brand); }
+.tp-cta { display: flex; align-items: center; justify-content: center; gap: 0.5rem; white-space: nowrap; flex-shrink: 0; width: 100%; height: 2.5rem; border-radius: 999px; background: var(--color-brand); box-shadow: var(--shadow-sticker); color: var(--color-on-brand); font-family: var(--font-accent); font-weight: 700; font-size: 0.875rem; }
+/* Shared CTA states (.pg-cta, .tp-cta): raised idle, hover lifts 1px, active insets, disabled flat, focus ring. */
+.pg-cta, .tp-cta { transition: transform 0.18s ease, box-shadow 0.18s ease; cursor: pointer; }
+.pg-cta:hover:not(:disabled), .pg-side .pg-cta:hover:not(:disabled), .tp-cta:hover:not(:disabled) { transform: translateY(-1px); filter: none; }
+.pg-cta:active:not(:disabled), .pg-side .pg-cta:active:not(:disabled), .tp-cta:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 var(--color-brand-press); }
+.pg-cta:disabled, .pg-side .pg-cta:disabled, .tp-cta:disabled, .pg-cta[aria-disabled='true'], .tp-cta[aria-disabled='true'] { opacity: 0.5; box-shadow: none; cursor: not-allowed; transform: none; }
+.pg-cta:focus-visible, .tp-cta:focus-visible { outline: 2px solid var(--color-teal); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .pg-cta, .tp-cta { transition: none; } .pg-cta:hover, .tp-cta:hover { transform: none; } }
+.reduce-motion .pg-cta, .reduce-motion .tp-cta { transition: none; }
+.reduce-motion .pg-cta:hover, .reduce-motion .tp-cta:hover { transform: none; }
+
+.tp-card.fill { flex: 1 1 0; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
+.tp-card.fill::-webkit-scrollbar { display: none; }
+
+/* Items inside a card sit only slightly raised, so cards never look like stacked slabs */
+.tp-card { --shadow-raised-sm: 0 0 0 1px var(--hair); }
+
+.tp-card :where(.rounded-xl, .rounded-2xl, .rounded-3xl).border.border-line.bg-panel:not(.no-neu, [class*='border-brand']) { box-shadow: var(--shadow-inset); background: transparent; }
+
+/* ================================================================== */
+/* PRACTICE SCREENS (.sx-*): option, badge, state label, pill, progress, nav tile */
+/* Status colors are new tokens (not in app.css; this task was page.css only). Dark is the default, light overrides. */
+/* ================================================================== */
+:root { --sx-ok: var(--color-green); --sx-bad: var(--color-red); }
+
+/* Answer list. The padding gives the raised shadows room, so the scroll box never clips them. */
+.sx-options { display: flex; flex-direction: column; gap: 0.875rem; flex: 1 1 auto; min-height: 0; overflow-y: auto; margin: 0.25rem -0.875rem -0.5rem; padding: 0.875rem 0.875rem 1rem; }
+
+.sx-option {
+  display: flex; align-items: center; gap: 0.875rem; width: 100%; flex: 1 1 auto; min-height: 3.5rem; max-height: 5.5rem; padding: 0.5rem 1rem;
+  text-align: left; color: var(--color-ink); font-size: var(--fs-body); line-height: 1.35;
+  background: var(--color-bg); border: 0; border-radius: clamp(1rem, 3cqh, 1.25rem);
+  box-shadow: var(--shadow-raised-sm); cursor: pointer;
+  transition: transform 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+}
+.sx-option:not([data-state]):hover:not(:disabled) { transform: translateY(-1px); box-shadow: var(--shadow-raised); }
+.sx-option:not([data-state]):active:not(:disabled) { transform: translateY(1px); box-shadow: var(--shadow-inset); }
+.sx-option:disabled { cursor: default; }
+.sx-option:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 3px; }
+.sx-option[data-state='selected'] { transform: none; box-shadow: var(--shadow-inset), 0 0 0 2px color-mix(in srgb, var(--color-brand) 60%, transparent); background: color-mix(in srgb, var(--color-brand) 10%, var(--color-bg)); }
+.sx-option[data-state='correct'] { transform: none; box-shadow: var(--shadow-raised-sm), 0 0 0 2px var(--sx-ok); background: color-mix(in srgb, var(--sx-ok) 12%, var(--color-bg)); }
+.sx-option[data-state='wrong'] { transform: none; box-shadow: var(--shadow-inset), 0 0 0 2px var(--sx-bad); background: color-mix(in srgb, var(--sx-bad) 12%, var(--color-bg)); }
+.sx-option[data-state='reveal'] { transform: none; box-shadow: var(--shadow-raised-sm), 0 0 0 2px var(--sx-ok); }
+
+.sx-badge { flex-shrink: 0; display: inline-grid; place-items: center; width: 2.125rem; height: 2.125rem; border-radius: 9999px; background: var(--color-bg); box-shadow: var(--shadow-inset); font-size: var(--fs-caption); font-weight: 700; color: var(--color-mute); transition: background-color 150ms ease, color 150ms ease; }
+.sx-option[data-state='selected'] .sx-badge { background: var(--color-brand); color: #fff; box-shadow: 0 2px 6px color-mix(in srgb, var(--color-brand) 45%, transparent); }
+.sx-option[data-state='correct'] .sx-badge, .sx-option[data-state='reveal'] .sx-badge { background: var(--sx-ok); color: #fff; box-shadow: none; }
+.sx-option[data-state='wrong'] .sx-badge { background: var(--sx-bad); color: #fff; box-shadow: none; }
+
+.sx-state { margin-left: auto; flex-shrink: 0; display: inline-flex; align-items: center; gap: 0.25rem; font-size: var(--fs-caption); font-weight: 600; color: var(--color-mute); }
+.sx-option[data-state='correct'] .sx-state, .sx-option[data-state='reveal'] .sx-state { color: var(--sx-ok); }
+.sx-option[data-state='wrong'] .sx-state { color: var(--sx-bad); }
+.sx-option[data-state='selected'] .sx-state { color: var(--color-brand-text); }
+
+/* Explanation after Check answer: an inset well with a colour edge. */
+.sx-why { margin-top: 0.875rem; padding: 0.75rem 1rem; border-radius: 1rem; background: var(--color-bg); color: var(--color-mute); font-size: var(--fs-body); box-shadow: var(--shadow-inset), inset 4px 0 0 var(--sx-bad); }
+.sx-why[data-ok='true'] { box-shadow: var(--shadow-inset), inset 4px 0 0 var(--sx-ok); }
+.sx-why strong { color: var(--color-ink); font-weight: 600; }
+.sx-explanation { flex: none; min-width: 0; overflow: hidden; border: 1px solid var(--color-line); border-radius: 0.875rem; background: var(--color-bg); }
+.sx-explanation > summary { display: flex; min-height: 2.75rem; align-items: center; gap: 0.5rem; padding: 0 0.75rem; color: var(--color-brand-text); font-size: var(--fs-small); font-weight: 600; cursor: pointer; list-style: none; }
+.sx-explanation > summary::-webkit-details-marker { display: none; }
+.sx-explanation > summary svg { flex: none; }
+.sx-explanation > summary .sx-explanation-chevron { margin-left: auto; transition: transform 150ms ease; }
+.sx-explanation[open] > summary .sx-explanation-chevron { transform: rotate(90deg); }
+.sx-explanation-body { display: flex; min-height: 0; flex-direction: column; gap: 0.375rem; padding: 0 0.5rem 0.5rem; }
+.sx-explanation .sx-why { margin: 0; padding: 0.625rem 0.75rem; }
+.sx-explanation-ask { display: inline-flex; min-height: 2.5rem; align-items: center; align-self: flex-start; gap: 0.375rem; padding: 0 0.5rem; color: var(--color-brand-text); font-size: var(--fs-small); }
+
+/* Action buttons: raised, lift on hover, press in on click, inset when unavailable. */
+.sx-btn, .sx-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 3rem; padding: 0 1.25rem; border: 0; border-radius: 1rem; font-size: var(--fs-body); font-weight: 600; cursor: pointer; transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease, color 150ms ease; }
+.sx-btn { background: var(--color-bg); color: var(--color-mute); box-shadow: var(--shadow-raised-sm); }
+.sx-btn:hover:not(:disabled) { color: var(--color-ink); box-shadow: var(--shadow-raised); }
+.sx-btn:active:not(:disabled) { box-shadow: var(--shadow-inset); transform: translateY(1px); }
+.sx-btn-primary { background: var(--color-brand); color: var(--color-on-brand); box-shadow: var(--shadow-sticker); font-family: var(--font-accent); font-weight: 700; }
+.sx-btn-primary:hover:not(:disabled) { filter: none; transform: translateY(-1px); }
+.sx-btn-primary:active:not(:disabled) { filter: none; transform: translateY(3px); box-shadow: 0 1px 0 var(--color-brand-press); }
+.sx-btn:disabled, .sx-btn-primary:disabled { background: var(--color-bg); color: var(--color-mute); opacity: 0.7; box-shadow: var(--shadow-inset); cursor: not-allowed; }
+.sx-btn:focus-visible, .sx-btn-primary:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 3px; }
+
+.sx-pill { display: inline-flex; align-items: center; gap: 6px; height: 2.75rem; padding: 0 14px; border-radius: 9999px; background: var(--color-bg); box-shadow: var(--shadow-raised); color: var(--color-ink); font-size: var(--fs-caption); font-weight: 600; white-space: nowrap; }
+.sx-pill[data-warn='true'] { position: relative; color: var(--color-warn); }
+.sx-pill[data-warn='true']::after { content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; box-shadow: 0 0 0 5px color-mix(in srgb, var(--color-warn) 25%, transparent); animation: sx-ring 700ms ease-out 1; }
+@keyframes sx-ring { 50% { opacity: 1; } }
+@keyframes sx-pulse { 0%, 100% { box-shadow: var(--shadow-raised), 0 0 0 0 color-mix(in srgb, var(--color-warn) 0%, transparent); } 50% { box-shadow: var(--shadow-raised), 0 0 0 5px color-mix(in srgb, var(--color-warn) 25%, transparent); } }
+
+button.sx-pill { cursor: pointer; transition: box-shadow 150ms ease, color 150ms ease; }
+button.sx-pill:hover { box-shadow: var(--shadow-raised), 0 0 0 1px color-mix(in srgb, var(--color-brand) 25%, transparent); }
+button.sx-pill:active, .sx-pill[aria-pressed='true'] { box-shadow: var(--shadow-inset); }
+.sx-pill[aria-pressed='true'], .sx-pill-brand { color: var(--color-brand-text); }
+.sx-pill svg { flex-shrink: 0; }
+@media (max-width: 39.99rem) { .sx-pill { height: 2.5rem; padding: 0 12px; } }
+
+@media (max-width: 39.99rem) {
+  /* Put session chrome on one compact row so the question keeps the height. */
+  .session-head { flex-wrap: nowrap; gap: 0.375rem; }
+  .session-back { display: grid; width: 2.75rem; height: 2.75rem; flex: 0 0 2.75rem; place-items: center; margin: 0; padding: 0; }
+  .session-title { flex: 1 1 auto; margin-right: 0; }
+  .session-title h1 { overflow: hidden; font-size: 1.125rem; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
+  .session-title p { overflow: hidden; font-size: 0.6875rem; line-height: 1.15; text-overflow: ellipsis; white-space: nowrap; }
+  .session-head > .sx-pill, .flashcard-head .session-timer { height: 2.25rem; gap: 0.25rem; padding-inline: 0.5rem; font-size: 0.7rem; }
+  .session-head > .sx-pill svg, .session-timer svg { width: 0.875rem; height: 0.875rem; }
+  .sx-session, .flashcard-session, .session-stage { gap: 0.5rem; }
+  .sx-session-grid, .session-board { gap: 0.5rem; }
+  .sx-session header > button.sx-pill, .sprint-stage .session-head > button.sx-pill { display: none; }
+  .mock-stage .session-head > button.sx-pill { display: inline-flex; padding-inline: 0.625rem; }
+  .sx-question-card { padding: 0.625rem; border-radius: 0.875rem; }
+  .sx-question-card > h2 { margin-top: 0.5rem; font-size: clamp(1rem, 4.4vw, 1.1rem); line-height: 1.35; }
+  .sx-question-actions { gap: 0.375rem; margin-top: 0.5rem; margin-inline: -0.625rem; margin-bottom: -0.625rem; padding: 0.5rem; padding-bottom: max(0.5rem, env(safe-area-inset-bottom)); border-radius: 0 0 0.875rem 0.875rem; }
+  .sx-explanation[open] { display: flex; flex-direction: column; max-height: min(9.5rem, 26dvh); }
+  .sx-explanation-body { overflow-y: auto; overscroll-behavior: contain; }
+  .sx-options { gap: 0.5rem; margin-inline: -0.5rem; padding: 0.5rem 0.5rem 0.625rem; }
+  .sx-option { min-height: 3rem; gap: 0.5rem; padding: 0.35rem 0.625rem; }
+  .sx-badge { width: 1.875rem; height: 1.875rem; }
+  .sx-btn, .sx-btn-primary { min-height: 2.75rem; padding-inline: 1rem; }
+  .rs-hero { gap: 0.375rem; padding: 0.75rem 0.625rem; }
+  .rs-stat { padding: 0.5rem; }
+}
+
+@media (max-width: 63.99rem) and (max-height: 32rem) {
+  .session-head p { display: none; }
+  .sx-session, .flashcard-session, .session-stage { gap: 0.25rem; }
+  .sx-session-grid, .session-board { gap: 0.25rem; }
+  .sx-question-card { padding: 0.375rem; }
+  .sx-question-card > div:first-child { gap: 0.25rem; }
+  .sx-question-card > h2 { margin-top: 0.25rem; }
+  .sx-options { gap: 0.25rem; padding-block: 0.25rem 0.375rem; }
+  .sx-option { min-height: 2.75rem; }
+  .sx-question-actions { margin-top: 0.25rem; margin-inline: -0.375rem; margin-bottom: -0.375rem; padding: 0.375rem; padding-bottom: max(0.375rem, env(safe-area-inset-bottom)); }
+}
+
+.sx-track { height: 10px; border-radius: 9999px; background: var(--color-bg); box-shadow: var(--shadow-inset); overflow: hidden; }
+.sx-fill { width: 100%; height: 100%; border-radius: 9999px; background: var(--color-marigold); transform-origin: left center; transition: transform 180ms var(--ease-out); }
+
+.sx-navtile { display: inline-grid; place-items: center; width: 2.75rem; height: 2.75rem; flex-shrink: 0; border-radius: 0.75rem; background: var(--color-bg); box-shadow: var(--shadow-raised); color: var(--color-ink); font-size: var(--fs-body); font-weight: 600; cursor: pointer; }
+.sx-navtile:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }
+.sx-navtile[data-state='answered'] { background: color-mix(in srgb, var(--color-brand) 16%, var(--color-bg)); }
+.sx-navtile[data-state='correct'] { background: color-mix(in srgb, var(--sx-ok) 18%, var(--color-bg)); color: var(--sx-ok); }
+.sx-navtile[data-state='missed'] { background: color-mix(in srgb, var(--sx-bad) 18%, var(--color-bg)); color: var(--sx-bad); }
+.sx-navtile[data-state='flagged'] { background: color-mix(in srgb, var(--color-warn) 20%, var(--color-bg)); }
+.sx-navtile[data-state='current'] { box-shadow: var(--shadow-inset), 0 0 0 2px var(--color-brand); }
+
+/* Unlayered CSS beats Tailwind's hidden utilities, so the show/hide rules for these live here. */
+@media (min-width: 64rem) { .sx-hide-lg { display: none; } }
+@media (max-width: 39.99rem) { .sx-hide-sm { display: none; } }
+@media (min-width: 40rem) { .sx-hide-sm-up { display: none; } }
+
+@media (prefers-reduced-motion: reduce) { .sx-option, .sx-fill, .sx-btn, .sx-btn-primary { transition: none; } .sx-option:hover, .sx-option:active, .sx-btn:active, .sx-btn-primary:hover, .sx-btn-primary:active { transform: none; } .sx-pill[data-warn='true'] { animation: none; } }
+.reduce-motion .sx-option, .reduce-motion .sx-fill, .reduce-motion .sx-btn, .reduce-motion .sx-btn-primary { transition: none; }
+.reduce-motion .sx-option:hover, .reduce-motion .sx-option:active, .reduce-motion .sx-btn:active, .reduce-motion .sx-btn-primary:hover, .reduce-motion .sx-btn-primary:active { transform: none; }
+.reduce-motion .sx-pill[data-warn='true'] { animation: none; }
+
+/* Feedback overview: the closing "send feedback" card is only needed when the right panel is its own phone tab */
+@container tp (min-width: 40rem) { .fb-mobile-cta { display: none; } }
+
+/* ================================================================== */
+/* RESULT SCREEN (.rs-*): hero, status pills, stat tiles, confetti */
+/* Uses existing tokens: --color-brand, --sx-ok (status green), --color-warn. */
+/* ================================================================== */
+.rs-hero {
+  position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 0.75rem; padding: 1.5rem 1rem; text-align: center;
+  background: var(--color-bg); box-shadow: var(--shadow-raised); border-radius: clamp(1rem, 3cqh, 1.25rem);
+}
+.rs-pass, .rs-keep {
+  display: inline-flex; align-items: center; gap: 0.375rem; min-height: 2rem; padding: 0.25rem 0.875rem;
+  border: 1.5px solid; border-radius: 9999px; font-size: var(--fs-caption); font-weight: 600;
+}
+.rs-pass svg, .rs-keep svg { flex-shrink: 0; width: 1rem; height: 1rem; }
+.rs-pass { color: var(--sx-ok); border-color: var(--sx-ok); background: color-mix(in srgb, var(--sx-ok) 14%, var(--color-bg)); }
+.rs-keep { color: var(--color-ink); border-color: var(--color-warn); background: color-mix(in srgb, var(--color-warn) 18%, var(--color-bg)); }
+.rs-stat {
+  display: flex; flex-direction: column; align-items: center; gap: 0.25rem; min-width: 0; padding: 0.75rem;
+  background: var(--color-bg); box-shadow: var(--shadow-raised-sm); border-radius: 1rem;
+}
+.rs-stat svg { width: 1.25rem; height: 1.25rem; color: var(--color-brand-text); }
+.rs-stat .label { font-size: var(--fs-caption); color: var(--color-mute); }
+.rs-stat .num { font-size: var(--fs-title); font-weight: 600; line-height: 1.1; }
+
+.rs-confetti { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.rs-confetti i {
+  position: absolute; left: 50%; top: 35%; width: 6px; height: 10px; border-radius: 1px; opacity: 0;
+  background: var(--color-brand); animation: rs-burst 900ms ease-out forwards;
+}
+.rs-confetti i:nth-child(3n+2) { background: var(--sx-ok); }
+.rs-confetti i:nth-child(3n) { background: var(--color-warn); }
+@keyframes rs-burst {
+  from { opacity: 1; transform: translate(0, 0) rotate(0deg); }
+  to { opacity: 0; transform: translate(var(--dx, 0), var(--dy, 0)) rotate(var(--rot, 0deg)); }
+}
+@media (prefers-reduced-motion: reduce) { .rs-confetti { display: none; } }
+.reduce-motion .rs-confetti { display: none; }
+
+/* ================================================================== */
+/* Form fields (.fm-*): label above, inset input, inline status text   */
+/* ================================================================== */
+.fm-field { display: flex; flex-direction: column; gap: 0.375rem; min-width: 0; }
+.fm-label { font-size: var(--fs-body); font-weight: 500; color: var(--color-ink); }
+.fm-wrap { position: relative; display: flex; align-items: center; }
+.fm-lead { position: absolute; left: 0.875rem; width: 1.125rem; height: 1.125rem; color: var(--color-mute); pointer-events: none; }
+.fm-field .fm-input {
+  width: 100%; min-height: 3rem; padding: 0 0.875rem; font-size: var(--fs-body); color: var(--color-ink);
+  background: var(--color-bg); border: 0; border-radius: 0.75rem; box-shadow: var(--shadow-inset);
+}
+.fm-field .fm-input::placeholder { color: var(--color-mute); opacity: 0.7; }
+.fm-field .fm-input.fm-has-lead { padding-left: 2.75rem; }
+.fm-field .fm-input.fm-has-end { padding-right: 3rem; }
+.fm-field .fm-input:focus-visible { outline: none; box-shadow: var(--shadow-inset), 0 0 0 2px var(--color-brand); }
+.fm-field .fm-input[aria-invalid='true'] { box-shadow: var(--shadow-inset), 0 0 0 2px var(--sx-bad); }
+.fm-field .fm-input:disabled { opacity: 0.6; }
+.fm-toggle {
+  position: absolute; right: 0; display: grid; place-content: center; width: 2.75rem; height: 2.75rem;
+  background: none; border: 0; border-radius: 0.75rem; color: var(--color-mute); cursor: pointer;
+}
+.fm-toggle:hover { color: var(--color-ink); }
+.fm-toggle:focus-visible { outline: 2px solid var(--color-brand); outline-offset: -2px; }
+.fm-toggle svg { width: 1.125rem; height: 1.125rem; }
+.fm-error, .fm-ok { display: flex; align-items: flex-start; gap: 0.375rem; font-size: var(--fs-caption); font-weight: 500; line-height: 1.3; }
+.fm-error svg, .fm-ok svg { flex-shrink: 0; width: 0.875rem; height: 0.875rem; margin-top: 0.0625rem; }
+.fm-error { color: var(--sx-bad); }
+.fm-ok { color: var(--sx-ok); }
+
+/* ================================================================== */
+/* Popups (.dl-*): backdrop, dialog card, toast                        */
+/* Dim is a new token (not in app.css; this task did not name app.css). Dark is the default, light overrides. */
+/* ================================================================== */
+:root { --dl-dim: rgb(0 0 0 / 0.55); }
+:root[data-theme='light'] { --dl-dim: color-mix(in srgb, var(--color-ink) 35%, transparent); }
+
+.dl-backdrop {
+  position: fixed; inset: 0; z-index: 55; padding: 0; border: 0; cursor: default;
+  background: var(--dl-dim);
+}
+.dl-card {
+  background: var(--color-bg); color: var(--color-ink); border-radius: 1.25rem; box-shadow: var(--shadow-raised);
+  animation: anim-fade-up var(--dur-base) var(--ease-out) both;
+}
+.dl-card:focus { outline: none; }
+.dl-toast {
+  position: fixed; z-index: 70; left: 0; right: 0; margin-inline: auto; width: fit-content; max-width: calc(100vw - 2rem);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 1rem);
+  display: flex; align-items: center; gap: 0.5rem; min-height: 2.75rem; padding: 0.5rem 1.25rem;
+  font-size: var(--fs-body); font-weight: 500; color: var(--color-ink);
+  background: var(--color-bg); border-radius: 999px; box-shadow: var(--shadow-raised);
+  animation: anim-fade-up var(--dur-base) var(--ease-out) both;
+}
+.dl-toast svg { flex-shrink: 0; width: 1.125rem; height: 1.125rem; color: var(--color-brand-text); }
+@media (prefers-reduced-motion: reduce) {
+  .dl-card, .dl-toast { animation: none; transition: none; opacity: 1; transform: none; }
+}
+.reduce-motion .dl-card, .reduce-motion .dl-toast { animation: none; transition: none; opacity: 1; transform: none; }
+
+/* Study Buddy fills the visible viewport on portrait and compact landscape phones. */
+@media (max-width: 39.99rem), (max-height: 32rem) and (orientation: landscape) and (pointer: coarse) {
+  .dl-card {
+    position: fixed; inset: var(--vvt, 0px) 0 auto 0; z-index: 57; width: 100%; max-width: none;
+    height: var(--vvh, 100dvh); max-height: none; overflow: hidden; overscroll-behavior: contain;
+    border-radius: 0; box-shadow: none; padding-inline: env(safe-area-inset-left, 0px) env(safe-area-inset-right, 0px); padding-bottom: 0;
+  }
+  .dl-card::before { display: none; }
+}
+/* very short phones (landscape): head is hidden, keep tabs + panel + foot */
+@container tp (max-width: 39.99rem) and (max-height: 20rem) {
+  .tp-grid.has-foot { grid-template-rows: auto minmax(0, 1fr) auto; grid-template-areas: 'tabs' 'panel' 'foot'; }
+}
+
+/* Landscape phones: the page header is gone, so keep the Countdown grid clear of the fixed Study Buddy button. */
+@container pg (min-width: 40rem) and (max-height: 20rem) { .pg-grid { padding-right: 3.5rem; } }

@@ -1,0 +1,5901 @@
+{
+ "counts": {
+  "near-reordered-choices": 12,
+  "exact": 17,
+  "near-format": 9,
+  "same-stem-different-choices": 152
+ },
+ "idCollisionPatterns": {
+  "profed-#": 141,
+  "math-major-#": 66,
+  "gened-#": 21
+ },
+ "groupsInBankPlusMissing": 190,
+ "answerConflicts": 3,
+ "idCollisionsInBank": 228,
+ "selfRepeatingChoices": 61,
+ "note": "Stems under 8 normalised chars are ignored. same-stem-different-choices are often legitimate variants.",
+ "groups": [
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "A publishing company sent 4, 3, and 5 copies of different textbooks for English, Mathematics, and Science. How many ways are there to arrang",
+   "members": [
+    {
+     "id": "qb-1784540234485-fn4ip8",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Mathematics Investigation & Modeling"
+    },
+    {
+     "id": "math-major-340",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Statistics & Probability"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The set G = {o, a, b, c} forms a group with the operator O. Using the given group table, find the inverse of c.",
+   "members": [
+    {
+     "id": "math-major-112",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "math-major-112",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "College & Advanced Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The three arithmetic means between 4 and 32 are:",
+   "members": [
+    {
+     "id": "qb-1782510317816-q1f6bx",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "math-major-181",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "College & Advanced Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "In a playground for kindergarten kids, 18 children are riding tricycles or bicycles. If there are 43 wheels in all, how many tricycles are t",
+   "members": [
+    {
+     "id": "qb-1783300500809-if1mxm",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "gened-1687",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What are the largest two consecutive odd integers whose sum is at most 60?",
+   "members": [
+    {
+     "id": "math2013-110",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "gened-0411",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Factor completely: x^2 - 9.",
+   "members": [
+    {
+     "id": "qb-1788524829369-mudwef",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "qb-1782986976429-8zpjao",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Find a coterminal angle of -45°.",
+   "members": [
+    {
+     "id": "qb-1782470124676-bnt2n2",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    },
+    {
+     "id": "math-major-089",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "A right triangle always has an angle of ___.",
+   "members": [
+    {
+     "id": "math-major-289",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    },
+    {
+     "id": "qb-1784973882080-2twty8",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The total measure of the angles of an oblique triangle is ___.",
+   "members": [
+    {
+     "id": "math-major-290",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    },
+    {
+     "id": "qb-1784973882595-v4a9sy",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "In triangle ABC, a = 14 cm, b = 9 cm, c = 6 cm. What is the measure of angle A?",
+   "members": [
+    {
+     "id": "math-major-295",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    },
+    {
+     "id": "qb-1784973884849-dkfi6j",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "sin(2x)(1 + (tan(x))^2) is equal to:",
+   "members": [
+    {
+     "id": "qb-1783419798472-5chyxo",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    },
+    {
+     "id": "math2012-059",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The sum of the interior angles of a polygon is 1800 degrees. How many sides does the polygon have?",
+   "members": [
+    {
+     "id": "math-major-036",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "math2016-036",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "All right angles are _______.",
+   "members": [
+    {
+     "id": "qb-1782470599963-av3oo8",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "gened-070",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    },
+    {
+     "id": "qb-1784869917861-tlrqqs",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is TRUE?",
+   "members": [
+    {
+     "id": "math-major-093",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "math-major-004",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Logic & Set Theory"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The ends of a piece of wood have a cross section with bases of 8 cm and 6 cm and a height of 7 cm. What is the area of the cross section?",
+   "members": [
+    {
+     "id": "math-major-244",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "qb-1784973864587-7v0uqo",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Two buses leave the same station at 8:00 pm. One bus travels north at the rate of 30 kph and the other travels east at 40 kph. How many kilo",
+   "members": [
+    {
+     "id": "qb-1783300500805-evr2r8",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "gened-1662",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": true,
+   "stem": "The legs of one right triangle are 9 and 12, while those of another right triangle are 12 and 16. How much longer is the perimeter of the la",
+   "members": [
+    {
+     "id": "qb-1783300500808-lkou7k",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "gened-1683",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of these has the longest perimeter?",
+   "members": [
+    {
+     "id": "qb-1783300500809-5hhmip",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "gened-1685",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "The measure of an angle is 25 more than its supplement. What is the measure of the larger angle?",
+   "members": [
+    {
+     "id": "math2013-067",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "gened-225",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    },
+    {
+     "id": "gened-0466",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the measure of an interior angle of a dodecagon?",
+   "members": [
+    {
+     "id": "math2013-069",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "gened-0478",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Nine unique diagonals are drawn in a regular polygon. How many sides does it have?",
+   "members": [
+    {
+     "id": "math2013-115",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Plane & Solid Geometry"
+    },
+    {
+     "id": "gened-0480",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "If a die is rolled, what is the probability of getting a number divisible by 2?",
+   "members": [
+    {
+     "id": "qb-1782469597128-onz7v9",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Statistics & Probability"
+    },
+    {
+     "id": "gened-0509",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Calculate the mean absolute deviation of the following numbers: 60, 80, 100, 75 and 95.",
+   "members": [
+    {
+     "id": "qb-1783300500805-apjyjx",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Statistics & Probability"
+    },
+    {
+     "id": "gened-1663",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The average of 5 different counting numbers is 20. What is the highest possible value that one of the numbers can have?",
+   "members": [
+    {
+     "id": "qb-1783300500806-iqkoq2",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Statistics & Probability"
+    },
+    {
+     "id": "gened-1666",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the probability that a chosen card from a standard deck is either a king or a queen?",
+   "members": [
+    {
+     "id": "qb-1783419804306-t79zis",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Statistics & Probability"
+    },
+    {
+     "id": "qb-1787657868918-habddv",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Statistics & Probability"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "In how many ways can a team of 10 basketball players be chosen from 12 players?",
+   "members": [
+    {
+     "id": "qb-1788524817797-bp4n2k",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Statistics & Probability"
+    },
+    {
+     "id": "gened-0424",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Determine the midpoint of the line segment joining the points (7, -3) and (-1, 6).",
+   "members": [
+    {
+     "id": "qb-1783300500808-lc7fo5",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    },
+    {
+     "id": "gened-1684",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Use the slope-intercept equation of a line y = mx + b with slope of 2/3 and y-intercept of 2.",
+   "members": [
+    {
+     "id": "qb-1786038215742-su9xsm",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    },
+    {
+     "id": "qb-1786039560029-0g8e5m",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The equation Ax^2 + Ay^2 + Dx + Ey + F = 0 is:",
+   "members": [
+    {
+     "id": "qb-1786038228605-ymw5m8",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    },
+    {
+     "id": "qb-1786039562607-t28m5p",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the standard equation of a circle with center (h, k) and radius r?",
+   "members": [
+    {
+     "id": "qb-1786038229246-sop46n",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    },
+    {
+     "id": "qb-1786039563295-6pk1q9",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Find the standard equation of the hyperbola 25x^2 - 9y^2 - 225 = 0.",
+   "members": [
+    {
+     "id": "qb-1786038235094-lg86xa",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    },
+    {
+     "id": "qb-1786039568840-t2b7cp",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Analytic Geometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Integral of sqrt(1 - cos(x)) dx",
+   "members": [
+    {
+     "id": "qb-1786038247808-klmasf",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Calculus"
+    },
+    {
+     "id": "qb-1786039576749-c2enbk",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Calculus"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is the prime factorization of 2100?",
+   "members": [
+    {
+     "id": "math-major-015",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "math2016-015",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is a prime number?",
+   "members": [
+    {
+     "id": "math-major-503",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "qb-1782986976430-xdhp4d",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which statement is true?",
+   "members": [
+    {
+     "id": "qb-1783300500802-pqdg2a",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "gened-0474",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Ana and Beth do a job together in three hours. Working alone, Ana does the job in 5 hours. How long will it take Beth to do the job alone?",
+   "members": [
+    {
+     "id": "qb-1783300500807-aw9u4a",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "gened-1672",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "A water tank contains 18 liters when it is 20% full. How many liters does it contain when 50% full?",
+   "members": [
+    {
+     "id": "qb-1783300500807-14zhs5",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "gened-1675",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": true,
+   "stem": "In a certain school, the ratio of boys to girls is 5 is to 7. If there are 180 boys and girls in the school, how many boys are there?",
+   "members": [
+    {
+     "id": "qb-1783300500808-57fmxl",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "gened-1677",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which common fraction is equivalent to 0.215?",
+   "members": [
+    {
+     "id": "qb-1783300500809-6kkxx8",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "gened-1689",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "In a university, the ratio of female professors to the male professors is 8:5. If there are 75 male professors, how many are female professo",
+   "members": [
+    {
+     "id": "math2013-057",
+     "store": "let-question-bank-v1",
+     "category": "Math Major",
+     "topic": "Arithmetic & Number Theory"
+    },
+    {
+     "id": "gened-622",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The failure of independent study with most Filipino students may be attributed to students’?",
+   "members": [
+    {
+     "id": "profed-0314",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "profed-0589",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Education is a lifelong process. This simply means that education:",
+   "members": [
+    {
+     "id": "profed-280",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "profed-0698",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Whose philosophy influenced the present emphasis on Character Education and Values Education in our school system?",
+   "members": [
+    {
+     "id": "profed-307",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1784871022803-zkk6lv",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Among the following examples of reflective teaching which ought not to be done?",
+   "members": [
+    {
+     "id": "profed-394",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "profed-394",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is an example of a soft skill that is especially important for a teacher who works in a school as a community?",
+   "members": [
+    {
+     "id": "profed-467",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "profed-467",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which teaching activity is founded on Bandura's Social Learning Theory?",
+   "members": [
+    {
+     "id": "qb-1782510470584-3yo0kk",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1784871394311-mc4yly",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Students must be taught self-responsibility is the desire of the ____________ teacher.",
+   "members": [
+    {
+     "id": "qb-1783004313774-2cv30e",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1784870976696-my6yp4",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The main function of a philosophy of education is to:",
+   "members": [
+    {
+     "id": "profed-0657",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1784871007893-zirehj",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following best describes creativity?",
+   "members": [
+    {
+     "id": "profed-024",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "profed-168",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Learning is influenced by social interaction and interpersonal relations. What must a teacher do?",
+   "members": [
+    {
+     "id": "qb-1784870950422-vlhlwj",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1782588987641-asmjqf",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies of Teaching"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Of the following effects on learning, what is the effect of assigning various sections of the newspaper and allowing choice depending on the",
+   "members": [
+    {
+     "id": "qb-1784870952604-l6m5sd",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1782588987642-2fgusd",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Educational Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The world has become a global village. What sound practice is expected of teachers?",
+   "members": [
+    {
+     "id": "qb-1784870984463-uo7b5a",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1782588987638-h7n8ba",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "The Professional Teacher"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What best describes “puwede na” mentality vs. excellence in service/work?",
+   "members": [
+    {
+     "id": "qb-1784871148939-hdy3oj",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "profed-519",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "The Professional Teacher"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the cultural trait of conflicting values that aims to please people in different venues and situations rather than abide by principl",
+   "members": [
+    {
+     "id": "qb-1784871153412-51gw4a",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1782588987638-v0gqys",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "The Professional Teacher"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Among active participation of school officials and teachers in the community, which of the following is not appropriate due to prevailing re",
+   "members": [
+    {
+     "id": "qb-1784871155822-6dga0k",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "profed-033",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "The Professional Teacher"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "When should teachers support one another?",
+   "members": [
+    {
+     "id": "qb-1784871163393-6blypf",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Foundations of Teaching-Learning"
+    },
+    {
+     "id": "qb-1782588987636-5jj942",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "The Professional Teacher"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "A teacher introduces herself as teacher only. What does this imply?",
+   "members": [
+    {
+     "id": "profed-005",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "The Professional Teacher"
+    },
+    {
+     "id": "qb-1784871147594-eywyr4",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies of Teaching"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What will be the most effective way of dealing with non-participative students?",
+   "members": [
+    {
+     "id": "profed-235",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "The Professional Teacher"
+    },
+    {
+     "id": "qb-1783327277352-7j71qt",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies of Teaching"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is a quality of an engaging learning environment most reflective of Education For All (EFA)?",
+   "members": [
+    {
+     "id": "qb-1782588987641-7if42x",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Curriculum Development"
+    },
+    {
+     "id": "qb-1784871402924-jsgdg1",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which is/are in accordance with the principle of pedagogical competence? I. Communication of objectives of the course to student. II. Awaren",
+   "members": [
+    {
+     "id": "profed-0164",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies of Teaching"
+    },
+    {
+     "id": "profed-0332",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies of Teaching"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "In assessment for Problem-Based Learning, who are responsible for judging student performance?",
+   "members": [
+    {
+     "id": "qb-1784870897296-0mq74j",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies of Teaching"
+    },
+    {
+     "id": "profed-154",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which refers to a single phrase or word that tells the computer to do something with a program or file?",
+   "members": [
+    {
+     "id": "profed-387",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Educational Technology"
+    },
+    {
+     "id": "gened-0984",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": true,
+   "stem": "What do global learners in your class enjoy most?",
+   "members": [
+    {
+     "id": "profed-204",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Child & Adolescent Development"
+    },
+    {
+     "id": "profed-204",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Child & Adolescent Development"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Why do you think it is important to administer pretest and post test to the learners in today’s learning facilitation process?",
+   "members": [
+    {
+     "id": "profed-0004",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "profed-009",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What does a skewed score distribution mean?",
+   "members": [
+    {
+     "id": "profed-0678",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "profed-0889",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which is the most reliable tool for determining students' ability to write?",
+   "members": [
+    {
+     "id": "qb-1782648764898-4wrxfz",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "profed-432",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which applies to authentic assessment?",
+   "members": [
+    {
+     "id": "qb-1782733418387-m267c1",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "qb-1782733418387-obpa2j",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which is a way of increasing the reliability of assessment?",
+   "members": [
+    {
+     "id": "qb-1782733418395-lscy4s",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "qb-1782733418395-m19anh",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Under the affective domain of learning, what includes active attention to stimuli such as acquiescence, willingness to answer, and feelings ",
+   "members": [
+    {
+     "id": "profed-119",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "qb-1784870886521-tzy0cy",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following are alternative assessments?",
+   "members": [
+    {
+     "id": "profed-160",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "qb-1784870924148-p61aq5",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is a scoring guide that lists the criteria and their levels of quality on which evaluation will be focused?",
+   "members": [
+    {
+     "id": "profed-163",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "qb-1784870895292-bizjyn",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Of the types of validity for tests, what reflects the knowledge and skills in the program of studies?",
+   "members": [
+    {
+     "id": "profed-398",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    },
+    {
+     "id": "qb-1784870901204-3rri5m",
+     "store": "let-question-bank-v1",
+     "category": "ProfEd",
+     "topic": "Assessment & Evaluation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "\"Red letter day\" is a/an:",
+   "members": [
+    {
+     "id": "gened-purposive-communication-english-003",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-1229",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "It is fitting and proper that we organize a party on her birthday.",
+   "members": [
+    {
+     "id": "gened-450",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784870088011-nsijau",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who is “Quijano de Manila” in Philippine literature?",
+   "members": [
+    {
+     "id": "gened-485",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869611276-bz1p33",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What are the greatest lyric poems in the literature of the world?",
+   "members": [
+    {
+     "id": "gened-493",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869567050-3sg53q",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The tendency to imitate elders is very strong among children. Teachers should therefore be very good .",
+   "members": [
+    {
+     "id": "gened-498",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869858359-bwg0sq",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Understanding the Self"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What figure of speech is the following: “He was helpless as a child.”",
+   "members": [
+    {
+     "id": "gened-517",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869584458-6bsp0c",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who has always been called the Morning Star of English literature.",
+   "members": [
+    {
+     "id": "gened-556",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869572067-5wkrhk",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "\"To be or not to be\" is the beginning of the soliloquy of",
+   "members": [
+    {
+     "id": "gened-591",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869570847-3rzetk",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "Which of the following sets of words has no correlation with each other?",
+   "members": [
+    {
+     "id": "gened-961",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-964",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-966",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who was the foremost French short story writer",
+   "members": [
+    {
+     "id": "gened-1254",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869568236-hl7e1d",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "Which passage is expressed effectively and without structural error/s?",
+   "members": [
+    {
+     "id": "gened-2199",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-2200",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-2203",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Filipino migrant writer whose fiction stories reflect the Filipino’s concept of American culture.",
+   "members": [
+    {
+     "id": "gened-513",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869564555-ultnm8",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Select the sentence that clearly and effectively states the idea and has no structural errors.",
+   "members": [
+    {
+     "id": "gened-1239",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-2201",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "“Let us campaign for the total ban of harmful insecticides.”",
+   "members": [
+    {
+     "id": "gened-1251",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869560820-z6gfis",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "I hurt ___ when I was slicing the onions.",
+   "members": [
+    {
+     "id": "qb-1782986976403-lc0jfj",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0008",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the importance of measuring learning outcomes?",
+   "members": [
+    {
+     "id": "qb-1782986976407-i6fmtj",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0068",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "'He is the black sheep in the family.' Which figure of speech is used?",
+   "members": [
+    {
+     "id": "gened-180",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869592028-hu3fbt",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "His apocalyptic views seemed to doom the human race. This is to be taken as ___.",
+   "members": [
+    {
+     "id": "qb-1782986976419-dgutyy",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869579635-ws7k96",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Our guest of honor was a loquacious speaker. This means ___.",
+   "members": [
+    {
+     "id": "qb-1782986976419-gtl035",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869580826-1m1qmq",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "She has a penchant for red accessories. This indicates ___.",
+   "members": [
+    {
+     "id": "qb-1782986976419-uh3a8v",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1784869583234-se21zz",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 7,
+   "answerConflict": false,
+   "stem": "Select the sentence that clearly and effectively states the idea.",
+   "members": [
+    {
+     "id": "gened-0118",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0119",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0120",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0121",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0122",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0124",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0125",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 10,
+   "answerConflict": false,
+   "stem": "Which passage is expressed effectively and has no structural error?",
+   "members": [
+    {
+     "id": "gened-0127",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0128",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0129",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0130",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0131",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0132",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0133",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0134",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0135",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0136",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 7,
+   "answerConflict": false,
+   "stem": "Choose the sentence with no structural error.",
+   "members": [
+    {
+     "id": "gened-0150",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0151",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0152",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0154",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0155",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0156",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "gened-0157",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which statement is WRONG?",
+   "members": [
+    {
+     "id": "qb-1783654190843-qrvobi",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    },
+    {
+     "id": "qb-1783654195794-gh1mba",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Purposive Communication (English)"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Aling ang tumutukoy sa pag-aaral sa wastong paggamit ng mga salita sa pangungusap?",
+   "members": [
+    {
+     "id": "gened-083",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "gened-279",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Sa pangungusap na “Malakas ang boses mo,” ang salitang malakas ay isang",
+   "members": [
+    {
+     "id": "gened-229",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "qb-1784869815931-3oohfe",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Saan kabilang na uri ng tayutay ang pahayag na: “Kapalaran, huwag ka sanang mailap.”",
+   "members": [
+    {
+     "id": "gened-540",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "qb-1784869823807-c6pk57",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Kung bibilangin ang pantig sa bawat taludtod ng tula, ito ang makukuha.",
+   "members": [
+    {
+     "id": "gened-2264",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "qb-1784869821146-sbj7yo",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Ito ay uri ng pangungusap na tumutukoy sa pangyayaring pangkalikasan o pangkapaligiran.",
+   "members": [
+    {
+     "id": "gened-2265",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "qb-1784869819905-xasn20",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Sa anong bahagi ng pananaliksik matatagpuan ang mga lugar at babasahing mapagkukunan ng mgaliteratura at pag-aaral?",
+   "members": [
+    {
+     "id": "gened-748",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "qb-1784869812040-zggpbf",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who was the literary figure known as “Huseng Sisiw”?",
+   "members": [
+    {
+     "id": "gened-522",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "qb-1784869612562-mocfmp",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Si Heneral Gregorio del Pilar ay nagapi sa ___ Tirad.",
+   "members": [
+    {
+     "id": "qb-1782986976419-1zea94",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "gened-0257",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Oh, anong sayang pagmasdan ng babaeng Pilipina na naka baro't ___.",
+   "members": [
+    {
+     "id": "qb-1782986976419-alhico",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "gened-0260",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Nanligaw ang makisig na ___ sa marikit na dalagita.",
+   "members": [
+    {
+     "id": "qb-1782986976420-cpdzz9",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "gened-0261",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Ano ang ___ wika sa Cordillera?",
+   "members": [
+    {
+     "id": "qb-1782986976420-hmb4kn",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "gened-0262",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Pinapatawad na kita dahil wala ka namang ___.",
+   "members": [
+    {
+     "id": "qb-1782986976420-6qsup8",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "gened-0263",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Mahusay 'maglubid ng buhangin' ang taong gipit. Ano ang ibig sabihin?",
+   "members": [
+    {
+     "id": "gened-0365",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    },
+    {
+     "id": "qb-1784869832061-zlxxz2",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Komunikasyon sa Wikang Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Because it will adversely affect the population's food supplies, the most DISADVANTAGEOUS source of energy is _____.",
+   "members": [
+    {
+     "id": "gened-science-and-technology-028",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-576",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "What is the main organ for respiration?",
+   "members": [
+    {
+     "id": "gened-science-and-technology-035",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-1141",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869558414-9gqi1l",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Plants capture energy from sunlight by means of a molecule known as:",
+   "members": [
+    {
+     "id": "gened-126",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869677220-abho1e",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Of the following organisms, which are included under Kingdom Plantae?",
+   "members": [
+    {
+     "id": "gened-633",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869668468-o70h8f",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which element has Ca as its symbol?",
+   "members": [
+    {
+     "id": "gened-639",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869667278-1ovx5r",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Dengue is an infectious disease transmitted by an organism classified under which phylum?",
+   "members": [
+    {
+     "id": "gened-652",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869557287-p55hfm",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What will happen to a plant cell in a hypotonic solution?",
+   "members": [
+    {
+     "id": "gened-719",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-973",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "How is oxygen released into the Earth’s atmosphere?",
+   "members": [
+    {
+     "id": "gened-1560",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-0626",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The union of an ovum and sperm inside a test tube is",
+   "members": [
+    {
+     "id": "gened-656",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869663017-ea8jwt",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "How are bats able to navigate in the dark without bumping into anything?",
+   "members": [
+    {
+     "id": "gened-213",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869731503-sv5dnp",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "Which of the following activities help reduce water pollution?",
+   "members": [
+    {
+     "id": "gened-648",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869665765-7eed13",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1787136407642-mesadc",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Why do we see the sun rise in the east?",
+   "members": [
+    {
+     "id": "gened-1707",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-2178",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The Kyoto protocol, which requires countries to reduce greenhouse emission, is a practice that advocates .",
+   "members": [
+    {
+     "id": "gened-215",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869674470-2eubg7",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Why do fisherfolks catch more fish during the new moon than during the full moon?",
+   "members": [
+    {
+     "id": "gened-0570",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1787136405239-q40t1b",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the partially molten layer of the Earth called?",
+   "members": [
+    {
+     "id": "gened-0618",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "qb-1784869671372-i2tbxz",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is not an example of a naturally occurring sugar?",
+   "members": [
+    {
+     "id": "qb-1784869738825-q3zqaz",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-sci-070",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is an example of a symbiotic relationship?",
+   "members": [
+    {
+     "id": "qb-1784869740426-ggln1e",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-sci-069",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which among the following are duplicated during the process of mitosis?",
+   "members": [
+    {
+     "id": "qb-1784869805438-t9xzsd",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-sci-065",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which among the following represents the smallest unit of life?",
+   "members": [
+    {
+     "id": "qb-1784869809441-rhfwye",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    },
+    {
+     "id": "gened-sci-062",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Science and Technology"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which are the prime factors of 56?",
+   "members": [
+    {
+     "id": "gened-615",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    },
+    {
+     "id": "gened-625",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the LCM of 5,2, and 7?",
+   "members": [
+    {
+     "id": "gened-2257",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    },
+    {
+     "id": "qb-1784869906329-r8x49x",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "Due to close family ties, Filipino families are generally ___.",
+   "members": [
+    {
+     "id": "gened-philippine-history-society-018",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "gened-687",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869561988-b1x5j8",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What was the name of forced labor imposed during the Spanish regime?",
+   "members": [
+    {
+     "id": "gened-545",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869615006-y4qx2o",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "exact",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Participation in governance, including the right to vote and seek public office, is secured within the citizenry’s:",
+   "members": [
+    {
+     "id": "gened-170",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "gened-170",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Governor-General Narciso Claveria was responsible for the",
+   "members": [
+    {
+     "id": "gened-538",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869621329-7grwe4",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who was the last Spanish Governor-General of the Philippines?",
+   "members": [
+    {
+     "id": "gened-703",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869887332-w00s4z",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The fundamental right invoked by filing the “writ of amparo” is _____",
+   "members": [
+    {
+     "id": "gened-2276",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869556090-fg29f0",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which law set a full free trade policy abolishing the quota limitations on Philippine exports to the UnitedStates?",
+   "members": [
+    {
+     "id": "gened-671",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869688680-4wup3t",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which religious missionaries first arrived in the Philippines?",
+   "members": [
+    {
+     "id": "gened-197",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869618638-nuvcs2",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is one of the man-made wonders of the Philippines?",
+   "members": [
+    {
+     "id": "gened-188",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869604812-05husa",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "When one controls the supply/production of goods, this implies",
+   "members": [
+    {
+     "id": "gened-673",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869897878-czliiq",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which condition contradicts the social justice mandate in the 1987 constitution?",
+   "members": [
+    {
+     "id": "gened-495",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "gened-176",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who is considered as the Father of Iloco Literature?",
+   "members": [
+    {
+     "id": "gened-543",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "gened-168",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "With the Batasang Pambansa performing legislative and executive powers in the Marcos regime, which form of government was implemented?",
+   "members": [
+    {
+     "id": "gened-0767",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869840824-60ck1x",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "To which type of political system do we belong?",
+   "members": [
+    {
+     "id": "gened-0769",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869842163-90mvgc",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who has the power to declare the existence of a state of war?",
+   "members": [
+    {
+     "id": "gened-0810",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869780523-akcvix",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "How is the crime of rape classified?",
+   "members": [
+    {
+     "id": "gened-0812",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869783108-y9kv4d",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which is TRUE of the Philippines?",
+   "members": [
+    {
+     "id": "gened-0821",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "gened-0822",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "In Philippine history, who was known as 'The Great Dissenter'?",
+   "members": [
+    {
+     "id": "gened-0844",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869764771-a8q6hz",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What does 'capital' in economics refer to?",
+   "members": [
+    {
+     "id": "gened-0869",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1784869895290-3uqpat",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "How do you call the tax imposed on all employed and practicing professionals?",
+   "members": [
+    {
+     "id": "qb-1784869554776-04tzma",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "gened-2246",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which is the fundamental law of the Philippines?",
+   "members": [
+    {
+     "id": "qb-1784869777666-vjjij8",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "gened-664",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Reason must be used in understanding the existence of God. Who advocated this philosophy?",
+   "members": [
+    {
+     "id": "gened-2249",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Ethics"
+    },
+    {
+     "id": "qb-1784869851622-grvbxr",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Ethics"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is a human act?",
+   "members": [
+    {
+     "id": "qb-1783654328070-ivbm6n",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Ethics"
+    },
+    {
+     "id": "qb-1784869803369-e7a0pe",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Ethics"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the oldest religion in Asia?",
+   "members": [
+    {
+     "id": "gened-1022",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    },
+    {
+     "id": "qb-1784869716305-767vhp",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Where did the ancient civilization of China exist?",
+   "members": [
+    {
+     "id": "gened-510",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    },
+    {
+     "id": "qb-1784869596064-jt5xt1",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The theory that population increases by geometrical ratio while the means of subsistence increases byarithmetical ratio is attributed to?",
+   "members": [
+    {
+     "id": "gened-754",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    },
+    {
+     "id": "gened-1580",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "The Contemporary World"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Famous ballerina who brought ballet to children of various economic levels",
+   "members": [
+    {
+     "id": "gened-682",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    },
+    {
+     "id": "qb-1784869610066-14sz42",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "This person served as the brains behind the “ arena theater”",
+   "members": [
+    {
+     "id": "gened-2261",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    },
+    {
+     "id": "qb-1784869607450-s3h64a",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is considered the lowest form of learning?",
+   "members": [
+    {
+     "id": "gened-2248",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Understanding the Self"
+    },
+    {
+     "id": "qb-1784869855316-e5xa44",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Understanding the Self"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is Ausubel’s belief on the learning of children?",
+   "members": [
+    {
+     "id": "gened-482",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Understanding the Self"
+    },
+    {
+     "id": "qb-1784869856921-2haxyf",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Understanding the Self"
+    }
+   ]
+  },
+  {
+   "tier": "near-format",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "One of the strengths of the Filipino character is “pakikipagkapwa-tao”. This is manifested in all of thefollowing except one:",
+   "members": [
+    {
+     "id": "gened-335",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Understanding the Self"
+    },
+    {
+     "id": "gened-1910",
+     "store": "let-question-bank-v1",
+     "category": "GenEd",
+     "topic": "Understanding the Self"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The agency tasked to nurture Philippine Arts is ____.",
+   "members": [
+    {
+     "id": "gened-410",
+     "store": "json-pdf-inventory-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    },
+    {
+     "id": "gened-091",
+     "store": "json-pdf-inventory-v1",
+     "category": "GenEd",
+     "topic": "Art Appreciation"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "A cylinder has a base circumference of 8 pi m. Its height exceeds 3/4 of its base by 2 m. What is 2/3 of its volume?",
+   "members": [
+    {
+     "id": "review::GenEd::qb-1783656331579-cdf1xr",
+     "store": "let-error-log-resolved-v1",
+     "category": "GenEd",
+     "topic": "Daily Review   GenEd"
+    },
+    {
+     "id": "mock-GenEd::qb-1783656331579-cdf1xr",
+     "store": "let-error-log-resolved-v1",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    },
+    {
+     "id": "qb-1783656331579-cdf1xr",
+     "store": "let-mock-board-sets-v2",
+     "category": "GenEd",
+     "topic": "Mathematics (GenEd)"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Used in inclusive classrooms are cognitivism-based concept maps. What are examples of concept maps? I. Charts II. Graphic organizers III. Ve",
+   "members": [
+    {
+     "id": "review::ProfEd::qb-1783326232704-dxzlbc",
+     "store": "let-error-log-resolved-v1",
+     "category": "ProfEd",
+     "topic": "Daily Review   ProfEd"
+    },
+    {
+     "id": "mock-ProfEd::qb-1783326232704-dxzlbc",
+     "store": "let-error-log-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies of Teaching"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Why did the Register of Deeds charge Lucio Cruz a specific registration fee for the instrument relative to his loan?",
+   "members": [
+    {
+     "id": "mock-GenEd::qb-1788279143118-ya3ojx",
+     "store": "let-error-log-v1",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    },
+    {
+     "id": "qb-1788279143118-ya3ojx",
+     "store": "let-mock-board-sets-v2",
+     "category": "GenEd",
+     "topic": "Philippine History & Society"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "4 and 1/5 + 3 and 2/7 = _____",
+   "members": [
+    {
+     "id": "set-1781070613119-vxdlh-GenEd-94",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Science"
+    },
+    {
+     "id": "set-1781070613119-vxdlh-Math Major-57",
+     "store": "let-mock-board-sets-v1",
+     "category": "Math Major",
+     "topic": "Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 4,
+   "answerConflict": false,
+   "stem": "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
+   "members": [
+    {
+     "id": "set-1781070613119-vxdlh-GenEd-106",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    },
+    {
+     "id": "set-1781070613119-vxdlh-GenEd-111",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    },
+    {
+     "id": "set-1781070613119-vxdlh-GenEd-121",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    },
+    {
+     "id": "set-1781070613119-vxdlh-GenEd-132",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Alin sa mga sumusunod ang HINDI epiko ng Mindanao?",
+   "members": [
+    {
+     "id": "set-1781520012470-o7oqa-GenEd-11",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Filipino Literature"
+    },
+    {
+     "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-57",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Alin sa mga sumusunod na salita ang may diptonggo?",
+   "members": [
+    {
+     "id": "set-1781520012470-o7oqa-GenEd-16",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Filipino Grammar"
+    },
+    {
+     "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-20",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Filipino"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is an example of a chemical change?",
+   "members": [
+    {
+     "id": "set-1781520012470-o7oqa-GenEd-94",
+     "store": "let-mock-board-sets-v1",
+     "category": "GenEd",
+     "topic": "Chemistry"
+    },
+    {
+     "id": "gened/Science, Technology, and Society.pdf-86",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Chemistry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Who gave the most authentic assessment task for the instructional objective \"Solve word problems involving operations with fractions\"?",
+   "members": [
+    {
+     "id": "math-major-058",
+     "store": "let-mock-board-sets-v2",
+     "category": "Math Major",
+     "topic": "Assessment in Mathematics"
+    },
+    {
+     "id": "math-major-068",
+     "store": "let-mock-board-sets-v2",
+     "category": "Math Major",
+     "topic": "Assessment in Mathematics"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the area bounded by the curves y = 8 - xsup2 and y = -2 + xsup2?",
+   "members": [
+    {
+     "id": null,
+     "store": "let-practice-problem-edits-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Set B Rationalization.pdf-17",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "CALC Techniques"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The sum of Kim's and Kevin's ages is 18. In 3 years, Kim will be twice as old as Kevin. What are their current ages?",
+   "members": [
+    {
+     "id": null,
+     "store": "let-practice-problem-edits-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Set B Rationalization.pdf-45",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Thirty (30) students are divided into two groups, 15 in the lower group and 15 in the upper group. In the upper group, 12 students answered ",
+   "members": [
+    {
+     "id": null,
+     "store": "let-practice-problem-edits-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Assessment and Evaluation 1.pdf-74",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Calculus"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Charisma, as described in social literacy, is a blend of _____.",
+   "members": [
+    {
+     "id": null,
+     "store": "let-practice-problem-edits-v1",
+     "category": "GenEd",
+     "topic": null
+    },
+    {
+     "id": "gened/Building and Enhancing New Literacies.pdf-68",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "ProfEd",
+     "topic": "Technology For Teaching And Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "A polygon has 170 diagonals. How many sides does it have?",
+   "members": [
+    {
+     "id": "math/Trigonometry & Plane and Solid Geometry.pdf-40",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    },
+    {
+     "id": "math/Set A Rationalization.pdf-43",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Geometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Study the score distribution: Students 1-9 with scores 12, 13, 14, 15, 15, 15, 16, 17, 18. Which of the following describes the score distri",
+   "members": [
+    {
+     "id": "math/Assessment and Evaluation 1.pdf-86",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Calculus"
+    },
+    {
+     "id": "math/Assessment and Evaluation 1.pdf-87",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Calculus"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which expression is equivalent to log x - log(y + z)?",
+   "members": [
+    {
+     "id": "math/CALC Techniques.pdf-5",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/CALC Techniques.pdf-53",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": null
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "The terminal side of an angle theta in standard position passes through the point (4, 3). Find sin theta.",
+   "members": [
+    {
+     "id": "math/CALC Techniques.pdf-31",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-9",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "What is the angle between vectors A = 4i + 12j + 6k and B = 24i - 8j + 6k?",
+   "members": [
+    {
+     "id": "math/Special Set - Mathematics.pdf-14",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Set B Rationalization.pdf-14",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Find the area of the region bounded by the curve y = xsup3 and the lines y = 1 and x = 0.",
+   "members": [
+    {
+     "id": "math/Special Set - Mathematics.pdf-27",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Set B Rationalization.pdf-27",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "CALC Techniques"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "If the sine of a certain angle is 0.6, calculate the cotangent of the angle.",
+   "members": [
+    {
+     "id": "math/Special Set - Mathematics.pdf-37",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Set B Rationalization.pdf-37",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Trigonometry"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Find the values of x in the equation 24xsup2 + 5x - 1 = 0.",
+   "members": [
+    {
+     "id": "math/Special Set - Mathematics.pdf-39",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": null
+    },
+    {
+     "id": "math/Set B Rationalization.pdf-39",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is NOT listed as a minor misuse of ICT?",
+   "members": [
+    {
+     "id": "gened/Technology for Teaching ang Learning.pdf-54",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies & Field Studies"
+    },
+    {
+     "id": "gened/Technology for Teaching ang Learning.pdf-63",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Technology For Teaching And Learning"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Arts and Creative Literacy defines creativity as _____.",
+   "members": [
+    {
+     "id": "gened/Building and Enhancing New Literacies.pdf-20",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "ProfEd",
+     "topic": "Methods & Strategies & Field Studies"
+    },
+    {
+     "id": "gened/Building and Enhancing New Literacies.pdf-27",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Technology and Media Literacy"
+    }
+   ]
+  },
+  {
+   "tier": "near-reordered-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Let A = {1, 2, 6, 8, 12} and B = {3, 0, 6, 8}. What is A ∪ B?",
+   "members": [
+    {
+     "id": "math/Logic and Set Theory.pdf-5",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Logic and Set Theory"
+    },
+    {
+     "id": "math/Abstract Algebra & Number Theory - 2.pdf-9",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Abstract Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Let A = {1, 2, 6, 8, 12} and B = {3, 0, 6, 8}. What is A ∩ B?",
+   "members": [
+    {
+     "id": "math/Logic and Set Theory.pdf-6",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Logic and Set Theory"
+    },
+    {
+     "id": "math/Abstract Algebra & Number Theory - 2.pdf-10",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Abstract Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which of the following is a PROPOSITION?",
+   "members": [
+    {
+     "id": "math/Logic and Set Theory.pdf-23",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Logic and Set Theory"
+    },
+    {
+     "id": "math/Add On - Number Theory and Logic and Set Theory.pdf-80",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "Math Major",
+     "topic": "Logic And Set Theory"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 2,
+   "answerConflict": false,
+   "stem": "Which sentence correctly uses the PAST PERFECT PROGRESSIVE tense?",
+   "members": [
+    {
+     "id": "gened/Purposive Communication (English).pdf-95",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    },
+    {
+     "id": "gened/Purposive Communication (English).pdf-33-2",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    }
+   ]
+  },
+  {
+   "tier": "same-stem-different-choices",
+   "size": 3,
+   "answerConflict": false,
+   "stem": "Which of the following does NOT belong to the same group as the others?",
+   "members": [
+    {
+     "id": "gened/PurCom Assessment.pdf-7",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    },
+    {
+     "id": "gened/PurCom Assessment.pdf-36",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    },
+    {
+     "id": "gened/PurCom Assessment.pdf-43",
+     "store": "let-uploaded-pdf-problems-v1",
+     "category": "GenEd",
+     "topic": "Reading and Communication"
+    }
+   ]
+  }
+ ],
+ "idCollisions": [
+  {
+   "id": "math-major-115",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-018",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-013",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-024",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-055",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-053",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-059",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-062",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-063",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-064",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-067",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-073",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-074",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-078",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-095",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-098",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-099",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-100",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-110",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-112",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-113",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-120",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-117",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-004",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-006",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-011",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-019",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-021",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-036",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-039",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-041",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-042",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-103",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-116",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-020",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-033",
+   "count": 6,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-034",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-038",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-049",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-083",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-015",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-023",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-002",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-005",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-010",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-012",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-048",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-093",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-061",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-114",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-035",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-070",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-089",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-076",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-077",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-082",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-025",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-001",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-029",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-094",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-106",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-057",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-084",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-090",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-017",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "math-major-066",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-343",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-360",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-361",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-394",
+   "count": 2,
+   "sameContent": true
+  },
+  {
+   "id": "profed-463",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-467",
+   "count": 2,
+   "sameContent": true
+  },
+  {
+   "id": "profed-089",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-056",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-071",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "profed-079",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-091",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-123",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-128",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-129",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-196",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-200",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-204",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-220",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-245",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-270",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-282",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-352",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-354",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-388",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-389",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-397",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-425",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-429",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-469",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-485",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-496",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-004",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-006",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-011",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-032",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-041",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-066",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-108",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-113",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-114",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-117",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-142",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-145",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "profed-149",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-054",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-040",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-110",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-146",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-092",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "profed-052",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-036",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-031",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-068",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-076",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-093",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-102",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-120",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-125",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-133",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-144",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-124",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-137",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-009",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-035",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-039",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-098",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-005",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-010",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-012",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-027",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-028",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-033",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-126",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-162",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-163",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-166",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-214",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-223",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-224",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-240",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-018",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-037",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-072",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-090",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-095",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-104",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-100",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-127",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-141",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-148",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-075",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-131",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-140",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-147",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-050",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-057",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-069",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-094",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-099",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-053",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-080",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-083",
+   "count": 5,
+   "sameContent": false
+  },
+  {
+   "id": "profed-152",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-097",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-168",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-169",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-112",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-096",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-165",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-259",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-330",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-086",
+   "count": 4,
+   "sameContent": false
+  },
+  {
+   "id": "profed-106",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-119",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-084",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-087",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-130",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-150",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-014",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-019",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "profed-023",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-043",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-058",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-065",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-103",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-154",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-167",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-174",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-202",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-217",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-219",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-221",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-239",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-061",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-283",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-022",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-218",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-351",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-051",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-185",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "profed-158",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-026",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-028",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-080",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-358",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-485",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-129",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-070",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-082",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-227",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-461",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-399",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-457",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-103",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-093",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-120",
+   "count": 3,
+   "sameContent": false
+  },
+  {
+   "id": "gened-411",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-170",
+   "count": 2,
+   "sameContent": true
+  },
+  {
+   "id": "gened-414",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-171",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-177",
+   "count": 2,
+   "sameContent": false
+  },
+  {
+   "id": "gened-191",
+   "count": 2,
+   "sameContent": false
+  }
+ ],
+ "choicesRepeatInsideQuestion": [
+  {
+   "id": "math-major-552",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "math-major-495",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ],
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783419800729-fnyzyx",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "math-major-383",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "repeatedPositions": [
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1786038214327-a1vuis",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "repeatedPositions": [
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "math-major-549",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ],
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1786038240295-oy7ax5",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "repeatedPositions": [
+    [
+     "A",
+     "B"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1786038248908-39gccq",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1786039577852-rxw2ak",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "math2013-050",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "math2012-067",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "math-major-575",
+   "store": "let-question-bank-v1",
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "profed-0923",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1784871032223-kapu0x",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783326229648-l3gsgf",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "repeatedPositions": [
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783327273877-xste1a",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783327274801-yflebj",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "profed-0846",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783334452515-m2gqts",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783334473373-n4coxm",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783334476546-1raxt6",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783327240806-tevlg6",
+   "store": "let-question-bank-v1",
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "gened-450",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "gened-941",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ],
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "gened-2203",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976403-a58vsg",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976403-vifvh2",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976404-fb5aut",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ],
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976411-tomju6",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976411-7jvwu1",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "B"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976414-qdldr3",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976416-sx7kc5",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976417-dr0emf",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783654183970-iirgsn",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1788279083569-qkth30",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "repeatedPositions": [
+    [
+     "A",
+     "B"
+    ],
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976419-alhico",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "repeatedPositions": [
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976420-n7z0nm",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ],
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "gened-0257",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783656349580-4z8hw4",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1788279104334-srj39c",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "gened-2120",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "gened-739",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "gened-0512",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783656307004-zw3vfx",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783656309487-ylcgie",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1783656326338-jfamdz",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1788279105243-cocfbi",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "B",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1788279118024-ns0ug1",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "gened-1416",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "gened-778",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "qb-1782986976404-iukmk0",
+   "store": "let-question-bank-v1",
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "repeatedPositions": [
+    [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "review::ProfEd::qb-1783326232704-dxzlbc",
+   "store": "let-error-log-resolved-v1",
+   "category": "ProfEd",
+   "topic": "Daily Review   ProfEd",
+   "repeatedPositions": [
+    [
+     "A",
+     "B"
+    ]
+   ]
+  },
+  {
+   "id": "mock-ProfEd::qb-1783326232704-dxzlbc",
+   "store": "let-error-log-v1",
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "drill::GenEd::Mathematics (GenEd)::gened-524",
+   "store": "let-error-log-v1",
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "set-1781070613119-vxdlh-Math Major-79",
+   "store": "let-mock-board-sets-v1",
+   "category": "Math Major",
+   "topic": "Geometry",
+   "repeatedPositions": [
+    [
+     "A",
+     "B"
+    ]
+   ]
+  },
+  {
+   "id": "set-1781070613119-vxdlh-Math Major-94",
+   "store": "let-mock-board-sets-v1",
+   "category": "Math Major",
+   "topic": "Algebra",
+   "repeatedPositions": [
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "category": "Math Major",
+   "topic": null,
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "category": "Math Major",
+   "topic": null,
+   "repeatedPositions": [
+    [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "math/Calculus 1.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "repeatedPositions": [
+    [
+     "A",
+     "D"
+    ]
+   ]
+  },
+  {
+   "id": "math/Set A Rationalization.pdf-61",
+   "store": "let-uploaded-pdf-problems-v1",
+   "category": "Math Major",
+   "topic": "Geometry",
+   "repeatedPositions": [
+    [
+     "A",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": "math/BASIC MATH.pdf-48",
+   "store": "let-uploaded-pdf-problems-v1",
+   "category": "GenEd",
+   "topic": "Algebra",
+   "repeatedPositions": [
+    [
+     "C",
+     "D"
+    ]
+   ]
+  }
+ ]
+}

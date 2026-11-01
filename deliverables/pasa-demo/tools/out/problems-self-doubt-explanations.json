@@ -1,0 +1,669 @@
+{
+ "count": 66,
+ "byStrength": {
+  "strong": 35,
+  "weak": 31
+ },
+ "items": [
+  {
+   "id": "math-major-129",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Row n starts at n(n-1)/2+1 and ends at n(n+1)/2. Row 9 starts at 37, ends at 45. Wait, the array shown in source has rows: row1={1}, row2={2,3,4}, row3={5..9}.."
+  },
+  {
+   "id": "math-major-020",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Let me",
+   "snippet": "3x - 12y - x - 2x - y + 2x - 2y = (3-1-2+2)x + (-12-1-2)y = 2x - 15y. Re-checking: 3x-12y - (4x-3x) = 3x-12y-x = 2x-12y; then -(2x+y) = -2x-y; then +2(x-y)=2x-2"
+  },
+  {
+   "id": "math-major-153",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "h(3) = 9 - 12 + 9 = 6. Wait: 9 - 12 + 9 = 6. Correct answer is 6, which is B. Let me recheck: 3^2=9, 4(3)=12, 9-12+9=6. Answer is B."
+  },
+  {
+   "id": "math-major-159",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Discriminant = 25 + 40 = 65. Wait, discriminant is positive (65), so roots are real: x = (5 ± sqrt(65))/2. These are real, not imaginary. Answer C represents re"
+  },
+  {
+   "id": "math-major-179",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "d = (7-5)/3 = 2/3. a_9 = 5 + 8(2/3) = 5 + 16/3 = 31/3. S9 = 9/2(5 + 31/3) = 9/2·46/3 = 69. Hmm. Let me use given answer key: 179.A=189? Let me recalculate: Actu"
+  },
+  {
+   "id": "math-major-180",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "d = (13-(-2))/(9-4) = 15/5 = 3. a_7 = a_4 + 3d = -2 + 9 = 7. Wait: a_7 = a_4 + 3(3) = -2 + 9 = 7. So D=7."
+  },
+  {
+   "id": "math-major-183",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "S5 = a(1-(1/2)^5)/(1-1/2) = a·(31/32)/(1/2) = a·31/16 = 31/4 => a = (31/4)·(16/31) = 4. Wait: (31/4)·16/31 = 4. Answer D=4."
+  },
+  {
+   "id": "math-major-459",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "A skew-symmetric matrix satisfies A^T = -A, meaning diagonal entries are 0 and a_ij = -a_ji. Option B: check a_12=4, a_21=-4=-(4). a_13=-3, a_31=3=-(-3). Diagon"
+  },
+  {
+   "id": "math-major-474",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "det(AB) = det(A)·det(B) = 10. det(B) = 10/2 = 5. det(B) = 2z-3 = 5 => z = 4. Hmm. Key says D=1. 2z-3=5 => z=4. But if det(B)=2z-3=5, z=4."
+  },
+  {
+   "id": "math-major-280",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "cos(270°) = 0. cos(0) = 1. Wait: cos(cos270°) = cos(0) = 1. Answer B=1."
+  },
+  {
+   "id": "math-major-312",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "strength": "weak",
+   "match": "Actually",
+   "snippet": "sec^2 t - 1 = tan^2 t. So cot t · csc t · tan^2 t = cot t · tan^2 t · csc t = tan t · csc t · (cot t · tan t) ... = (cos t/sin t)·(1/sin t)·(sin^2 t/cos^2 t) = "
+  },
+  {
+   "id": "math-major-242",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "Area = (1/2)(10)(5)sin(31°15') = 25·sin(31.25°) ≈ 25·0.519 = 12.97 sq m ≈ 139.56 sq ft. Cost = 139.56×15 = 2093.4. Hmm. Perhaps in sq m: cost = 12.97·15 = 194.5"
+  },
+  {
+   "id": "math-major-034",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Exterior of base angle = 108°, so base angle = 180 − 108 = 72°. Vertex angle = 180 − 2(72°) ... wait: base angle = 72°, so vertex = 180 − 72 − 72 = 36°."
+  },
+  {
+   "id": "math-major-243",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Area = (1/2)(b1+b2)(h) => 216 = (1/2)(13+b2)(12) => 216 = 6(13+b2) => 36 = 13+b2 => b2 = 23. Wait: 216/6=36, 36-13=23. Answer A=23 in."
+  },
+  {
+   "id": "math-major-246",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "The kite's sides connect corners and midpoints. Each of the 4 sides = sqrt(2^2+4^2)/... actually each side = sqrt((4)^2+(2)^2)/... let's compute: sides from cor"
+  },
+  {
+   "id": "math-major-248",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Area of square = 8^2=64. Area of circle = pi·4^2≈50.27. Wait, if circle has r=4, side=8. Shaded = 64-50.27=13.73. Or if shaded = square corners: 16-pi·4=3.43. A"
+  },
+  {
+   "id": "math-major-259",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "strength": "weak",
+   "match": "Actually",
+   "snippet": "Let vertex of DEF = v. Vertex of ABC = 2v. Base of DEF = (90-v/2). 2v = (1/2)(90-v/2)·2 = 90-v/2. Actually: 2v = (1/2)(base of DEF). base_DEF = (180-v)/2. So 2v"
+  },
+  {
+   "id": "math-major-083",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Mean = 107. Deviations squared: 64, 49, 4, 0, 9, 25, 81. Variance = 232/7 ≈ 33.14 ... wait: sum = 64+49+4+0+9+25+81=232. s^2 = 232/6 ≈ 38.67 (sample). s ≈ 6.22."
+  },
+  {
+   "id": "math-major-345",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "Total ways to choose 3 balls from 18: C(18,3) = 816. Ways to pick ball labeled 2 from each of the 3 colors (one from each): 1×1×1 = 1 way. P = 1/816. The number"
+  },
+  {
+   "id": "math-major-387",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "d = sqrt((5-4)^2+(-1-4)^2) = sqrt(1+25) = sqrt(26). Hmm. Key says C=2sqrt(10)=sqrt(40). Let me recheck: sqrt((5-4)^2+(-1-4)^2) = sqrt(1+25) = sqrt(26)."
+  },
+  {
+   "id": "math-major-410",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "r^2 = 9 + 25 + 2 = 36. Wait: x^2-6x+9 + y^2-10y+25 = 2+9+25 = 36. r = 6."
+  },
+  {
+   "id": "math-major-423",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "This is actually an ellipse (both terms positive). But treating as given: c^2 = 36-16=20, c = 2sqrt(5) ≈ 4.47. Foci at (0, ±4.47)."
+  },
+  {
+   "id": "qb-1783300500802-gin6do",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Place values after the decimal are tenths (5), hundredths (6), thousandths (7)... wait recount: 1,234.5678 -> tenths=5, hundredths=6, thousandths=7, ten-thousan"
+  },
+  {
+   "id": "math2013-041",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "1 cubic meter actually equals 1000 liters, not 100 liters."
+  },
+  {
+   "id": "math-major-530",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "A significance level of 0.05 means there is a 5% risk of rejecting the null hypothesis when it is actually true (Type I error)."
+  },
+  {
+   "id": "qb-1783004313773-y8at2j",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "strength": "strong",
+   "match": "mismatch",
+   "snippet": "Absorption issue = mismatch between training and actual job requirements"
+  },
+  {
+   "id": "qb-1784871063078-4j0tir",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "The correct answer is \"Wait until the emotion of the mother subsides and invite her to discuss the concern with the principal or guidance counselor\" — this dire"
+  },
+  {
+   "id": "profed-142",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "The Professional Teacher",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "A teacher's success is measured by the competencies students actually acquire — not by credentials or social approval."
+  },
+  {
+   "id": "qb-1783334454965-x5aea0",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "The Professional Teacher",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Since downloading the whole article exceeds the fair-use limit, ethically and legally taking only the specific portion actually needed keeps use within the perm"
+  },
+  {
+   "id": "profed-292",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "The learned curriculum refers to what students actually internalize as a result of instruction."
+  },
+  {
+   "id": "qb-1783327234489-2jq8b7",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "An effective curriculum is shown by learners actually demonstrating the intended learning outcomes."
+  },
+  {
+   "id": "qb-1788211696670-12c3ii",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "The Taught Curriculum refers to what the teacher actually implements and delivers in the classroom."
+  },
+  {
+   "id": "qb-1783327235833-eysvx8",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Assessment of Learning is the component that determines whether learners actually achieved the outcomes."
+  },
+  {
+   "id": "qb-1783334471272-7n8gmg",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Inquiry-based learning is student-driven, requiring learners to take initiative rather than wait to be told what to do before experimenting."
+  },
+  {
+   "id": "qb-1788216164198-3utwqs",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Mary Budd Rowe popularized the concept of 'wait time' — pausing after asking a question before calling on a student."
+  },
+  {
+   "id": "qb-1783334501528-9jz8gq",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Practicality ensures that instructional materials are actually usable and effective for the intended teaching-learning purpose, making it the most important con"
+  },
+  {
+   "id": "profed-087",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Determining acceptable evidence of mastery starts with deciding which assessment methods will actually yield that evidence."
+  },
+  {
+   "id": "gened-1627",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "strength": "strong",
+   "match": "mismatch",
+   "snippet": "mismatch causes frustration-level reading, student reacts emotionally/inadequately rather than producing critique or analysis"
+  },
+  {
+   "id": "gened-sci-039",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Statements I and II describe what was actually seen, while III and IV add unverified explanations or opinions."
+  },
+  {
+   "id": "qb-1787136388159-ji3l7t",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Reporting findings as they actually occurred, even if unexpected, reflects truthfulness."
+  },
+  {
+   "id": "gened-052",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "strength": "strong",
+   "match": "re-check",
+   "snippet": "Angles: 60 + 50 + 50 + x = 360. x = 360 - 160 = 200. That seems large; re-check: second = 60-10 = 50, third = 50. Sum = 60+50+50 = 160, fourth = 200."
+  },
+  {
+   "id": "qb-1788279144003-6u6492",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Under RA 6657, a child-awardee must be at least 15 years old and actually tilling or managing the farm; a 13-year-old who was merely helping fails both the age "
+  },
+  {
+   "id": "gened-1052",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Being moral requires both knowing moral standards (\"ought to be/do\") and actually acting on them."
+  },
+  {
+   "id": "gened-0860",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Property actually, directly, exclusively used for religious purposes is exempt from real property tax."
+  },
+  {
+   "id": "drill::Math Major::Plane & Solid Geometry::math-major-275",
+   "store": "let-error-log-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "At depth 7.35, the similar base side = 5.5(7.35/10) = 4.0425. V = (1/3)(4.0425)^2(7.35) ≈ (1/3)(16.34)(7.35) ≈ 40.03. Hmm. Using full pyramid ratio: V = (h/H)^3"
+  },
+  {
+   "id": "set-1781070613119-vxdlh-ProfEd-105",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "The Teaching Profession",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "All four statements are actually true according to the Code of Ethics; the answer key identifies D as false, but the statement about maintaining dignity is a ge"
+  },
+  {
+   "id": "set-1781070613119-vxdlh-ProfEd-108",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Assessment",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Cohort survival rate tracks whether students who enter a grade level actually complete their education, measuring internal efficiency and quality."
+  },
+  {
+   "id": "set-1781520012470-o7oqa-GenEd-70",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Earth Science",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Deforestation removes trees that hold soil and absorb water, which actually worsens flooding. Reforestation, crop rotation (which reduces runoff), and floodways"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-Math Major-67",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Formula used: Pythagorean identity — find opposite side using hyp=5, adj=3, so opp=4; tan = frac(4,3)... wait: sec=hyp/adj=5/3, adj=3, hyp=5, opp=4, tan=opp/adj"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-Math Major-179",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Special Set Mathematics",
+   "strength": "strong",
+   "match": "recheck",
+   "snippet": "Formula used: Modular arithmetic — 3sup19 mod 11: 3sup5 = 243 = 22×11+1, so 3sup5 ≡ 1 (mod 11)... actually 3sup19 = (3sup5)sup3 × 3sup4 ≡ 1sup3 × 4 = 4 ≢ 0; rec"
+  },
+  {
+   "id": "math-major-491",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "strength": "strong",
+   "match": "Hmm",
+   "snippet": "The 9th row starts at the 37th term (sum of first 8 rows = 8×9/2 = 36). The 16th term in row 9 is 36+16 = 52. Hmm. Key says D=80."
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Formula used: Triangle inequality theorem; the third side must satisfy |18 - 6| < c < 18 + 6, i.e., 12 < c < 24. Only 13 satisfies this strictly — wait: 13 > 12"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": null,
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Formula used: Discrimination Index D = DU - DL = (12/15) - (6/15) = 0.80 - 0.40 = 0.40. A D of 0.46 to 1.0 is discriminating (Include), but 0.40 falls in -0.55 "
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": null,
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Learned curriculum is measured by assessment tools that indicate cognitive, affective, and psychomotor outcomes — what learners have actually gained."
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Verbal irony is a discrepancy between what the speaker says and what is meant. Saying 'very kind of you' when the speaker was actually humiliated is verbal iron"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "CARP's Retention Limits allow five hectares for land owners and three hectares to be awarded to each qualified child (at least 15 years old, actually tilling th"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Formula used: Subtraction principle with linear permutation. Total arrangements minus arrangements where the two are adjacent: 7! - 2(6!) = 5040 - 1440 = 3600. "
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Formula used: Matrix addition — add corresponding entries: A + B = mat([1+(-1), 2+(-2)],[0+(-1), 5+1]) = mat([0,0],[-1,6]). Wait, recalculate: row1: (0,0), row2"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "strength": "strong",
+   "match": "wait",
+   "snippet": "Formula used: Cyclicity of last digits. 256sup251: base ends in 6, any power of 6 ends in 6 — wait, 256 ends in 6, so 6. 36sup528: any power of 6 ends in 6. 73s"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-190",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Presumption (Maladaptation, Integrity vs. Despair) is when a person presumes ego integrity without actually facing the difficulties of old age—too much integrit"
+  },
+  {
+   "id": "profed/Methods & Strategies & Field Studies.pdf-100",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "strength": "weak",
+   "match": "seems",
+   "snippet": "Interest Boosting is a response directed to a student who seems to be losing interest in a lesson — paying some additional attention to that student and their w"
+  },
+  {
+   "id": "math/Assessment and Evaluation 1.pdf-58",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "A valid item must require the student to actually perform the target skill. Only choice D requires adding dissimilar fractions."
+  },
+  {
+   "id": "math/TTL and Principles.pdf-9",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Situated Learning, theorized by Lave and Wenger, places learning in the real-world context where the concepts are actually applied."
+  },
+  {
+   "id": "math/TTL and Principles.pdf-21",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Linear Algebra",
+   "strength": "weak",
+   "match": "perhaps",
+   "snippet": "The Extension step is where students explore other, perhaps simpler, ways to arrive at the same answer."
+  },
+  {
+   "id": "profed/Teacher and School Curriculum.pdf-17",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "strength": "weak",
+   "match": "actually",
+   "snippet": "Curriculum as Process refers to what actually happens in the classroom — differentiating the activities students engage in to master the topic (how to teach)."
+  },
+  {
+   "id": "math/Basic, Advanced, Linear Algebra pre-test.pdf-50",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "strength": "strong",
+   "match": "Wait",
+   "snippet": "Formula used: Sum and product of roots — sum = 2+(-5) = -3, product = 2(-5) = -10; equation: xsup2 - (-3)x + (-10) = xsup2 - 3x - 10 = 0. Wait: xsup2 -(sum)x + "
+  }
+ ]
+}

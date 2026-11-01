@@ -1,0 +1,2354 @@
+{
+ "reference": "GenEd Filipino only (not Secondary-Filipino level). Keyword heuristic; confidence is how clear the keyword evidence is, not the question quality.",
+ "quotas": {
+  "total": 150,
+  "bloom": {
+   "Remember": 17,
+   "Understand": 19,
+   "Apply": 68,
+   "Analyze": 16,
+   "Evaluate": 16,
+   "Create": 14
+  },
+  "difficulty": {
+   "Easy": 45,
+   "Medium": 75,
+   "Hard": 30
+  }
+ },
+ "genEdFilipinoQuestions": 799,
+ "unclassifiedByKeyword": 283,
+ "areas": {
+  "A": {
+   "name": "Introduksyon sa Pag-aaral ng Wika",
+   "quota": 11,
+   "high": 10,
+   "medium": 1,
+   "low": 1,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "B": {
+   "name": "Panimulang Linggwistika",
+   "quota": 8,
+   "high": 62,
+   "medium": 15,
+   "low": 38,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "C": {
+   "name": "Filipino sa Kurikulum ng Batayang Edukasyon",
+   "quota": 8,
+   "high": 4,
+   "medium": 1,
+   "low": 2,
+   "shortfallVsHighMedium": 3,
+   "shortfallVsAll": 1
+  },
+  "D": {
+   "name": "Istruktura ng Wikang Filipino",
+   "quota": 11,
+   "high": 81,
+   "medium": 3,
+   "low": 73,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "E": {
+   "name": "Pagtuturo at Pagtataya ng Makrong Kasanayan",
+   "quota": 8,
+   "high": 11,
+   "medium": 2,
+   "low": 21,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "F": {
+   "name": "Ugnayan ng Wika, Kultura at Lipunan",
+   "quota": 8,
+   "high": 15,
+   "medium": 4,
+   "low": 6,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "G": {
+   "name": "Paghahanda at Ebalwasyon ng Kagamitang Panturo",
+   "quota": 8,
+   "high": 0,
+   "medium": 0,
+   "low": 0,
+   "shortfallVsHighMedium": 8,
+   "shortfallVsAll": 8
+  },
+  "H": {
+   "name": "Introduksyon sa Pagsasalin",
+   "quota": 8,
+   "high": 3,
+   "medium": 1,
+   "low": 8,
+   "shortfallVsHighMedium": 4,
+   "shortfallVsAll": 0
+  },
+  "I": {
+   "name": "Introduksyon sa Pananaliksik",
+   "quota": 11,
+   "high": 5,
+   "medium": 2,
+   "low": 9,
+   "shortfallVsHighMedium": 4,
+   "shortfallVsAll": 0
+  },
+  "J": {
+   "name": "Introduksyon sa Pamamahayag",
+   "quota": 3,
+   "high": 3,
+   "medium": 1,
+   "low": 1,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "K": {
+   "name": "Barayti at Baryasyon ng Wika",
+   "quota": 8,
+   "high": 10,
+   "medium": 0,
+   "low": 2,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "L": {
+   "name": "Mga Natatanging Diskurso",
+   "quota": 8,
+   "high": 0,
+   "medium": 0,
+   "low": 3,
+   "shortfallVsHighMedium": 8,
+   "shortfallVsAll": 5
+  },
+  "M": {
+   "name": "Panitikan ng Rehiyon",
+   "quota": 8,
+   "high": 24,
+   "medium": 3,
+   "low": 19,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "N": {
+   "name": "Kulturang Popular",
+   "quota": 8,
+   "high": 0,
+   "medium": 0,
+   "low": 0,
+   "shortfallVsHighMedium": 8,
+   "shortfallVsAll": 8
+  },
+  "O": {
+   "name": "Sanaysay at Talumpati",
+   "quota": 3,
+   "high": 10,
+   "medium": 1,
+   "low": 7,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "P": {
+   "name": "Panunuring Pampanitikan",
+   "quota": 8,
+   "high": 0,
+   "medium": 0,
+   "low": 0,
+   "shortfallVsHighMedium": 8,
+   "shortfallVsAll": 8
+  },
+  "Q": {
+   "name": "Maikling Kuwento at Nobela",
+   "quota": 9,
+   "high": 6,
+   "medium": 0,
+   "low": 5,
+   "shortfallVsHighMedium": 3,
+   "shortfallVsAll": 0
+  },
+  "R": {
+   "name": "Panulaang Filipino",
+   "quota": 9,
+   "high": 27,
+   "medium": 4,
+   "low": 9,
+   "shortfallVsHighMedium": 0,
+   "shortfallVsAll": 0
+  },
+  "S": {
+   "name": "Dulang Filipino",
+   "quota": 5,
+   "high": 2,
+   "medium": 1,
+   "low": 0,
+   "shortfallVsHighMedium": 2,
+   "shortfallVsAll": 2
+  }
+ },
+ "bloom": {
+  "Remember": {
+   "quota": 17,
+   "have": 258,
+   "shortfall": 0
+  },
+  "Understand": {
+   "quota": 19,
+   "have": 269,
+   "shortfall": 0
+  },
+  "Apply": {
+   "quota": 68,
+   "have": 24,
+   "shortfall": 44
+  },
+  "Analyze": {
+   "quota": 16,
+   "have": 25,
+   "shortfall": 0
+  },
+  "Evaluate": {
+   "quota": 16,
+   "have": 4,
+   "shortfall": 12
+  },
+  "Create": {
+   "quota": 14,
+   "have": 0,
+   "shortfall": 14
+  }
+ },
+ "bloomUnknown": 219,
+ "difficulty": {
+  "Easy": {
+   "quota": 45,
+   "have": 339,
+   "shortfall": 0
+  },
+  "Medium": {
+   "quota": 75,
+   "have": 209,
+   "shortfall": 0
+  },
+  "Hard": {
+   "quota": 30,
+   "have": 32,
+   "shortfall": 0
+  }
+ },
+ "difficultyUnknown": 219,
+ "areasWithShortfall": [
+  "C Filipino sa Kurikulum ng Batayang Edukasyon: need 8, have 5 (+2 low)",
+  "G Paghahanda at Ebalwasyon ng Kagamitang Panturo: need 8, have 0 (+0 low)",
+  "H Introduksyon sa Pagsasalin: need 8, have 4 (+8 low)",
+  "I Introduksyon sa Pananaliksik: need 11, have 7 (+9 low)",
+  "L Mga Natatanging Diskurso: need 8, have 0 (+3 low)",
+  "N Kulturang Popular: need 8, have 0 (+0 low)",
+  "P Panunuring Pampanitikan: need 8, have 0 (+0 low)",
+  "Q Maikling Kuwento at Nobela: need 9, have 6 (+5 low)",
+  "S Dulang Filipino: need 5, have 3 (+0 low)"
+ ],
+ "idsByArea": {
+  "D": [
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-001",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-006",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-008",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-145",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-071",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-073",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-075",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-083",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-086",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782487677849-ftnkk2",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-115",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-229",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-273",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-279",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-281",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-366",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-454",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-516",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-521",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-912",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-939",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-1635",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-1640",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1644",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1648",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1654",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1661",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2098",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2102",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2103",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2106",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-2108",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2110",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2265",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-060",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-232",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-410",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-2107",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-purposive-communication-english-010",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-purposive-communication-english-011",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2100",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-914",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-554",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976421-opzc21",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976421-vre6za",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976423-zmfbg8",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-264",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976423-e41h0d",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-267",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976424-hgesl9",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-275",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-278",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-310",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-311",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976427-zjeel1",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-0314",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0331",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0352",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0353",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0374",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656343766-8vmqq5",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656343990-shnn5p",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656344236-c5jfq2",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656344503-h9g1sq",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656347323-lvzpvn",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656347563-ttnnuc",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656348072-99nuou",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656349861-auj2j6",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656350162-22ugz7",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656350658-wr9iph",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656350887-33egj4",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656351141-dblwao",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656351389-e6yv0o",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656351614-mzgryr",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656352146-0wy8qc",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656353214-j9h12e",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656355086-bnot60",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656355321-d8t4d8",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656355594-e9yaxx",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656355862-wgz0hu",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656356159-pimrev",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656356424-lhwhoy",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656357194-ea5cw5",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656357477-east3a",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656357759-fv7j1e",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656360772-6tzkad",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656361342-8qih83",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656362183-gsc3ok",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656363003-m7lsih",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656363280-vnp61j",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656363564-az6jmr",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656363810-cqg1wq",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656367972-9m48h6",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1784869813377-pbf8ci",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869815931-3oohfe",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869819905-xasn20",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869826491-7ncxdw",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869940140-sen08n",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1784869944104-5b9ggi",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-406",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279093284-gj2d4g",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279093811-f1y71i",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279094611-rlhca3",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279095525-0ynch9",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279096064-qsr39o",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1788279096399-20fn6n",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1788279096869-vfgttt",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1788279098179-wa9o8z",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1788279098908-bmfhg4",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279099299-6eaynz",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279104334-srj39c",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-073",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-24",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-52",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-100",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-129",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-3",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-4",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-5",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-8",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-9",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-15",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-42",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-8",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-29",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-30",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-31",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-32",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-33",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-34",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-35",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-36",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-37",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-38",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-39",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-40",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-41",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-45",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-47",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-48",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-49",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-50",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-52",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-53",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-54",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-55",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-83",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-84",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-53",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-60",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-61",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-62",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-63",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-64",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-66",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-72",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-74",
+    "confidence": "high"
+   }
+  ],
+  "B": [
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-003",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-007",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-079",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-125",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-065",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-068",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-081",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-082",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-089",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782487677851-f2aka4",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-228",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-233",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-476",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-505",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-520",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-526",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-600",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-751",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-847",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1653",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2105",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2272",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-528",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-529",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-848",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-purposive-communication-english-006",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976419-9r39gk",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976421-3itnb7",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-266",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1782986976424-qofhh9",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976424-g7lcm9",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-305",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976427-j8p6zi",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976427-9x8v01",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1782986976427-fm2e16",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976427-6vhx82",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-0263",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0320",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656342243-hatz8a",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656342534-8xixr4",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656342785-unhyhz",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656343274-v8t6h6",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656344780-4iius0",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656345053-j6d5p6",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656345318-mu8c7y",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656345549-e2ko0g",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656345778-xanbph",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656346005-tcbgoz",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656346295-1fwn95",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1783656346515-hrclp8",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656346781-oza4uu",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656347065-ikd9u7",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656348829-29664i",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656349095-zfiv2b",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656349332-mp6ccq",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1783656350421-bc0vxl",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656351868-bz53nk",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656356697-u3mwez",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656358026-vwjhhi",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656358286-1y6sbo",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656358849-au8oi9",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656359108-663mru",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656362698-fdgb6b",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656364326-rchil9",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656364571-edx6ux",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1783656364847-ts6s33",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869822480-q27tc5",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1784869942745-7z700b",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784870099238-hstb1b",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784870104815-07wxs7",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279095150-avbx01",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-302",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-371",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-377",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-034",
+    "confidence": "medium"
+   },
+   {
+    "id": "drill::GenEd::Komunikasyon sa Wikang Filipino::qb-1788279094222-glqdq2",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-71",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-78",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-7",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-14",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-16",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-19",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-20",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-21",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-22",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-23",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-24",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-25",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-26",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-28",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-42",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-43",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-44",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-15",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-19",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-20",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-25",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-27",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-29",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-31",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-32",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-33",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-34",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-35",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-37",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-38",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-39",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-43",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-46",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-47",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-48",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-58",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-65",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-67",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-71",
+    "confidence": "high"
+   }
+  ],
+  "R": [
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-004",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-227",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-463",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-593",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-743",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-2264",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1643",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1658",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-106",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976424-5pykl5",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976424-j6cui6",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-284",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976424-c390i2",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1782986976425-lkq2fs",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976425-jhuhfj",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976425-ixjojr",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1782986976425-4cpwo5",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976425-5bbxcz",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656353470-vwvmda",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656354278-60wjpj",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656354550-23oh24",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1783656354808-yt6l87",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656366871-33p5lx",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656367643-mkhw19",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869821146-sbj7yo",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279100073-ey3mxo",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-1",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-43",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-47",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-78",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0308",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-59",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-60",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-63",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-78",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-79",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-80",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-81",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-82",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-54",
+    "confidence": "low"
+   }
+  ],
+  "M": [
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-012",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-076",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-402",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-242",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-243",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976422-6tfgkj",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976424-q7x6x6",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976424-pdekds",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976425-drj8um",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976425-5t5xat",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0332",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0364",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0367",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0370",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656365086-8flkqr",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656365340-8py1vg",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656365567-96vqt1",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656365849-2edb48",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1783656366121-fqcpz9",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656366378-x0rdja",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656366622-b2ktdn",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-441",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1788279097732-1xqfic",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1788279101570-di1gjc",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279102602-zd69m8",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279103970-xsadc3",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-96",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-6",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-11",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-17",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-44",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-45",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-144",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-27",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-46",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-57",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-58",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-67",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-69",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-75",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-76",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-88",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-3",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-6",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-16",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-56",
+    "confidence": "low"
+   }
+  ],
+  "O": [
+   {
+    "id": "gened-komunikasyon-sa-wikang-filipino-013",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-2117",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-purposive-communication-english-014",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-444",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-487",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-1660",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976424-xutdgo",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-280",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0372",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656359631-qjg4ld",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656359897-0o59c9",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656367112-c06btt",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869814608-3iqb75",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869830769-fv36gq",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279155734-qtqmdo",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1788279156093-itbm6t",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1788279156470-flnlth",
+    "confidence": "high"
+   },
+   {
+    "id": "drill::GenEd::Komunikasyon sa Wikang Filipino::qb-1788279156948-9thbcn",
+    "confidence": "high"
+   }
+  ],
+  "E": [
+   {
+    "id": "gened-104",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-062",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-067",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1636",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-274",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-542",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-599",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-610",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-855",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-938",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2263",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-399",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-231",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-265",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-419",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-533",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-608",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976425-n3kuli",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-329",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0321",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-0323",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1783656343508-bu9uf8",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656359378-ykwkoc",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656361073-421qj5",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1783656361611-771u91",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656367374-4p8ysd",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1784869946687-j4knyw",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-56",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-1",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-2",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-4",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-28",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-36",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-40",
+    "confidence": "low"
+   }
+  ],
+  "I": [
+   {
+    "id": "gened-063",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-066",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-077",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-603",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-746",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-748",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-853",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-907",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-300",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976426-c2l2ws",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976426-ghsdut",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-0371",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-103",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1784869812040-zggpbf",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1784869818591-r7tcy4",
+    "confidence": "medium"
+   },
+   {
+    "id": "qb-1784870102124-oj4xx2",
+    "confidence": "low"
+   }
+  ],
+  "H": [
+   {
+    "id": "gened-069",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-852",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-747",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1638",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-251",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976425-gyiz16",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976426-ob5awc",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-0356",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0360",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0376",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1783656364070-ctst29",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-8",
+    "confidence": "low"
+   }
+  ],
+  "F": [
+   {
+    "id": "gened-070",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-780",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-1016",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-1024",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-1277",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-1381",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-2099",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-453",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-1659",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-464",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-457",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976425-m0tnvw",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-327",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-0317",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-10",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-20",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-77",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-14",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-15",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-16",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-18",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-64",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-77",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-12",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-52",
+    "confidence": "low"
+   }
+  ],
+  "L": [
+   {
+    "id": "gened-085",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1784870107519-4lgbxv",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-85",
+    "confidence": "low"
+   }
+  ],
+  "K": [
+   {
+    "id": "gened-596",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-849",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976427-zp37p5",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976427-4malet",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-9",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-12",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-13",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-87",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-21",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-22",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-23",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-69",
+    "confidence": "high"
+   }
+  ],
+  "Q": [
+   {
+    "id": "gened-1642",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-1657",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-2223",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-2094",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-282",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-292",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-97",
+    "confidence": "low"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-46",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-0339",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-66",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-72",
+    "confidence": "low"
+   }
+  ],
+  "J": [
+   {
+    "id": "gened-518",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-745",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-854",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened-0355",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1784869828020-t9vpfm",
+    "confidence": "high"
+   }
+  ],
+  "C": [
+   {
+    "id": "gened-427",
+    "confidence": "low"
+   },
+   {
+    "id": "qb-1782986976427-xrycsn",
+    "confidence": "high"
+   },
+   {
+    "id": "qb-1782986976427-eipddd",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-0319",
+    "confidence": "low"
+   },
+   {
+    "id": "gened-0921",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-17",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/LINGGWISTIKA AND ESTRUKTURA HANDOUT SEPTEMBER 2026_page-0001.pdf-59",
+    "confidence": "high"
+   }
+  ],
+  "A": [
+   {
+    "id": "gened-253",
+    "confidence": "high"
+   },
+   {
+    "id": "gened-0307",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781070613119-vxdlh-GenEd-147",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-18",
+    "confidence": "high"
+   },
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-104",
+    "confidence": "low"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-1",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-2",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-3",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-4",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-5",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-6",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-86",
+    "confidence": "high"
+   }
+  ],
+  "S": [
+   {
+    "id": "set-1781520012470-o7oqa-GenEd-48",
+    "confidence": "high"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-61",
+    "confidence": "medium"
+   },
+   {
+    "id": "gened/MALAYANG KOMUNIKASYON SA WIKANG FILIPINO.pdf-62",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+node_modules
+.svelte-kit
+.wrangler
+build
+
+.env
+
+backups/
+.dev.vars
+*.zip
+tools/out/import-rejects.json
+artifacts/screenshots/

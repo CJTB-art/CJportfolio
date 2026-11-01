@@ -1,0 +1,576 @@
+{
+ "totals": {
+  "live": 2055,
+  "review": 11,
+  "quarantine": 43,
+  "all": 2109
+ },
+ "reasonCounts": {
+  "explanation-names-other-letter": 3,
+  "self-doubt": 19,
+  "duplicate": 7,
+  "choices-repeat": 12,
+  "weak-self-doubt": 6,
+  "figure-mention": 6,
+  "figure-dependent": 3
+ },
+ "duplicates": {
+  "groups": 7,
+  "conflicts": 0,
+  "retired": 7
+ },
+ "topicMapDisagreements": 0,
+ "idsRenamed": 217,
+ "items": [
+  {
+   "id": "math-major-483",
+   "originalId": "math-major-483",
+   "topic": "History of Mathematics",
+   "status": "quarantine",
+   "quarantine": [
+    "explanation-names-other-letter"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-129",
+   "originalId": "math-major-129",
+   "topic": "Mathematics Investigation & Modeling",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-059.1",
+   "originalId": "math-major-059",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "explanation-names-other-letter"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-020.1",
+   "originalId": "math-major-020",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-153",
+   "originalId": "math-major-153",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-159",
+   "originalId": "math-major-159",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-179",
+   "originalId": "math-major-179",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-180",
+   "originalId": "math-major-180",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-181",
+   "originalId": "math-major-181",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "duplicate"
+   ],
+   "review": [],
+   "duplicateOf": "qb-1782510317816-q1f6bx"
+  },
+  {
+   "id": "math-major-183",
+   "originalId": "math-major-183",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-459",
+   "originalId": "math-major-459",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-467",
+   "originalId": "math-major-467",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "duplicate"
+   ],
+   "review": [],
+   "duplicateOf": "qb-1784540228030-ncetoc"
+  },
+  {
+   "id": "math-major-474",
+   "originalId": "math-major-474",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt",
+    "explanation-names-other-letter"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-552",
+   "originalId": "math-major-552",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-495",
+   "originalId": "math-major-495",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-112.2",
+   "originalId": "math-major-112",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "duplicate"
+   ],
+   "review": [],
+   "duplicateOf": "math-major-112.1"
+  },
+  {
+   "id": "qb-1783419800729-fnyzyx",
+   "originalId": "qb-1783419800729-fnyzyx",
+   "topic": "College & Advanced Algebra",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-280",
+   "originalId": "math-major-280",
+   "topic": "Trigonometry",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-312",
+   "originalId": "math-major-312",
+   "topic": "Trigonometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "weak-self-doubt"
+   ]
+  },
+  {
+   "id": "math-major-242",
+   "originalId": "math-major-242",
+   "topic": "Trigonometry",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math2012-059",
+   "originalId": "math2012-059",
+   "topic": "Trigonometry",
+   "status": "quarantine",
+   "quarantine": [
+    "duplicate"
+   ],
+   "review": [],
+   "duplicateOf": "qb-1783419798472-5chyxo"
+  },
+  {
+   "id": "qb-1784973895959-5qa9ly",
+   "originalId": "qb-1784973895959-5qa9ly",
+   "topic": "Trigonometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "figure-mention"
+   ]
+  },
+  {
+   "id": "math-major-034.3",
+   "originalId": "math-major-034",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-202",
+   "originalId": "math-major-202",
+   "topic": "Plane & Solid Geometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "figure-mention"
+   ]
+  },
+  {
+   "id": "math-major-226",
+   "originalId": "math-major-226",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "figure-dependent"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-230",
+   "originalId": "math-major-230",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "figure-dependent"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-243",
+   "originalId": "math-major-243",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-244",
+   "originalId": "math-major-244",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "duplicate"
+   ],
+   "review": [],
+   "duplicateOf": "qb-1784973864587-7v0uqo"
+  },
+  {
+   "id": "math-major-246",
+   "originalId": "math-major-246",
+   "topic": "Plane & Solid Geometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "weak-self-doubt"
+   ]
+  },
+  {
+   "id": "math-major-248",
+   "originalId": "math-major-248",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": [
+    "figure-mention"
+   ]
+  },
+  {
+   "id": "math-major-259",
+   "originalId": "math-major-259",
+   "topic": "Plane & Solid Geometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "weak-self-doubt"
+   ]
+  },
+  {
+   "id": "math2016-036",
+   "originalId": "math2016-036",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "duplicate"
+   ],
+   "review": [],
+   "duplicateOf": "math-major-036.3"
+  },
+  {
+   "id": "qb-1784973851543-gf7g2p",
+   "originalId": "qb-1784973851543-gf7g2p",
+   "topic": "Plane & Solid Geometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "figure-mention"
+   ]
+  },
+  {
+   "id": "qb-1784973860758-y2hs57",
+   "originalId": "qb-1784973860758-y2hs57",
+   "topic": "Plane & Solid Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "figure-dependent"
+   ],
+   "review": []
+  },
+  {
+   "id": "qb-1784973866733-9jc7lb",
+   "originalId": "qb-1784973866733-9jc7lb",
+   "topic": "Plane & Solid Geometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "figure-mention"
+   ]
+  },
+  {
+   "id": "math-major-083.3",
+   "originalId": "math-major-083",
+   "topic": "Statistics & Probability",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-345",
+   "originalId": "math-major-345",
+   "topic": "Statistics & Probability",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-383",
+   "originalId": "math-major-383",
+   "topic": "Analytic Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-387",
+   "originalId": "math-major-387",
+   "topic": "Analytic Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-394",
+   "originalId": "math-major-394",
+   "topic": "Analytic Geometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "figure-mention"
+   ]
+  },
+  {
+   "id": "math-major-410",
+   "originalId": "math-major-410",
+   "topic": "Analytic Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-423",
+   "originalId": "math-major-423",
+   "topic": "Analytic Geometry",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "weak-self-doubt"
+   ]
+  },
+  {
+   "id": "qb-1786038214327-a1vuis",
+   "originalId": "qb-1786038214327-a1vuis",
+   "topic": "Analytic Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "qb-1786039562607-t28m5p",
+   "originalId": "qb-1786039562607-t28m5p",
+   "topic": "Analytic Geometry",
+   "status": "quarantine",
+   "quarantine": [
+    "duplicate"
+   ],
+   "review": [],
+   "duplicateOf": "qb-1786038228605-ymw5m8"
+  },
+  {
+   "id": "math-major-549",
+   "originalId": "math-major-549",
+   "topic": "Calculus",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "qb-1786038240295-oy7ax5",
+   "originalId": "qb-1786038240295-oy7ax5",
+   "topic": "Calculus",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "qb-1786038248908-39gccq",
+   "originalId": "qb-1786038248908-39gccq",
+   "topic": "Calculus",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "qb-1786039577852-rxw2ak",
+   "originalId": "qb-1786039577852-rxw2ak",
+   "topic": "Calculus",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "qb-1783300500802-gin6do",
+   "originalId": "qb-1783300500802-gin6do",
+   "topic": "Arithmetic & Number Theory",
+   "status": "quarantine",
+   "quarantine": [
+    "self-doubt"
+   ],
+   "review": []
+  },
+  {
+   "id": "math2013-041",
+   "originalId": "math2013-041",
+   "topic": "Arithmetic & Number Theory",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "weak-self-doubt"
+   ]
+  },
+  {
+   "id": "math2013-050",
+   "originalId": "math2013-050",
+   "topic": "Arithmetic & Number Theory",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "math2012-067",
+   "originalId": "math2012-067",
+   "topic": "Arithmetic & Number Theory",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-575",
+   "originalId": "math-major-575",
+   "topic": "Mathematics of Investment",
+   "status": "quarantine",
+   "quarantine": [
+    "choices-repeat"
+   ],
+   "review": []
+  },
+  {
+   "id": "math-major-530",
+   "originalId": "math-major-530",
+   "topic": "Research in Teaching Mathematics",
+   "status": "review",
+   "quarantine": [],
+   "review": [
+    "weak-self-doubt"
+   ]
+  }
+ ]
+}

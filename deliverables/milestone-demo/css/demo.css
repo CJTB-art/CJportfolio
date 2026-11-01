@@ -1,0 +1,27 @@
+.demo-banner {
+  display: flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px clamp(12px, 2vw, 24px);
+  border-bottom: 1px solid rgba(35, 48, 74, .1);
+  background: #eef1fa;
+  color: #34405c;
+  font: 600 .76rem/1.3 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.demo-banner button { flex: none; }
+.ms-bell[hidden] { display: none !important; }
+.ms-projection-card { display: flex; flex-direction: column; }
+.ms-projection-card > .card-body { display: flex; min-height: 0; flex: 1 1 auto; flex-direction: column; }
+.ms-projection-chart { position: relative; min-height: 340px; height: auto; flex: 1 1 auto; }
+.ms-projection-chart canvas { width: 100% !important; height: 100% !important; }
+.ms-demo-reset { display: none; }
+@media (max-width: 575.98px) {
+  .demo-banner { min-height: 46px; padding-inline: 10px; font-size: .68rem; }
+  .demo-banner .btn { padding: .3rem .5rem; font-size: .68rem; }
+  .ms-projection-chart { min-height: 270px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}

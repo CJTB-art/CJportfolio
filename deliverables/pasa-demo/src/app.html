@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#F6EBD9" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <style>html { background: #F6EBD9; } html[data-theme="dark"] { background: #16231F; }</style>
+    <script>
+      // The public demo owns a separate, namespaced local store and must not touch learner preferences.
+      if (location.pathname.replace(/\/+$/, '') !== '/demo') {
+      // Restores the saved look before first paint (no flash). Cream is the default.
+      //   pasa:theme  = 'light' | 'dark' | 'system'      pasa:accent = '<id>:<hue>'  (tomato = base palette)
+      // The same keys are managed by src/lib/theme.svelte.js.
+      try {
+        var d = document.documentElement, t = localStorage.getItem('pasa:theme'), a = (localStorage.getItem('pasa:accent') || '').split(':');
+        if (t === 'system') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        if (t === 'dark' || t === 'light') d.dataset.theme = t;
+        if (localStorage.getItem('pasa:paper-migrated') !== '1') {
+          if (a[0] === 'violet' && (+a[1] === 282 || !a[1])) { a = ['tomato', '26']; localStorage.setItem('pasa:accent', 'tomato:26'); }
+          localStorage.setItem('pasa:paper-migrated', '1');
+        }
+        document.querySelector('meta[name="theme-color"]').content = t === 'dark' ? '#16231F' : '#F6EBD9';
+      } catch (e) {}
+      // Performance mode before first paint (same rule as src/lib/perf.js): weak or data-saving devices start in Lite mode.
+      try {
+        var m = (JSON.parse(localStorage.getItem('pasa:prefs') || '{}').performance) || 'auto', n = navigator, c = n.connection || {};
+        var lite = m === 'lite' || (m !== 'full' && (c.saveData === true || /(^|-)2g$/.test(c.effectiveType || '') || (n.deviceMemory !== undefined && n.deviceMemory <= 4) || (n.hardwareConcurrency !== undefined && n.hardwareConcurrency <= 2)));
+        if (lite) document.documentElement.classList.add('lite');
+      } catch (e) {}
+      }
+    </script>
+    %sveltekit.head%
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+</html>

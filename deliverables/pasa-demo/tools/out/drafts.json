@@ -1,0 +1,1574 @@
+{
+ "note": "DRAFTS ONLY. status review. Not merged into the app bank. needs_human items have no machine check.",
+ "count": 56,
+ "questions": [
+  {
+   "id": "draft-B1-001",
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "tos": {
+    "target": "College & Advanced Algebra",
+    "code": "B1",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct a quadratic equation with integer coefficients whose roots are \\(2+\\sqrt{3}\\) and \\(2-\\sqrt{3}\\). Which equation does this?",
+   "choices": [
+    "\\(x^{2}-4x+1=0\\)",
+    "\\(x^{2}+4x+1=0\\)",
+    "\\(x^{2}-4x-1=0\\)",
+    "\\(x^{2}-2x+1=0\\)"
+   ],
+   "answer": "A",
+   "explanation": "Sum of roots \\(=4\\) and product \\(=(2)^{2}-(\\sqrt{3})^{2}=1\\), so the equation is \\(x^{2}-4x+1=0\\).",
+   "bloom": "Create",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[x**2-4*x+1,x**2+4*x+1,x**2-4*x-1,x**2-2*x+1]\nr=[2+sqrt(3),2-sqrt(3)]\nflags=[all(simplify(v.subs(x,t0))==0 for t0 in r) for v in vals]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B1-002",
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "tos": {
+    "target": "College & Advanced Algebra",
+    "code": "B1",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Compose a monic cubic polynomial that has a zero at \\(x=1\\) and a double zero at \\(x=-2\\). Which polynomial is it?",
+   "choices": [
+    "\\(x^{3}-3x^{2}+4\\)",
+    "\\(x^{3}+3x^{2}-4\\)",
+    "\\(x^{3}+5x^{2}+8x+4\\)",
+    "\\(x^{3}-3x^{2}-4\\)"
+   ],
+   "answer": "B",
+   "explanation": "\\((x-1)(x+2)^{2}=(x-1)(x^{2}+4x+4)=x^{3}+3x^{2}-4\\).",
+   "bloom": "Create",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[x**3-3*x**2+4,x**3+5*x**2+8*x+4,x**3+3*x**2-4,x**3-3*x**2-4]\ntarget=(x-1)*(x+2)**2\nflags=[expand(v-target)==0 for v in vals]\n# options C and B swapped to balance answer letters\nflags[2],flags[1]=flags[1],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B1-003",
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "tos": {
+    "target": "College & Advanced Algebra",
+    "code": "B1",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Design an arithmetic sequence whose 3rd term is \\(11\\) and whose 7th term is \\(27\\). Which formula gives its \\(n\\)th term?",
+   "choices": [
+    "\\(a_{n}=5n-4\\)",
+    "\\(a_{n}=3n+2\\)",
+    "\\(a_{n}=4n-1\\)",
+    "\\(a_{n}=4n+3\\)"
+   ],
+   "answer": "C",
+   "explanation": "The common difference is \\(\\frac{27-11}{7-3}=4\\), so \\(a_{n}=11+4(n-3)=4n-1\\).",
+   "bloom": "Create",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[5*n-4,3*n+2,4*n+3,4*n-1]\nflags=[v.subs(n,3)==11 and v.subs(n,7)==27 for v in vals]\n# options D and C swapped to balance answer letters\nflags[3],flags[2]=flags[2],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B6-004",
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "tos": {
+    "target": "Analytic Geometry",
+    "code": "B6",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Write the equation of the circle that has the segment joining \\((-1,2)\\) and \\((5,6)\\) as a diameter.",
+   "choices": [
+    "\\((x-2)^{2}+(y-4)^{2}=26\\)",
+    "\\((x-2)^{2}+(y-4)^{2}=52\\)",
+    "\\((x+2)^{2}+(y+4)^{2}=13\\)",
+    "\\((x-2)^{2}+(y-4)^{2}=13\\)"
+   ],
+   "answer": "D",
+   "explanation": "The center is the midpoint \\((2,4)\\). The radius squared is \\(\\frac{6^{2}+4^{2}}{4}=13\\).",
+   "bloom": "Create",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[(x-2)**2+(y-4)**2-13,(x-2)**2+(y-4)**2-52,(x+2)**2+(y+4)**2-13,(x-2)**2+(y-4)**2-26]\nmx,my=Rational(-1+5,2),Rational(2+6,2)\nr2=Rational((5+1)**2+(6-2)**2,4)\ntarget=(x-mx)**2+(y-my)**2-r2\nflags=[expand(v-target)==0 and v.subs({x:-1,y:2})==0 and v.subs({x:5,y:6})==0 for v in vals]\n# options A and D swapped to balance answer letters\nflags[0],flags[3]=flags[3],flags[0]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B6-005",
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "tos": {
+    "target": "Analytic Geometry",
+    "code": "B6",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct the equation of the parabola whose vertex is \\((1,2)\\) and whose focus is \\((1,5)\\).",
+   "choices": [
+    "\\((x-1)^{2}=12(y-2)\\)",
+    "\\((y-2)^{2}=12(x-1)\\)",
+    "\\((x-1)^{2}=-12(y-2)\\)",
+    "\\((x-1)^{2}=3(y-2)\\)"
+   ],
+   "answer": "A",
+   "explanation": "The focus is \\(p=3\\) units above the vertex, so the parabola opens upward: \\((x-h)^{2}=4p(y-k)\\) gives \\((x-1)^{2}=12(y-2)\\).",
+   "bloom": "Create",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[(x-1)**2-3*(y-2),(y-2)**2-12*(x-1),(x-1)**2+12*(y-2),(x-1)**2-12*(y-2)]\n# points equidistant from focus (1,5) and directrix y=-1\ntarget=(x-1)**2+(y-5)**2-(y+1)**2\nflags=[expand(v-target)==0 for v in vals]\n# options D and A swapped to balance answer letters\nflags[3],flags[0]=flags[0],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B7-006",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "tos": {
+    "target": "Calculus",
+    "code": "B7",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct a function \\(f\\) such that \\(f'(x)=3x^{2}-2\\) and \\(f(1)=4\\). Which function does this?",
+   "choices": [
+    "\\(f(x)=x^{3}-2x+4\\)",
+    "\\(f(x)=x^{3}-2x+5\\)",
+    "\\(f(x)=x^{3}+2x+1\\)",
+    "\\(f(x)=6x\\)"
+   ],
+   "answer": "B",
+   "explanation": "Integrating gives \\(x^{3}-2x+C\\). \\(f(1)=1-2+C=4\\), so \\(C=5\\).",
+   "bloom": "Create",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[x**3-2*x+4,x**3+2*x+1,x**3-2*x+5,6*x]\nflags=[simplify(diff(v,x)-(3*x**2-2))==0 and v.subs(x,1)==4 for v in vals]\n# options C and B swapped to balance answer letters\nflags[2],flags[1]=flags[1],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B7-007",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "tos": {
+    "target": "Calculus",
+    "code": "B7",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Design a cubic function with a local maximum at \\(x=-1\\) and a local minimum at \\(x=1\\). Which function works?",
+   "choices": [
+    "\\(f(x)=-x^{3}+3x\\)",
+    "\\(f(x)=x^{3}+3x\\)",
+    "\\(f(x)=x^{3}-3x\\)",
+    "\\(f(x)=x^{3}-3x^{2}\\)"
+   ],
+   "answer": "C",
+   "explanation": "\\(f'(x)=3x^{2}-3=0\\) at \\(x=\\pm1\\). \\(f''(x)=6x\\) is negative at \\(-1\\) (maximum) and positive at \\(1\\) (minimum).",
+   "bloom": "Create",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[-x**3+3*x,x**3+3*x,x**3-3*x,x**3-3*x**2]\nflags=[diff(v,x).subs(x,-1)==0 and diff(v,x).subs(x,1)==0 and diff(v,x,2).subs(x,-1)<0 and diff(v,x,2).subs(x,1)>0 for v in vals]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B2-008",
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "tos": {
+    "target": "Trigonometry",
+    "code": "B2",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct a sine function with amplitude \\(3\\) and period \\(\\pi\\) that passes through the origin and is increasing there. Which function does this?",
+   "choices": [
+    "\\(y=3\\sin x\\)",
+    "\\(y=3\\cos 2x\\)",
+    "\\(y=2\\sin 3x\\)",
+    "\\(y=3\\sin 2x\\)"
+   ],
+   "answer": "D",
+   "explanation": "Period \\(\\pi\\) means \\(b=\\frac{2\\pi}{\\pi}=2\\). With amplitude \\(3\\), \\(y=3\\sin 2x\\), which is \\(0\\) at \\(x=0\\) with positive slope.",
+   "bloom": "Create",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[3*sin(x),3*cos(2*x),3*sin(2*x),2*sin(3*x)]\nflags=[v.subs(x,0)==0 and simplify(v.subs(x,pi/4))==3 and simplify(v.subs(x,x+pi)-v)==0 and diff(v,x).subs(x,0)>0 for v in vals]\n# options C and D swapped to balance answer letters\nflags[2],flags[3]=flags[3],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B3-009",
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "tos": {
+    "target": "Plane & Solid Geometry",
+    "code": "B3",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Design a rectangular garden with perimeter \\(36\\text{ m}\\) and area \\(80\\text{ m}^{2}\\). Which dimensions work?",
+   "choices": [
+    "\\(8\\text{ m}\\times 10\\text{ m}\\)",
+    "\\(9\\text{ m}\\times 9\\text{ m}\\)",
+    "\\(6\\text{ m}\\times 12\\text{ m}\\)",
+    "\\(5\\text{ m}\\times 16\\text{ m}\\)"
+   ],
+   "answer": "A",
+   "explanation": "\\(l+w=18\\) and \\(lw=80\\) give \\(l=10,\\ w=8\\).",
+   "bloom": "Create",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[(6,12),(9,9),(8,10),(5,16)]\nflags=[2*(a+b)==36 and a*b==80 for a,b in vals]\n# options C and A swapped to balance answer letters\nflags[2],flags[0]=flags[0],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B5-010",
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "tos": {
+    "target": "Statistics & Probability",
+    "code": "B5",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct a set of five numbers whose mean is \\(10\\), whose median is \\(8\\), and whose only mode is \\(6\\). Which set works?",
+   "choices": [
+    "\\(\\{6,8,8,12,16\\}\\)",
+    "\\(\\{6,6,8,12,18\\}\\)",
+    "\\(\\{2,6,8,12,22\\}\\)",
+    "\\(\\{6,6,9,12,17\\}\\)"
+   ],
+   "answer": "B",
+   "explanation": "\\(6+6+8+12+18=50\\), so the mean is \\(10\\). The middle value is \\(8\\) and \\(6\\) appears twice, more than any other value.",
+   "bloom": "Create",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "import statistics as st\nvals=[[6,8,8,12,16],[6,6,9,12,17],[2,6,8,12,22],[6,6,8,12,18]]\nflags=[sum(v)/5==10 and st.median(v)==8 and st.multimode(v)==[6] for v in vals]\n# options D and B swapped to balance answer letters\nflags[3],flags[1]=flags[1],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B9-011",
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "tos": {
+    "target": "Mathematics of Investment",
+    "code": "B9",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct a function for the value \\(A(t)\\) after \\(t\\) years of ₱20,000 invested at \\(8\\%\\) per year compounded quarterly. Which function is correct?",
+   "choices": [
+    "\\(A(t)=20000(1.08)^{t}\\)",
+    "\\(A(t)=20000(1.02)^{t}\\)",
+    "\\(A(t)=20000(1.02)^{4t}\\)",
+    "\\(A(t)=20000(1+0.08t)\\)"
+   ],
+   "answer": "C",
+   "explanation": "Each quarter earns \\(\\frac{0.08}{4}=0.02\\), and there are \\(4t\\) quarters in \\(t\\) years, so \\(A(t)=20000(1.02)^{4t}\\).",
+   "bloom": "Create",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[20000*Rational(108,100)**t,20000*Rational(102,100)**(4*t),20000*Rational(102,100)**t,20000*(1+Rational(8,100)*t)]\nflags=[all(simplify(v.subs(t,k)-20000*Rational(102,100)**(4*k))==0 for k in (1,2,Rational(1,2))) for v in vals]\n# options B and C swapped to balance answer letters\nflags[1],flags[2]=flags[2],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-012",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct a compound statement that is true when \\(p\\) and \\(q\\) have the same truth value and false otherwise. Which statement does this?",
+   "choices": [
+    "\\(p\\rightarrow q\\)",
+    "\\(p\\vee q\\)",
+    "\\(p\\wedge q\\)",
+    "\\(p\\leftrightarrow q\\)"
+   ],
+   "answer": "D",
+   "explanation": "The biconditional \\(p\\leftrightarrow q\\) is true for TT and FF and false for TF and FT.",
+   "bloom": "Create",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "rows=[(True,True),(True,False),(False,True),(False,False)]\nvals=[lambda p,q:(not p) or q,lambda p,q:p==q,lambda p,q:p and q,lambda p,q:p or q]\nwant=[True,False,False,True]\nflags=[[bool(f(p,q)) for p,q in rows]==want for f in vals]\n# options B and D swapped to balance answer letters\nflags[1],flags[3]=flags[3],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B8-013",
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "tos": {
+    "target": "Arithmetic & Number Theory",
+    "code": "B8",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Construct the smallest positive integer that leaves remainder \\(2\\) when divided by \\(3\\), remainder \\(3\\) when divided by \\(5\\), and remainder \\(2\\) when divided by \\(7\\).",
+   "choices": [
+    "\\(23\\)",
+    "\\(38\\)",
+    "\\(128\\)",
+    "\\(53\\)"
+   ],
+   "answer": "A",
+   "explanation": "Numbers that are \\(2\\bmod 3\\) and \\(2\\bmod 7\\) are \\(2\\bmod 21\\): \\(2,23,44,\\dots\\). Of these, \\(23\\equiv 3\\pmod 5\\), so \\(23\\) is the smallest.",
+   "bloom": "Create",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Create",
+   "needs_human": false,
+   "check": "vals=[38,23,128,53]\nsm=min(k for k in range(1,1000) if k%3==2 and k%5==3 and k%7==2)\nflags=[v==sm for v in vals]\n# options B and A swapped to balance answer letters\nflags[1],flags[0]=flags[0],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B1-014",
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "tos": {
+    "target": "College & Advanced Algebra",
+    "code": "B1",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "A student solves \\(\\sqrt{x+2}=x\\) by squaring both sides, obtains \\(x^{2}-x-2=0\\), and reports that both \\(x=2\\) and \\(x=-1\\) are solutions. Which evaluation of the student’s work is correct?",
+   "choices": [
+    "Correct. Both values satisfy the original equation.",
+    "Incorrect. \\(x=-1\\) is extraneous because \\(\\sqrt{1}\\neq -1\\); the only solution is \\(x=2\\).",
+    "Incorrect. \\(x=2\\) is extraneous; the only solution is \\(x=-1\\).",
+    "Incorrect. The equation has no real solution."
+   ],
+   "answer": "B",
+   "explanation": "Squaring can introduce extraneous roots. \\(x=2\\): \\(\\sqrt{4}=2\\) works. \\(x=-1\\): \\(\\sqrt{1}=1\\neq -1\\), so it fails.",
+   "bloom": "Evaluate",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "vals=[{-1,2},{2},{-1},set()]\ncand=solve(x**2-x-2,x)\nactual={c for c in cand if sqrt(c+2)==c}\nflags=[v==actual for v in vals]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B7-015",
+   "category": "Math Major",
+   "topic": "Calculus",
+   "tos": {
+    "target": "Calculus",
+    "code": "B7",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "A student differentiates \\(f(x)=x^{x}\\) for \\(x>0\\) with the power rule: \\(f'(x)=x\\cdot x^{x-1}=x^{x}\\). Which evaluation is correct?",
+   "choices": [
+    "Correct. \\(f'(x)=x^{x}\\).",
+    "Incorrect. \\(f'(x)=x^{x}\\ln x\\).",
+    "Incorrect. The power rule needs a constant exponent; \\(f'(x)=x^{x}(\\ln x+1)\\).",
+    "Incorrect. \\(f'(x)=x^{x-1}\\)."
+   ],
+   "answer": "C",
+   "explanation": "Write \\(x^{x}=e^{x\\ln x}\\). Then \\(f'(x)=x^{x}\\left(\\ln x+1\\right)\\).",
+   "bloom": "Evaluate",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "vals=[xp**xp,xp**xp*(log(xp)+1),xp**xp*log(xp),xp**(xp-1)]\nflags=[simplify(diff(xp**xp,xp)-v)==0 for v in vals]\n# options B and C swapped to balance answer letters\nflags[1],flags[2]=flags[2],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B2-016",
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "tos": {
+    "target": "Trigonometry",
+    "code": "B2",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "A student claims that \\(\\sin 2x=2\\sin x\\) for all real \\(x\\). Which evaluation is correct?",
+   "choices": [
+    "Correct. The factor \\(2\\) can be taken out of the sine.",
+    "Incorrect. \\(\\sin 2x=\\sin x\\cos x\\).",
+    "Incorrect. \\(\\sin 2x=2\\cos x\\).",
+    "Incorrect. The correct identity is \\(\\sin 2x=2\\sin x\\cos x\\)."
+   ],
+   "answer": "D",
+   "explanation": "At \\(x=\\frac{\\pi}{4}\\): \\(\\sin\\frac{\\pi}{2}=1\\) but \\(2\\sin\\frac{\\pi}{4}=\\sqrt{2}\\). The double-angle identity is \\(\\sin 2x=2\\sin x\\cos x\\).",
+   "bloom": "Evaluate",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "vals=[(True,2*sin(x)),(False,sin(x)*cos(x)),(False,2*cos(x)),(False,2*sin(x)*cos(x))]\nclaim_ok=simplify(sin(2*x)-2*sin(x))==0\nflags=[(cv==claim_ok) and simplify(sin(2*x)-ident)==0 for cv,ident in vals]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B5-017",
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "tos": {
+    "target": "Statistics & Probability",
+    "code": "B5",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "For events \\(A\\) and \\(B\\) with \\(P(A)=0.5\\), \\(P(B)=0.4\\) and \\(P(A\\cap B)=0.1\\), a student computes \\(P(A\\cup B)=0.5+0.4=0.9\\). Which evaluation is correct?",
+   "choices": [
+    "Incorrect. The overlap was counted twice; \\(P(A\\cup B)=0.5+0.4-0.1=0.8\\).",
+    "Incorrect. \\(P(A\\cup B)=0.5\\times 0.4=0.2\\).",
+    "Correct. Probabilities of two events always add.",
+    "Incorrect. \\(P(A\\cup B)=0.5+0.4+0.1=1.0\\)."
+   ],
+   "answer": "A",
+   "explanation": "\\(P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.8\\). The student counted the overlap twice.",
+   "bloom": "Evaluate",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "from fractions import Fraction as Fr\nvals=[(True,Fr(9,10)),(False,Fr(2,10)),(False,Fr(8,10)),(False,Fr(10,10))]\nactual=Fr(1,2)+Fr(4,10)-Fr(1,10)\nstudent_ok=(Fr(9,10)==actual)\nflags=[(cv==student_ok) and amt==actual for cv,amt in vals]\n# options C and A swapped to balance answer letters\nflags[2],flags[0]=flags[0],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B8-018",
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "tos": {
+    "target": "Arithmetic & Number Theory",
+    "code": "B8",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "A student claims that the sum of any two prime numbers is even. Which evaluation is correct?",
+   "choices": [
+    "True. Every prime number is odd, so the sum is even.",
+    "False. A counterexample is \\(2+3=5\\).",
+    "True. It is confirmed by \\(7+11=18\\).",
+    "False. A counterexample is \\(3+5=8\\)."
+   ],
+   "answer": "B",
+   "explanation": "\\(2\\) is prime and even, so \\(2+3=5\\) is odd. One counterexample disproves the claim; \\(3+5=8\\) is even, so it is not one.",
+   "bloom": "Evaluate",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "from sympy import isprime\npr=[p for p in range(2,40) if isprime(p)]\nclaim=all((a+b)%2==0 for a in pr for b in pr)\nvals=[(True,None),(False,(3,5)),(True,(7,11)),(False,(2,3))]\nflags=[(cl==claim) and (pair is None or (isprime(pair[0]) and isprime(pair[1]) and (pair[0]+pair[1])%2==1)) and (cl or pair is not None) for cl,pair in vals]\n# options D and B swapped to balance answer letters\nflags[3],flags[1]=flags[1],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-019",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Consider the argument: “If it rains, the ground is wet. The ground is wet. Therefore, it rained.” Which evaluation is correct?",
+   "choices": [
+    "Valid, by modus ponens.",
+    "Valid, by modus tollens.",
+    "Invalid, because it affirms the consequent.",
+    "Invalid, because it denies the antecedent."
+   ],
+   "answer": "C",
+   "explanation": "With \\(p\\): it rains and \\(q\\): the ground is wet, the form is \\(p\\rightarrow q,\\ q\\ \\therefore\\ p\\). It is false when \\(p\\) is false and \\(q\\) is true (the ground was watered), so it is invalid. Concluding the antecedent from the consequent is affirming the consequent.",
+   "bloom": "Evaluate",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "import itertools\nvalid=all((not(((not p) or q) and q)) or p for p,q in itertools.product([True,False],repeat=2))\nform='affirming the consequent'\nvals=[(True,'modus ponens'),(True,'modus tollens'),(False,'denying the antecedent'),(False,'affirming the consequent')]\nflags=[cv==valid and f==form for cv,f in vals]\n# options D and C swapped to balance answer letters\nflags[3],flags[2]=flags[2],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B3-020",
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "tos": {
+    "target": "Plane & Solid Geometry",
+    "code": "B3",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "A student claims that segments of lengths \\(5\\), \\(7\\) and \\(13\\) can form a triangle. Which evaluation is correct?",
+   "choices": [
+    "Correct, because all three lengths are positive.",
+    "Incorrect, because \\(5+13<7\\).",
+    "Correct, because the lengths are all different.",
+    "Incorrect, because \\(5+7<13\\)."
+   ],
+   "answer": "D",
+   "explanation": "In a triangle each side must be less than the sum of the other two. \\(5+7=12<13\\), so no triangle exists.",
+   "bloom": "Evaluate",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "vals=[(True,None),(False,(5,13,7)),(False,(5,7,13)),(True,None)]\nexists=(5+7>13 and 5+13>7 and 7+13>5)\nflags=[(sv==exists) and (ineq is not None) and ineq[0]+ineq[1]<ineq[2] for sv,ineq in vals]\n# options C and D swapped to balance answer letters\nflags[2],flags[3]=flags[3],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B9-021",
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "tos": {
+    "target": "Mathematics of Investment",
+    "code": "B9",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "A student finds the compound amount of ₱10,000 invested for 2 years at \\(6\\%\\) compounded annually as \\(10000(1+0.06\\cdot 2)=\\) ₱11,200. Which evaluation is correct?",
+   "choices": [
+    "Incorrect. This is simple interest; the compound amount is ₱11,236.",
+    "Correct. The amount is ₱11,200.",
+    "Incorrect. The compound amount is ₱11,260.",
+    "Incorrect. The compound amount is ₱12,000."
+   ],
+   "answer": "A",
+   "explanation": "Compound amount \\(=10000(1.06)^{2}=11{,}236\\). The student used the simple-interest formula.",
+   "bloom": "Evaluate",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "from fractions import Fraction as Fr\nactual=Fr(10000)*Fr(106,100)**2\nstudent=Fr(11200)\nvals=[(True,11200),(False,11236),(False,11260),(False,12000)]\nflags=[(cv==(student==actual)) and Fr(amt)==actual for cv,amt in vals]\n# options B and A swapped to balance answer letters\nflags[1],flags[0]=flags[0],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B6-022",
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "tos": {
+    "target": "Analytic Geometry",
+    "code": "B6",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "A student claims that the lines \\(2x+3y=6\\) and \\(3x-2y=4\\) are perpendicular because their slopes are \\(-\\frac{2}{3}\\) and \\(\\frac{3}{2}\\), whose product is \\(-1\\). Which evaluation is correct?",
+   "choices": [
+    "Incorrect. The slopes are equal, so the lines are parallel.",
+    "Correct. The slopes multiply to \\(-1\\).",
+    "Incorrect. The slopes are \\(-\\frac{2}{3}\\) and \\(-\\frac{3}{2}\\), so the lines are neither parallel nor perpendicular.",
+    "Incorrect. Perpendicular lines have slopes whose product is \\(+1\\)."
+   ],
+   "answer": "B",
+   "explanation": "Slopes: \\(y=-\\frac{2}{3}x+2\\) and \\(y=\\frac{3}{2}x-2\\). Their product is \\(-1\\), so the lines are perpendicular and the student is right.",
+   "bloom": "Evaluate",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": false,
+   "check": "m1=solve(2*x+3*y-6,y)[0].diff(x)\nm2=solve(3*x-2*y-4,y)[0].diff(x)\nperp=(m1*m2==-1)\nvals=[(False,(m1,m1)),(False,(m1,-m2)),(True,(m1,m2)),(False,(m1,m2))]\nflags=[(say==perp) and sl==(m1,m2) for say,sl in vals]\n# options C and B swapped to balance answer letters\nflags[2],flags[1]=flags[1],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C1-023",
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "tos": {
+    "target": "Strategies in Teaching Mathematics",
+    "code": "C1",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A teacher says that students should memorize formulas first and explore examples only afterwards, because exploration wastes time. Which evaluation best reflects what research-based teaching strategies recommend?",
+   "choices": [
+    "Fully supported. Memorization must always come before any exploration.",
+    "Not supported at all. Students should never memorize anything.",
+    "Partly supported. Fluency with formulas matters, but understanding grows when students explore examples and connect them to the formula.",
+    "Fully supported. Exploration is useful only for advanced students."
+   ],
+   "answer": "C",
+   "explanation": "Strong teaching strategies balance conceptual understanding and procedural fluency. Exploration lets students see why a formula works, which supports later recall.",
+   "bloom": "Evaluate",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C3-024",
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "tos": {
+    "target": "Research in Teaching Mathematics",
+    "code": "C3",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A study finds a strong positive correlation between hours of tutoring and test scores and concludes that tutoring causes higher scores. Which evaluation is most defensible?",
+   "choices": [
+    "Sound. A strong correlation proves causation.",
+    "Unsound. Scores cause students to seek tutoring.",
+    "Sound. Any positive correlation is enough evidence.",
+    "Unsound. Correlation alone does not establish causation; an experimental or well-controlled design is needed to rule out other explanations."
+   ],
+   "answer": "D",
+   "explanation": "Correlation shows association only. Confounding variables (such as motivation) or reverse causation may explain the pattern, so causal claims need a controlled design.",
+   "bloom": "Evaluate",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Evaluate",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-B4-025",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "In a group, \\(n(A)=25\\), \\(n(B)=18\\) and \\(n(A\\cap B)=7\\). Find \\(n(A\\cup B)\\).",
+   "choices": [
+    "\\(36\\)",
+    "\\(43\\)",
+    "\\(50\\)",
+    "\\(32\\)"
+   ],
+   "answer": "A",
+   "explanation": "\\(n(A\\cup B)=n(A)+n(B)-n(A\\cap B)=25+18-7=36\\).",
+   "bloom": "Apply",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[50,43,36,32]\nflags=[v==25+18-7 for v in vals]\n# options C and A swapped to balance answer letters\nflags[2],flags[0]=flags[0],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-026",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "How many proper subsets does a set with \\(5\\) elements have?",
+   "choices": [
+    "\\(32\\)",
+    "\\(31\\)",
+    "\\(25\\)",
+    "\\(10\\)"
+   ],
+   "answer": "B",
+   "explanation": "A set with \\(n\\) elements has \\(2^{n}\\) subsets. Excluding the set itself gives \\(2^{5}-1=31\\).",
+   "bloom": "Apply",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "import itertools\nS=list(range(5))\nsubs=[c for k in range(len(S)+1) for c in itertools.combinations(S,k)]\nproper=len(subs)-1\nvals=[31,32,25,10]\nflags=[v==proper for v in vals]\n# options A and B swapped to balance answer letters\nflags[0],flags[1]=flags[1],flags[0]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-027",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Which statement is the contrapositive of “If \\(x\\) is even, then \\(x^{2}\\) is even”?",
+   "choices": [
+    "If \\(x^{2}\\) is even, then \\(x\\) is even.",
+    "If \\(x\\) is not even, then \\(x^{2}\\) is not even.",
+    "If \\(x^{2}\\) is not even, then \\(x\\) is not even.",
+    "\\(x\\) is even and \\(x^{2}\\) is not even."
+   ],
+   "answer": "C",
+   "explanation": "The contrapositive of \\(p\\rightarrow q\\) is \\(\\neg q\\rightarrow\\neg p\\), which is logically equivalent to the original statement. The converse and inverse are not.",
+   "bloom": "Understand",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "import itertools\nimp=lambda a,b:(not a) or b\nbase=lambda p,q:imp(p,q)\nvals=[lambda p,q:imp(q,p),lambda p,q:imp(not p,not q),lambda p,q:imp(not q,not p),lambda p,q:p and not q]\nrows=list(itertools.product([True,False],repeat=2))\nflags=[all(f(p,q)==base(p,q) for p,q in rows) for f in vals]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-028",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Which statement is logically equivalent to \\(\\neg(p\\vee q)\\)?",
+   "choices": [
+    "\\(\\neg p\\vee\\neg q\\)",
+    "\\(\\neg p\\rightarrow q\\)",
+    "\\(p\\wedge q\\)",
+    "\\(\\neg p\\wedge\\neg q\\)"
+   ],
+   "answer": "D",
+   "explanation": "De Morgan’s law: \\(\\neg(p\\vee q)\\equiv\\neg p\\wedge\\neg q\\).",
+   "bloom": "Understand",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "import itertools\nrows=list(itertools.product([True,False],repeat=2))\nbase=lambda p,q:not(p or q)\nvals=[lambda p,q:(not p) or (not q),lambda p,q:(not p) and (not q),lambda p,q:p and q,lambda p,q:p or q]\nflags=[all(f(p,q)==base(p,q) for p,q in rows) for f in vals]\n# options B and D swapped to balance answer letters\nflags[1],flags[3]=flags[3],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-029",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "In a survey of \\(60\\) students, \\(35\\) like Algebra, \\(28\\) like Geometry, and \\(10\\) like neither. How many like both subjects?",
+   "choices": [
+    "\\(13\\)",
+    "\\(8\\)",
+    "\\(18\\)",
+    "\\(23\\)"
+   ],
+   "answer": "A",
+   "explanation": "\\(60-10=50\\) like at least one. \\(35+28-\\text{both}=50\\), so both \\(=13\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[8,13,18,23]\nflags=[35+28-v==60-10 for v in vals]\n# options B and A swapped to balance answer letters\nflags[1],flags[0]=flags[0],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-030",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Which of the following statements is a tautology?",
+   "choices": [
+    "\\(p\\rightarrow(p\\wedge q)\\)",
+    "\\((p\\wedge q)\\rightarrow p\\)",
+    "\\(p\\wedge\\neg p\\)",
+    "\\((p\\vee q)\\rightarrow p\\)"
+   ],
+   "answer": "B",
+   "explanation": "\\((p\\wedge q)\\rightarrow p\\) is true in every row of its truth table. The others are false when \\(p\\) is true and \\(q\\) is false, or (for \\(p\\wedge\\neg p\\)) always false.",
+   "bloom": "Analyze",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "import itertools\nimp=lambda a,b:(not a) or b\nrows=list(itertools.product([True,False],repeat=2))\nvals=[lambda p,q:imp(p,p and q),lambda p,q:imp(p or q,p),lambda p,q:p and not p,lambda p,q:imp(p and q,p)]\nflags=[all(f(p,q) for p,q in rows) for f in vals]\n# options D and B swapped to balance answer letters\nflags[3],flags[1]=flags[1],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-031",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Let \\(A=\\{a,b,\\{c\\}\\}\\). How many elements does the power set \\(\\mathcal{P}(A)\\) have?",
+   "choices": [
+    "\\(6\\)",
+    "\\(9\\)",
+    "\\(8\\)",
+    "\\(16\\)"
+   ],
+   "answer": "C",
+   "explanation": "\\(A\\) has \\(3\\) elements (the third is the set \\(\\{c\\}\\)), so \\(|\\mathcal{P}(A)|=2^{3}=8\\).",
+   "bloom": "Apply",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "import itertools\nA=['a','b',frozenset(['c'])]\nsubs=[c for k in range(len(A)+1) for c in itertools.combinations(A,k)]\nvals=[6,8,9,16]\nflags=[v==len(subs) for v in vals]\n# options B and C swapped to balance answer letters\nflags[1],flags[2]=flags[2],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-B4-032",
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "tos": {
+    "target": "Logic & Set Theory",
+    "code": "B4",
+    "group": "B",
+    "confidence": "exact"
+   },
+   "question": "Let \\(A=\\{x\\in\\mathbb{Z}\\mid -3<x\\le 2\\}\\) and \\(B=\\{x\\in\\mathbb{Z}\\mid x^{2}<4\\}\\). Find \\(A\\setminus B\\).",
+   "choices": [
+    "\\(\\{-1,0,1\\}\\)",
+    "\\(\\{-2,-1,1,2\\}\\)",
+    "\\(\\{-3,-2,2\\}\\)",
+    "\\(\\{-2,2\\}\\)"
+   ],
+   "answer": "D",
+   "explanation": "\\(A=\\{-2,-1,0,1,2\\}\\) and \\(B=\\{-1,0,1\\}\\). Removing the elements of \\(B\\) leaves \\(\\{-2,2\\}\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "A={k for k in range(-10,10) if -3<k<=2}\nB={k for k in range(-10,10) if k*k<4}\nvals=[{-1,0,1},{-2,2},{-3,-2,2},{-2,-1,1,2}]\nflags=[v==(A-B) for v in vals]\n# options B and D swapped to balance answer letters\nflags[1],flags[3]=flags[3],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C2-033",
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "tos": {
+    "target": "Assessment in Mathematics",
+    "code": "C2",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "In an item analysis, \\(21\\) of the \\(27\\) students in the upper group and \\(9\\) of the \\(27\\) students in the lower group answered an item correctly. What is the discrimination index?",
+   "choices": [
+    "\\(0.44\\)",
+    "\\(0.33\\)",
+    "\\(0.56\\)",
+    "\\(0.78\\)"
+   ],
+   "answer": "A",
+   "explanation": "\\(D=\\frac{U-L}{n}=\\frac{21-9}{27}\\approx 0.44\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[0.56,0.33,0.44,0.78]\nD0=(21-9)/27\nflags=[round(D0,2)==v for v in vals]\n# options C and A swapped to balance answer letters\nflags[2],flags[0]=flags[0],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C2-034",
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "tos": {
+    "target": "Assessment in Mathematics",
+    "code": "C2",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A student scored \\(78\\) on a test with mean \\(70\\) and standard deviation \\(8\\). What is the student’s T-score? (\\(T=50+10z\\))",
+   "choices": [
+    "\\(51\\)",
+    "\\(60\\)",
+    "\\(80\\)",
+    "\\(110\\)"
+   ],
+   "answer": "B",
+   "explanation": "\\(z=\\frac{78-70}{8}=1\\), so \\(T=50+10(1)=60\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[51,80,60,110]\nz=Rational(78-70,8)\nflags=[50+10*z==v for v in vals]\n# options C and B swapped to balance answer letters\nflags[2],flags[1]=flags[1],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C2-035",
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "tos": {
+    "target": "Assessment in Mathematics",
+    "code": "C2",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "What is the median of the quiz scores \\(12,\\ 15,\\ 9,\\ 20,\\ 18,\\ 14\\)?",
+   "choices": [
+    "\\(14\\)",
+    "\\(14.67\\)",
+    "\\(14.5\\)",
+    "\\(15\\)"
+   ],
+   "answer": "C",
+   "explanation": "Ordered: \\(9,12,14,15,18,20\\). With six scores the median is \\(\\frac{14+15}{2}=14.5\\). (\\(14.67\\) is the mean.)",
+   "bloom": "Apply",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "import statistics as st\ndata=[12,15,9,20,18,14]\nvals=[14,14.67,15,14.5]\nflags=[st.median(data)==v for v in vals]\n# options D and C swapped to balance answer letters\nflags[3],flags[2]=flags[2],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C2-036",
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "tos": {
+    "target": "Assessment in Mathematics",
+    "code": "C2",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A grading scheme counts quizzes \\(30\\%\\), the major exam \\(40\\%\\) and the project \\(30\\%\\). A student’s scores are \\(85\\), \\(78\\) and \\(90\\). What is the final grade?",
+   "choices": [
+    "\\(84.3\\)",
+    "\\(80.0\\)",
+    "\\(85.5\\)",
+    "\\(83.7\\)"
+   ],
+   "answer": "D",
+   "explanation": "\\(0.30(85)+0.40(78)+0.30(90)=25.5+31.2+27=83.7\\). The plain average \\(84.3\\) ignores the weights.",
+   "bloom": "Apply",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[84.3,83.7,85.5,80.0]\ngrade=Rational(30,100)*85+Rational(40,100)*78+Rational(30,100)*90\nflags=[abs(float(grade)-v)<1e-9 for v in vals]\n# options B and D swapped to balance answer letters\nflags[1],flags[3]=flags[3],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C2-037",
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "tos": {
+    "target": "Assessment in Mathematics",
+    "code": "C2",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A \\(40\\)-item test is built from a table of specifications. A topic took \\(3\\) of the \\(24\\) teaching hours. How many items should it receive?",
+   "choices": [
+    "\\(5\\)",
+    "\\(8\\)",
+    "\\(3\\)",
+    "\\(12\\)"
+   ],
+   "answer": "A",
+   "explanation": "\\(\\frac{3}{24}\\times 40=5\\) items.",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[3,8,5,12]\nflags=[Rational(3,24)*40==v for v in vals]\n# options C and A swapped to balance answer letters\nflags[2],flags[0]=flags[0],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C2-038",
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "tos": {
+    "target": "Assessment in Mathematics",
+    "code": "C2",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A class has mean \\(75\\) and standard deviation \\(5\\). What raw score corresponds to \\(z=-1.2\\)?",
+   "choices": [
+    "\\(81\\)",
+    "\\(69\\)",
+    "\\(70.8\\)",
+    "\\(63\\)"
+   ],
+   "answer": "B",
+   "explanation": "\\(X=\\mu+z\\sigma=75+(-1.2)(5)=69\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[81,63,70.8,69]\nX=75+(-1.2)*5\nflags=[abs(X-v)<1e-9 for v in vals]\n# options D and B swapped to balance answer letters\nflags[3],flags[1]=flags[1],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C3-039",
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "tos": {
+    "target": "Research in Teaching Mathematics",
+    "code": "C3",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A school has \\(N=1200\\) students. Using Slovin’s formula \\(n=\\frac{N}{1+Ne^{2}}\\) with a margin of error \\(e=0.05\\), what sample size is needed?",
+   "choices": [
+    "\\(120\\)",
+    "\\(480\\)",
+    "\\(300\\)",
+    "\\(600\\)"
+   ],
+   "answer": "C",
+   "explanation": "\\(n=\\frac{1200}{1+1200(0.0025)}=\\frac{1200}{4}=300\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[120,300,480,600]\nn0=Rational(1200)/(1+1200*Rational(5,100)**2)\nflags=[n0==v for v in vals]\n# options B and C swapped to balance answer letters\nflags[1],flags[2]=flags[2],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C3-040",
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "tos": {
+    "target": "Research in Teaching Mathematics",
+    "code": "C3",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "On a \\(5\\)-point scale, responses were: \\(5\\) (10 students), \\(4\\) (20), \\(3\\) (10), \\(2\\) (5), \\(1\\) (5). What is the weighted mean?",
+   "choices": [
+    "\\(3.0\\)",
+    "\\(3.7\\)",
+    "\\(4.0\\)",
+    "\\(3.5\\)"
+   ],
+   "answer": "D",
+   "explanation": "\\(\\frac{5(10)+4(20)+3(10)+2(5)+1(5)}{50}=\\frac{175}{50}=3.5\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[3.0,3.7,3.5,4.0]\nf={5:10,4:20,3:10,2:5,1:5}\nm=Rational(sum(k*c for k,c in f.items()),sum(f.values()))\nflags=[abs(float(m)-v)<1e-9 for v in vals]\n# options C and D swapped to balance answer letters\nflags[2],flags[3]=flags[3],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C3-041",
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "tos": {
+    "target": "Research in Teaching Mathematics",
+    "code": "C3",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "Paired data: \\(x=1,2,3,4,5\\) and \\(y=2,4,5,4,5\\). What is the Pearson correlation coefficient \\(r\\), to two decimals?",
+   "choices": [
+    "\\(0.77\\)",
+    "\\(-0.77\\)",
+    "\\(0.89\\)",
+    "\\(0.60\\)"
+   ],
+   "answer": "A",
+   "explanation": "\\(S_{xy}=6\\), \\(S_{xx}=10\\), \\(S_{yy}=6\\), so \\(r=\\frac{6}{\\sqrt{60}}\\approx 0.77\\).",
+   "bloom": "Apply",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "xs=[1,2,3,4,5];ys=[2,4,5,4,5]\nmx=sum(xs)/5;my=sum(ys)/5\nsxy=sum((a-mx)*(b-my) for a,b in zip(xs,ys))\nr=sxy/math.sqrt(sum((a-mx)**2 for a in xs)*sum((b-my)**2 for b in ys))\nvals=[0.60,-0.77,0.89,0.77]\nflags=[round(r,2)==v for v in vals]\n# options D and A swapped to balance answer letters\nflags[3],flags[0]=flags[0],flags[3]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-C3-042",
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "tos": {
+    "target": "Research in Teaching Mathematics",
+    "code": "C3",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "Which statement is a null hypothesis?",
+   "choices": [
+    "The new method will raise the mean score of the class.",
+    "There is no significant difference between the mean scores of the two groups.",
+    "Students who study longer will score higher.",
+    "The experimental group will outperform the control group."
+   ],
+   "answer": "B",
+   "explanation": "A null hypothesis states that there is no difference or no relationship; the other statements predict an effect.",
+   "bloom": "Remember",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C3-043",
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "tos": {
+    "target": "Research in Teaching Mathematics",
+    "code": "C3",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "In a study on the effect of using GeoGebra on students’ achievement in geometry, what is the independent variable?",
+   "choices": [
+    "Students’ achievement in geometry",
+    "The number of students",
+    "The use of GeoGebra",
+    "The school where the study is held"
+   ],
+   "answer": "C",
+   "explanation": "The independent variable is the factor the researcher manipulates or compares (the use of GeoGebra). Achievement is the dependent variable.",
+   "bloom": "Understand",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C3-044",
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "tos": {
+    "target": "Research in Teaching Mathematics",
+    "code": "C3",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A researcher randomly selects \\(10\\) students from each year level in a school. What sampling technique is this?",
+   "choices": [
+    "Simple random sampling",
+    "Cluster sampling",
+    "Convenience sampling",
+    "Stratified random sampling"
+   ],
+   "answer": "D",
+   "explanation": "The population is divided into strata (year levels) and a random sample is drawn from each stratum.",
+   "bloom": "Understand",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C4-045",
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "tos": {
+    "target": "Technology in Mathematics Teaching",
+    "code": "C4",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "Which task is dynamic geometry software (such as GeoGebra) best suited for?",
+   "choices": [
+    "Exploring which properties of a figure stay the same when its vertices are dragged",
+    "Replacing all paper-and-pencil proofs",
+    "Recording students’ attendance",
+    "Printing worksheets only"
+   ],
+   "answer": "A",
+   "explanation": "Dragging points and watching what stays invariant lets students conjecture before proving.",
+   "bloom": "Understand",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C4-046",
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "tos": {
+    "target": "Technology in Mathematics Teaching",
+    "code": "C4",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A teacher wants students to compare how different interest rates change the growth of savings over \\(20\\) years. Which technology tool fits best?",
+   "choices": [
+    "A slide deck with a single printed table",
+    "A spreadsheet that tabulates and graphs the amounts for several rates",
+    "A video with no interaction",
+    "A word processor"
+   ],
+   "answer": "B",
+   "explanation": "Spreadsheets recalculate tables and graphs instantly when the rate changes, which supports comparison and pattern-finding.",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C4-047",
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "tos": {
+    "target": "Technology in Mathematics Teaching",
+    "code": "C4",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "When is it most appropriate for students to use a computer algebra system (CAS) to simplify expressions?",
+   "choices": [
+    "Before learning any algebra, to avoid hand calculation",
+    "Only on tests",
+    "After they understand the manual procedure, to check work and explore larger cases",
+    "Never, because it harms understanding"
+   ],
+   "answer": "C",
+   "explanation": "Technology should support understanding: use it to verify results and explore after the underlying concept and procedure are understood.",
+   "bloom": "Evaluate",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C4-048",
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "tos": {
+    "target": "Technology in Mathematics Teaching",
+    "code": "C4",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A teacher uses a slider for \\(a\\) in \\(y=a(x-h)^{2}+k\\) in a graphing tool. What is the main teaching purpose?",
+   "choices": [
+    "To replace the textbook",
+    "To test students’ typing speed",
+    "To avoid discussing the vertex",
+    "To let students see how changing a parameter changes the graph"
+   ],
+   "answer": "D",
+   "explanation": "Sliders make parameter changes visible and continuous, supporting conjecture about how \\(a\\), \\(h\\) and \\(k\\) affect the graph.",
+   "bloom": "Apply",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C4-049",
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "tos": {
+    "target": "Technology in Mathematics Teaching",
+    "code": "C4",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "According to the TPACK framework, how should a teacher decide which technology to use in a lesson?",
+   "choices": [
+    "Choose it after identifying the learning objective and how the tool supports it for that content",
+    "Pick the newest tool first, then find a topic for it",
+    "Use the same tool in every lesson",
+    "Let students choose any tool without a purpose"
+   ],
+   "answer": "A",
+   "explanation": "TPACK integrates technology, pedagogy and content knowledge: the objective and content come first, and the tool is chosen to serve them.",
+   "bloom": "Understand",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-C4-050",
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "tos": {
+    "target": "Technology in Mathematics Teaching",
+    "code": "C4",
+    "group": "C",
+    "confidence": "exact"
+   },
+   "question": "A teacher lets students use calculators from the first day of learning multiplication facts. Which judgment is best justified?",
+   "choices": [
+    "Good practice, because facts no longer need to be understood",
+    "Partly sound only if students first build number sense and fluency, then use calculators for larger or exploratory problems",
+    "Poor practice, because calculators are never useful",
+    "Good practice only for the best students"
+   ],
+   "answer": "B",
+   "explanation": "Calculators are valuable for exploration and larger computations, but basic number sense and fact fluency should be built first.",
+   "bloom": "Evaluate",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-A2-051",
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "tos": {
+    "target": "Mathematics Investigation & Modeling",
+    "code": "A2",
+    "group": "A",
+    "confidence": "exact"
+   },
+   "question": "A linear model passes through the data points \\((1,7)\\) and \\((4,16)\\). Which equation is the model?",
+   "choices": [
+    "\\(y=4x+3\\)",
+    "\\(y=3x+5\\)",
+    "\\(y=3x+4\\)",
+    "\\(y=2x+5\\)"
+   ],
+   "answer": "C",
+   "explanation": "Slope \\(=\\frac{16-7}{4-1}=3\\); then \\(7=3(1)+b\\) gives \\(b=4\\).",
+   "bloom": "Apply",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[4*x+3,3*x+4,3*x+5,2*x+5]\nflags=[v.subs(x,1)==7 and v.subs(x,4)==16 for v in vals]\n# options B and C swapped to balance answer letters\nflags[1],flags[2]=flags[2],flags[1]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-A2-052",
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "tos": {
+    "target": "Mathematics Investigation & Modeling",
+    "code": "A2",
+    "group": "A",
+    "confidence": "exact"
+   },
+   "question": "A population of \\(500\\) bacteria doubles every \\(3\\) hours. Which function models the population \\(P\\) after \\(t\\) hours?",
+   "choices": [
+    "\\(P=500\\cdot 2^{3t}\\)",
+    "\\(P=500+3t\\)",
+    "\\(P=500\\cdot 2^{t}\\)",
+    "\\(P=500\\cdot 2^{t/3}\\)"
+   ],
+   "answer": "D",
+   "explanation": "One doubling takes \\(3\\) hours, so the number of doublings is \\(\\frac{t}{3}\\) and \\(P=500\\cdot 2^{t/3}\\).",
+   "bloom": "Apply",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[500*2**(3*t),500+3*t,500*2**t,500*2**(t/3)]\nflags=[v.subs(t,0)==500 and simplify(v.subs(t,3))==1000 and simplify(v.subs(t,6))==2000 for v in vals]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-A2-053",
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "tos": {
+    "target": "Mathematics Investigation & Modeling",
+    "code": "A2",
+    "group": "A",
+    "confidence": "exact"
+   },
+   "question": "A model predicts \\(y=2x+1\\). At \\(x=3\\) the observed value is \\(8\\). What is the residual (observed minus predicted)?",
+   "choices": [
+    "\\(1\\)",
+    "\\(7\\)",
+    "\\(-1\\)",
+    "\\(15\\)"
+   ],
+   "answer": "A",
+   "explanation": "Predicted \\(=2(3)+1=7\\). Residual \\(=8-7=1\\).",
+   "bloom": "Understand",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[-1,7,1,15]\nflags=[8-(2*3+1)==v for v in vals]\n# options C and A swapped to balance answer letters\nflags[2],flags[0]=flags[0],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-A2-054",
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "tos": {
+    "target": "Mathematics Investigation & Modeling",
+    "code": "A2",
+    "group": "A",
+    "confidence": "exact"
+   },
+   "question": "A quadratic model \\(y=ax^{2}+bx+c\\) passes through \\((0,1)\\), \\((1,4)\\) and \\((2,11)\\). Which equation is the model?",
+   "choices": [
+    "\\(y=x^{2}+2x+1\\)",
+    "\\(y=2x^{2}+x+1\\)",
+    "\\(y=3x^{2}+1\\)",
+    "\\(y=2x^{2}+3x+1\\)"
+   ],
+   "answer": "B",
+   "explanation": "\\(c=1\\); \\(a+b=3\\); \\(4a+2b=10\\) gives \\(a=2,\\ b=1\\).",
+   "bloom": "Analyze",
+   "difficulty": "Hard",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "vals=[x**2+2*x+1,3*x**2+1,2*x**2+x+1,2*x**2+3*x+1]\npts=[(0,1),(1,4),(2,11)]\nflags=[all(v.subs(x,a)==b for a,b in pts) for v in vals]\n# options C and B swapped to balance answer letters\nflags[2],flags[1]=flags[1],flags[2]",
+   "check_result": "pass"
+  },
+  {
+   "id": "draft-A2-055",
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "tos": {
+    "target": "Mathematics Investigation & Modeling",
+    "code": "A2",
+    "group": "A",
+    "confidence": "exact"
+   },
+   "question": "What is the first step in a mathematical investigation?",
+   "choices": [
+    "Writing the final report",
+    "Choosing the answer before collecting any data",
+    "Understanding the situation and posing a clear question to investigate",
+    "Memorizing the formula"
+   ],
+   "answer": "C",
+   "explanation": "An investigation begins by understanding the situation and stating a question or conjecture; data, modeling, testing and reporting follow.",
+   "bloom": "Understand",
+   "difficulty": "Easy",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": true,
+   "check": null,
+   "check_result": "needs_human"
+  },
+  {
+   "id": "draft-A2-056",
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "tos": {
+    "target": "Mathematics Investigation & Modeling",
+    "code": "A2",
+    "group": "A",
+    "confidence": "exact"
+   },
+   "question": "The table gives \\(x=0,1,2,3\\) and \\(y=3,6,12,24\\). Which type of model fits these data best?",
+   "choices": [
+    "Linear",
+    "Quadratic",
+    "Constant",
+    "Exponential"
+   ],
+   "answer": "D",
+   "explanation": "Successive \\(y\\)-values have a constant ratio \\(2\\) (\\(\\frac{6}{3}=\\frac{12}{6}=\\frac{24}{12}\\)), which is characteristic of exponential growth: \\(y=3\\cdot 2^{x}\\).",
+   "bloom": "Analyze",
+   "difficulty": "Medium",
+   "status": "review",
+   "source": "draft-2026-10-24",
+   "gap": "Thin topic",
+   "needs_human": false,
+   "check": "ys=[3,6,12,24]\nd1=[b-a for a,b in zip(ys,ys[1:])]\nd2=[b-a for a,b in zip(d1,d1[1:])]\nratios=[Rational(b,a) for a,b in zip(ys,ys[1:])]\nconst=lambda L:len(set(L))==1\ntests={'Linear':const(d1),'Quadratic':const(d2) and not const(d1),'Constant':const(ys),'Exponential':const(ratios) and not const(d1)}\nvals=['Linear','Quadratic','Constant','Exponential']\nflags=[tests[v] for v in vals]",
+   "check_result": "pass"
+  }
+ ]
+}

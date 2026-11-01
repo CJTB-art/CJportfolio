@@ -1,0 +1,237 @@
+{
+ "let-question-bank-v1": {
+  "Math Major": {
+   "College & Advanced Algebra": [
+    {
+     "id": "t1",
+     "question": "Simplify frac(x^2-1,x-1).",
+     "choices": [
+      "x+1",
+      "x-1",
+      "x^2",
+      "frac(1,2)"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1.",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "t2",
+     "question": "Simplify frac(40a^3a*b^2a,12a*b^4a)",
+     "choices": [
+      "frac(10a^3a,3b^2a)",
+      "10a",
+      "3b",
+      "x"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "Divide the coefficients.",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "t6",
+     "question": "Find det(mat([1,2],[3,4])).",
+     "choices": [
+      "-2",
+      "2",
+      "10",
+      "-10"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "1*4 - 2*3 = -2.",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "t13",
+     "question": "Compute (2x^(2a)+3x^(5a))(3x^(7a)).",
+     "choices": [
+      "6x^(9a)+9x^(12a)",
+      "x",
+      "y",
+      "z"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "Add exponents.",
+     "topic": "College & Advanced Algebra"
+    },
+    {
+     "id": "t14",
+     "question": "Find x^2 for x = 3.",
+     "choices": [
+      "9",
+      "6",
+      "x^2",
+      "3"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "x^2 = 9.",
+     "topic": "College & Advanced Algebra",
+     "notes": "{\"choices\": [\"9\", \"6\", \"x^2\", \"3\"], \"correctIndex\": 0, \"explanation\": \"3^2 = 9\"}"
+    }
+   ],
+   "Trigonometry": [
+    {
+     "id": "t3",
+     "question": "Evaluate sin(30°) + cos(60°).",
+     "choices": [
+      "0",
+      "1",
+      "frac(1,2)",
+      "sqrt(2)"
+     ],
+     "answer": "B",
+     "correctIndex": 1,
+     "explanation": "Each is 1/2, so the sum is 1.",
+     "topic": "Trigonometry"
+    }
+   ],
+   "Calculus": [
+    {
+     "id": "t4",
+     "question": "Find d/dx(x^3).",
+     "choices": [
+      "3x^2",
+      "x^2",
+      "3x",
+      "x^3"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "Power rule.",
+     "topic": "Calculus"
+    },
+    {
+     "id": "t5",
+     "question": "Evaluate lim(x->2) frac(x^2-4,x-2).",
+     "choices": [
+      "2",
+      "4",
+      "0",
+      "undefined"
+     ],
+     "answer": "B",
+     "correctIndex": 1,
+     "explanation": "Factor to x+2, so 4.",
+     "topic": "Calculus"
+    },
+    {
+     "id": "t11",
+     "question": "Evaluate the integral from 0 to 2 of 3x^2 dx.",
+     "choices": [
+      "8",
+      "6",
+      "4",
+      "12"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "x^3 from 0 to 2 = 8.",
+     "topic": "Calculus"
+    }
+   ],
+   "Mathematics of Investment": [
+    {
+     "id": "t7",
+     "question": "Invest P5000 at 6% compounded yearly for 2 years: P5000(1+0.06)^2 = ?",
+     "choices": [
+      "PhP 5,618",
+      "PhP 5,600",
+      "PhP 5,300",
+      "PhP 6,000"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "5000(1.06)^2 = 5618.",
+     "topic": "Mathematics of Investment"
+    }
+   ],
+   "Mathematics Investigation & Modeling": [
+    {
+     "id": "t8",
+     "question": "How many answers on a True/False test of 5 items?",
+     "choices": [
+      "32",
+      "10",
+      "25",
+      "16"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "There are 2^na5 = 32 total ways.",
+     "topic": "Mathematics Investigation & Modeling"
+    }
+   ],
+   "Plane & Solid Geometry": [
+    {
+     "id": "t9",
+     "question": "A square has area s^2a = 36. Find s.",
+     "choices": [
+      "6",
+      "9",
+      "12",
+      "18"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "s = 6.",
+     "topic": "Plane & Solid Geometry"
+    }
+   ],
+   "Arithmetic & Number Theory": [
+    {
+     "id": "t10",
+     "question": "What is 60000/150?",
+     "choices": [
+      "400",
+      "40",
+      "4000",
+      "450"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "60000/150 = 400.",
+     "topic": "Arithmetic & Number Theory"
+    }
+   ],
+   "History of Mathematics": [
+    {
+     "id": "t12",
+     "question": "Who is the father of geometry?",
+     "choices": [
+      "Euclid",
+      "Pythagoras",
+      "Thales",
+      "Archimedes"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "Euclid wrote the Elements.",
+     "topic": "History of Mathematics"
+    }
+   ]
+  },
+  "GenEd": {
+   "Filipino": [
+    {
+     "id": "g1",
+     "question": "Ano ang x^2?",
+     "choices": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "answer": "A",
+     "correctIndex": 0,
+     "explanation": "...",
+     "topic": "Filipino"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,862 @@
+@import 'tailwindcss';
+
+/* Self-hosted Latin variable faces keep the paper system consistent and offline-capable. */
+@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 100 900; font-display: swap;
+  src: url('./lib/assets/fonts/fraunces-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Bricolage Grotesque'; font-style: normal; font-weight: 200 800; font-display: swap;
+  src: url('./lib/assets/fonts/bricolage-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 600; font-display: swap;
+  src: url('./lib/assets/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 600; font-display: swap;
+  src: url('./lib/assets/fonts/inter-greek.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF; }
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-accent: 'Bricolage Grotesque', 'Inter', ui-sans-serif, sans-serif;
+  --color-bg: #16231F;
+  --color-panel: #1D2E29;
+  --color-line: rgb(246 235 217 / 18%);
+  --color-brand: #D04030;
+  --color-brand-soft: #4F4A25;
+  --color-ink: #F6EBD9;
+  --color-mute: #B9C7BE;
+  --color-brand-text: #FF9585;
+  --color-warn: #F5C96A;
+  --color-bar: #41574C;
+  --color-avatar: #24382F;
+  --color-surface: #1D2E29;
+  --color-surface-2: #24382F;
+  --color-cream-2: #24382F;
+  --color-paper-edge: #0D1713;
+  --color-brand-press: #B93426;
+  --color-marigold: #F5B82E;
+  --color-teal: #55A58F;
+  --color-chalk: #1F4D3A;
+  --color-navy: #83A5CD;
+  --color-on-brand: #ffffff; /* text/icons on brand or dark fills */
+  --color-on-marigold: #14302D;
+  --color-shadow: #0D1713;
+  --color-amber: #F5C96A;
+  --color-blue: #83A5CD;
+  --color-red: #FF9585;
+  --color-green: #83D1A5;
+  --color-green-text: #83D1A5;
+  --color-teal: #55A58F;
+  --text-hero: 2.25rem;
+}
+
+/* Shared paper depth and type scale. */
+:root {
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --gap: var(--sp-4);
+  --page-pad: clamp(12px, 2.2vw, 32px);
+  --card-pad: clamp(12px, 1.4vw, 24px);
+  /* Type scale (same in light and dark). */
+  --fs-display: 2.25rem;
+  --fs-title: 1.5rem;
+  --fs-body: 0.875rem;
+  --fs-caption: 0.75rem;
+  --fs-small: 0.8125rem;
+  /* Motion (same in light and dark). */
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --dur-fast: 120ms;
+  --dur-base: 190ms;
+  --shadow-paper: 0 2px 0 rgb(0 0 0 / .24), 0 10px 18px -12px rgb(0 0 0 / .5);
+  --shadow-paper-sm: 0 1px 0 rgb(0 0 0 / .24);
+  --shadow-sticker: 0 4px 0 var(--color-brand-press);
+  --shadow-raised: var(--shadow-paper);
+  --shadow-raised-sm: var(--shadow-paper-sm);
+  --shadow-inset: inset 0 0 0 1px var(--color-line);
+  --shadow-raised-up: 0 -1px 0 var(--color-line);
+  --shadow-brand: var(--shadow-sticker);
+}
+
+/* Cream Paper is the default theme for new visitors. */
+:root[data-theme='light'] {
+  --color-bg: #F6EBD9;
+  --color-panel: #FFF8EA;
+  --color-line: rgb(20 48 45 / 16%);
+  --color-brand: #D04030;
+  --color-brand-soft: #FCE5B2;
+  --color-ink: #14302D;
+  --color-mute: #4F6561;
+  --color-brand-text: #B5352A;
+  --color-warn: #805500;
+  --color-bar: #C8BFAE;
+  --color-avatar: #E8DCC8;
+  --color-surface: #FFF8EA;
+  --color-surface-2: #FBEFD9;
+  --color-cream-2: #FBEFD9;
+  --color-paper-edge: #14302D;
+  --color-brand-press: #B93426;
+  --color-marigold: #F5B82E;
+  --color-teal: #55A58F;
+  --color-chalk: #1F4D3A;
+  --color-navy: #1F3A5F;
+  --color-on-brand: #ffffff;
+  --color-on-marigold: #14302D;
+  --color-shadow: #14302D;
+  --color-amber: #805500;
+  --color-blue: #315A79;
+  --color-red: #B5352A;
+  --color-green: #28614A;
+  --color-green-text: #28614A;
+  --color-teal: #14504B;
+  --shadow-paper: 0 2px 0 rgb(20 48 45 / .14), 0 10px 18px -12px rgb(20 48 45 / .35);
+  --shadow-paper-sm: 0 1px 0 rgb(20 48 45 / .14);
+  --shadow-raised: var(--shadow-paper);
+  --shadow-raised-sm: var(--shadow-paper-sm);
+  --shadow-inset: inset 0 0 0 1px var(--color-line);
+  --shadow-raised-up: 0 -1px 0 var(--color-line);
+  --shadow-brand: var(--shadow-sticker);
+}
+/* ------------------------------------------------------------------ */
+/* Accent colours (Settings > Appearance)                              */
+/* ------------------------------------------------------------------ */
+/* Optional learner accents change only the tomato brand tokens; paper, chalk and status colors stay consistent. */
+/* Greens and cyans are far brighter than purples at the same OKLCH lightness, so brand and brand-text sink a little there
+   (--dip: 0 outside ~85-285 deg, 1 at 185 deg, smooth in between). Keeps white-on-brand at 4.6:1 or better on every hue. */
+:root[data-accent] { --dip: max(0, cos((var(--ah) - 75) * 1deg)); }
+:root[data-accent][data-theme='dark'] {
+  --color-brand: oklch(calc(0.5 - 0.055 * var(--dip)) 0.16 var(--ah));
+  --color-brand-press: color-mix(in oklch, var(--color-brand) 82%, #000);
+  --color-brand-soft: color-mix(in oklch, var(--color-brand) 24%, var(--color-surface));
+  --color-brand-text: oklch(0.78 0.13 var(--ah));
+}
+:root[data-accent][data-theme='light'] {
+  --color-brand: oklch(calc(0.5 - 0.055 * var(--dip)) 0.16 var(--ah));
+  --color-brand-press: color-mix(in oklch, var(--color-brand) 82%, #000);
+  --color-brand-soft: color-mix(in oklch, var(--color-brand) 14%, var(--color-surface));
+  --color-brand-text: oklch(calc(0.43 - 0.025 * var(--dip)) 0.14 var(--ah));
+}
+
+/* ------------------------------------------------------------------ */
+/* Subject tints: GenEd, ProfEd, Major (Chip, Meter, SubjectTabs)      */
+/* ------------------------------------------------------------------ */
+/* Hues are spread 120deg apart and offset from the accent hue (--ah, 280 = the original violet), so no subject ever matches the brand colour.
+   -solid is for dots, bars and rings; -soft is the background behind ink-coloured text (ink on soft is high contrast in both themes). */
+:root {
+  --tint-h: var(--ah, 26);
+  --tint-gened: oklch(0.74 0.15 calc(var(--tint-h) + 60));
+  --tint-gened-soft: oklch(0.32 0.07 calc(var(--tint-h) + 60));
+  --tint-profed: oklch(0.74 0.15 calc(var(--tint-h) + 180));
+  --tint-profed-soft: oklch(0.32 0.07 calc(var(--tint-h) + 180));
+  --tint-major: oklch(0.74 0.15 calc(var(--tint-h) + 300));
+  --tint-major-soft: oklch(0.32 0.07 calc(var(--tint-h) + 300));
+}
+:root[data-theme='light'] {
+  --tint-gened: oklch(0.5 0.15 calc(var(--tint-h) + 60));
+  --tint-gened-soft: oklch(0.92 0.05 calc(var(--tint-h) + 60));
+  --tint-profed: oklch(0.5 0.15 calc(var(--tint-h) + 180));
+  --tint-profed-soft: oklch(0.92 0.05 calc(var(--tint-h) + 180));
+  --tint-major: oklch(0.5 0.15 calc(var(--tint-h) + 300));
+  --tint-major-soft: oklch(0.92 0.05 calc(var(--tint-h) + 300));
+}
+/* Components set one of these classes from the subject key (general | professional | major). The dot changes SHAPE per subject
+   (circle, square, diamond) so identity never depends on colour alone. */
+.tint-general { --t: var(--tint-gened); --t-soft: var(--tint-gened-soft); --t-shape: 50%; --t-rot: 0deg; }
+.tint-professional { --t: var(--tint-profed); --t-soft: var(--tint-profed-soft); --t-shape: 2px; --t-rot: 0deg; }
+.tint-major { --t: var(--tint-major); --t-soft: var(--tint-major-soft); --t-shape: 1px; --t-rot: 45deg; }
+.tint-dot { display: inline-block; flex-shrink: 0; width: 0.5rem; height: 0.5rem; background: var(--t); border-radius: var(--t-shape); transform: rotate(var(--t-rot)); }
+
+/* One intentional type hierarchy across routes and shared surfaces. */
+.route-root:not(.is-admin) :is(.font-display, .tp-title, .page-title) {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -.02em;
+  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 72;
+}
+
+/* Compatibility classes now use paper depth; brand elements never glow. */
+.glow-lg, .glow-md, .glow-btn { box-shadow: var(--shadow-paper-sm); }
+
+/* Settings > Appearance > Accent: the free hue slider. Its track is the hue wheel, so what you see is what you get. */
+.hue-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.75rem;
+  border-radius: 999px;
+  background: linear-gradient(to right, oklch(0.65 0.17 0), oklch(0.65 0.17 30), oklch(0.65 0.17 60), oklch(0.65 0.17 90), oklch(0.65 0.17 120), oklch(0.65 0.17 150), oklch(0.65 0.17 180), oklch(0.65 0.17 210), oklch(0.65 0.17 240), oklch(0.65 0.17 270), oklch(0.65 0.17 300), oklch(0.65 0.17 330), oklch(0.65 0.17 360));
+}
+.hue-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 3px solid var(--color-ink);
+  box-shadow: var(--shadow-raised-sm);
+  cursor: grab;
+}
+.hue-range::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 3px solid var(--color-ink);
+  box-shadow: var(--shadow-raised-sm);
+  cursor: grab;
+}
+
+/* Timers, scores and percentages: fixed-width digits so they do not jiggle. */
+.tnum { font-variant-numeric: tabular-nums; }
+.route-root:not(.is-admin) :is(h1, h2, h3, .tp-title) { text-wrap: balance; }
+
+.neu-raised { box-shadow: var(--shadow-raised); }
+.neu-inset { box-shadow: var(--shadow-inset); }
+.neu-up { box-shadow: var(--shadow-raised-up); }
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+/* Thin, dark scrollbars everywhere (every scrolling card and list). */
+@media (pointer: fine) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-brand-soft) transparent;
+  }
+}
+
+/* Long off-screen lists skip layout and paint until scrolled near (big win on phones). */
+.cv {
+  contain-intrinsic-size: auto 18rem;
+}
+
+html {
+  color-scheme: dark;
+}
+html[data-theme='light'] {
+  color-scheme: light;
+}
+
+/* Bottom tab bar height (flat bar, 1px top border, full width) + the gap between the layout viewport and the visible screen
+   (set by src/lib/viewport.js; 0 on desktop and in normal browsers). The safe-area inset is added by whoever uses --tabbar-h. */
+:root {
+  --navbar-h: 3.5rem; /* the bar itself, border included, home-indicator inset NOT included */
+  --tabbar-h: var(--navbar-h); /* reserved height: floating UI and page padding sit above this */
+  --vv-gap: 0px;
+}
+/* Landscape phones are short: a slimmer tab bar leaves room for content. */
+@media (max-height: 32rem) and (orientation: landscape) {
+  :root { --navbar-h: 3.25rem; }
+}
+@media (max-width: 39.99rem) { :root { --navbar-h: 3.25rem; } }
+
+/* Purple text and icons use the lighter tone so small captions stay readable (WCAG AA).
+   Backgrounds, borders and fills keep --color-brand. */
+.text-brand,
+.text-brand\/80,
+.hover\:text-brand:hover {
+  color: var(--color-brand-text);
+}
+
+/* Brand-filled buttons keep white text in the light theme (utilities such as text-ink still win). */
+@layer components {
+  html[data-theme='light'] .bg-brand { color: #fff; }
+}
+
+/* Settings > Appearance > Reduce motion */
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* Animation helpers (.anim-*). Off under reduce-motion, end state visible. */
+/* ------------------------------------------------------------------ */
+@keyframes anim-fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes anim-pop { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+@keyframes anim-shake { 0%, 100% { transform: translateX(0); } 12.5%, 37.5%, 62.5%, 87.5% { transform: translateX(-4px); } 25%, 50%, 75% { transform: translateX(4px); } }
+@keyframes anim-shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@keyframes anim-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.anim-fade-up { animation: anim-fade-up var(--dur-base) var(--ease-out) both; }
+.anim-pop { animation: anim-pop 220ms var(--ease-out); }
+.anim-shake { animation: anim-shake 280ms linear; }
+.anim-shimmer {
+  background-color: color-mix(in srgb, var(--color-surface-2) 76%, var(--color-surface));
+  background-image: none;
+  animation: none;
+}
+.anim-fill { transform-origin: left; animation: anim-fill 700ms var(--ease-out) both; }
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up, .anim-pop, .anim-shake, .anim-shimmer, .anim-fill { animation: none; transition: none; opacity: 1; transform: none; }
+  .anim-shimmer { background-image: none; }
+}
+.reduce-motion .anim-fade-up, .reduce-motion .anim-pop, .reduce-motion .anim-shake, .reduce-motion .anim-shimmer, .reduce-motion .anim-fill { animation: none; transition: none; opacity: 1; transform: none; }
+.reduce-motion .anim-shimmer { background-image: none; }
+
+/* Press feedback for every button (components with their own :active rule, e.g. .btn and .pg-cta, override this). */
+button:active:not(:disabled) { transform: translateY(1px); }
+
+/* ------------------------------------------------------------------ */
+/* Responsive foundation                                               */
+/* ------------------------------------------------------------------ */
+
+/* The fixed-height "app shell" (panels scroll inside the page) only makes sense on a
+   wide AND reasonably tall viewport. On short ones (landscape phones) the page scrolls. */
+@custom-variant shell (@media (min-width: 64rem) and (min-height: 32rem));
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scroll-padding-top: 4.5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  overflow-wrap: break-word;
+  overflow-x: clip;
+}
+
+/* No double-tap-zoom delay on controls. */
+a, button, summary, label, select, input, textarea, [role='tab'], [role='radio'], [role='checkbox'], [role='switch'] {
+  touch-action: manipulation;
+}
+
+img, svg, video { max-width: 100%; }
+
+/* Touch screens */
+@media (pointer: coarse) {
+  /* iOS zooms the page when a focused field is under 16px. */
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  select,
+  textarea {
+    font-size: max(16px, 1rem);
+  }
+
+  /* Every button gets at least a 44px hit area without changing its look. */
+  button:not(.absolute):not(.fixed):not(.sticky):not([data-no-hit]),
+  [role='tab']:not(.absolute),
+  [role='radio']:not(.absolute) {
+    position: relative;
+  }
+  button:not([data-no-hit])::after,
+  [role='tab']::after,
+  [role='radio']::after {
+    content: '';
+    position: absolute;
+    top: min(0px, calc((100% - 44px) / 2));
+    bottom: min(0px, calc((100% - 44px) / 2));
+    left: min(0px, calc((100% - 44px) / 2));
+    right: min(0px, calc((100% - 44px) / 2));
+  }
+}
+
+/* Page padding that respects notches and rounded corners. */
+@layer components {
+  .app-main {
+    --pad: 1rem;
+    padding: var(--pad);
+    padding-left: max(var(--pad), env(safe-area-inset-left));
+    padding-right: max(var(--pad), env(safe-area-inset-right));
+  }
+  @media (min-width: 40rem) { .app-main { --pad: clamp(1rem, 1.25vw, 1.25rem); } }
+  /* Home uses the same 16px phone gutter as the other learner pages; the board adds no second inset. */
+  @media (max-width: 47.99rem) {
+    .app-main.is-home { --pad: 1rem; padding-top: max(var(--pad), env(safe-area-inset-top)); }
+  }
+  @media (min-width: 64rem) { .app-main.is-home { --pad: 2rem; } }
+  /* Room for the bottom tab bar on phones/tablets. */
+  .app-main.has-tabbar { padding-bottom: calc(var(--pad) + var(--tabbar-h) + env(safe-area-inset-bottom)); }
+  @media (min-width: 64rem) { .app-main.has-tabbar { padding-bottom: var(--pad); } }
+
+  /* Horizontal strips (tabs, chips) that scroll instead of squashing. */
+  .rail {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+  .rail::-webkit-scrollbar { display: none; }
+  .rail > * { scroll-snap-align: start; flex-shrink: 0; }
+}
+
+/* Bottom sheets and overlays must never exceed the visible screen. */
+.sheet-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+@layer components {
+  .app-main.immersive {
+    padding-top: max(var(--pad), env(safe-area-inset-top));
+    padding-bottom: max(var(--pad), env(safe-area-inset-bottom));
+  }
+}
+
+/* Phone canvas: use a tighter page gutter so panels and lists keep more of the viewport. */
+@media (max-width: 39.99rem) {
+  .app-main { --pad: clamp(.625rem, 3vw, .75rem); }
+  .app-main.is-home { --pad: clamp(.625rem, 3vw, .75rem); }
+}
+
+/* ================================================================== */
+/* NO-SCROLL RULE helpers (see CLAUDE.md)                              */
+/* ================================================================== */
+.reader { overflow-y: auto; overscroll-behavior: contain; }       /* only readers may scroll */
+@media (max-height: 33rem) { .drop-when-short { display: none !important; } }
+@media (max-height: 45rem) { .drop-when-compact { display: none !important; } }
+
+/* Sidebar rows share the available height so the whole menu fits. */
+.nav-row { flex: 1 1 0; min-height: 1.875rem; max-height: 3.25rem; font-size: clamp(0.8125rem, 1.75dvh, 1rem); }
+.nav-logo { margin-bottom: clamp(0.25rem, 1.6dvh, 1rem); }
+.nav-foot { padding-top: clamp(0.25rem, 1dvh, 0.75rem); }
+.nav-avatar { width: clamp(1.875rem, 4.4dvh, 2.5rem); height: clamp(1.875rem, 4.4dvh, 2.5rem); }
+
+/* Shared learner paper system. Admin tokens below remain isolated to /admin. */
+:root {
+  --paper-radius: 18px;
+  --control-radius: 12px;
+  --color-status-warning-text: var(--color-warn);
+  --color-soft: var(--color-brand-soft);
+}
+:root[data-theme='light'] { --color-status-warning-text: #805500; }
+:root[data-theme='dark'] { --color-status-warning-text: #F5C96A; }
+
+body { min-height: 100dvh; overflow-x: clip; background: var(--color-bg); color: var(--color-ink); font-family: var(--font-sans); }
+body:has(.route-root:not(.is-admin))::before {
+  position: fixed; z-index: 0; inset: 0; content: ''; pointer-events: none;
+  background: url('./lib/assets/pasa/textures/texture-paper.webp') repeat; background-size: 256px; opacity: .12;
+}
+:root[data-theme='dark'] body:has(.route-root:not(.is-admin))::before {
+  background-image: url('./lib/assets/pasa/textures/texture-chalk.webp'); opacity: .08; mix-blend-mode: soft-light;
+}
+body:has(.route-root.is-admin) { background: #f7f8fb; color: #20243a; }
+body:has(.route-root.is-admin)::before { display: none; }
+.route-root { position: relative; z-index: 1; min-height: 100dvh; isolation: isolate; }
+.route-root .app-shell, .route-root .app-main { background: transparent; }
+
+/* Paper surfaces and shared controls. */
+.route-root:not(.is-admin) :is(.tp-grid:not(.stack) .tp-panel, .tp-card, .ob-card, .col-r > .data, .rs-hero, .rs-stat, .dl-card, .dialog-card) {
+  color: var(--color-ink); background: var(--color-surface);
+  border: var(--cx-w) solid var(--cx-outline);
+  border-radius: var(--cx-radius); box-shadow: var(--cx-shadow);
+}
+/* Cards nested inside an already-outlined (non-stack) panel stay quiet: no second heavy box. */
+.route-root:not(.is-admin) .tp-grid:not(.stack) .tp-panel .tp-card { border: var(--cx-w-sm) solid var(--cx-outline-soft); box-shadow: none; }
+.route-root:not(.is-admin) .tp-grid.stack .tp-panel { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.route-root:not(.is-admin) .tp-card { padding: clamp(.75rem, 2.4cqh, 1.5rem); }
+.route-root:not(.is-admin) .ob-card { padding: clamp(.8rem, 2.4cqh, 2rem); }
+.route-root:not(.is-admin) :is(.tp-panel, .tp-list, .nav-list) { background-image: none; }
+.route-root:not(.is-admin) :is(.tp-title, .tp-head h1, .page-title, .pg-hero h1) { color: var(--color-ink); text-shadow: none; }
+.route-root:not(.is-admin) :is(.font-display, .tp-title, .page-title, .pg-hero h1, h1) {
+  font-family: var(--font-display); font-weight: 800; font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 72;
+}
+.route-root:not(.is-admin) :is(.tp-sub, .tp-lbl, .pr-lbl, .pr-grp, .pr-fact dt, .text-mute) { color: var(--color-mute); text-shadow: none; opacity: 1; }
+.route-root:not(.is-admin) :is(.tp-sub, .tp-lbl, .pr-lbl, .pr-grp) { font-size: max(.8125rem, 13px); }
+.route-root:not(.is-admin) .tp-card.pr-left { border-right: 1px solid var(--color-line); }
+.route-root:not(.is-admin) .tp-grid.stack { column-gap: var(--gap); }
+.route-root:not(.is-admin) :is(.tp-pill, .pg-pill, .flag, .focus, .ch-badge, .rs-pass, .rs-keep) {
+  border: 1px solid color-mix(in srgb, var(--color-ink) 18%, transparent); border-radius: .65rem;
+  color: var(--color-ink); background: var(--color-surface-2); box-shadow: var(--shadow-paper-sm);
+  font-family: var(--font-accent); font-weight: 650;
+}
+.route-root:not(.is-admin) :is(.tp-pill, .pg-pill) { transform: rotate(-.6deg); }
+.route-root:not(.is-admin) :is(.tp-bar, .pg-track, .meter-track, .progress-track) { background: var(--color-surface-2); box-shadow: inset 0 1px 0 color-mix(in srgb, var(--color-ink) 12%, transparent); }
+.route-root:not(.is-admin) .tp-bar > i { background: var(--color-marigold); }
+.route-root:not(.is-admin) :is(.tp-cta, .pg-cta, .sx-btn-primary, .btn[data-variant='primary'], .v-primary) {
+  min-height: 2.75rem; border: 0; border-radius: 999px; color: var(--color-on-brand); background: var(--color-brand);
+  box-shadow: var(--shadow-sticker); font-family: var(--font-accent); font-weight: 700;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+.route-root:not(.is-admin) :is(.tp-cta, .pg-cta, .sx-btn-primary, .btn[data-variant='primary'], .v-primary):hover:not(:disabled):not([aria-disabled='true']) { transform: translateY(-1px); }
+.route-root:not(.is-admin) :is(.tp-cta, .pg-cta, .sx-btn-primary, .btn[data-variant='primary'], .v-primary):active:not(:disabled):not([aria-disabled='true']) { transform: translateY(3px); box-shadow: 0 1px 0 var(--color-brand-press); }
+.route-root:not(.is-admin) :is(.tp-cta, .pg-cta, .sx-btn-primary, .btn[data-variant='primary'], .v-primary):disabled { opacity: .58; box-shadow: none; }
+.route-root:not(.is-admin) :is(input:not([type='checkbox'], [type='radio'], [type='range'], [type='file'], [type='color']), select, textarea):not(.no-neu) {
+  color: var(--color-ink); background: var(--color-surface-2); border: 1px solid color-mix(in srgb, var(--color-ink) 16%, transparent);
+  border-bottom: 1.5px solid color-mix(in srgb, var(--color-ink) 34%, transparent); border-radius: var(--control-radius); box-shadow: none;
+}
+.route-root:not(.is-admin) :is(input, select, textarea):not(.no-neu):focus-visible { outline: 2px solid var(--color-teal); outline-offset: 3px; }
+.route-root:not(.is-admin) ::placeholder { color: var(--color-mute); opacity: 1; }
+.route-root:not(.is-admin) :focus-visible { outline-color: var(--color-teal); outline-offset: 3px; }
+.route-root:not(.is-admin) :is(a, button, [role='button'], [role='tab'], [role='radio']) { touch-action: manipulation; }
+.route-root:not(.is-admin) :is(a, button, [role='button'], [role='tab'], [role='radio']):focus-visible { outline: 2px solid var(--color-teal); outline-offset: 3px; }
+.route-root:not(.is-admin) :is(.text-\[10px\], .text-\[11px\]) { font-size: var(--fs-small); line-height: 1.2rem; }
+
+/* Compatibility for existing component-library markup, now rendered as tactile paper. */
+.route-root:not(.is-admin) :is(.neu-raised, .neu-inset) { border: 1px solid var(--color-line); background: var(--color-surface); box-shadow: var(--shadow-paper-sm); }
+.route-root:not(.is-admin) .neu-inset { background: var(--color-surface-2); box-shadow: inset 0 1px 0 color-mix(in srgb, var(--color-ink) 9%, transparent); }
+.route-root:not(.is-admin) :is(.rounded-lg, .rounded-xl, .rounded-2xl, .rounded-3xl).border.border-line { border-color: var(--color-line); }
+.route-root:not(.is-admin) :is(.rounded-xl, .rounded-2xl, .rounded-3xl).border.border-line.bg-panel { color: var(--color-ink); background: var(--color-surface); box-shadow: var(--shadow-paper); }
+.route-root:not(.is-admin) .bg-panel { background-color: var(--color-surface); }
+.route-root:not(.is-admin) .text-brand { color: var(--color-brand-text); }
+.route-root:not(.is-admin) .bg-brand { color: var(--color-on-brand); background-color: var(--color-brand); }
+.route-root:not(.is-admin) :is(a, button).bg-brand:not(.no-neu, .neu-raised, [class*='absolute'], [aria-disabled='true'], :disabled) { box-shadow: var(--shadow-sticker); font-family: var(--font-accent); font-weight: 700; }
+.route-root:not(.is-admin) :is(a, button).bg-brand:hover:not(:disabled):not([aria-disabled='true']) { transform: translateY(-1px); }
+.route-root:not(.is-admin) :is(a, button).bg-brand:active:not(:disabled):not([aria-disabled='true']) { transform: translateY(3px); box-shadow: 0 1px 0 var(--color-brand-press); }
+.route-root:not(.is-admin) .bg-brand-soft { background-color: var(--color-soft); }
+.route-root:not(.is-admin) .bg-brand-soft\/20 { background-color: color-mix(in srgb, var(--color-soft) 20%, var(--color-surface)); }
+.route-root:not(.is-admin) .bg-brand-soft\/25 { background-color: color-mix(in srgb, var(--color-soft) 25%, var(--color-surface)); }
+.route-root:not(.is-admin) .bg-brand-soft\/30 { background-color: color-mix(in srgb, var(--color-soft) 30%, var(--color-surface)); }
+.route-root:not(.is-admin) .bg-brand-soft\/40 { background-color: color-mix(in srgb, var(--color-soft) 40%, var(--color-surface)); }
+.route-root:not(.is-admin) .bg-brand-soft\/60 { background-color: color-mix(in srgb, var(--color-soft) 60%, var(--color-surface)); }
+.route-root:not(.is-admin) .bg-brand-soft\/70 { background-color: color-mix(in srgb, var(--color-soft) 70%, var(--color-surface)); }
+.route-root:not(.is-admin) :is(.track-bar, [role='progressbar'], .progress-track, .meter-track) .bg-brand { background-color: var(--color-marigold); }
+.route-root:not(.is-admin) .paper-plate { color: var(--color-ink); background: var(--color-surface); border: 1px solid var(--color-line); border-radius: 1rem; box-shadow: var(--shadow-paper); }
+.route-root:not(.is-admin) .zigzag-footer { min-height: 14px; background: url('./lib/assets/pasa/patterns/border-zigzag.webp') repeat-x center / auto 14px; }
+.route-root:not(.is-admin) .pg-card { background: var(--color-surface); border-top-color: var(--color-line); }
+.route-root:not(.is-admin) .col-r > .data { padding: clamp(.75rem, 2.4cqh, 1.35rem); }
+.route-root:not(.is-admin) .ring-track, .route-root:not(.is-admin) .pg-ring svg circle.stroke-line { stroke: color-mix(in srgb, var(--color-ink) 16%, transparent); }
+.route-root:not(.is-admin) .pg-ring svg circle.stroke-brand, .route-root:not(.is-admin) .ring-glow { stroke: var(--color-marigold); filter: none; }
+.route-root:not(.is-admin) .ring-disc { fill: var(--color-surface); stroke: var(--color-line); }
+.route-root:not(.is-admin) .ring-dot { fill: var(--color-brand); filter: none; }
+.route-root:not(.is-admin) :is(.text-emerald-300, .text-emerald-400, .text-emerald-600, .text-green-300, .text-green-400, .text-green-600) { color: var(--color-green); }
+.route-root:not(.is-admin) :is(.text-red-300, .text-red-400, .text-red-500, .text-rose-300, .text-rose-400) { color: var(--color-red); }
+.route-root:not(.is-admin) :is(.text-amber-300, .text-amber-400, .text-amber-700, .text-yellow-300, .text-yellow-400) { color: var(--color-status-warning-text); }
+.route-root:not(.is-admin) :is(.text-blue-300, .text-blue-400, .text-sky-300, .text-sky-400) { color: var(--color-blue); }
+.route-root:not(.is-admin) :is(.bg-emerald-500\/10, .bg-emerald-500\/\[0\.08\], .bg-green-500\/10) { background-color: color-mix(in srgb, var(--color-green) 12%, var(--color-surface)); }
+.route-root:not(.is-admin) :is(.bg-red-500\/10, .bg-red-500\/\[0\.08\], .bg-rose-500\/10) { background-color: color-mix(in srgb, var(--color-red) 10%, var(--color-surface)); }
+.route-root:not(.is-admin) :is(.bg-amber-500\/10, .bg-amber-500\/\[0\.08\], .bg-yellow-500\/10) { background-color: color-mix(in srgb, var(--color-marigold) 20%, var(--color-surface)); }
+
+/* Hand-drawn navigation and the chalkboard rail are shared by learner routes. */
+.nav-row { display: flex; min-height: 3.25rem; flex: 0 0 3.25rem; align-items: center; gap: .75rem; border-radius: .9rem; font: 650 1.0625rem/1 var(--font-accent); }
+.nav-logo { min-height: 3.75rem; }
+.nav-foot { padding-top: .75rem; }
+.nav-avatar { width: 2.5rem; height: 2.5rem; }
+.nav-on, .nav-off { transition: color 160ms ease, background-color 160ms ease, box-shadow 160ms ease; }
+.nav-on { position: relative; color: var(--color-on-marigold); background: var(--color-marigold); box-shadow: 0 2px 0 color-mix(in srgb, var(--color-paper-edge) 25%, transparent); }
+.nav-on::after { position: absolute; right: .85rem; width: .38rem; height: .38rem; border-radius: 50%; background: var(--color-brand); content: ''; }
+.nav-on :is(svg, i) { filter: none; }
+.nav-off:hover { color: var(--color-ink); background: color-mix(in srgb, var(--color-ink) 7%, transparent); }
+.nav-on:focus-visible, .nav-off:focus-visible { outline: 2px solid var(--color-teal); outline-offset: 2px; }
+.side-glass {
+  color: var(--color-ink); background: var(--color-surface-2) url('./lib/assets/pasa/textures/texture-paper.webp') repeat; background-size: 256px;
+  border-right: 1px solid color-mix(in srgb, var(--color-ink) 13%, transparent); border-radius: 0 1rem 1rem 0;
+  box-shadow: 2px 0 0 color-mix(in srgb, var(--color-ink) 8%, transparent);
+}
+:root[data-theme='dark'] .side-glass {
+  color: #f6ebd9; background: #1f4d3a url('./lib/assets/pasa/textures/texture-chalk.webp') repeat; background-size: 256px;
+  border-right: 0; box-shadow: 2px 0 0 rgb(20 48 45 / 16%);
+  --color-ink: #f6ebd9; --color-mute: #d2dfd2; --color-line: rgb(246 235 217 / 22%);
+  --color-brand: #f5b82e; --color-brand-text: #f5b82e; --color-surface: #1f4d3a; --color-surface-2: #285744;
+  --color-marigold: #f5b82e; --color-on-marigold: #14302d; --color-on-brand: #14302d; --color-teal: #8bc7b7;
+}
+.side-glass .nav-on { color: var(--color-on-marigold); }
+.side-glass .nav-off { color: var(--color-mute); }
+.side-glass .nav-off:hover { color: var(--color-ink); background: color-mix(in srgb, var(--color-ink) 7%, transparent); }
+.side-glass .nav-group { color: var(--color-mute); }
+:root[data-theme='dark'] .side-glass .nav-off:hover { background: rgb(255 248 234 / 9%); }
+.drawer-panel .nav-on { color: var(--color-on-marigold); background: var(--color-marigold); box-shadow: 0 2px 0 color-mix(in srgb, var(--color-paper-edge) 24%, transparent); }
+.drawer-panel .nav-off:hover { background: var(--cx-sel-bg); }
+.drawer-panel .nav-row { min-height: 3rem; flex-basis: 3rem; font-size: .98rem; }
+/* Layout art and portable page rhythm. */
+.route-root:not(.is-admin) :is(.page-title, h1, .tp-title) { font-family: var(--font-display); font-weight: 800; font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 72; }
+.route-root:not(.is-admin) :is(.tp-head, .pg-head) { align-items: center; }
+.route-root:not(.is-admin) :is(.tp-head, .pg-head) .page-title { letter-spacing: -.025em; }
+
+/* Admin's own light-only product palette stays isolated. */
+:root:has(.route-root.is-admin)[data-theme='light'] {
+  --color-bg: #eaedf6; --color-panel: #eaedf6; --color-surface: #ffffff; --color-surface-2: #f7f8fc;
+  --color-line: #d6dbea; --color-brand: #6554f5; --color-brand-soft: #dcdafd; --color-brand-text: #4f3fd6;
+  --color-ink: #12163f; --color-mute: #505880; --color-warn: #f5ae2e; --color-bar: #bfc3dc; --color-avatar: #c9cde0;
+  --color-on-brand: #ffffff; --color-blue: #2f62d9; --color-red: #d6454a; --color-green: #1d8a4a; --color-teal: #17806f;
+}
+:root:has(.route-root.is-admin)[data-theme='dark'] {
+  --color-bg: #0b0a14; --color-panel: #171529; --color-surface: #171529; --color-surface-2: #1f1d33;
+  --color-line: #1f1d33; --color-brand: #6d4cff; --color-brand-soft: #3a2f7a; --color-brand-text: #9a85ff;
+  --color-ink: #f3f2fb; --color-mute: #9795b2; --color-warn: #fbbf24; --color-bar: #2c2950; --color-avatar: #2a2745;
+  --color-on-brand: #ffffff; --color-blue: #6b9bff; --color-red: #ff7b80; --color-green: #4cc98a; --color-teal: #3cc2ad;
+}
+body:has(.route-root.is-admin) :focus-visible { outline-color: var(--admin-primary, #5b5bd6); }
+
+/* Lite mode reduces motion, texture, and paint effects without removing the app's static artwork. */
+:root.lite { --shadow-paper: 0 2px 0 color-mix(in srgb, var(--color-paper-edge) 22%, transparent); --shadow-raised: var(--shadow-paper); }
+.lite body:has(.route-root:not(.is-admin))::before { opacity: .04; }
+.lite .route-root:not(.is-admin) :is(.tp-panel, .tp-list, .nav-list) { background-image: none; }
+.lite .route-root:not(.is-admin) :is(.tp-card, .ob-card, .col-r > .data, .dl-card, .dialog-card) { box-shadow: var(--shadow-paper); }
+.lite .route-root:not(.is-admin) .anim-shimmer { animation: none; background-image: none; }
+.lite .route-root:not(.is-admin) *, .lite .route-root:not(.is-admin) *::before, .lite .route-root:not(.is-admin) *::after { text-shadow: none; transition-duration: 0s; transition-delay: 0s; }
+/* Auto lite mode also covers admin loading surfaces without stopping live spinners. */
+.lite .adm :is(.adm-first-title i, .adm-first-stats i, .adm-first-panel i, .buddy-loading i, .review-loading i, .q-sk-row i) { animation: none !important; background-position: 0 0; }
+@media (max-height: 33rem) { .drop-when-short { display: none; } }
+@media (max-height: 45rem) { .drop-when-compact { display: none; } }
+@media (max-height: 40rem) { .nav-row { min-height: 2.75rem; flex-basis: 2.75rem; font-size: .9rem; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .route-root:not(.is-admin) *, .route-root:not(.is-admin) *::before, .route-root:not(.is-admin) *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; scroll-behavior: auto !important; }
+}
+
+/* ===== Cartoon pass: one outline + hard-shadow language for every learner screen (admin untouched). =====
+   Phase 1 tokens -> Phase 2 cards/buttons -> Phase 3 inputs, chips, dialogs, onboarding, nav. */
+:root {
+  --cx-outline: color-mix(in srgb, var(--color-ink) 82%, transparent);
+  --cx-outline-soft: color-mix(in srgb, var(--color-ink) 45%, transparent);
+  --cx-w: 2px;
+  --cx-w-sm: 1.5px;
+  --cx-shadow: 3px 3px 0 color-mix(in srgb, var(--color-ink) 20%, transparent);
+  --cx-shadow-sm: 2px 2px 0 color-mix(in srgb, var(--color-ink) 18%, transparent);
+  --cx-select: 0 0 0 1.5px var(--cx-outline), 2px 2px 0 color-mix(in srgb, var(--color-ink) 20%, transparent);
+  --cx-radius: 18px;
+  --cx-sel-bg: color-mix(in srgb, var(--color-marigold) 32%, var(--color-surface));
+}
+
+/* Phase 2: cards */
+.route-root:not(.is-admin) :is(.home-banner, .paper-plate, .tp-card) { border: var(--cx-w) solid var(--cx-outline); border-radius: var(--cx-radius); box-shadow: var(--cx-shadow); }
+.route-root:not(.is-admin) .neu-raised { border: var(--cx-w-sm) solid var(--cx-outline-soft); box-shadow: var(--cx-shadow-sm); }
+.route-root:not(.is-admin) .home-card { border-style: solid; border-color: var(--cx-outline); border-width: var(--cx-w); border-top: 3px solid var(--color-marigold); border-radius: var(--cx-radius); box-shadow: var(--cx-shadow); }
+.route-root:not(.is-admin) :is(.rounded-xl, .rounded-2xl, .rounded-3xl).border.border-line.bg-panel { border-width: var(--cx-w); border-color: var(--cx-outline); box-shadow: var(--cx-shadow); }
+.route-root:not(.is-admin) .neu-inset { border: var(--cx-w-sm) solid var(--cx-outline-soft); }
+.route-root:not(.is-admin) .subj, .route-root:not(.is-admin) .checklist-step > span:first-child { border-color: var(--cx-outline-soft); }
+
+/* Phase 2: buttons */
+.route-root:not(.is-admin) :is(.btn, .cta, .ob-primary, .ob-ghost, a.bg-brand, button.bg-brand) { border: var(--cx-w) solid var(--cx-outline); }
+.route-root:not(.is-admin) :is(.subject-start, .home-date-tag, .getting-started, .sec-btn) { border: var(--cx-w-sm) solid var(--cx-outline); }
+.route-root:not(.is-admin) :is(.home-date-tag, .subject-start.weakest) { box-shadow: var(--cx-shadow-sm); }
+.route-root:not(.is-admin) .btn:is(.v-ghost, .v-quiet):hover:not(:disabled) { box-shadow: var(--cx-shadow-sm); }
+
+/* Phase 3: inputs */
+.route-root:not(.is-admin) :is(input:not([type='checkbox'], [type='radio'], [type='range'], [type='file'], [type='color'], .no-neu, .bg-transparent), select:not(.no-neu), textarea:not(.no-neu, .bg-transparent)) { border: var(--cx-w) solid var(--cx-outline); border-radius: 12px; background-color: var(--color-surface); }
+.route-root:not(.is-admin) :is(input, select, textarea):not(.no-neu, .bg-transparent):focus-visible { outline: 2px solid var(--color-brand); outline-offset: 1px; box-shadow: var(--cx-shadow-sm); }
+
+/* Phase 3: chips and pills */
+.route-root:not(.is-admin) .inline-flex.items-center.rounded-full:not(.btn, .no-neu) { border: var(--cx-w-sm) solid var(--cx-outline-soft); }
+.route-root:not(.is-admin) .rounded-full[aria-checked='true'], .route-root:not(.is-admin) .rounded-full[aria-pressed='true'] { border-color: var(--cx-outline); box-shadow: var(--cx-select); }
+
+/* Phase 3: progress bars */
+.route-root:not(.is-admin) .track-bar { min-height: .6rem; border: var(--cx-w-sm) solid var(--cx-outline-soft); }
+
+/* Phase 3: dialogs (portaled outside .route-root, so no prefix) */
+:root:root :is(.dlg, dialog, .readiness-sheet) { border: var(--cx-w) solid var(--cx-outline); box-shadow: 4px 4px 0 color-mix(in srgb, var(--color-ink) 22%, transparent); }
+
+/* Phase 3: onboarding */
+.route-root:not(.is-admin) .ob-step { border: var(--cx-w) solid var(--cx-outline); border-radius: 1.25rem; box-shadow: var(--cx-shadow); }
+.route-root:not(.is-admin) .ob-step-count { border: var(--cx-w-sm) solid var(--cx-outline); }
+.route-root:not(.is-admin) .ob-progress-segment { border: 1px solid var(--cx-outline-soft); }
+.route-root:not(.is-admin) .ob-pick { border: var(--cx-w) solid var(--cx-outline-soft); box-shadow: var(--cx-shadow-sm); }
+.route-root:not(.is-admin) .ob-pick.on { border-color: var(--cx-outline); box-shadow: var(--cx-select); }
+
+/* Phase 3: nav */
+.route-root:not(.is-admin) .nav-on { border: var(--cx-w) solid var(--cx-outline); box-shadow: var(--cx-shadow-sm); }
+.route-root:not(.is-admin) .bn-item.on { border: var(--cx-w) solid var(--cx-outline); box-shadow: var(--cx-shadow-sm); }
+.route-root:not(.is-admin) .bn-item.on::before { display: none; }
+
+/* Extra shared components (ds/ui library) so every page gets the same language. */
+.route-root:not(.is-admin) :is(.card, .paper-card, .rounded-surf.border) { border: var(--cx-w) solid var(--cx-outline); border-radius: var(--cx-radius); box-shadow: var(--cx-shadow); }
+.route-root:not(.is-admin) :is(.chip, .badge, .paper-tag) { border: var(--cx-w-sm) solid var(--cx-outline-soft); }
+.route-root:not(.is-admin) .field .control { border: var(--cx-w) solid var(--cx-outline); border-radius: 12px; }
+.route-root:not(.is-admin) :is(.card.selected, .chip[aria-pressed='true'], .chip[aria-checked='true']) { border-color: var(--cx-outline); box-shadow: var(--cx-select); }
+
+/* Selected chips/pills: marigold fill + ink outline (no red/pink fills). */
+.route-root:not(.is-admin) .rounded-full[aria-checked='true'], .route-root:not(.is-admin) .rounded-full[aria-pressed='true'] { background: var(--cx-sel-bg); color: var(--color-ink); }
+
+/* Two-panel pages (Review, Notes, Progress...) + remaining tiles share the Home look. */
+.route-root:not(.is-admin) .tp-panel { border: var(--cx-w) solid var(--cx-outline); border-radius: var(--cx-radius); box-shadow: var(--cx-shadow); background-color: var(--color-surface); --scroll-bg: var(--color-surface); }
+.route-root:not(.is-admin) :is(.tp-pill, .rv-subject-chip) { border: var(--cx-w-sm) solid var(--cx-outline); box-shadow: var(--cx-shadow-sm); }
+.route-root:not(.is-admin) .sg-flat-btn:not(.on) { box-shadow: 0 0 0 1.5px var(--cx-outline-soft); }
+
+/* Bare empty states live inside a panel that already has the outline: no second box. */
+.route-root:not(.is-admin) .paper-card.empty-state { border: 0; border-radius: 0; box-shadow: none; background: transparent; }
+
+/* Search-style fields: the wrapper carries the outline, the bare input inside stays plain. */
+.route-root:not(.is-admin) :is(label, div).border.border-line:has(> input.bg-transparent, > input.no-neu) { border: var(--cx-w) solid var(--cx-outline); border-radius: 12px; background: var(--color-surface); }
+.route-root:not(.is-admin) :is(label, div).border.border-line:has(> input.bg-transparent, > input.no-neu):focus-within { box-shadow: var(--cx-shadow-sm); }
+.route-root:not(.is-admin) input.bg-transparent:focus-visible, .route-root:not(.is-admin) input.no-neu:focus-visible { outline: none; box-shadow: none; }
+
+/* ================================================================== */
+/* NIGHT CHALKBOARD refinement (dark theme only; light is untouched)   */
+/* ================================================================== */
+/* Principle: the night theme is a chalkboard, not an inverted cream page. Depth comes from layered greens (canvas < card < well),
+   outlines are quiet chalk lines instead of full-strength cream, shadows are true darkness, and marigold is the one warm light. */
+
+/* Home banner + readiness ring tokens. Light values reproduce the original cream look exactly. */
+:root {
+  --hb-bg: linear-gradient(135deg, #25423A 0%, #1B312A 62%, #172A24 100%);
+  --hb-bg-m: linear-gradient(135deg, #25423A 0%, #1B312A 100%);
+  --hb-ink: #F6EBD9;
+  --hb-mute: #C3D1C7;
+  --hb-eyebrow: #F2A08E;
+  --hb-border: rgb(246 235 217 / 16%);
+  --hb-line: rgb(246 235 217 / 16%);
+  --hb-tag-border: rgb(8 16 13 / 55%);
+  --hb-face: #2B463C;
+  --hb-stroke: rgb(246 235 217 / 62%);
+  --hb-ring-shadow: rgb(6 14 11 / 55%);
+  --hb-shine: .16;
+  --hb-orbit: #F5B82E;
+  --hb-spark-stroke: #10201A;
+}
+:root[data-theme='light'] {
+  --hb-bg: #f4e3c7;
+  --hb-bg-m: linear-gradient(135deg, #f8ecd7 0%, #f2dfbf 100%);
+  --hb-ink: #30251f;
+  --hb-mute: #68564b;
+  --hb-eyebrow: #8a382e;
+  --hb-border: rgb(48 37 31 / 14%);
+  --hb-line: rgb(48 37 31 / 18%);
+  --hb-tag-border: rgb(48 37 31 / 18%);
+  --hb-face: #fff5df;
+  --hb-stroke: var(--color-ink);
+  --hb-ring-shadow: var(--color-ink);
+  --hb-shine: .85;
+  --hb-orbit: #e0a21b;
+  --hb-spark-stroke: var(--color-ink);
+}
+
+:root[data-theme='dark'] {
+  /* Layered surfaces: canvas, card, well. Each step is clearly lighter so panels read without heavy borders. */
+  --color-bg: #121F1B;
+  --color-panel: #1C2E28;
+  --color-surface: #1C2E28;
+  --color-surface-2: #253B33;
+  --color-cream-2: #253B33;
+  --color-line: rgb(246 235 217 / 14%);
+  --color-mute: #BBC9BF;
+  --color-bar: #3A5146;
+  --color-brand-soft: #4A3F27;
+  --color-brand-press: #8E2A1F;
+  --color-paper-edge: #070F0C;
+  --color-shadow: #070F0C;
+  --color-green: #86D6A9;
+  --color-green-text: #86D6A9;
+  --shadow-paper: 0 1px 0 rgb(246 235 217 / 6%) inset, 0 12px 22px -14px rgb(0 0 0 / .7);
+  --shadow-paper-sm: 0 1px 0 rgb(0 0 0 / .3);
+  --shadow-sticker: 0 4px 0 var(--color-brand-press);
+
+  /* Chalk-line outlines replace full-strength cream strokes. */
+  --cx-outline: rgb(246 235 217 / 30%);
+  --cx-outline-soft: rgb(246 235 217 / 17%);
+  --cx-w: 1.5px;
+  --cx-w-sm: 1px;
+  --cx-shadow: 0 1px 0 rgb(246 235 217 / 6%) inset, 3px 4px 0 rgb(5 11 9 / .55);
+  --cx-shadow-sm: 2px 3px 0 rgb(5 11 9 / .5);
+  --cx-select: 0 0 0 1.5px var(--color-marigold), 2px 3px 0 rgb(5 11 9 / .5);
+  --cx-sel-bg: color-mix(in srgb, var(--color-marigold) 20%, var(--color-surface));
+  --scroll-shade: rgb(0 0 0 / .5);
+}
+
+/* Canvas: a soft lamp-light from the top so the board never feels like a flat slab. */
+:root[data-theme='dark'] body:has(.route-root:not(.is-admin)) {
+  background:
+    radial-gradient(120% 70% at 50% -10%, rgb(85 165 143 / 10%), transparent 60%),
+    radial-gradient(60% 40% at 100% 0%, rgb(245 184 46 / 5%), transparent 70%),
+    var(--color-bg);
+  background-attachment: fixed;
+}
+
+/* Primary actions: keep the tomato crisp, drop the cream stroke around it and use a deep press shadow. */
+:root[data-theme='dark'] .route-root:not(.is-admin) :is(.cta, .tp-cta, .pg-cta, .sx-btn-primary, .ob-primary, .btn[data-variant='primary'], .v-primary, a.bg-brand, button.bg-brand) {
+  border-color: rgb(7 15 12 / 55%);
+  box-shadow: var(--shadow-sticker);
+}
+:root[data-theme='dark'] .route-root:not(.is-admin) :is(.cta, .tp-cta, .pg-cta, a.bg-brand, button.bg-brand):hover:not(:disabled) { filter: brightness(1.08); }
+
+/* Marigold is the "selected" colour in the dark theme. */
+:root[data-theme='dark'] .route-root:not(.is-admin) :is(.rounded-full[aria-checked='true'], .rounded-full[aria-pressed='true'], .ob-pick.on, .card.selected, .chip[aria-pressed='true'], .chip[aria-checked='true']) {
+  border-color: var(--color-marigold);
+}
+:root[data-theme='dark'] .route-root:not(.is-admin) .nav-on,
+:root[data-theme='dark'] .route-root:not(.is-admin) .bn-item.on { border-color: rgb(7 15 12 / 45%); }
+:root[data-theme='dark'] .route-root:not(.is-admin) :is(.home-date-tag, .subject-start.weakest) { border-color: rgb(7 15 12 / 55%); }
+
+/* Cards: top highlight + quiet outline; the Home cards keep their marigold tab. */
+:root[data-theme='dark'] .route-root:not(.is-admin) .home-card { border-color: var(--cx-outline-soft); border-top-color: var(--color-marigold); }
+:root[data-theme='dark'] .route-root:not(.is-admin) .home-banner { border-color: var(--hb-border); box-shadow: var(--cx-shadow); }
+:root[data-theme='dark'] .route-root:not(.is-admin) .subj { border-color: var(--cx-outline-soft); background: var(--color-surface-2); }
+:root[data-theme='dark'] .route-root:not(.is-admin) .subj:hover { border-color: color-mix(in srgb, var(--color-marigold) 55%, transparent); }
+:root[data-theme='dark'] .route-root:not(.is-admin) .checklist-step.done > span:first-child { border-color: #3F8A6E; background: #3F8A6E; color: #0E1A15; }
+
+/* Inputs read as chalk-dark wells; focus lights up in marigold-teal. */
+:root[data-theme='dark'] .route-root:not(.is-admin) :is(input:not([type='checkbox'], [type='radio'], [type='range'], [type='file'], [type='color'], .no-neu, .bg-transparent), select:not(.no-neu), textarea:not(.no-neu, .bg-transparent)) {
+  background-color: #0F1A16; border-color: var(--cx-outline-soft);
+}
+:root[data-theme='dark'] .route-root:not(.is-admin) :is(input, select, textarea):not(.no-neu, .bg-transparent):focus-visible { border-color: var(--color-teal); outline-color: var(--color-teal); }
+
+/* Progress: marigold on a deep track, never a pale one. */
+:root[data-theme='dark'] .route-root:not(.is-admin) :is(.track-bar, .tp-bar, .pg-track, .meter-track, .progress-track) { background: #0F1A16; border-color: var(--cx-outline-soft); }
+
+/* Floating Study Buddy button: chalk disc instead of a cream coin. */
+:root[data-theme='dark'] .buddy-fab { border-color: var(--color-marigold); background: var(--color-surface-2); box-shadow: 0 4px 0 #070F0C; }
+
+/* Dialogs and sheets sit above the board with a darker scrim and a lifted surface. */
+:root[data-theme='dark'] :is(.dlg, dialog, .readiness-sheet, .dl-card) { background: #20352E; border-color: var(--cx-outline); box-shadow: 0 24px 48px -16px rgb(0 0 0 / .75), 0 0 0 1px rgb(0 0 0 / .4); }
+:root[data-theme='dark'] { --dl-dim: rgb(4 10 8 / .66); }
+:root[data-theme='dark'] .readiness-backdrop { background: rgb(4 10 8 / .66); }
+
+/* Practice answers: wells that sit inside the card, with clear correct/wrong states. */
+:root[data-theme='dark'] .sx-option { background: #162520; box-shadow: inset 0 0 0 1px var(--cx-outline-soft); }
+:root[data-theme='dark'] .sx-option:not([data-state]):hover:not(:disabled) { box-shadow: inset 0 0 0 1px var(--color-marigold); }
+
+/* Scrollbars and selection. */
+@media (pointer: fine) { :root[data-theme='dark'] * { scrollbar-color: rgb(246 235 217 / 22%) transparent; } }
+:root[data-theme='dark'] ::selection { background: rgb(245 184 46 / 35%); color: #fff; }
+
+/* Phase 4: every pick-one / toggle option gets its own outline (the selected one keeps its fill and a stronger outline).
+   Opt in with the `opt` class. Learner screens only; admin untouched. */
+.route-root:not(.is-admin) .opt { border: var(--cx-w) solid var(--cx-outline-soft); }
+.route-root:not(.is-admin) .opt:hover:not(:disabled) { border-color: var(--cx-outline); }
+.route-root:not(.is-admin) .opt:is(.bg-brand, [aria-pressed='true'], [aria-checked='true'], [aria-selected='true']) { border-color: var(--cx-outline); }
+.route-root:not(.is-admin) :is(.sx-option, .sx-btn, .sx-pill, .sx-navtile) { border: var(--cx-w) solid var(--cx-outline-soft); }
+.route-root:not(.is-admin) .sx-btn-primary { border: var(--cx-w) solid var(--cx-outline); }
+.route-root:not(.is-admin) .sx-option:hover:not(:disabled, [data-state]) { border-color: var(--cx-outline); }
+.route-root:not(.is-admin) .sx-option[data-state='selected'] { border-color: var(--cx-outline); }
+.route-root:not(.is-admin) .sx-option:is([data-state='correct'], [data-state='reveal']) { border-color: var(--sx-ok); }
+.route-root:not(.is-admin) .sx-option[data-state='wrong'] { border-color: var(--sx-bad); }
+
+/* ===== Chunky selector: the one pick-one look (Segmented, section switches, phone panel tabs, mode tiles) =====
+   Rounded track, tile per option (icon + bold label), selected = brand fill + dark outline + ledge. Admin never uses these classes. */
+.ck { display: flex; min-width: 0; gap: .375rem; padding: .375rem .375rem .5rem; border: 1.5px solid var(--cx-outline-soft); border-radius: 1.15rem; background: transparent; }
+.ck-btn {
+  appearance: none; cursor: pointer; text-decoration: none; display: inline-flex; flex: 1 1 0; min-width: 0; align-items: center; justify-content: center; gap: .5rem;
+  min-height: 2.5rem; padding: 0 .625rem; border: 1.5px solid var(--cx-outline-soft); border-radius: .85rem;
+  background: var(--color-surface-2); color: var(--color-mute); font: 650 .9rem/1 var(--font-accent); white-space: nowrap;
+  transition: color .15s ease, background-color .15s ease, box-shadow .15s ease, transform .15s ease;
+}
+.ck-btn.fit { flex: 1 1 auto; }
+.ck-btn:hover { color: var(--color-ink); }
+.ck-btn.on, .ck-btn.on:hover, .ck-btn[aria-current='page'] {
+  background: var(--color-brand); border-color: var(--cx-outline); color: var(--color-on-brand, #fff); font-weight: 700;
+  box-shadow: 0 4px 0 var(--color-brand-press);
+}
+.ck-btn:focus-visible { outline: 2px solid var(--color-ink); outline-offset: 2px; }
+.ck-btn > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.ck .ck-btn .ck-ico { flex: none; display: block; width: 1.6rem; height: 1.6rem; max-width: none; object-fit: contain; }
+.ck-sm { padding: .25rem .25rem .375rem; border-radius: 1rem; gap: .25rem; }
+.ck-sm .ck-btn { min-height: 2rem; padding: 0 .5rem; gap: .4rem; font-size: var(--fs-small); border-radius: .7rem; }
+.ck-sm .ck-btn.on, .ck-sm .ck-btn.on:hover { box-shadow: 0 3px 0 var(--color-brand-press); }
+.ck.ck-sm .ck-btn .ck-ico { width: 1.25rem; height: 1.25rem; }
+@media (max-width: 30rem) { .ck-btn { gap: .35rem; padding: 0 .4rem; } .ck .ck-btn .ck-ico { width: 1.4rem; height: 1.4rem; } .ck.ck-sm .ck-btn .ck-ico { width: 1.15rem; height: 1.15rem; } }
+@media (prefers-reduced-motion: reduce) { .ck-btn { transition: none; } }
+:global(.reduce-motion) .ck-btn, .reduce-motion .ck-btn { transition: none; }
+
+/* Progress page sticker surfaces. Cream in light mode, chalkboard layers in dark mode. */
+:root {
+  --pc-line: #392b23; --pc-shade: rgb(57 43 35); --pc-paper: #fffdf7; --pc-paper-2: #fff8ea; --pc-track: #efe1c8;
+  --pc-ink: #30251f; --pc-ink-2: #5a4a40; --pc-icon: #392b23; --pc-good: #1f7a45; --pc-warn: #8a5a00; --pc-link: #a02f24; --pc-rule: rgb(57 43 35 / 22%);
+}
+:root[data-theme='dark'] {
+  --pc-line: rgb(246 235 217 / 34%); --pc-shade: #070F0C; --pc-paper: #24382F; --pc-paper-2: #1D2E29; --pc-track: #41574C;
+  --pc-ink: #F6EBD9; --pc-ink-2: #B9C7BE; --pc-icon: #14302D; --pc-good: #83D1A5; --pc-warn: #F5C96A; --pc-link: #FF9585; --pc-rule: rgb(246 235 217 / 16%);
+}
+
+/* Welcome and Log in never scroll: lock the document itself so the page can't be dragged or bounce on phones. */
+html:has(.welcome-stage, .auth-stage) { height: 100%; overflow: hidden; overscroll-behavior: none; }
+html:has(.welcome-stage, .auth-stage) body { height: 100dvh; min-height: 0; overflow: hidden; overscroll-behavior: none; }

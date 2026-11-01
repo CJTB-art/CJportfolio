@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="js/demo-storage.js?v=1"></script>
+  <script>try{if(matchMedia("(max-width:767.98px)").matches)document.documentElement.classList.add("ms-low");var t=window.MilestoneStorage.get("theme")||"dark";document.documentElement.setAttribute("data-coreui-theme",t);if(window.MilestoneStorage.get("collapsed")==="1")document.documentElement.classList.add("ms-collapsed");if(matchMedia("(min-width:768px) and (max-width:1099.98px)").matches)document.documentElement.classList.add("ms-collapsed")}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Milestone | Demo data</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="assets/favicon.png"><link rel="apple-touch-icon" href="assets/icon-192.png"><meta name="theme-color" content="#050816">
+  <link rel="stylesheet" href="vendor/coreui.min.css">
+  <link rel="stylesheet" href="vendor/icons/css/free.min.css">
+  <link rel="stylesheet" href="css/app.css?v=11">
+  <link rel="stylesheet" href="css/polish.css?v=37">
+  <link rel="stylesheet" href="css/smart.css?v=1">
+  <link rel="stylesheet" href="css/light.css?v=1">
+  <link rel="stylesheet" href="css/mobile.css?v=4">
+  <link rel="stylesheet" href="css/compact.css?v=34">
+  <link rel="stylesheet" href="css/hardening.css?v=1">
+  <link rel="stylesheet" href="css/demo.css?v=1">
+<script>(function(){var t=0;function f(e){var m=String((e&&(e.message||(e.reason&&e.reason.message)))||"");if(/ResizeObserver|Script error/.test(m)||Date.now()-t<30000||!document.body)return;t=Date.now();var d=document.createElement("div");d.className="ms-fail";d.setAttribute("role","alert");d.innerHTML="<span>Something went wrong.</span><span><button type=button data-r>Reload</button><button type=button data-x>Dismiss</button></span>";d.onclick=function(k){var a=k.target;if(a.hasAttribute("data-r"))location.reload();else if(a.hasAttribute("data-x"))d.remove()};document.body.appendChild(d)}addEventListener("error",f);addEventListener("unhandledrejection",f)})()</script>
+</head>
+<body>
+  <aside class="ms-sidebar" id="sidebar">
+    <div class="ms-brand"><span class="ms-logo"><img src="assets/logo.png" alt="Milestone"></span><span>Milestone</span></div>
+    <ul class="ms-nav">
+      <li class="ms-nav-label">Overview</li>
+      <li><a data-page="dashboard" href="#/dashboard" title="Dashboard"><i class="cil-speedometer"></i><span>Dashboard</span></a></li>
+      <li class="ms-nav-label">Manage</li>
+      <li><a data-page="bills" href="#/bills" title="Bills"><i class="cil-list"></i><span>Bills</span></a></li>
+      <li><a data-page="log" href="#/log" title="Cashflow log"><i class="cil-history"></i><span>Cashflow log</span></a></li>
+      <li><a data-page="goal" href="#/goal" title="Goal"><i class="cil-flag-alt"></i><span>Goal</span></a></li>
+      <li><a data-page="accounts" href="#/accounts" title="Accounts"><i class="cil-bank"></i><span>Accounts</span></a></li>
+      <li class="ms-nav-label">System</li>
+      <li><a data-page="settings" href="#/settings" title="Local data"><i class="cil-hard-drive"></i><span>Local data</span></a></li>
+    </ul>
+    <div class="ms-sb-card" id="sbGoal"></div>
+    <div class="ms-vibe"><img src="assets/mascot.webp" alt="" decoding="async" width="64" height="64"><p>Better money,<br><b>brighter future</b></p></div>
+    <div class="ms-sb-foot"><button type="button" data-act="collapse" title="Collapse sidebar"><i class="cil-chevron-double-left"></i><span>Collapse</span></button></div>
+  </aside>
+  <div class="ms-backdrop" data-act="closenav"></div>
+  <div class="ms-main">
+    <div class="demo-banner" role="status"><span><strong>Demo data</strong> - Saved only in this browser</span><button type="button" class="btn btn-sm btn-outline-primary" data-act="resetdemo">Reset demo</button></div>
+    <header class="ms-header">
+      <button class="btn-ghost ms-burger" type="button" aria-label="Menu" data-act="opennav"><i class="cil-menu"></i></button>
+      <div class="ms-crumb"><span class="ms-crumb-logo"><b>M</b><img src="assets/logo.png" alt="" onload="this.parentNode.classList.add('has')" onerror="this.remove()"></span><span class="ms-crumb-t"><b id="pageTitle">Dashboard</b><small id="pageDate"></small></span></div>
+      <label class="ms-gs"><i class="cil-search"></i><input id="gsearch" placeholder="Search activity" autocomplete="off"></label>
+      <span class="ms-sync" id="syncChip"></span>
+      <button class="btn btn-outline-success btn-sm" data-act="income"><i class="cil-plus"></i> <span class="d-none d-sm-inline">Add income</span></button>
+      <button class="btn btn-primary btn-sm" data-act="spend"><i class="cil-minus"></i> <span class="d-none d-sm-inline">Money out</span></button>
+      <div class="ms-bell" hidden><button type="button" class="btn-ghost" data-bell aria-label="Notifications" aria-haspopup="true"><i class="cil-bell"></i><span class="ms-badge" id="bellBadge" hidden></span></button><div class="ms-bellpanel" id="bellPanel" hidden></div></div>
+      <button class="btn-ghost" data-act="theme" aria-label="Toggle theme"><i class="cil-moon"></i></button>
+      <a class="ms-avatar" id="avatar" href="#/settings" title="Profile &amp; data">?</a>
+    </header>
+    <main class="ms-content" id="view"></main>
+  </div>
+  <div class="modal fade" id="modal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><form class="modal-content" id="modalForm">
+    <div class="modal-header"><h5 class="modal-title" id="modalTitle"></h5><button type="button" class="btn-close" data-coreui-dismiss="modal" aria-label="Close"></button></div>
+    <div class="modal-body" id="modalBody"></div><div class="px-3 pb-2 small text-danger" id="modalErr" role="alert"></div>
+    <div class="modal-footer"><button type="button" class="btn btn-secondary" data-coreui-dismiss="modal">Cancel</button><button type="submit" class="btn btn-primary" id="modalSubmit">Save</button></div>
+  </form></div></div>
+  <div class="modal fade" id="onboard" tabindex="-1" aria-labelledby="onboardTitle"><div class="modal-dialog modal-dialog-centered"><form class="modal-content" id="onboardForm">
+    <div class="modal-header"><h5 class="modal-title" id="onboardTitle">Welcome to Milestone</h5></div>
+    <div class="modal-body" id="onboardBody"></div>
+    <div class="modal-footer justify-content-between"><button type="button" class="btn btn-link" data-act="loaddemo">Explore with demo data</button><button type="submit" class="btn btn-primary">Get started</button></div>
+  </form></div></div>
+  <nav class="ms-tabbar"><a data-page="dashboard" href="#/dashboard"><i class="cil-speedometer"></i>Home</a><a data-page="bills" href="#/bills"><i class="cil-list"></i>Bills</a>
+    <button type="button" class="ms-fab" data-fab aria-label="Add money" aria-expanded="false"><i class="cil-money"></i></button><a data-page="log" href="#/log"><i class="cil-history"></i>Log</a><a data-page="accounts" href="#/accounts"><i class="cil-bank"></i>Accounts</a></nav>
+  <div class="ms-dialbg" hidden></div>
+  <div class="ms-dial" hidden role="menu"><button type="button" class="in" data-act="income" role="menuitem"><i class="cil-plus"></i><span>Income</span></button><button type="button" class="out" data-act="spend" role="menuitem"><i class="cil-minus"></i><span>Money out</span></button></div>
+  <div class="toast-container position-fixed bottom-0 end-0 p-3" id="toasts"></div>
+  <script src="vendor/coreui.bundle.min.js"></script>
+  <script src="vendor/chart.umd.js"></script>
+  <script src="js/core/dates.js?v=8"></script><script src="js/core/format.js?v=8"></script><script src="js/core/people.js?v=7"></script><script src="js/core/categories.js?v=8"></script>
+  <script src="js/core/ledger.js?v=8"></script><script src="js/core/bills.js?v=8"></script><script src="js/core/paydays.js?v=8"></script><script src="js/core/budget.js?v=9"></script><script src="js/core/accounts.js?v=9"></script><script src="js/core/smart.js?v=1"></script><script src="js/core/gridfit.js?v=1"></script><script src="js/core/migrate.js?v=8"></script><script src="js/core/seed.js?v=8"></script>
+  <script src="js/local-demo.js?v=1"></script><script src="js/store.js?v=12"></script><script src="js/app.js?v=50"></script><script src="js/polish.js?v=4"></script>
+  <script>if(window.parent!==window)window.parent.postMessage('portfolio-demo:ready','*')</script>
+</body>
+</html>
+

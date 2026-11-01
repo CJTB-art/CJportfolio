@@ -1,0 +1,80 @@
+{
+ "count": 5,
+ "byType": {
+  "explanation-names-other-letter": 4,
+  "letter-vs-notes.correctIndex": 1
+ },
+ "note": "Not auto-fixed. Never guess the key.",
+ "items": [
+  {
+   "id": "math-major-483",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "History of Mathematics",
+   "issues": [
+    {
+     "type": "explanation-names-other-letter",
+     "effectiveAnswer": "C",
+     "explanationSays": "D"
+    }
+   ]
+  },
+  {
+   "id": "math-major-059",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "issues": [
+    {
+     "type": "explanation-names-other-letter",
+     "effectiveAnswer": "D",
+     "explanationSays": "B"
+    }
+   ]
+  },
+  {
+   "id": "set-1781070613119-vxdlh-Math Major-60",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "issues": [
+    {
+     "type": "explanation-names-other-letter",
+     "effectiveAnswer": "C",
+     "explanationSays": "A"
+    }
+   ]
+  },
+  {
+   "id": "set-1781070613119-vxdlh-Math Major-63",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "issues": [
+    {
+     "type": "explanation-names-other-letter",
+     "effectiveAnswer": "D",
+     "explanationSays": "A"
+    }
+   ]
+  },
+  {
+   "id": "profed-074",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "issues": [
+    {
+     "type": "letter-vs-notes.correctIndex",
+     "answerLetter": "D",
+     "notesCorrectLetter": "A"
+    }
+   ]
+  }
+ ]
+}

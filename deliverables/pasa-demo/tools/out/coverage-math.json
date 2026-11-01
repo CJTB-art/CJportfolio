@@ -1,0 +1,481 @@
+{
+ "quotas": {
+  "total": 120,
+  "area": {
+   "A": 16,
+   "B": 72,
+   "C": 32
+  },
+  "bloom": {
+   "Remember": 18,
+   "Understand": 18,
+   "Apply": 60,
+   "Analyze": 12,
+   "Evaluate": 6,
+   "Create": 6
+  },
+  "difficulty": {
+   "Easy": 36,
+   "Medium": 60,
+   "Hard": 24
+  }
+ },
+ "notes": [
+  "TOS gives quotas by area (A/B/C), Bloom and difficulty only; it gives no per-topic split.",
+  "Per-topic reference = even split inside each area (A 8+8, B 8x9=72, C 8x4=32). ASSUMPTION, not in the TOS.",
+  "clean = not in any problem list and not a redundant duplicate. Coverage counts one exam of 120 items, not a pool depth.",
+  "bloom/difficulty counts only cover questions that carry those fields (bank has them; most other stores do not -> \"unknown\")."
+ ],
+ "bank": {
+  "raw": {
+   "total": 2109,
+   "byArea": {
+    "A": 129,
+    "B": 1778,
+    "C": 202
+   },
+   "byTopic": {
+    "History of Mathematics": 69,
+    "Mathematics Investigation & Modeling": 60,
+    "College & Advanced Algebra": 405,
+    "Trigonometry": 166,
+    "Plane & Solid Geometry": 272,
+    "Logic & Set Theory": 49,
+    "Statistics & Probability": 195,
+    "Analytic Geometry": 195,
+    "Calculus": 141,
+    "Arithmetic & Number Theory": 291,
+    "Mathematics of Investment": 64,
+    "Strategies in Teaching Mathematics": 68,
+    "Assessment in Mathematics": 57,
+    "Research in Teaching Mathematics": 40,
+    "Technology in Mathematics Teaching": 37
+   },
+   "byBloom": {
+    "Remember": 342,
+    "Understand": 200,
+    "Apply": 1281,
+    "Analyze": 263,
+    "Evaluate": 23
+   },
+   "byDifficulty": {
+    "Easy": 773,
+    "Medium": 988,
+    "Hard": 348
+   }
+  },
+  "clean": {
+   "total": 1952,
+   "byArea": {
+    "A": 120,
+    "B": 1645,
+    "C": 187
+   },
+   "byTopic": {
+    "History of Mathematics": 67,
+    "Mathematics Investigation & Modeling": 53,
+    "College & Advanced Algebra": 379,
+    "Trigonometry": 152,
+    "Plane & Solid Geometry": 243,
+    "Logic & Set Theory": 47,
+    "Statistics & Probability": 180,
+    "Analytic Geometry": 179,
+    "Calculus": 127,
+    "Arithmetic & Number Theory": 281,
+    "Mathematics of Investment": 57,
+    "Strategies in Teaching Mathematics": 61,
+    "Assessment in Mathematics": 53,
+    "Research in Teaching Mathematics": 40,
+    "Technology in Mathematics Teaching": 33
+   },
+   "byBloom": {
+    "Remember": 314,
+    "Understand": 190,
+    "Apply": 1189,
+    "Analyze": 236,
+    "Evaluate": 23
+   },
+   "byDifficulty": {
+    "Easy": 718,
+    "Medium": 921,
+    "Hard": 313
+   }
+  },
+  "vsQuota": {
+   "areas": {
+    "A": {
+     "quota": 16,
+     "have": 120,
+     "shortfall": 0
+    },
+    "B": {
+     "quota": 72,
+     "have": 1645,
+     "shortfall": 0
+    },
+    "C": {
+     "quota": 32,
+     "have": 187,
+     "shortfall": 0
+    }
+   },
+   "bloom": {
+    "Remember": {
+     "quota": 18,
+     "have": 314,
+     "shortfall": 0
+    },
+    "Understand": {
+     "quota": 18,
+     "have": 190,
+     "shortfall": 0
+    },
+    "Apply": {
+     "quota": 60,
+     "have": 1189,
+     "shortfall": 0
+    },
+    "Analyze": {
+     "quota": 12,
+     "have": 236,
+     "shortfall": 0
+    },
+    "Evaluate": {
+     "quota": 6,
+     "have": 23,
+     "shortfall": 0
+    },
+    "Create": {
+     "quota": 6,
+     "have": 0,
+     "shortfall": 6
+    }
+   },
+   "difficulty": {
+    "Easy": {
+     "quota": 36,
+     "have": 718,
+     "shortfall": 0
+    },
+    "Medium": {
+     "quota": 60,
+     "have": 921,
+     "shortfall": 0
+    },
+    "Hard": {
+     "quota": 24,
+     "have": 313,
+     "shortfall": 0
+    }
+   },
+   "topicsReferenceOnly": {
+    "History of Mathematics": {
+     "quota": 8,
+     "have": 67,
+     "shortfall": 0
+    },
+    "Mathematics Investigation & Modeling": {
+     "quota": 8,
+     "have": 53,
+     "shortfall": 0
+    },
+    "College & Advanced Algebra": {
+     "quota": 8,
+     "have": 379,
+     "shortfall": 0
+    },
+    "Trigonometry": {
+     "quota": 8,
+     "have": 152,
+     "shortfall": 0
+    },
+    "Plane & Solid Geometry": {
+     "quota": 8,
+     "have": 243,
+     "shortfall": 0
+    },
+    "Logic & Set Theory": {
+     "quota": 8,
+     "have": 47,
+     "shortfall": 0
+    },
+    "Statistics & Probability": {
+     "quota": 8,
+     "have": 180,
+     "shortfall": 0
+    },
+    "Analytic Geometry": {
+     "quota": 8,
+     "have": 179,
+     "shortfall": 0
+    },
+    "Calculus": {
+     "quota": 8,
+     "have": 127,
+     "shortfall": 0
+    },
+    "Arithmetic & Number Theory": {
+     "quota": 8,
+     "have": 281,
+     "shortfall": 0
+    },
+    "Mathematics of Investment": {
+     "quota": 8,
+     "have": 57,
+     "shortfall": 0
+    },
+    "Strategies in Teaching Mathematics": {
+     "quota": 8,
+     "have": 61,
+     "shortfall": 0
+    },
+    "Assessment in Mathematics": {
+     "quota": 8,
+     "have": 53,
+     "shortfall": 0
+    },
+    "Research in Teaching Mathematics": {
+     "quota": 8,
+     "have": 40,
+     "shortfall": 0
+    },
+    "Technology in Mathematics Teaching": {
+     "quota": 8,
+     "have": 33,
+     "shortfall": 0
+    }
+   }
+  }
+ },
+ "bankPlusMissing": {
+  "raw": {
+   "total": 3847,
+   "byArea": {
+    "A": 138,
+    "B": 2734,
+    "C": 276,
+    "unmapped": 699
+   },
+   "byTopic": {
+    "History of Mathematics": 73,
+    "Mathematics Investigation & Modeling": 65,
+    "College & Advanced Algebra": 670,
+    "Trigonometry": 281,
+    "Plane & Solid Geometry": 336,
+    "Logic & Set Theory": 136,
+    "Statistics & Probability": 306,
+    "Analytic Geometry": 235,
+    "Calculus": 263,
+    "Arithmetic & Number Theory": 441,
+    "Mathematics of Investment": 66,
+    "Strategies in Teaching Mathematics": 71,
+    "Assessment in Mathematics": 62,
+    "Research in Teaching Mathematics": 102,
+    "Technology in Mathematics Teaching": 41,
+    "OUT_OF_TOS": 83,
+    "UNMAPPED": 616
+   },
+   "byBloom": {
+    "Remember": 356,
+    "Understand": 206,
+    "Apply": 1299,
+    "Analyze": 270,
+    "Evaluate": 27,
+    "unknown": 1689
+   },
+   "byDifficulty": {
+    "Easy": 790,
+    "Medium": 1009,
+    "Hard": 359,
+    "unknown": 1689
+   }
+  },
+  "clean": {
+   "total": 3625,
+   "byArea": {
+    "A": 128,
+    "B": 2564,
+    "C": 257,
+    "unmapped": 676
+   },
+   "byTopic": {
+    "History of Mathematics": 71,
+    "Mathematics Investigation & Modeling": 57,
+    "College & Advanced Algebra": 630,
+    "Trigonometry": 264,
+    "Plane & Solid Geometry": 302,
+    "Logic & Set Theory": 133,
+    "Statistics & Probability": 286,
+    "Analytic Geometry": 219,
+    "Calculus": 244,
+    "Arithmetic & Number Theory": 427,
+    "Mathematics of Investment": 59,
+    "Strategies in Teaching Mathematics": 63,
+    "Assessment in Mathematics": 58,
+    "Research in Teaching Mathematics": 99,
+    "Technology in Mathematics Teaching": 37,
+    "OUT_OF_TOS": 80,
+    "UNMAPPED": 596
+   },
+   "byBloom": {
+    "Remember": 327,
+    "Understand": 196,
+    "Apply": 1206,
+    "Analyze": 241,
+    "Evaluate": 27,
+    "unknown": 1628
+   },
+   "byDifficulty": {
+    "Easy": 735,
+    "Medium": 939,
+    "Hard": 323,
+    "unknown": 1628
+   }
+  },
+  "vsQuota": {
+   "areas": {
+    "A": {
+     "quota": 16,
+     "have": 128,
+     "shortfall": 0
+    },
+    "B": {
+     "quota": 72,
+     "have": 2564,
+     "shortfall": 0
+    },
+    "C": {
+     "quota": 32,
+     "have": 257,
+     "shortfall": 0
+    }
+   },
+   "bloom": {
+    "Remember": {
+     "quota": 18,
+     "have": 327,
+     "shortfall": 0
+    },
+    "Understand": {
+     "quota": 18,
+     "have": 196,
+     "shortfall": 0
+    },
+    "Apply": {
+     "quota": 60,
+     "have": 1206,
+     "shortfall": 0
+    },
+    "Analyze": {
+     "quota": 12,
+     "have": 241,
+     "shortfall": 0
+    },
+    "Evaluate": {
+     "quota": 6,
+     "have": 27,
+     "shortfall": 0
+    },
+    "Create": {
+     "quota": 6,
+     "have": 0,
+     "shortfall": 6
+    }
+   },
+   "difficulty": {
+    "Easy": {
+     "quota": 36,
+     "have": 735,
+     "shortfall": 0
+    },
+    "Medium": {
+     "quota": 60,
+     "have": 939,
+     "shortfall": 0
+    },
+    "Hard": {
+     "quota": 24,
+     "have": 323,
+     "shortfall": 0
+    }
+   },
+   "topicsReferenceOnly": {
+    "History of Mathematics": {
+     "quota": 8,
+     "have": 71,
+     "shortfall": 0
+    },
+    "Mathematics Investigation & Modeling": {
+     "quota": 8,
+     "have": 57,
+     "shortfall": 0
+    },
+    "College & Advanced Algebra": {
+     "quota": 8,
+     "have": 630,
+     "shortfall": 0
+    },
+    "Trigonometry": {
+     "quota": 8,
+     "have": 264,
+     "shortfall": 0
+    },
+    "Plane & Solid Geometry": {
+     "quota": 8,
+     "have": 302,
+     "shortfall": 0
+    },
+    "Logic & Set Theory": {
+     "quota": 8,
+     "have": 133,
+     "shortfall": 0
+    },
+    "Statistics & Probability": {
+     "quota": 8,
+     "have": 286,
+     "shortfall": 0
+    },
+    "Analytic Geometry": {
+     "quota": 8,
+     "have": 219,
+     "shortfall": 0
+    },
+    "Calculus": {
+     "quota": 8,
+     "have": 244,
+     "shortfall": 0
+    },
+    "Arithmetic & Number Theory": {
+     "quota": 8,
+     "have": 427,
+     "shortfall": 0
+    },
+    "Mathematics of Investment": {
+     "quota": 8,
+     "have": 59,
+     "shortfall": 0
+    },
+    "Strategies in Teaching Mathematics": {
+     "quota": 8,
+     "have": 63,
+     "shortfall": 0
+    },
+    "Assessment in Mathematics": {
+     "quota": 8,
+     "have": 58,
+     "shortfall": 0
+    },
+    "Research in Teaching Mathematics": {
+     "quota": 8,
+     "have": 99,
+     "shortfall": 0
+    },
+    "Technology in Mathematics Teaching": {
+     "quota": 8,
+     "have": 37,
+     "shortfall": 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,493 @@
+{
+ "tosMathTopics": [
+  {
+   "code": "A1",
+   "group": "A",
+   "name": "History of Mathematics"
+  },
+  {
+   "code": "A2",
+   "group": "A",
+   "name": "Mathematics Investigation & Modeling"
+  },
+  {
+   "code": "B1",
+   "group": "B",
+   "name": "College & Advanced Algebra"
+  },
+  {
+   "code": "B2",
+   "group": "B",
+   "name": "Trigonometry"
+  },
+  {
+   "code": "B3",
+   "group": "B",
+   "name": "Plane & Solid Geometry"
+  },
+  {
+   "code": "B4",
+   "group": "B",
+   "name": "Logic & Set Theory"
+  },
+  {
+   "code": "B5",
+   "group": "B",
+   "name": "Statistics & Probability"
+  },
+  {
+   "code": "B6",
+   "group": "B",
+   "name": "Analytic Geometry"
+  },
+  {
+   "code": "B7",
+   "group": "B",
+   "name": "Calculus"
+  },
+  {
+   "code": "B8",
+   "group": "B",
+   "name": "Arithmetic & Number Theory"
+  },
+  {
+   "code": "B9",
+   "group": "B",
+   "name": "Mathematics of Investment"
+  },
+  {
+   "code": "C1",
+   "group": "C",
+   "name": "Strategies in Teaching Mathematics"
+  },
+  {
+   "code": "C2",
+   "group": "C",
+   "name": "Assessment in Mathematics"
+  },
+  {
+   "code": "C3",
+   "group": "C",
+   "name": "Research in Teaching Mathematics"
+  },
+  {
+   "code": "C4",
+   "group": "C",
+   "name": "Technology in Mathematics Teaching"
+  }
+ ],
+ "groups": {
+  "A": "History + Investigation/Modeling (14%, 16 items)",
+  "B": "Problem solving (63%, 72 items)",
+  "C": "Teaching (23%, 32 items)"
+ },
+ "math": {
+  "College & Advanced Algebra": {
+   "target": "College & Advanced Algebra",
+   "code": "B1",
+   "group": "B",
+   "confidence": "exact",
+   "count": 573,
+   "inBank": 405
+  },
+  "undefined": {
+   "target": "UNMAPPED",
+   "group": null,
+   "confidence": "none",
+   "note": "no topic; see topic-suggestions.json",
+   "count": 556,
+   "inBank": 0
+  },
+  "Statistics & Probability": {
+   "target": "Statistics & Probability",
+   "code": "B5",
+   "group": "B",
+   "confidence": "exact",
+   "count": 437,
+   "inBank": 195
+  },
+  "Calculus": {
+   "target": "Calculus",
+   "code": "B7",
+   "group": "B",
+   "confidence": "exact",
+   "count": 427,
+   "inBank": 141
+  },
+  "Trigonometry": {
+   "target": "Trigonometry",
+   "code": "B2",
+   "group": "B",
+   "confidence": "exact",
+   "count": 411,
+   "inBank": 166
+  },
+  "Plane & Solid Geometry": {
+   "target": "Plane & Solid Geometry",
+   "code": "B3",
+   "group": "B",
+   "confidence": "exact",
+   "count": 405,
+   "inBank": 272
+  },
+  "Arithmetic & Number Theory": {
+   "target": "Arithmetic & Number Theory",
+   "code": "B8",
+   "group": "B",
+   "confidence": "exact",
+   "count": 405,
+   "inBank": 291
+  },
+  "Analytic Geometry": {
+   "target": "Analytic Geometry",
+   "code": "B6",
+   "group": "B",
+   "confidence": "exact",
+   "count": 353,
+   "inBank": 195
+  },
+  "Algebra": {
+   "target": "College & Advanced Algebra",
+   "code": "B1",
+   "group": "B",
+   "confidence": "medium",
+   "note": "alias, broader or shortened label",
+   "count": 290,
+   "inBank": 0
+  },
+  "Number Theory": {
+   "target": "Arithmetic & Number Theory",
+   "code": "B8",
+   "group": "B",
+   "confidence": "medium",
+   "note": "alias, broader or shortened label",
+   "count": 195,
+   "inBank": 0
+  },
+  "History of Mathematics": {
+   "target": "History of Mathematics",
+   "code": "A1",
+   "group": "A",
+   "confidence": "exact",
+   "count": 175,
+   "inBank": 69
+  },
+  "Strategies in Teaching Mathematics": {
+   "target": "Strategies in Teaching Mathematics",
+   "code": "C1",
+   "group": "C",
+   "confidence": "exact",
+   "count": 172,
+   "inBank": 68
+  },
+  "Mathematics Investigation & Modeling": {
+   "target": "Mathematics Investigation & Modeling",
+   "code": "A2",
+   "group": "A",
+   "confidence": "exact",
+   "count": 169,
+   "inBank": 60
+  },
+  "Mathematics of Investment": {
+   "target": "Mathematics of Investment",
+   "code": "B9",
+   "group": "B",
+   "confidence": "exact",
+   "count": 168,
+   "inBank": 64
+  },
+  "Assessment in Mathematics": {
+   "target": "Assessment in Mathematics",
+   "code": "C2",
+   "group": "C",
+   "confidence": "exact",
+   "count": 162,
+   "inBank": 57
+  },
+  "Logic & Set Theory": {
+   "target": "Logic & Set Theory",
+   "code": "B4",
+   "group": "B",
+   "confidence": "exact",
+   "count": 158,
+   "inBank": 49
+  },
+  "Research in Teaching Mathematics": {
+   "target": "Research in Teaching Mathematics",
+   "code": "C3",
+   "group": "C",
+   "confidence": "exact",
+   "count": 142,
+   "inBank": 40
+  },
+  "Technology in Mathematics Teaching": {
+   "target": "Technology in Mathematics Teaching",
+   "code": "C4",
+   "group": "C",
+   "confidence": "exact",
+   "count": 141,
+   "inBank": 37
+  },
+  "Geometry": {
+   "target": "Plane & Solid Geometry",
+   "code": "B3",
+   "group": "B",
+   "confidence": "medium",
+   "note": "alias, broader or shortened label",
+   "count": 76,
+   "inBank": 0
+  },
+  "Research in Mathematics Education": {
+   "target": "Research in Teaching Mathematics",
+   "code": "C3",
+   "group": "C",
+   "confidence": "medium",
+   "note": "alias, broader or shortened label",
+   "count": 69,
+   "inBank": 0
+  },
+  "Logic and Set Theory": {
+   "target": "Logic & Set Theory",
+   "code": "B4",
+   "group": "B",
+   "confidence": "case-or-and-variant",
+   "count": 62,
+   "inBank": 0
+  },
+  "History Of Math & Math Of Investment": {
+   "target": "UNMAPPED",
+   "group": null,
+   "confidence": "none",
+   "note": "composite label; classify per question via keywords",
+   "count": 53,
+   "inBank": 0
+  },
+  "Daily Review   Math Major": {
+   "target": "OUT_OF_TOS",
+   "group": null,
+   "confidence": "high",
+   "note": "not a TOS Math topic",
+   "count": 52,
+   "inBank": 0
+  },
+  "CALC Techniques, Special Set Mathematics": {
+   "target": "UNMAPPED",
+   "group": null,
+   "confidence": "none",
+   "note": "composite label; classify per question via keywords",
+   "count": 49,
+   "inBank": 0
+  },
+  "CALC Techniques": {
+   "target": "OUT_OF_TOS",
+   "group": null,
+   "confidence": "high",
+   "note": "not a TOS topic label (calculus-related; review by hand)",
+   "count": 47,
+   "inBank": 0
+  },
+  "Special Set Mathematics": {
+   "target": "UNMAPPED",
+   "group": null,
+   "confidence": "none",
+   "note": "unknown label",
+   "count": 43,
+   "inBank": 0
+  },
+  "Logic And Set Theory": {
+   "target": "Logic & Set Theory",
+   "code": "B4",
+   "group": "B",
+   "confidence": "case-or-and-variant",
+   "count": 40,
+   "inBank": 0
+  },
+  "Linear Algebra": {
+   "target": "OUT_OF_TOS",
+   "group": null,
+   "confidence": "high",
+   "note": "not a TOS Math topic",
+   "count": 26,
+   "inBank": 0
+  },
+  "Plane & Solid Geometry And Trigonometry": {
+   "target": "UNMAPPED",
+   "group": null,
+   "confidence": "none",
+   "note": "composite label; classify per question via keywords",
+   "count": 26,
+   "inBank": 0
+  },
+  "Abstract Algebra": {
+   "target": "OUT_OF_TOS",
+   "group": null,
+   "confidence": "high",
+   "note": "not a TOS Math topic",
+   "count": 17,
+   "inBank": 0
+  },
+  "COMBINATORICS, PROBABILITY, AND STATISTICS, Research In Mathematics Education, Problem Solving, and Mathematics Investigation, Abstract Algebra & Number Theory 2": {
+   "target": "UNMAPPED",
+   "group": null,
+   "confidence": "none",
+   "note": "composite label; classify per question via keywords",
+   "count": 10,
+   "inBank": 0
+  },
+  "History Of Mathematics": {
+   "target": "History of Mathematics",
+   "code": "A1",
+   "group": "A",
+   "confidence": "case-or-and-variant",
+   "count": 7,
+   "inBank": 0
+  },
+  "COMBINATORICS, PROBABILITY, AND STATISTICS, Research In Mathematics Education, Problem Solving, and Mathematics Investigation, Abstract Algebra & Number Theory 2, C, P, & S Assessment": {
+   "target": "UNMAPPED",
+   "group": null,
+   "confidence": "none",
+   "note": "composite label; classify per question via keywords",
+   "count": 7,
+   "inBank": 0
+  },
+  "Assessment In Mathematics": {
+   "target": "Assessment in Mathematics",
+   "code": "C2",
+   "group": "C",
+   "confidence": "case-or-and-variant",
+   "count": 3,
+   "inBank": 0
+  },
+  "Technology In Mathematics Teaching": {
+   "target": "Technology in Mathematics Teaching",
+   "code": "C4",
+   "group": "C",
+   "confidence": "case-or-and-variant",
+   "count": 2,
+   "inBank": 0
+  },
+  "Research In Teaching Mathematics": {
+   "target": "Research in Teaching Mathematics",
+   "code": "C3",
+   "group": "C",
+   "confidence": "case-or-and-variant",
+   "count": 2,
+   "inBank": 0
+  },
+  "Mathematics Of Investment": {
+   "target": "Mathematics of Investment",
+   "code": "B9",
+   "group": "B",
+   "confidence": "case-or-and-variant",
+   "count": 1,
+   "inBank": 0
+  }
+ },
+ "otherCategoriesDistinctLabels": {
+  "Math Major": {
+   "College & Advanced Algebra": 573,
+   "undefined": 556,
+   "Statistics & Probability": 437,
+   "Calculus": 427,
+   "Trigonometry": 411,
+   "Plane & Solid Geometry": 405,
+   "Arithmetic & Number Theory": 405,
+   "Analytic Geometry": 353,
+   "Algebra": 290,
+   "Number Theory": 195,
+   "History of Mathematics": 175,
+   "Strategies in Teaching Mathematics": 172,
+   "Mathematics Investigation & Modeling": 169,
+   "Mathematics of Investment": 168,
+   "Assessment in Mathematics": 162,
+   "Logic & Set Theory": 158,
+   "Research in Teaching Mathematics": 142,
+   "Technology in Mathematics Teaching": 141,
+   "Geometry": 76,
+   "Research in Mathematics Education": 69,
+   "Logic and Set Theory": 62,
+   "History Of Math & Math Of Investment": 53,
+   "Daily Review   Math Major": 52,
+   "CALC Techniques, Special Set Mathematics": 49,
+   "CALC Techniques": 47,
+   "Special Set Mathematics": 43,
+   "Logic And Set Theory": 40,
+   "Linear Algebra": 26,
+   "Plane & Solid Geometry And Trigonometry": 26,
+   "Abstract Algebra": 17,
+   "COMBINATORICS, PROBABILITY, AND STATISTICS, Research In Mathematics Education, Problem Solving, and Mathematics Investigation, Abstract Algebra & Number Theory 2": 10,
+   "History Of Mathematics": 7,
+   "COMBINATORICS, PROBABILITY, AND STATISTICS, Research In Mathematics Education, Problem Solving, and Mathematics Investigation, Abstract Algebra & Number Theory 2, C, P, & S Assessment": 7,
+   "Assessment In Mathematics": 3,
+   "Technology In Mathematics Teaching": 2,
+   "Research In Teaching Mathematics": 2,
+   "Mathematics Of Investment": 1
+  },
+  "ProfEd": {
+   "Foundations of Teaching-Learning": 1330,
+   "Assessment & Evaluation": 1154,
+   "Child & Adolescent Development": 996,
+   "Methods & Strategies of Teaching": 739,
+   "Curriculum Development": 663,
+   "Educational Technology": 578,
+   "The Professional Teacher": 555,
+   "Field Study & Action Research": 527,
+   "Methods & Strategies & Field Studies": 290,
+   "Assessment": 178,
+   "Educational Laws": 77,
+   "Teaching Strategies": 69,
+   "undefined": 66,
+   "Daily Review   ProfEd": 58,
+   "Foundations Of Teaching Learning": 43,
+   "Technology For Teaching And Learning": 33,
+   "Philosophical Foundations": 31,
+   "Facilitating Learning": 25,
+   "Child and Adolescent Development": 24,
+   "Methods & Strategies Of Teaching": 20,
+   "Principles of Teaching": 11,
+   "Historical Foundations": 11,
+   "Social Dimensions of Education": 10,
+   "The Teaching Profession": 5
+  },
+  "GenEd": {
+   "Science and Technology": 1425,
+   "Philippine History & Society": 1283,
+   "Purposive Communication (English)": 1116,
+   "Mathematics (GenEd)": 932,
+   "Komunikasyon sa Wikang Filipino": 875,
+   "The Contemporary World": 584,
+   "Art Appreciation": 479,
+   "Life and Works of Rizal": 445,
+   "Ethics": 438,
+   "Understanding the Self": 391,
+   "Reading and Communication": 267,
+   "Daily Review   GenEd": 188,
+   "Filipino": 162,
+   "Technology For Teaching And Learning": 124,
+   "undefined": 123,
+   "Algebra": 122,
+   "Technology and Media Literacy": 83,
+   "Biology": 81,
+   "Philippine History": 79,
+   "Science And Technology": 77,
+   "Rizal": 74,
+   "Komunikasyon Sa Wikang Filipino": 58,
+   "Geometry": 48,
+   "Earth Science": 46,
+   "Science": 35,
+   "Chemistry": 32,
+   "Filipino Grammar": 31,
+   "Filipino Literature": 23,
+   "Physics": 23,
+   "Social Sciences": 20,
+   "Economics": 17,
+   "Life And Works Of Rizal": 15,
+   "Values Education": 15,
+   "Statistics & Probability": 13,
+   "Political Science": 11,
+   "Understanding The Self": 10,
+   "World Geography": 7,
+   "TTL Assessment": 6
+  }
+ }
+}

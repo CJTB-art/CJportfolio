@@ -1,0 +1,9 @@
+{
+  "name": "pasa",
+  "compatibility_date": "2026-10-01",
+  "main": ".svelte-kit/cloudflare/_worker.js",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".svelte-kit/cloudflare"
+  }
+}

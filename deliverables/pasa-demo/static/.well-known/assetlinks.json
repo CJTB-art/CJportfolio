@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "dev.workers.besinanchristejan.pasa.twa",
+        "sha256_cert_fingerprints": ["4B:57:25:71:A8:FF:2D:AC:0F:EC:99:37:C9:F4:9A:AC:11:33:08:1A:1B:B5:D5:FC:99:CA:E3:39:B8:0E:6F:D0"]
+      }
+    }]

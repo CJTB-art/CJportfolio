@@ -1,0 +1,1043 @@
+{
+ "count": 81,
+ "tooLongThreshold": 200,
+ "choiceLengthPercentiles": {
+  "p50": 14,
+  "p95": 71,
+  "p99": 107,
+  "max": 275
+ },
+ "byType": {
+  "too-long": 14,
+  "repeats-inside-question": 61,
+  "empty": 11
+ },
+ "items": [
+  {
+   "id": "XVI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "A",
+     "length": 275
+    },
+    {
+     "type": "too-long",
+     "position": "B",
+     "length": 210
+    },
+    {
+     "type": "too-long",
+     "position": "C",
+     "length": 215
+    },
+    {
+     "type": "too-long",
+     "position": "D",
+     "length": 207
+    }
+   ]
+  },
+  {
+   "id": "math-major-552",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math-major-495",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783419800729-fnyzyx",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math-major-383",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1786038214327-a1vuis",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math-major-549",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1786038240295-oy7ax5",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1786038248908-39gccq",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1786039577852-rxw2ak",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math2013-050",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math2012-067",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math-major-575",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "XLVIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "B",
+     "length": 272
+    },
+    {
+     "type": "too-long",
+     "position": "C",
+     "length": 204
+    },
+    {
+     "type": "too-long",
+     "position": "D",
+     "length": 207
+    }
+   ]
+  },
+  {
+   "id": "XLVII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "B",
+     "length": 202
+    }
+   ]
+  },
+  {
+   "id": "profed-0923",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "profed-0872",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "profed-0864",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "profed-0862",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784871032223-kapu0x",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "profed-0940",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "profed-0888",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "profed-0922",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783326229648-l3gsgf",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783327273877-xste1a",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783327274801-yflebj",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "profed-0846",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "profed-0860",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "profed-0956",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783334452515-m2gqts",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783334473373-n4coxm",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783334476546-1raxt6",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "profed-0100",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "D",
+     "length": 225
+    }
+   ]
+  },
+  {
+   "id": "profed-0935",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "profed-0945",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782820691815-h9duob",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "A",
+     "length": 222
+    }
+   ]
+  },
+  {
+   "id": "qb-1783327240806-tevlg6",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-450",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-941",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-2203",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976403-a58vsg",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976403-vifvh2",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976404-fb5aut",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976411-tomju6",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976411-7jvwu1",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976414-qdldr3",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976416-sx7kc5",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976417-dr0emf",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-0131",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "A",
+     "length": 249
+    }
+   ]
+  },
+  {
+   "id": "qb-1783654183970-iirgsn",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1788279083569-qkth30",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976419-alhico",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976420-n7z0nm",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-0257",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783656349580-4z8hw4",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1788279104334-srj39c",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-2120",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-739",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-0512",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783656307004-zw3vfx",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783656309487-ylcgie",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783656312439-nav0hy",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "empty",
+     "position": "D"
+    }
+   ]
+  },
+  {
+   "id": "qb-1783656326338-jfamdz",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1788279105243-cocfbi",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1788279118024-ns0ug1",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-1416",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "gened-778",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782986976404-iukmk0",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "review::ProfEd::qb-1783326232704-dxzlbc",
+   "store": "let-error-log-resolved-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Daily Review   ProfEd",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "mock-ProfEd::qb-1783326232704-dxzlbc",
+   "store": "let-error-log-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "drill::GenEd::Mathematics (GenEd)::gened-524",
+   "store": "let-error-log-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "set-1781070613119-vxdlh-Math Major-79",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Geometry",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "set-1781070613119-vxdlh-Math Major-94",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math/Calculus 1.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-176",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "B",
+     "length": 201
+    }
+   ]
+  },
+  {
+   "id": "gened/SocSci DAY1-4.pdf-54",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "B",
+     "length": 201
+    }
+   ]
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-44",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "issues": [
+    {
+     "type": "too-long",
+     "position": "B",
+     "length": 230
+    }
+   ]
+  },
+  {
+   "id": "math/Set A Rationalization.pdf-61",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Geometry",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  },
+  {
+   "id": "math/BASIC MATH.pdf-48",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Algebra",
+   "issues": [
+    {
+     "type": "repeats-inside-question"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,750 @@
+/* Milestone — polish layer (loads after app.css; delete this file to revert). */
+html{font-size:14px}
+:root{--ms-spring:cubic-bezier(.2,.8,.2,1)}
+body{font-feature-settings:"tnum" 1,"cv11" 1;
+ background-image:radial-gradient(700px 420px at 90% -5%,rgba(var(--ms-accent-rgb),.22),transparent),radial-gradient(600px 420px at -5% 105%,rgba(47,180,238,.14),transparent);background-attachment:fixed}
+/* subtle film grain like the reference */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.05;mix-blend-mode:overlay;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.ms-main,.ms-sidebar{position:relative;z-index:1}.ms-sidebar{position:fixed}
+/* focus + hit targets */
+:focus-visible{outline:2px solid var(--ms-accent);outline-offset:2px;border-radius:8px}
+.btn,.btn-ghost,.ms-nav a,.ms-bc-btn{min-height:40px}
+.btn-sm{min-height:36px;padding-inline:.9rem;border-radius:12px;font-weight:600}
+.btn-primary{background:linear-gradient(135deg,var(--ms-accent),#a89cff);border:0;box-shadow:0 8px 18px -6px rgba(var(--ms-accent-rgb),.6);transition:transform .15s var(--ms-spring),box-shadow .2s}
+.btn:active{transform:scale(.97)}
+/* cards: rounder, lift on hover */
+.card{--cui-card-border-radius:20px;border-radius:20px;transition:transform .25s var(--ms-spring),box-shadow .25s}
+.card:not(.ms-hero):hover{transform:translateY(-2px)}
+.card-header{font-weight:700;letter-spacing:-.01em}
+.ms-hero-num{font-weight:800;letter-spacing:-.035em}
+.ms-bankcard{transition:transform .3s var(--ms-spring)}.ms-bankcard:hover{transform:translateY(-6px) rotate(-.6deg)}
+/* nav: gradient active pill like the reference */
+.ms-nav a{border-radius:14px;transition:background .2s,color .2s}
+.ms-nav a.active{background:linear-gradient(135deg,var(--ms-accent),#8e7dff);color:#fff;box-shadow:0 8px 20px -6px rgba(var(--ms-accent-rgb),.65)}
+.ms-nav a.active::before{display:none}
+html[data-coreui-theme=dark] .ms-nav a.active{color:#14103a}
+/* privacy mode (eye button) */
+html.ms-private .ms-hero-num,html.ms-private .ms-bc-bal,html.ms-private .stat-value,html.ms-private .ms-hero .tabular{filter:blur(9px);user-select:none;transition:filter .2s}
+/* header gets elevation once scrolled */
+.ms-header{transition:box-shadow .2s}.ms-header.is-scrolled{box-shadow:0 10px 30px -18px rgba(0,0,0,.6)}
+/* tables: calmer rows */
+.table{--cui-table-hover-bg:var(--ms-hover)}.table>:not(caption)>*>*{padding-block:.7rem}
+/* ---------- phone ---------- */
+@media (max-width:767.98px){
+ html{font-size:15px}
+ .ms-header{position:sticky;top:0;padding-top:calc(.4rem + env(safe-area-inset-top,0px))}
+ .ms-content{padding:.8rem .9rem calc(6.5rem + env(safe-area-inset-bottom,0px))}
+ /* floating pill tab bar instead of full-width bar */
+ .ms-tabbar{left:12px!important;right:12px!important;bottom:calc(10px + env(safe-area-inset-bottom,0px))!important;padding:.4rem .5rem!important;border-radius:26px!important;border:1px solid var(--cui-border-color)!important;background:color-mix(in srgb,var(--ms-solid) 78%,transparent)!important;-webkit-backdrop-filter:blur(22px) saturate(150%);backdrop-filter:blur(22px) saturate(150%);box-shadow:0 18px 40px -12px rgba(0,0,0,.55)}
+ .ms-tabbar a{min-height:46px;justify-content:center;border-radius:16px}
+ .ms-tabbar a.active{color:var(--ms-accent)}
+ .ms-fab{width:56px!important;height:56px!important;margin-top:-34px!important;font-size:1.5rem!important;background:linear-gradient(135deg,var(--ms-accent),#a89cff)!important}
+ .ms-cards{margin-inline:-.9rem;padding-inline:.9rem;scroll-padding-inline:.9rem;scrollbar-width:none}.ms-cards::-webkit-scrollbar{display:none}
+ .ms-cards .ms-bankcard{flex-basis:84%;scroll-snap-align:center}
+ .card:not(.ms-hero):hover{transform:none}
+ .modal-dialog{margin:0;min-height:100%;align-items:flex-end}.modal-content{border-radius:24px 24px 0 0}
+ .form-control,.form-select{min-height:46px;font-size:16px} /* 16px stops iOS zoom */
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ---------- overflow fix: grids must be allowed to shrink below content width ---------- */
+html,body{max-width:100%;overflow-x:clip}
+.ms-main,.ms-content,.ms-content>*,.ms-dash>*,.ms-rail>*,.row>*{min-width:0;max-width:100%}
+@media (max-width:1279.98px){.ms-dash{grid-template-columns:minmax(0,1fr)!important}.ms-rail{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media (max-width:767.98px){.ms-rail{grid-template-columns:minmax(0,1fr)!important}.ms-stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+.ms-content :is(.alert,.ms-note,.ms-pillnote,.card-body,.list-group-item){overflow-wrap:anywhere}
+.ms-content .table-responsive,.ms-content .table{max-width:100%}
+
+/* ================= v3: "Vault" look — gradient hero, quick actions, glowing activity rings ================= */
+.ms-hero{background:var(--ms-grad-glow),var(--ms-grad)!important;box-shadow:0 30px 60px -28px rgba(80,70,255,.8)!important}
+.ms-hero .card-body{position:relative;z-index:1}
+.ms-hero-num{font-size:clamp(2.2rem,5vw,3.1rem)}
+.ms-quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.7rem;margin-top:1.1rem}
+.ms-quick>*{display:flex;flex-direction:column;align-items:center;gap:.4rem;padding:.7rem .3rem;border-radius:18px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);color:#fff!important;font-size:.78rem;font-weight:700;text-decoration:none!important;min-height:76px;cursor:pointer;transition:transform .2s var(--ms-spring),background .2s}
+.ms-quick>*:hover{background:rgba(255,255,255,.2);transform:translateY(-3px)}
+.ms-quick i{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-size:1.1rem;color:#fff;box-shadow:0 8px 18px -4px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.4)}
+.ms-quick .q1 i{background:linear-gradient(135deg,#c06bff,#7b3df0)}.ms-quick .q2 i{background:linear-gradient(135deg,#36c2ff,#2670ff)}
+.ms-quick .q3 i{background:linear-gradient(135deg,#2fe6d0,#17b6c9)}.ms-quick .q4 i{background:linear-gradient(135deg,#8e7dff,#5b4bff)}
+/* activity rows: circular glowing icon like the reference */
+.ms-tx .ms-chip{width:44px;height:44px;flex:0 0 44px;border-radius:50%!important;border:3px solid var(--c,#8b7bff);box-shadow:0 0 14px -2px var(--c,#8b7bff);background:rgba(255,255,255,.04)}
+.ms-tx:nth-child(5n+1) .ms-chip{--c:#ffa21f}.ms-tx:nth-child(5n+2) .ms-chip{--c:#2f8bff}.ms-tx:nth-child(5n+3) .ms-chip{--c:#a45bff}.ms-tx:nth-child(5n+4) .ms-chip{--c:#2fd39b}.ms-tx:nth-child(5n) .ms-chip{--c:#ff5fb0}
+.ms-tx-t{font-weight:700}
+/* range pills */
+.ms-seg{display:inline-flex;background:rgba(128,128,170,.16);border-radius:12px;padding:3px}
+.ms-seg button{border:0;background:none;color:var(--cui-secondary-color);font-weight:700;font-size:.75rem;padding:.3rem .7rem;border-radius:9px;min-height:30px}
+.ms-seg button[aria-pressed=true]{background:linear-gradient(135deg,var(--ms-accent),#8e7dff);color:#fff}
+.ms-leg{padding:.35rem 0}
+@media (max-width:767.98px){
+ .ms-quick{gap:.4rem}.ms-quick>*{background:none;border:0;min-height:0;padding:.2rem 0;font-weight:600}.ms-quick i{width:46px;height:46px}
+ .ms-hello{font-size:1.5rem}
+}
+
+/* ================= v4: mascot + more glass ================= */
+@keyframes msFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+/* hero mascot (swap assets/mascot.webp for a 3D PNG any time) */
+.ms-hero::before{display:none!important}
+.ms-hero::after{content:""!important;position:absolute!important;inset:auto!important;top:4px!important;right:10px!important;width:150px!important;height:172px!important;border-radius:0!important;background:url(../assets/mascot.webp) no-repeat center/contain!important;pointer-events:none;animation:msFloat 5s ease-in-out infinite;filter:drop-shadow(0 14px 18px rgba(20,10,80,.45))}
+.ms-hero .card-body>:nth-child(-n+4){padding-right:150px}
+/* sidebar tagline card */
+.ms-vibe{display:flex;align-items:center;gap:.5rem;margin:0 .7rem .6rem;padding:.6rem .7rem;border-radius:18px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:var(--ms-sb-text);font-size:.8rem;line-height:1.25;white-space:nowrap;overflow:hidden}
+.ms-vibe img{width:48px;height:56px;flex:none;animation:msFloat 6s ease-in-out infinite}.ms-vibe b{color:#fff}
+html.ms-collapsed .ms-vibe p{display:none}html.ms-collapsed .ms-vibe{margin:0 .3rem .5rem;padding:.3rem}html.ms-collapsed .ms-vibe img{width:36px;height:42px}
+/* glass sheen on every card + brighter edge */
+.card{background-image:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,0) 40%)}
+.card-header{background:transparent!important}
+.ms-bankcard{box-shadow:0 22px 40px -18px var(--c),inset 0 1px 0 rgba(255,255,255,.45)}
+.ms-bankcard::after{opacity:.9}
+/* search + header polish */
+.ms-gs,.ms-search{border-radius:14px!important;transition:box-shadow .2s,border-color .2s}
+.ms-gs:focus-within,.ms-search:focus-within{box-shadow:0 0 0 3px rgba(var(--ms-accent-rgb),.35)}
+.ms-avatar{background:linear-gradient(135deg,#6ad8ff,#8e7dff);color:#14103a;font-weight:800;box-shadow:0 0 0 2px rgba(255,255,255,.25),0 6px 16px -4px rgba(var(--ms-accent-rgb),.6)}
+/* progress bars glow */
+.ms-bar i{box-shadow:0 0 12px rgba(255,255,255,.55);border-radius:99px}.ms-bar{border-radius:99px}
+/* cards stagger in */
+.ms-content .row>*{animation:msIn .35s var(--ms-spring) both}.ms-content .row>*:nth-child(2){animation-delay:.06s}.ms-content .row>*:nth-child(3){animation-delay:.12s}
+@media (max-width:767.98px){
+ .ms-hero::after{width:96px!important;height:112px!important;top:8px!important;right:6px!important}
+ .ms-hero .card-body>:nth-child(-n+4){padding-right:92px}
+ .ms-vibe{display:none}
+}
+
+/* ================= v5: deep-navy "Vault" palette, sharper edges, seamless shell ================= */
+html[data-coreui-theme=dark]{
+ --cui-body-bg:#050816;--cui-body-color:#eaedff;--cui-secondary-color:#98a2d8;--cui-emphasis-color:#fff;
+ --cui-border-color:rgba(124,136,255,.17);--cui-border-color-translucent:rgba(124,136,255,.17);
+ --ms-card:rgba(12,18,52,.8);--ms-hover:rgba(124,136,255,.1);--ms-solid:#0a0f2e;--ms-hole:#121847;--ms-line:rgba(124,136,255,.2);
+ --ms-accent:#8c7bff;--ms-accent-rgb:140,123,255}
+html[data-coreui-theme=dark] body{background-color:#050816;
+ background-image:radial-gradient(800px 480px at 88% -8%,rgba(98,70,255,.38),transparent 70%),radial-gradient(700px 480px at -8% 108%,rgba(0,190,255,.2),transparent 70%),radial-gradient(500px 300px at 45% 40%,rgba(80,60,200,.1),transparent 70%)}
+body::before{opacity:.025}
+body{text-rendering:optimizeLegibility}
+/* THE LINE: footer divider + translucent header strip created visible seams. Removed. */
+.ms-sb-foot{border-top:0!important}
+.ms-header{background:transparent!important;border:0!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;box-shadow:none}
+.ms-header.is-scrolled{background:color-mix(in srgb,var(--cui-body-bg) 82%,transparent)!important;-webkit-backdrop-filter:blur(16px)!important;backdrop-filter:blur(16px)!important;box-shadow:0 1px 0 var(--ms-line)}
+.ms-main{background:transparent!important}
+/* sidebar: solid deep glass, crisp edge */
+html[data-coreui-theme=dark] .ms-sidebar{background:linear-gradient(180deg,rgba(20,27,74,.92),rgba(7,11,36,.96));border:1px solid var(--ms-line);box-shadow:0 30px 60px -30px #000,inset 0 1px 0 rgba(255,255,255,.08)}
+.ms-nav a{color:#9aa3d8}.ms-nav a:hover{background:rgba(124,136,255,.12);color:#fff}
+.ms-nav a.active{background:linear-gradient(135deg,#8c7bff,#5b4bff)!important;color:#fff!important;box-shadow:0 10px 24px -8px #6d5efc,inset 0 1px 0 rgba(255,255,255,.35)!important}
+/* cards: sharper — less blur, crisp 1px edge, top highlight */
+.card{--cui-card-border-radius:18px;border-radius:18px;-webkit-backdrop-filter:blur(12px) saturate(140%);backdrop-filter:blur(12px) saturate(140%);border:1px solid var(--ms-line)!important;
+ box-shadow:0 22px 44px -26px #000,inset 0 1px 0 rgba(255,255,255,.1)!important;background-image:linear-gradient(180deg,rgba(124,136,255,.07),transparent 45%)}
+.card-header{border-bottom:1px solid rgba(124,136,255,.12)!important;font-size:1rem}
+.kpi-label{letter-spacing:.09em;font-weight:700}
+.ms-hello{font-weight:800;letter-spacing:-.03em}
+.form-control,.form-select{background-color:rgba(124,136,255,.08);border:1px solid var(--ms-line)}
+.ms-gs,.ms-search{background:rgba(12,18,52,.7)!important;border:1px solid var(--ms-line)!important}
+/* hero: richer gradient + wave + crisp rim */
+.ms-hero{background:var(--ms-grad-glow),var(--ms-grad)!important;
+ box-shadow:0 34px 70px -30px rgba(90,60,255,.9),inset 0 0 0 1px rgba(255,255,255,.2),inset 0 1px 0 rgba(255,255,255,.45)!important}
+.ms-hero::before{display:block!important;content:""!important;position:absolute!important;inset:auto 0 0 0!important;width:auto!important;height:55%!important;border-radius:0!important;pointer-events:none;opacity:.5;
+ background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 120' preserveAspectRatio='none'%3E%3Cpath d='M0 90C60 40 120 110 200 70S340 20 400 50V120H0Z' fill='%2300d4ff' fill-opacity='.18'/%3E%3Cpath d='M0 105C80 70 150 120 230 90S350 60 400 85V120H0Z' fill='%23ffffff' fill-opacity='.1'/%3E%3C/svg%3E") bottom/100% 100% no-repeat}
+.ms-quick>*{background:rgba(8,12,50,.38);border:1px solid rgba(255,255,255,.18);box-shadow:inset 0 1px 0 rgba(255,255,255,.14)}
+.ms-bankcard{filter:saturate(1.12) contrast(1.04);border:1px solid rgba(255,255,255,.28);box-shadow:0 26px 44px -22px var(--c),inset 0 1px 0 rgba(255,255,255,.5)}
+.ms-vibe{background:rgba(124,136,255,.08);border-color:var(--ms-line)}
+.ms-seg{background:rgba(124,136,255,.14)}
+.btn-primary{box-shadow:0 10px 22px -8px rgba(124,108,255,.8),inset 0 1px 0 rgba(255,255,255,.35)}
+.modal-content{border:1px solid var(--ms-line)}
+/* slim dark scrollbars */
+*{scrollbar-width:thin;scrollbar-color:rgba(124,136,255,.35) transparent}
+
+/* ================= v6: real 3D chibi mascot (assets/mascot.webp) ================= */
+.ms-hero::after{background-image:url(../assets/mascot.webp)!important;width:240px!important;height:240px!important;top:-26px!important;right:4px!important;filter:drop-shadow(0 18px 24px rgba(10,5,80,.55)) drop-shadow(0 0 22px rgba(120,160,255,.35))}
+.ms-hero .card-body>:nth-child(-n+4){padding-right:215px}
+.ms-vibe img{width:56px;height:56px;object-fit:contain;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45))}
+html.ms-collapsed .ms-vibe img{width:38px;height:38px}
+@media (max-width:767.98px){
+ .ms-hero::after{width:128px!important;height:128px!important;top:-6px!important;right:-2px!important}
+ .ms-hero .card-body>:nth-child(-n+4){padding-right:112px}
+}
+
+/* ================= v7: placement fix — mascot gets its own lane, rocket fills the milestone card ================= */
+.ms-hero::after{top:14px!important;right:14px!important;width:250px!important;height:250px!important}
+.ms-hero .card-body>:nth-child(-n+5){padding-right:250px}
+.ms-quick{padding-right:250px}
+/* rocket in the milestone card */
+.ms-goalcard{position:relative;overflow:hidden}
+.ms-goalcard .card-body{align-items:flex-start!important;padding-top:2rem!important;position:relative;z-index:1}
+.ms-goalcard::after{content:"";position:absolute;left:50%;bottom:4px;width:230px;height:230px;margin-left:-115px;background:url(../assets/mascot2.webp) center/contain no-repeat;pointer-events:none;animation:msFloat 5.5s ease-in-out infinite;filter:drop-shadow(0 16px 20px rgba(10,5,80,.5)) drop-shadow(0 0 20px rgba(130,120,255,.35))}
+@media (max-width:1100px) and (min-width:768px){.ms-hero::after{width:200px!important;height:200px!important}.ms-hero .card-body>:nth-child(-n+5),.ms-quick{padding-right:200px}}
+@media (max-width:767.98px){
+ .ms-hero::after{top:8px!important;right:4px!important;width:118px!important;height:118px!important}
+ .ms-hero .card-body>:nth-child(-n+4){padding-right:106px}
+ .ms-hero .card-body>.ms-quick{padding-right:0}
+ .ms-goalcard .card-body{padding-bottom:9.5rem!important}
+ .ms-goalcard::after{width:150px;height:150px;margin-left:-75px}
+}
+
+/* ================= v8: notification bell (replaces the dashboard banner) ================= */
+.ms-bell{position:relative}.ms-bell>.btn-ghost{position:relative}
+.ms-badge{position:absolute;top:2px;right:2px;min-width:17px;height:17px;padding:0 4px;border-radius:99px;background:#ffa21f;color:#1a1033;font-size:.66rem;font-weight:800;display:grid;place-items:center;box-shadow:0 0 0 2px var(--cui-body-bg)}
+.ms-badge.bad{background:#ff4d6d;color:#fff}.ms-badge[hidden]{display:none}
+.ms-bellpanel{position:absolute;right:-8px;top:calc(100% + 10px);width:360px;max-width:calc(100vw - 24px);z-index:1100;border-radius:20px;background:var(--ms-solid);border:1px solid var(--ms-line);box-shadow:0 30px 60px -20px #000;overflow:hidden;animation:msIn .18s var(--ms-spring)}
+.ms-bellpanel[hidden]{display:none}
+.ms-bp-h{display:flex;justify-content:space-between;padding:.9rem 1rem;font-weight:800;border-bottom:1px solid var(--ms-line)}.ms-bp-h span{font-size:.75rem;color:var(--ms-accent);font-weight:700}
+.ms-bp-i{display:flex;gap:.75rem;padding:.9rem 1rem;border-bottom:1px solid rgba(124,136,255,.1)}.ms-bp-i:last-child{border:0}
+.ms-bp-i>i{flex:0 0 34px;height:34px;border-radius:12px;display:grid;place-items:center;background:rgba(var(--ms-accent-rgb),.16);color:var(--ms-accent)}
+.ms-bp-i.bad>i{background:rgba(255,77,109,.16);color:#ff6b86}.ms-bp-i.warn>i{background:rgba(255,162,31,.16);color:#ffb04d}
+.ms-bp-i b{display:block;font-size:.92rem}.ms-bp-i span{display:block;font-size:.8rem;color:var(--cui-secondary-color);line-height:1.35}
+.ms-bp-e{padding:1.4rem 1rem;text-align:center;color:var(--cui-secondary-color)}.ms-bp-e i{display:block;font-size:1.8rem;color:#2fd39b;margin-bottom:.4rem}
+@media (max-width:767.98px){.ms-bell{position:static}.ms-bellpanel{position:fixed;left:12px;right:12px;width:auto;max-width:none;top:calc(56px + env(safe-area-inset-top,0px))}}
+
+/* ================= v9: milestone card — rocket lives in its own lane under the progress ================= */
+.ms-goalcard{display:flex;flex-direction:column;overflow:hidden}
+.ms-goalcard .card-body{flex:0 0 auto!important;align-items:center!important;justify-content:center!important;padding:1.6rem 1.4rem .2rem!important}
+.ms-goalcard::after{position:static!important;display:block;flex:1 1 210px;min-height:170px;width:auto!important;height:auto!important;margin:0!important;left:auto!important;
+ background:url(../assets/mascot2.webp) center bottom/contain no-repeat;transform:none;padding-bottom:.6rem;background-origin:content-box}
+@media (max-width:767.98px){
+ .ms-goalcard .card-body{padding:1.2rem 1.2rem .2rem!important}
+ .ms-goalcard::after{flex:0 0 160px;min-height:160px}
+}
+
+/* ================= v10: sidebar cleanup ================= */
+/* collapsed: icon rail only — a 38px mascot is unreadable, so it is hidden there */
+html.ms-collapsed .ms-vibe{display:none!important}
+@media (min-width:768px){html.ms-collapsed{--sb-w:72px}}
+html.ms-collapsed .ms-nav a{width:46px;height:46px;margin:0 auto 8px;border-radius:15px;justify-content:center}
+html.ms-collapsed .ms-nav a i{font-size:1.2rem}
+html.ms-collapsed .ms-brand{height:72px}
+html.ms-collapsed .ms-sb-foot{padding:.6rem}
+html.ms-collapsed .ms-sb-foot button{width:46px;height:46px;margin:0 auto;background:rgba(124,136,255,.1);border-radius:15px}
+.ms-nav a{transition:background .2s,color .2s,transform .2s}.ms-nav a:not(.active):hover{transform:translateX(2px)}
+html.ms-collapsed .ms-nav a:not(.active):hover{transform:none}
+/* expanded: mascot card with the character as the focus */
+.ms-vibe{position:relative;flex-direction:column;gap:.35rem;margin:0 .7rem .7rem;padding:1.1rem .8rem .85rem;text-align:center;white-space:normal;border-radius:20px;
+ background:radial-gradient(120px 90px at 50% 28%,rgba(140,123,255,.4),transparent 70%),linear-gradient(180deg,rgba(124,136,255,.14),rgba(124,136,255,.04));border:1px solid var(--ms-line);box-shadow:inset 0 1px 0 rgba(255,255,255,.1)}
+.ms-vibe img{width:104px;height:104px;animation:msFloat 6s ease-in-out infinite;filter:drop-shadow(0 10px 14px rgba(0,0,0,.5)) drop-shadow(0 0 16px rgba(130,120,255,.4))}
+.ms-vibe p{margin:0;font-size:.82rem;line-height:1.3;color:#aab2e6}.ms-vibe b{display:block;color:#fff;font-size:.9rem}
+@media (max-height:860px){.ms-vibe{display:none}}
+
+/* ================= v11: phone — clean quick actions + money dial ================= */
+@media (hover:none){.ms-quick>*:hover{transform:none;background:rgba(8,12,50,.38)}}
+@media (max-width:767.98px){
+ .ms-quick{gap:.2rem;margin-top:1rem}
+ .ms-quick>*,.ms-quick>*:hover,.ms-quick>*:active{background:none!important;border:0!important;box-shadow:none!important;transform:none!important;min-height:0;padding:.15rem 0;gap:.45rem;justify-content:flex-start;font-size:.74rem;line-height:1.2;white-space:nowrap}
+ .ms-quick>*:active i{transform:scale(.92)}
+ .ms-quick i{width:50px;height:50px;font-size:1.2rem;transition:transform .15s}
+ .ms-fab{transition:transform .25s var(--ms-spring)}.ms-fab.open{transform:rotate(90deg)}
+ .ms-dialbg{position:fixed;inset:0;z-index:1038;background:rgba(5,8,22,.62);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);animation:msIn .15s}
+ .ms-dial{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(98px + env(safe-area-inset-bottom,0px));z-index:1045;display:flex;gap:.8rem;animation:msIn .2s var(--ms-spring)}
+ .ms-dial button{display:flex;flex-direction:column;align-items:center;gap:.4rem;border:0;background:none;color:#fff;font-weight:700;font-size:.8rem}
+ .ms-dial i{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;font-size:1.5rem;box-shadow:0 14px 28px -8px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.4)}
+ .ms-dial .in i{background:linear-gradient(135deg,#34e0a1,#12a77a)}.ms-dial .out i{background:linear-gradient(135deg,#ff7aa2,#e63e7c)}
+ .ms-dial span{background:rgba(10,15,46,.9);padding:.25rem .7rem;border-radius:99px;border:1px solid var(--ms-line)}
+}
+.ms-dial[hidden],.ms-dialbg[hidden]{display:none!important}
+@media (min-width:768px){.ms-dial,.ms-dialbg{display:none!important}}
+
+/* ================= v12: native dropdown readability ================= */
+html[data-coreui-theme=dark]{color-scheme:dark}
+html[data-coreui-theme=light]{color-scheme:light}
+html[data-coreui-theme=dark] select option,html[data-coreui-theme=dark] select optgroup{background:#0c1130;color:#eaedff}
+html[data-coreui-theme=light] select option,html[data-coreui-theme=light] select optgroup{background:#fff;color:#1f1b3d}
+select option:checked{background:#5b4bff linear-gradient(0deg,#5b4bff,#5b4bff);color:#fff}
+.form-select{background-color:rgba(124,136,255,.08);color:var(--cui-body-color)}
+
+/* ================= v13: header = logo + page title (drop assets/logo.png to replace the "M" placeholder) ================= */
+.ms-crumb{gap:.65rem!important;align-items:center}
+.ms-crumb #pageTitle{font-size:1.15rem;font-weight:800;letter-spacing:-.02em;color:var(--cui-emphasis-color)}
+.ms-crumb-logo{position:relative;flex:0 0 36px;width:36px;height:36px;border-radius:12px;display:grid;place-items:center;overflow:hidden;color:#fff;font-weight:800;
+ background:linear-gradient(135deg,#6ad8ff,#8c7bff 55%,#c04cd8);box-shadow:0 8px 18px -6px rgba(var(--ms-accent-rgb),.7),inset 0 1px 0 rgba(255,255,255,.4)}
+.ms-crumb-logo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.ms-crumb-logo.has{background:none;box-shadow:none;overflow:visible}.ms-crumb-logo.has b{display:none}
+
+/* ================= v14: every page gets the dashboard feel ================= */
+.ms-pagehead{position:relative;display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;min-height:84px;margin-bottom:1rem}
+.ms-pagehead .ms-hello{margin:0}.ms-pagehead .ms-sub{color:var(--cui-secondary-color);margin-top:.15rem}
+.ms-pagehead img{height:104px;width:auto;margin:-14px 6px -6px 0;animation:msFloat 6s ease-in-out infinite;filter:drop-shadow(0 12px 16px rgba(10,5,80,.5)) drop-shadow(0 0 18px rgba(130,120,255,.3));pointer-events:none}
+/* segmented tabs (Confirmed / Estimated) + filter pills */
+.nav-pills{background:rgba(124,136,255,.12);border-radius:14px;padding:3px;gap:2px;flex-wrap:nowrap}
+.nav-pills .nav-link{border-radius:11px!important;font-weight:700;padding:.4rem .9rem!important;text-decoration:none}
+.nav-pills .nav-link.active{background:linear-gradient(135deg,var(--ms-accent),#8e7dff)!important;color:#fff!important;box-shadow:0 6px 14px -6px rgba(var(--ms-accent-rgb),.8)}
+html[data-coreui-theme=dark] .nav-pills .nav-link.active{color:#fff!important}
+.ms-pill{border-color:var(--ms-line);font-weight:600;transition:background .2s,color .2s}
+.ms-pill.on{background:linear-gradient(135deg,var(--ms-accent),#8e7dff)!important;border-color:transparent!important;color:#fff!important}
+html[data-coreui-theme=dark] .ms-pill.on{color:#fff!important}
+/* summary strip */
+.ms-sum{margin:.2rem .85rem .6rem;padding:.95rem 1rem!important;border-radius:16px;background:linear-gradient(135deg,rgba(var(--ms-accent-rgb),.2),rgba(47,180,238,.08));border:1px solid var(--ms-line)}
+.ms-sum b{font-size:1.35rem;font-weight:800;letter-spacing:-.02em}
+/* rows as soft glass tiles */
+.ms-bill,.ms-tx{border-bottom:0!important;border-radius:16px;padding:.65rem .7rem!important;border:1px solid transparent;transition:background .2s,border-color .2s}
+.card-body>.ms-bill,.card-body>.ms-tx{margin-bottom:.2rem}
+.ms-bill:hover,.ms-tx:hover{background:rgba(124,136,255,.08);border-color:var(--ms-line)}
+.ms-bill .ms-chip{width:44px;height:44px;flex:0 0 44px;border-radius:50%!important;border:3px solid var(--c,#8b7bff);box-shadow:0 0 14px -2px var(--c,#8b7bff);background:rgba(255,255,255,.04)}
+.ms-bill:nth-child(5n+1) .ms-chip{--c:#ffa21f}.ms-bill:nth-child(5n+2) .ms-chip{--c:#2f8bff}.ms-bill:nth-child(5n+3) .ms-chip{--c:#a45bff}.ms-bill:nth-child(5n+4) .ms-chip{--c:#2fd39b}.ms-bill:nth-child(5n) .ms-chip{--c:#ff5fb0}
+.ms-bill .tabular{white-space:nowrap}
+.ms-check{border-color:rgba(124,136,255,.45)}.ms-check.on{background:linear-gradient(135deg,#34e0a1,#12a77a)!important;border-color:transparent!important;color:#fff!important;box-shadow:0 0 14px -2px #12b886}
+.ms-day{padding:1rem .2rem .3rem;color:var(--ms-accent);font-weight:800}
+/* accounts + misc panels */
+.ms-acct{border-radius:18px!important;border:1px solid var(--ms-line)!important;border-left:4px solid var(--c)!important;background-image:linear-gradient(180deg,rgba(124,136,255,.07),transparent 60%);box-shadow:0 18px 36px -24px #000}
+.ms-status{border-radius:18px;border:1px solid var(--ms-line);backdrop-filter:blur(12px)}
+.ms-pstat{border-radius:14px}.ms-note{border-radius:99px}
+.table{--cui-table-bg:transparent;--cui-table-border-color:rgba(124,136,255,.12)}
+.table thead th{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--cui-secondary-color)}
+.list-group-item{background:transparent;border-color:rgba(124,136,255,.12)}
+/* tab bar: no focus box, soft active tint */
+.ms-tabbar a:focus-visible,.ms-tabbar a:focus{outline:none!important}
+.ms-tabbar a.active{background:rgba(124,136,255,.16)}
+@media (max-width:767.98px){
+ .ms-pagehead{min-height:72px;margin-bottom:.6rem}.ms-pagehead img{height:78px;margin:-8px 0 -4px}
+ .ms-bill{gap:.55rem;padding:.6rem .4rem!important}.ms-bill .ms-chip{width:40px;height:40px;flex-basis:40px}
+ .ms-bill .btn-ghost{width:30px;height:30px;min-height:0}.ms-bill .ms-tx-s{font-size:.74rem}
+ .ms-sum{margin:.2rem .5rem .5rem;gap:.9rem 1.4rem!important}
+ .card-header.d-flex{gap:.5rem}
+}
+.progress{background:rgba(124,136,255,.16);border-radius:99px;overflow:visible}
+.progress-bar{border-radius:99px;background:linear-gradient(90deg,#2fb4ee,#8c7bff 60%,#c04cd8);box-shadow:0 0 14px rgba(140,123,255,.7)}
+.stat-value{font-weight:800;letter-spacing:-.03em}
+
+/* ================= v15: real logo ================= */
+.ms-logo{background:none!important;box-shadow:none!important;overflow:visible;font-size:0}
+.ms-logo img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(124,108,255,.55))}
+.ms-brand .ms-logo{flex:0 0 34px;height:34px}
+.ms-crumb-logo{flex-basis:42px;width:42px;height:42px}
+.ms-crumb-logo.has{filter:drop-shadow(0 4px 10px rgba(124,108,255,.5))}
+
+/* ================= v16: less redundancy ================= */
+/* page header no longer repeats the page name (the top bar already shows it) */
+.ms-pagehead .ms-hello{font-size:1.45rem}
+.ms-pagehead .ms-sub{font-size:.9rem}
+/* "accounts match your plan" is good news — keep it to one slim line */
+.ms-status{display:flex!important;flex-direction:row!important;align-items:center!important;gap:.75rem!important;padding:.7rem 1rem!important}
+.ms-status>i{flex:0 0 auto;font-size:1.25rem;margin:0}
+.ms-status>div{min-width:0}
+.ms-status:not(.warn) span{display:none}
+.ms-status:not(.warn){padding:.55rem 1rem!important;width:fit-content;max-width:100%;border-radius:99px!important}
+.ms-status:not(.warn) b{font-size:.88rem}
+
+/* ================= v17: PERFORMANCE — same look, far less GPU/CPU work ================= */
+html{-webkit-tap-highlight-color:transparent}
+/* 1) background glow = one composited fixed layer (was: repainting 'fixed' gradients + a blended noise filter on every scroll) */
+body::before{display:none!important}
+body{background-attachment:scroll!important}
+html[data-coreui-theme=dark] body{background-image:none!important}
+html[data-coreui-theme=dark]::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;transform:translateZ(0);
+ background:radial-gradient(800px 480px at 88% -8%,rgba(98,70,255,.38),transparent 70%),radial-gradient(700px 480px at -8% 108%,rgba(0,190,255,.2),transparent 70%)}
+/* 2) backdrop-filter blur is the #1 low-end killer; panels sit on a flat navy so solid fills look the same */
+.card,.ms-hero,.ms-header,.ms-header.is-scrolled,.ms-sidebar,.ms-tabbar,.ms-status,.ms-sb-card,.ms-bellpanel,.ms-dialbg,.ms-gs,.ms-search{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+html[data-coreui-theme=dark]{--ms-card:#0d1336}
+html[data-coreui-theme=light]{--ms-card:#fbfaff}
+.ms-header.is-scrolled{background:color-mix(in srgb,var(--cui-body-bg) 94%,transparent)!important}
+.ms-dialbg{background:rgba(5,8,22,.82)!important}
+@media (max-width:767.98px){.ms-tabbar{background:var(--ms-solid)!important}}
+/* 3) animated mascots: compositor-only transform, no filter re-rasterising */
+.ms-hero::after,.ms-goalcard::after,.ms-pagehead img,.ms-vibe img{filter:none!important;will-change:transform}
+.ms-bankcard,.ms-quick>*{filter:none!important}
+.ms-logo img,.ms-crumb-logo.has{filter:none!important}
+/* 4) no entrance animations replaying on every state change */
+.ms-content .row>*{animation:none!important}
+@media (hover:none){.card:hover,.ms-bankcard:hover,.ms-bill:hover{transform:none!important}}
+/* 5) low-end devices / phones: lighter shadows, static mascots, no entrance fades */
+html.ms-low .ms-content>*{animation:none!important}
+html.ms-low .ms-hero::after,html.ms-low .ms-goalcard::after,html.ms-low .ms-pagehead img,html.ms-low .ms-vibe img{animation:none!important;will-change:auto}
+html.ms-low .card{box-shadow:none!important;transition:none}
+html.ms-low .ms-hero{box-shadow:0 12px 24px -16px rgba(90,60,255,.7)!important}
+html.ms-low .ms-bankcard{box-shadow:0 10px 16px -12px var(--c)!important;transition:none}
+html.ms-low .ms-sidebar{box-shadow:none!important}
+html.ms-low .btn-primary,html.ms-low .ms-fab,html.ms-low .ms-quick i{box-shadow:none!important}
+html.ms-low *{scroll-behavior:auto!important}
+
+/* ================= v18: centering + alignment sweep ================= */
+/* every button/pill centres its own content (icon + label), instead of relying on baseline alignment */
+.btn,.ms-pill,.ms-seg button,.nav-pills .nav-link,.ms-bc-btn{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;line-height:1.2;text-align:center;vertical-align:middle}
+.btn i,.ms-pill i{display:block;line-height:1;flex:none}
+.btn-ghost,.ms-burger,.ms-check,.ms-fab,.ms-dial button i,.ms-avatar,.ms-chip,.kpi-icon,.ms-bc-ic,.ms-logo,.icon{display:inline-grid;place-items:center;line-height:1}
+.btn-ghost{padding:0}.btn-ghost i,.ms-check i,.ms-chip i,.ms-fab i,.kpi-icon i,.ms-bc-ic i,.ms-bc-btn i{display:block;line-height:1;margin:0}
+.nav-pills .nav-link{min-height:34px}
+/* FAB: perfectly round, icon dead-centre, no square focus box, no rotation blur */
+.ms-fab{display:grid!important;place-items:center;padding:0!important;line-height:1;aspect-ratio:1;border-radius:50%!important;outline:none!important}
+.ms-fab i{font-size:1.5rem}
+.ms-fab.open{transform:none!important}
+.ms-fab:focus-visible{box-shadow:0 0 0 3px var(--cui-body-bg),0 0 0 5px var(--ms-accent),0 10px 22px rgba(var(--ms-accent-rgb),.55)!important}
+/* focus rings follow each control's own shape; mouse/touch taps show none */
+:focus:not(:focus-visible){outline:none!important}
+.btn-ghost:focus-visible,.ms-bc-btn:focus-visible,.ms-check:focus-visible{outline:2px solid var(--ms-accent);outline-offset:2px;border-radius:12px}
+.ms-check:focus-visible{border-radius:50%}
+.ms-tabbar a{justify-content:center;text-align:center}
+/* amounts line up in a right-aligned column */
+.ms-bill .tabular,.ms-tx .tabular{min-width:4.8em;text-align:right;white-space:nowrap}
+/* notification panel buttons + rows */
+.ms-bp-i .btn{min-width:84px}
+.ms-bp-i>i{display:grid;place-items:center;line-height:1}
+.ms-badge{line-height:1;padding-top:1px}
+
+/* ================= v19: fits every screen — layout follows the space a block really has =================
+   Root cause of the squashed dashboard: columns switched on the *browser* width, but the sidebar eats ~264px of it,
+   so on 1024–1400px screens (and Windows display scaling) the hero/milestone cards got ~250px and text broke per letter.
+   Now: containers (@container) decide, not the viewport.                                                        */
+.ms-content{container:page/inline-size}
+.ms-dash-main{container:main/inline-size;min-width:0}
+.ms-main{min-height:100vh;min-height:100dvh}
+
+/* --- dashboard shell: main column + rail --- */
+.ms-dash{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:1.1rem;align-items:start}
+.ms-rail{position:static!important;display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:1rem}
+@container page (min-width:640px){.ms-rail{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@container page (min-width:1160px){
+  .ms-dash{grid-template-columns:minmax(0,1fr) clamp(300px,26cqi,380px)!important}
+  .ms-rail{display:flex!important;flex-direction:column}
+}
+/* sticky rail only if the screen is tall enough to show it whole (otherwise its lower half is unreachable) */
+@media (min-height:900px){@container page (min-width:1160px){.ms-rail{position:sticky!important;top:76px}}}
+
+/* --- grids inside the main column --- */
+.ms-grid{display:grid;gap:1rem;grid-template-columns:minmax(0,1fr)}
+.ms-cell{min-width:0;container-type:inline-size;display:flex;flex-direction:column}
+.ms-cell>.card,.ms-cell>a.card{flex:1 1 auto}
+@container main (min-width:800px){
+  .ms-grid-hero{grid-template-columns:minmax(0,1fr) clamp(260px,32cqi,340px)}
+  .ms-grid-plan{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}
+}
+/* bank cards: scroller when tight, tidy grid when there is room */
+@container main (min-width:760px){
+  .ms-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));overflow:visible;scroll-snap-type:none;padding-bottom:.4rem}
+  .ms-cards .ms-bankcard{flex:none}
+}
+
+/* --- hero: mascot, number and buttons all scale with the card itself --- */
+.ms-cell .ms-hero{--m:clamp(96px,30cqi,250px)}
+.ms-cell .ms-hero::after{width:var(--m)!important;height:var(--m)!important;top:clamp(6px,2cqi,14px)!important;right:clamp(2px,2.5cqi,14px)!important}
+.ms-cell .ms-hero .card-body{overflow-wrap:normal}
+.ms-cell .ms-hero .card-body>:nth-child(-n+4){padding-right:calc(var(--m) + 4px)}
+.ms-cell .ms-hero .card-body>.ms-quick{padding-right:0}
+.ms-cell .ms-hero-num{font-size:clamp(1.9rem,9cqi,3.1rem);white-space:nowrap}
+.ms-cell .ms-hero .ms-stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.ms-cell .ms-quick,.ms-cell .ms-quick>*{overflow-wrap:normal;word-break:normal}
+.ms-cell .ms-quick>*{min-width:0}
+.ms-cell .ms-quick span{white-space:normal;text-align:center;line-height:1.15}
+@container (min-width:520px){.ms-cell .ms-hero .ms-stats{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@container (min-width:580px){.ms-cell .ms-hero .card-body>.ms-quick{padding-right:var(--m)}}
+@container (max-width:400px){
+  .ms-cell .ms-hero .card-body{padding:1rem}
+  .ms-cell .ms-quick{gap:.25rem}
+  .ms-cell .ms-quick>*{font-size:.7rem}
+  .ms-cell .ms-quick i{width:42px;height:42px}
+}
+
+/* --- milestone card: never letter-by-letter; stacks when narrow, goes side-by-side with the rocket when wide --- */
+.ms-cell .ms-goalcard .card-body{flex-wrap:wrap;gap:1rem!important;overflow-wrap:normal}
+.ms-cell .ms-goalcard .card-body>div:last-child{min-width:0;flex:0 1 auto}
+.ms-cell .ms-goalcard .stat-value{font-size:clamp(1.3rem,8cqi,1.8rem);white-space:nowrap}
+@container (min-width:520px){
+  .ms-cell .ms-goalcard{flex-direction:row;align-items:center}
+  .ms-cell .ms-goalcard .card-body{flex:1 1 auto!important;flex-wrap:nowrap;padding:1.4rem 1.6rem!important}
+  .ms-cell .ms-goalcard::after{flex:0 0 clamp(200px,34cqi,280px)!important;min-height:190px!important;align-self:stretch}
+}
+
+/* --- header: keep it on one line at any width --- */
+.ms-header{gap:.4rem}
+.ms-crumb{min-width:0}
+.ms-crumb #pageTitle{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ms-crumb-logo{flex-shrink:0}
+@media (min-width:768px) and (max-width:1099.98px){.ms-sync{font-size:0;gap:0;padding:.35rem}.ms-sync::before{margin:0}}
+@media (min-width:768px) and (max-width:899.98px){.ms-header .btn span{display:none!important}}
+@media (max-width:420px){.ms-sync{display:none}.ms-crumb-logo{flex-basis:34px;width:34px;height:34px}.ms-header{padding-inline:.6rem}}
+
+/* --- sidebar: usable on short / rotated screens --- */
+.ms-nav{overflow-y:auto;min-height:0;scrollbar-width:none}.ms-nav::-webkit-scrollbar{display:none}
+@media (max-height:700px){.ms-sb-card{display:none}}
+@media (max-height:520px){.ms-brand{height:52px}.ms-nav{padding-top:.3rem}.ms-nav-label{display:none}.ms-nav a{height:36px;min-height:36px}.ms-sb-foot{padding:.3rem .5rem}}
+
+/* --- cards, tabs, pills: wrap instead of overflow --- */
+.card-header.d-flex{flex-wrap:wrap;gap:.5rem}
+.nav-pills{max-width:100%;overflow-x:auto;scrollbar-width:none}.nav-pills::-webkit-scrollbar{display:none}
+.table-responsive,.card-body:has(>table){overflow-x:auto}
+
+/* --- very large and very small screens --- */
+@media (min-width:2000px){html{font-size:16px}.ms-content{max-width:2300px}}
+@media (min-width:2800px){html{font-size:19px}.ms-content{max-width:2900px}}
+@media (max-width:359.98px){html{font-size:13.5px}.ms-pagehead img{display:none}}
+@media (max-width:359.98px){.ms-header{gap:.1rem;padding-inline:.45rem}.ms-header .btn-ghost{width:32px;height:32px;min-height:0}.ms-crumb{gap:.4rem!important}.ms-crumb-logo{flex-basis:30px;width:30px;height:30px}.ms-crumb #pageTitle{font-size:1rem}}
+
+/* numbers and small labels must never split mid-word (cards allow break-anywhere for long user text like bill names) */
+.ms-content :is(.tabular,.stat-value,.ms-bc-bal,.ms-hero-num,.kpi-label,.ms-tick em,.ms-stats span,.ms-sum span,.ms-pstat span,.ms-bc-sub,.btn,.ms-pill){overflow-wrap:normal;word-break:normal}
+.ms-tick em{white-space:nowrap}
+
+/* ================= v20: phone — burger menu stacking fix =================
+   polish.css forces .ms-sidebar to z-index:1 (same as .ms-main, which comes later in the DOM),
+   which beat app.css's z-index:1040. On phones the drawer therefore opened BEHIND the page and
+   BEHIND the dim backdrop (1035): dimmed, covered by cards, and untappable. Lift it above everything. */
+@media (max-width:767.98px){
+ .ms-sidebar{z-index:1060}
+ html.ms-open .ms-backdrop{z-index:1050}
+ html.ms-open,html.ms-open body{overflow:hidden}
+ html.ms-open .ms-sidebar{box-shadow:12px 0 40px -8px rgba(0,0,0,.6)}
+}
+
+/* ================= v21: dashboard — month switcher to the right of the greeting ================= */
+.ms-top{display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
+.ms-top>div:first-child{min-width:0}
+.ms-top .ms-seg{flex:none;margin-left:auto}
+.ms-monthbar-extra{margin-bottom:.75rem}
+@media (max-width:767.98px){
+ .ms-top{flex-wrap:nowrap}
+ .ms-top .ms-month-l{min-width:72px;font-size:.82rem;padding:0 .2rem}
+ .ms-top .ms-seg button{width:30px}
+}
+.ms-greet-txt{display:block;min-width:0}
+.ms-greet-txt .ms-hello,.ms-greet-txt .ms-sub{display:block}
+
+/* v23: month label vertically centred when the switcher lives in the greeting row */
+.ms-top .ms-seg{align-items:center}
+.ms-top .ms-month-l{display:inline-flex;align-items:center;justify-content:center;align-self:stretch;line-height:1}
+
+/* ================= v24: Bills / Log — month switcher inline in the page head ================= */
+.ms-pagehead .ms-seg{flex:none;align-items:center;align-self:center;margin-left:auto}
+.ms-pagehead .ms-month-l{display:inline-flex;align-items:center;justify-content:center;align-self:stretch;line-height:1;min-width:84px;font-size:.85rem}
+@media (max-width:575.98px){
+ .ms-pagehead{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:.6rem}
+ .ms-pagehead>div:first-child{grid-column:1;grid-row:1}
+ .ms-pagehead .ms-seg{grid-column:1;grid-row:2;justify-self:start;margin:.55rem 0 0}
+ .ms-pagehead .ms-month-l{min-width:72px;font-size:.82rem}
+ .ms-pagehead .ms-seg button{width:30px}
+ .ms-pagehead img{grid-column:2;grid-row:1 / span 2}
+}
+
+/* ================= v25: Log — compact search + filter dropdown ================= */
+.ms-logbar{display:flex;align-items:center;gap:.5rem;flex-wrap:nowrap}
+.ms-logbar .ms-search{flex:1 1 auto;max-width:240px;min-width:0}
+.ms-logbar .ms-search input{width:100%}
+.ms-logbar .ms-logsel{flex:0 0 auto;width:auto;min-width:104px;border-radius:14px;cursor:pointer}
+@media (max-width:767.98px){.ms-logbar .ms-search{flex:1 1 0;max-width:none}}
+
+/* ================= v26: Bills / Log rows — edit/delete icons stay in a fixed, aligned column ================= */
+.min-w-0{min-width:0}
+.ms-bill>.flex-grow-1,.ms-tx>.flex-grow-1{flex:1 1 0;min-width:0}
+.ms-bill .ms-chip,.ms-tx .ms-chip{flex:none}
+.ms-acts{display:flex;align-items:center;justify-content:flex-end;flex:none;gap:2px}
+.ms-bill .btn-ghost,.ms-tx .btn-ghost,.ms-acts .ms-slot{width:32px;height:32px;min-width:32px;min-height:0;flex:0 0 32px;padding:0}
+.ms-acts .ms-slot{display:block}
+.ms-bill .tabular,.ms-tx .tabular{flex:none}
+@media (max-width:575.98px){
+ .ms-bill,.ms-tx{gap:.45rem!important}
+ .ms-acts{gap:0}
+ .ms-bill .btn-ghost,.ms-tx .btn-ghost,.ms-acts .ms-slot{width:28px;height:28px;min-width:28px;flex-basis:28px}
+ .ms-bill .tabular,.ms-tx .tabular{min-width:0;font-size:.88rem}
+}
+
+/* v27: paid-toggle circle must stay a perfect circle (was shrinking to an oval) */
+.ms-bill .ms-check,.ms-check{box-sizing:border-box;width:26px;height:26px;min-width:26px;min-height:26px;flex:0 0 26px;aspect-ratio:1/1;border-radius:50%}
+
+/* P1: due dates, overdue rows, payday rows */
+.ms-due{display:inline-block;font-size:.74rem;font-weight:700;padding:.08rem .5rem;border-radius:99px;background:rgba(var(--ms-accent-rgb),.12);color:var(--cui-secondary-color);white-space:nowrap}
+.ms-due.warn{background:rgba(255,162,31,.16);color:#c77700}.ms-due.bad{background:rgba(255,77,109,.16);color:#d6304f}.ms-due.ok{background:rgba(18,184,134,.16);color:#0e8f68}
+html[data-coreui-theme=dark] .ms-due.warn{color:#ffb04d}html[data-coreui-theme=dark] .ms-due.bad{color:#ff6b86}html[data-coreui-theme=dark] .ms-due.ok{color:#2fd39b}
+.ms-bill.overdue{border-color:rgba(255,77,109,.28);background:rgba(255,77,109,.05)}
+.ms-bill.overdue .ms-chip{--c:#ff4d6d!important;box-shadow:0 0 14px -2px #ff4d6d}
+.ms-bill .btn.btn-sm{flex:none;white-space:nowrap}
+.ms-acts .btn.btn-sm{margin-right:2px}
+@media (max-width:575.98px){.ms-bill .btn.btn-sm{padding:.2rem .5rem;font-size:.78rem}.ms-due{font-size:.7rem;white-space:normal}}
+
+/* ================= v30: Bills — one-row header, tidy two-line rows ================= */
+.card-header.ms-billhead{display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:.5rem}
+.ms-billhead .nav-pills{flex:1 1 auto;min-width:0;width:auto;margin:0}
+.ms-billhead .nav-pills .nav-item{flex:1 1 auto}
+.ms-billhead .nav-pills .nav-link{padding:.4rem .5rem!important;font-size:.88rem;white-space:nowrap;text-align:center}
+.ms-billhead .ms-addbtn{flex:none;white-space:nowrap;padding:.4rem .75rem;font-weight:700}
+.ms-billhead .ms-addbtn i{margin:0}
+@media (max-width:575.98px){
+ .card-header.ms-billhead{gap:.35rem;padding:.6rem .6rem}
+ .ms-billhead .nav-pills{padding:2px}
+ .ms-billhead .nav-pills .nav-link{padding:.35rem .3rem!important;font-size:.8rem;min-height:32px}
+ .ms-billhead .ms-addbtn{padding:.35rem .55rem;font-size:.8rem;min-height:32px}
+}
+@media (max-width:359.98px){.ms-billhead .ms-addbtn span{display:none}.ms-billhead .ms-addbtn{width:34px;padding:.35rem 0}}
+
+.ms-bill.ms-r{align-items:flex-start}
+.ms-r .ms-check{margin-top:9px}
+.ms-r .ms-chip{margin-top:1px}
+.ms-r-main{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:.2rem}
+.ms-r-top{display:flex;align-items:baseline;justify-content:space-between;gap:.6rem;min-width:0}
+.ms-r-top .ms-tx-t{min-width:0;flex:1 1 auto}
+.ms-r-top .tabular{flex:none;font-size:.98rem;font-weight:800;min-width:0}
+.ms-r-bot{display:flex;align-items:center;justify-content:space-between;gap:.4rem;min-height:30px}
+.ms-r-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem .4rem;min-width:0;flex:1 1 auto}
+.ms-r-note{font-size:.76rem;color:var(--cui-secondary-color);line-height:1.3}
+.ms-r .ms-due{white-space:nowrap;font-size:.72rem}
+.ms-r .ms-acts{flex:none;margin-left:auto}
+.ms-r .ms-acts .btn-ghost{opacity:.7}
+.ms-bill.ms-r.paid .ms-tx-t{text-decoration:line-through}
+.ms-bill.ms-r.paid .ms-r-top .tabular{color:var(--cui-secondary-color);font-weight:600}
+@media (max-width:575.98px){
+ .ms-r .ms-acts .btn.btn-sm{padding:.18rem .5rem;font-size:.76rem}
+ .ms-r-top .tabular{font-size:.92rem}
+}
+
+/* ================= v31: notifications — scrollable list, one row per notification ================= */
+.ms-bellpanel{display:flex;flex-direction:column;max-height:min(70vh,520px)}
+.ms-bellpanel[hidden]{display:none}
+.ms-bp-h{flex:none}
+.ms-bp-list{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y;scrollbar-width:thin}
+.ms-bp-i{align-items:center;gap:.6rem;padding:.65rem .85rem}
+.ms-bp-i>i{flex:0 0 32px;height:32px}
+.ms-bp-t{flex:1 1 0;min-width:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;font-size:.8rem;line-height:1.35}
+.ms-bp-t b,.ms-bp-t span{display:inline!important}
+.ms-bp-t b{font-size:.84rem}
+.ms-bp-t span{color:var(--cui-secondary-color)}
+.ms-bp-a{flex:none;display:flex;align-items:center}
+.ms-bp-a .btn{min-width:0;padding:.25rem .6rem;font-size:.78rem;white-space:nowrap}
+.ms-bp-i .ms-bp-x{position:static;flex:none;width:26px;height:26px}
+.ms-bp-i:has(.ms-bp-x) .ms-bp-t{padding-right:0}
+@media (max-width:767.98px){.ms-bellpanel{max-height:calc(100dvh - 56px - env(safe-area-inset-top,0px) - 84px - env(safe-area-inset-bottom,0px))}}
+
+/* ================= v32: Data & sync — consistent cards, rows, forms ================= */
+.ms-set .card-header.ms-sethead{display:flex;flex-wrap:nowrap;align-items:center;gap:.65rem;padding:.8rem 1rem}
+.ms-sethead-ic{flex:none;width:30px;height:30px;border-radius:10px;display:grid;place-items:center;background:rgba(var(--ms-accent-rgb),.16);color:var(--ms-accent)}
+.ms-sethead-ic i{display:block;line-height:1;font-size:.95rem}
+.ms-sethead-t{flex:1 1 auto;min-width:0;font-weight:800}
+.ms-set .card-body{padding:1rem}
+.ms-set .form-label{font-size:.76rem;font-weight:700;letter-spacing:.02em;color:var(--cui-secondary-color);margin-bottom:.3rem}
+.ms-set .form-control,.ms-set .form-select{min-height:42px}
+.ms-set .btn:not(.btn-sm){min-height:42px}
+.ms-inline{display:flex;align-items:flex-end;gap:.5rem}
+.ms-inline .btn{flex:none;white-space:nowrap}
+.ms-stack{display:flex;flex-direction:column;gap:.75rem}
+.ms-two{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.ms-two .btn{width:100%;white-space:nowrap}
+.ms-foot{margin:.85rem 0 0;font-size:.78rem;line-height:1.45;color:var(--cui-secondary-color)}
+.ms-sethint{display:flex;align-items:center;gap:.5rem;margin-bottom:.9rem;font-size:.85rem;color:var(--cui-secondary-color)}
+.ms-sethint i{flex:none}
+.ms-acct{display:flex;align-items:center;gap:.8rem;padding:.7rem .8rem;margin-bottom:.9rem;border-radius:16px;background:rgba(var(--ms-accent-rgb),.08);border:1px solid var(--ms-line)}
+.ms-mav-lg{width:44px!important;height:44px!important;font-size:1.1rem}
+/* the sync badge keeps its words here (the header chip shrinks to a dot on phones, this one must not) */
+#syncBig.ms-sync{display:inline-flex!important;font-size:.78rem!important;gap:.4rem!important;padding:.2rem .65rem!important;white-space:nowrap}
+#syncBig.ms-sync::before{margin:0!important}
+#syncBig.synced::before,#syncBig.idle::before{background:#12b886}
+/* setting rows: icon, title + help text, control */
+.ms-srow{display:flex;align-items:center;gap:.75rem;padding:.8rem 0;border-top:1px solid var(--ms-line)}
+.ms-srow:first-child{border-top:0;padding-top:0}
+.ms-sicon{flex:none;width:36px;height:36px;border-radius:12px;display:grid;place-items:center;background:rgba(var(--ms-accent-rgb),.12);color:var(--ms-accent)}
+.ms-sicon i{display:block;line-height:1}
+.ms-sbody{flex:1 1 0;min-width:0}
+.ms-st{font-weight:700;font-size:.92rem}
+.ms-sd,.ms-sbody>.small,.ms-sbody>p{font-size:.78rem;line-height:1.4;color:var(--cui-secondary-color);margin:.1rem 0 0}
+.ms-sctl{flex:none}
+.ms-sact{margin-top:.6rem}.ms-sact>div{display:flex;flex-wrap:wrap;gap:.5rem}
+.ms-sact .ms-note{margin-bottom:.5rem}
+.ms-srow-flat .ms-sicon{display:none}
+/* danger zone */
+.ms-danger-h{display:flex;align-items:center;gap:.4rem;margin:1.1rem 0 .4rem;padding-top:1rem;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:#d6304f}
+html[data-coreui-theme=dark] .ms-danger-h{color:#ff6b86}
+/* household */
+.ms-set .ms-subhead{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ms-accent);font-weight:800;margin:1.2rem 0 .6rem;padding-top:1rem}
+.ms-set .ms-danger-h{color:#d6304f}
+.ms-set .ms-member{padding:.65rem 0}
+.ms-inviteform{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;align-items:end}
+.ms-inviteform>.btn{grid-column:1/-1}
+.ms-set .ms-invite{padding:.6rem .75rem;border:1px solid var(--ms-line)}
+.ms-set .ms-invite .ms-code{font-size:.95rem;background:none;padding:0;border-radius:0;overflow:visible}
+@media (max-width:575.98px){
+ .ms-set .card-body{padding:.85rem}
+ .ms-set .card-header.ms-sethead{padding:.7rem .85rem}
+ .ms-srow{align-items:flex-start}
+ .ms-srow:has(.ms-sctl .btn-sm){align-items:center}
+ .ms-inline{flex-wrap:wrap}.ms-inline>.flex-grow-1{flex:1 1 100%}.ms-inline>.btn{width:100%}
+ .ms-inline:has(>input){flex-wrap:nowrap}.ms-inline:has(>input)>.btn{width:auto}
+ .ms-set .ms-member{flex-wrap:wrap}.ms-set .ms-member .btn{margin-left:calc(34px + .65rem)}
+ .ms-invite{flex-direction:row;flex-wrap:wrap}.ms-invite>span.small{flex:1 1 100%;order:3}
+}
+
+/* ================= v33: Goal page — hero with scenarios, chart + what-if side by side ================= */
+.ms-gh{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:1.5rem;align-items:center}
+.ms-gh .stat-value{font-size:2rem}
+.ms-gh-cases{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.ms-case{display:flex;flex-direction:column;gap:.15rem;padding:.8rem .9rem;border-radius:16px;background:rgba(var(--ms-accent-rgb),.08);border:1px solid var(--ms-line);min-width:0}
+.ms-case-l{display:flex;align-items:center;gap:.4rem;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:var(--cui-secondary-color)}
+.ms-case .legend-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.ms-case.best .legend-dot{background:#2eb85c}.ms-case.worst .legend-dot{background:#e55353}
+.ms-case b{font-size:1.2rem;font-weight:800;letter-spacing:-.02em;white-space:nowrap}
+.ms-case em{font-style:normal;font-size:.78rem;color:var(--cui-body-color);line-height:1.3}
+.ms-case small{font-size:.72rem;color:var(--cui-secondary-color)}
+.ms-lg{display:flex;align-items:center;gap:.8rem;font-size:.76rem;font-weight:600;color:var(--cui-secondary-color);flex:none}
+.ms-lg span{display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap}
+.ms-lg i{display:inline-block;width:14px;height:4px;border-radius:2px}
+.ms-lg i.dash{background:repeating-linear-gradient(90deg,#9da5b1 0 4px,transparent 4px 7px)}
+.ms-set .input-group-text{background:rgba(var(--ms-accent-rgb),.1);border-color:var(--ms-line);color:var(--cui-secondary-color);font-weight:700}
+.ms-set .input-group .form-control{min-width:0}
+.ms-split-h{margin:.4rem 0 0!important;padding-top:.9rem!important;display:flex;justify-content:space-between;align-items:baseline}
+.ms-split-h span{font-size:.72rem;text-transform:none;letter-spacing:0;color:var(--cui-secondary-color);font-weight:600}
+.ms-set .ms-wi-s{margin-bottom:1rem}
+@media (max-width:991.98px){.ms-gh{grid-template-columns:1fr;gap:1rem}}
+@media (max-width:575.98px){
+ .ms-gh .stat-value{font-size:1.7rem}
+ .ms-gh-cases{grid-template-columns:1fr}
+ .ms-set .card-header.ms-sethead:has(.ms-lg){flex-wrap:wrap}
+ .ms-lg{gap:.6rem}
+}
+
+/* ================= v34: phone consistency — rows keep full width, setting rows wrap their controls ================= */
+.ms-content>.row{max-width:none}   /* the generic ".ms-content>*{max-width:100%}" capped negative-margin rows, so Settings/Goal panels came out narrower than Bills */
+.ms-sbody code{font-size:.78rem;overflow-wrap:anywhere}
+@media (max-width:575.98px){
+ .ms-content .row>[class*=col-]>.card:last-child{margin-bottom:0!important}
+ .ms-set .card-header.ms-sethead{padding:.8rem 1rem}
+ .ms-set .card-body{padding:1rem}
+ .ms-srow{flex-wrap:wrap;align-items:flex-start}
+ .ms-srow .ms-sbody{flex:1 1 0;min-width:0}
+ .ms-srow .ms-sctl{flex:1 1 100%;padding-left:calc(36px + .75rem)}
+ .ms-srow-flat .ms-sbody{flex:1 1 0}.ms-srow-flat{flex-wrap:nowrap;align-items:center}
+ .ms-srow-flat .ms-sctl{flex:none;padding-left:0}
+ .ms-sctl .ms-note{white-space:normal;max-width:100%;text-align:left}
+ .ms-sctl .btn{max-width:100%}
+}
+@media (max-width:575.98px){
+ .ms-inline.ms-inline-row{flex-wrap:nowrap}.ms-inline.ms-inline-row>.flex-grow-1{flex:1 1 0;min-width:0}.ms-inline.ms-inline-row>.btn{width:auto}
+}
+
+/* badges and pills never break into vertical letters */
+.ms-pillnote{white-space:nowrap}
+.ms-member>.ms-pillnote{flex:none}
+.ms-member .min-w-0{flex:1 1 0}
+#syncBig.signedout::before,#syncBig.local::before{background:#8b87b8}
+.ms-set .form-check-input{flex:none;width:1.15rem;height:1.15rem;margin-top:.1rem;background-color:transparent;border:2px solid rgba(124,136,255,.55)}
+.ms-set .form-check-input:checked{background-color:var(--ms-accent);border-color:var(--ms-accent)}
+
+/* ================= v36: calm icons — colour only ever carries meaning =================
+   Before: every row icon got a 3px glowing ring whose colour cycled by row position (orange/blue/purple/green/pink),
+   so the same bill changed colour as the list changed, and pink/green rings looked like warnings.
+   Now: one quiet neutral circle. Colour appears only for: money in (green), due soon (amber), overdue (red). */
+html .ms-tx .ms-chip:not([style*="--c"]),html .ms-bill .ms-chip:not([style*="--c"]){
+  border:0!important;box-shadow:none!important;border-radius:50%!important;
+  background:color-mix(in srgb,var(--cui-body-color) 8%,transparent)!important;color:var(--cui-secondary-color)!important}
+html .ms-tx .ms-chip.in,html .ms-bill .ms-chip.in{background:rgba(18,184,134,.16)!important;color:#12b886!important}
+html[data-coreui-theme=light] .ms-tx .ms-chip.in,html[data-coreui-theme=light] .ms-bill .ms-chip.in{color:#15935a!important}
+html .ms-bill.soon .ms-chip:not([style*="--c"]){background:rgba(255,176,32,.16)!important;color:#e8920c!important}
+html .ms-bill.overdue .ms-chip:not([style*="--c"]){background:rgba(244,63,94,.14)!important;color:#f43f5e!important}
+html[data-coreui-theme=light] .ms-bill.overdue .ms-chip:not([style*="--c"]){color:#d1203f!important}
+
+/* ================= v37: mascot stands on the ground instead of hovering =================
+   Same size and position as before. Each mascot now has a soft contact shadow + faint rim-lit floor under its feet,
+   and the up/down bobbing (which read as "floating") is replaced by a tiny breathing motion anchored at the feet. */
+@keyframes msBreathe{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.018)}}
+/* page-head mascots (Bills, Log, Goal, Data): the <img> sits in a .ms-stand wrapper that carries the shadow */
+.ms-pagehead .ms-stand{position:relative;display:block;flex:none;line-height:0;margin:-14px 6px -6px 0}
+.ms-pagehead .ms-stand img{position:relative;z-index:1;margin:0;display:block;transform-origin:50% 100%;animation:msBreathe 5s ease-in-out infinite}
+.ms-pagehead .ms-stand::before{content:"";position:absolute;z-index:0;left:14%;width:72%;bottom:-4%;height:13%;border-radius:50%;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(10,6,50,.62),rgba(10,6,50,.3) 55%,transparent 100%),
+             radial-gradient(closest-side,transparent 70%,rgba(140,130,255,.28) 88%,transparent 100%)}
+html[data-coreui-theme=light] .ms-pagehead .ms-stand::before{background:radial-gradient(closest-side,rgba(40,30,110,.42),rgba(40,30,110,.18) 55%,transparent 100%),radial-gradient(closest-side,transparent 70%,rgba(110,95,255,.22) 88%,transparent 100%)}
+@media (max-width:767.98px){.ms-pagehead .ms-stand{margin:-8px 0 -4px}}
+@media (max-width:575.98px){.ms-pagehead .ms-stand{grid-column:2;grid-row:1 / span 2}}
+@media (max-width:359.98px){.ms-pagehead .ms-stand{display:none}}
+html.ms-low .ms-pagehead .ms-stand img{animation:none!important}
+/* dashboard hero + goal card: the mascot is a background image, so the floor is a second background layer under it */
+.ms-hero::after{
+  background-image:url(../assets/mascot.webp),radial-gradient(closest-side,rgba(10,6,50,.6),rgba(10,6,50,.28) 55%,transparent 100%),radial-gradient(closest-side,transparent 70%,rgba(255,255,255,.22) 88%,transparent 100%)!important;
+  background-size:contain,60% 11%,60% 11%!important;background-position:center,50% 99%,50% 99%!important;background-repeat:no-repeat!important;
+  transform-origin:50% 100%;animation:msBreathe 5s ease-in-out infinite!important}
+.ms-goalcard::after{
+  background-image:url(../assets/mascot2.webp),radial-gradient(closest-side,rgba(10,6,50,.6),rgba(10,6,50,.28) 55%,transparent 100%),radial-gradient(closest-side,transparent 70%,rgba(255,255,255,.22) 88%,transparent 100%)!important;
+  background-size:contain,58% 14px,58% 14px!important;background-position:center bottom,50% calc(100% + 3px),50% calc(100% + 3px)!important;background-repeat:no-repeat!important;
+  transform-origin:50% 100%;animation:msBreathe 5.5s ease-in-out infinite!important}
+html.ms-low .ms-hero::after,html.ms-low .ms-goalcard::after{animation:none!important}
+/* sidebar mascot: same ground shadow, same breathing */
+.ms-vibe img{position:relative;z-index:1;transform-origin:50% 100%;animation:msBreathe 6s ease-in-out infinite!important}
+.ms-vibe::before{content:"";position:absolute;z-index:0;left:50%;width:64px;height:11px;margin-left:-32px;top:calc(1.1rem + 104px - 7px);border-radius:50%;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(10,6,50,.62),rgba(10,6,50,.3) 55%,transparent 100%),radial-gradient(closest-side,transparent 70%,rgba(140,130,255,.28) 88%,transparent 100%)}
+html.ms-collapsed .ms-vibe::before{width:30px;height:6px;margin-left:-15px;top:calc(.3rem + 38px - 4px)}
+html.ms-low .ms-vibe img{animation:none!important}

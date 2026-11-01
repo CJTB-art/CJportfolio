@@ -1,0 +1,85 @@
+{
+ "note": "Math rows from the converted bank whose topic is OUT_OF_TOS or UNMAPPED. They are NOT written to the app.",
+ "droppedFromThisBank": 0,
+ "byTarget": {},
+ "items": [],
+ "labelsInOtherStores": [
+  {
+   "label": "(no topic)",
+   "target": "UNMAPPED",
+   "itemsInAllStores": 556,
+   "itemsInThisBank": 0,
+   "note": "no topic; see topic-suggestions.json"
+  },
+  {
+   "label": "History Of Math & Math Of Investment",
+   "target": "UNMAPPED",
+   "itemsInAllStores": 53,
+   "itemsInThisBank": 0,
+   "note": "composite label; classify per question via keywords"
+  },
+  {
+   "label": "Daily Review   Math Major",
+   "target": "OUT_OF_TOS",
+   "itemsInAllStores": 52,
+   "itemsInThisBank": 0,
+   "note": "not a TOS Math topic"
+  },
+  {
+   "label": "CALC Techniques, Special Set Mathematics",
+   "target": "UNMAPPED",
+   "itemsInAllStores": 49,
+   "itemsInThisBank": 0,
+   "note": "composite label; classify per question via keywords"
+  },
+  {
+   "label": "CALC Techniques",
+   "target": "OUT_OF_TOS",
+   "itemsInAllStores": 47,
+   "itemsInThisBank": 0,
+   "note": "not a TOS topic label (calculus-related; review by hand)"
+  },
+  {
+   "label": "Special Set Mathematics",
+   "target": "UNMAPPED",
+   "itemsInAllStores": 43,
+   "itemsInThisBank": 0,
+   "note": "unknown label"
+  },
+  {
+   "label": "Linear Algebra",
+   "target": "OUT_OF_TOS",
+   "itemsInAllStores": 26,
+   "itemsInThisBank": 0,
+   "note": "not a TOS Math topic"
+  },
+  {
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "target": "UNMAPPED",
+   "itemsInAllStores": 26,
+   "itemsInThisBank": 0,
+   "note": "composite label; classify per question via keywords"
+  },
+  {
+   "label": "Abstract Algebra",
+   "target": "OUT_OF_TOS",
+   "itemsInAllStores": 17,
+   "itemsInThisBank": 0,
+   "note": "not a TOS Math topic"
+  },
+  {
+   "label": "COMBINATORICS, PROBABILITY, AND STATISTICS, Research In Mathematics Education, Problem Solving, and Mathematics Investigation, Abstract Algebra & Number Theory 2",
+   "target": "UNMAPPED",
+   "itemsInAllStores": 10,
+   "itemsInThisBank": 0,
+   "note": "composite label; classify per question via keywords"
+  },
+  {
+   "label": "COMBINATORICS, PROBABILITY, AND STATISTICS, Research In Mathematics Education, Problem Solving, and Mathematics Investigation, Abstract Algebra & Number Theory 2, C, P, & S Assessment",
+   "target": "UNMAPPED",
+   "itemsInAllStores": 7,
+   "itemsInThisBank": 0,
+   "note": "composite label; classify per question via keywords"
+  }
+ ]
+}

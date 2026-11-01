@@ -1,0 +1,31 @@
+{
+  "id": "/",
+  "name": "Pasa",
+  "short_name": "Pasa",
+  "description": "Study, practice, and track your progress with Pasa.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F6EBD9",
+  "theme_color": "#F6EBD9",
+  "categories": [
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "orientation": "any",
+  "prefer_related_applications": false
+}

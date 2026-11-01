@@ -1,0 +1,33 @@
+/* Hardening: loads last. Keeps every screen (320px phones, iPhone notch/landscape, tablets, desktop) from overflowing or clipping. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; min-width: 0 }
+html, body { max-width: 100%; overflow-x: hidden }
+@supports (overflow: clip) { html, body { overflow-x: clip } }
+a, button, .btn, input, select, textarea, [data-act] { touch-action: manipulation }
+img, svg, canvas, video { max-width: 100% }
+.ms-main, .ms-content, .ms-cell, .card, .card-body, .ms-bill, .ms-header > *, .ms-sum > *, .input-group > .form-control { min-width: 0 }
+.card-body, .card-header, .ms-bill, .modal-body, .modal-title, .ms-sum b, .ms-crumb-t { overflow-wrap: anywhere }
+.table-responsive, .card-body:has(> table) { overflow-x: auto; -webkit-overflow-scrolling: touch }
+textarea { max-width: 100%; resize: vertical }
+.ms-content { padding-left: max(.9rem, env(safe-area-inset-left)); padding-right: max(.9rem, env(safe-area-inset-right)) }
+@media (max-width: 767.98px) {
+  .ms-header { padding-left: max(.6rem, env(safe-area-inset-left)); padding-right: max(.6rem, env(safe-area-inset-right)) }
+  .ms-tabbar { left: max(12px, env(safe-area-inset-left)) !important; right: max(12px, env(safe-area-inset-right)) !important }
+  /* sheets never taller than the visible screen (dvh follows the iPhone toolbar and keyboard); content scrolls inside */
+  html .modal-content { max-height: calc(100vh - 12px - env(safe-area-inset-top, 0px)) !important; max-height: calc(100dvh - 12px - env(safe-area-inset-top, 0px)) !important; display: flex; flex-direction: column }
+  html .modal-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain }
+  html .modal-header, html .modal-footer { flex: none }
+  html .modal-footer { padding-bottom: calc(.5rem + env(safe-area-inset-bottom, 0px)) }
+  input, select, textarea, .form-control, .form-select { font-size: 16px !important }  /* below 16px iOS zooms the page on focus */
+}
+@media (pointer: coarse) {
+  .btn, .nav-link, .ms-pill { min-height: 40px }
+  .btn-close { min-width: 40px; min-height: 40px }
+}
+@media (max-width: 767.98px) and (orientation: landscape) and (max-height: 500px) {
+  .ms-content { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px)) }
+  .ms-dial { bottom: calc(76px + env(safe-area-inset-bottom, 0px)) }
+}
+@media (max-width: 319.98px) { html { font-size: 13px } .ms-header .btn span, .ms-crumb-t small { display: none !important } }
+/* last-resort error banner (see index.html) */
+.ms-fail { position: fixed; left: 12px; right: 12px; top: calc(env(safe-area-inset-top, 0px) + 10px); z-index: 2000; display: flex; gap: .6rem; align-items: center; justify-content: space-between; padding: .65rem .85rem; border-radius: 14px; background: #2a1530; color: #fff; border: 1px solid rgba(255,120,150,.5); font: 14px/1.35 system-ui, -apple-system, sans-serif }
+.ms-fail button { border: 0; border-radius: 10px; padding: .35rem .7rem; font: inherit; background: #fff; color: #2a1530; margin-left: .3rem }

@@ -1,0 +1,3920 @@
+{
+ "note": "Math questions in bank+missing whose label is UNMAPPED or empty. Keyword guesses only; confirm by hand.",
+ "counts": {
+  "none": 0,
+  "high": 218,
+  "medium": 165,
+  "low": 129,
+  "noKeyword": 104
+ },
+ "suggestions": {
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-10": {
+   "id": "set-1781070613119-vxdlh-Math Major-10",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "low",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-12": {
+   "id": "set-1781070613119-vxdlh-Math Major-12",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-39": {
+   "id": "set-1781070613119-vxdlh-Math Major-39",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-40": {
+   "id": "set-1781070613119-vxdlh-Math Major-40",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-41": {
+   "id": "set-1781070613119-vxdlh-Math Major-41",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-42": {
+   "id": "set-1781070613119-vxdlh-Math Major-42",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "series"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-47": {
+   "id": "set-1781070613119-vxdlh-Math Major-47",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-69": {
+   "id": "set-1781070613119-vxdlh-Math Major-69",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-81": {
+   "id": "set-1781070613119-vxdlh-Math Major-81",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "low",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-110": {
+   "id": "set-1781070613119-vxdlh-Math Major-110",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "loan"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-114": {
+   "id": "set-1781070613119-vxdlh-Math Major-114",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "depreciation"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781070613119-vxdlh-Math Major-129": {
+   "id": "set-1781070613119-vxdlh-Math Major-129",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-2": {
+   "id": "set-1781520012470-o7oqa-Math Major-2",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "high",
+   "keywords": [
+    "remainder"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-131": {
+   "id": "set-1781520012470-o7oqa-Math Major-131",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "fermat"
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-148": {
+   "id": "set-1781520012470-o7oqa-Math Major-148",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "polynomial",
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-149": {
+   "id": "set-1781520012470-o7oqa-Math Major-149",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "mathematician"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-167": {
+   "id": "set-1781520012470-o7oqa-Math Major-167",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "medium",
+   "keywords": [
+    "remainder",
+    "congruen"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-168": {
+   "id": "set-1781520012470-o7oqa-Math Major-168",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "fermat"
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-177": {
+   "id": "set-1781520012470-o7oqa-Math Major-177",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "php",
+    "interest"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-179": {
+   "id": "set-1781520012470-o7oqa-Math Major-179",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "fermat"
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-180": {
+   "id": "set-1781520012470-o7oqa-Math Major-180",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "high",
+   "keywords": [
+    "digit"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-187": {
+   "id": "set-1781520012470-o7oqa-Math Major-187",
+   "store": "let-mock-board-sets-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-192": {
+   "id": "set-1781520012470-o7oqa-Math Major-192",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "high",
+   "keywords": [
+    "digit"
+   ],
+   "runnerUp": null
+  },
+  "let-mock-board-sets-v1|set-1781520012470-o7oqa-Math Major-203": {
+   "id": "set-1781520012470-o7oqa-Math Major-203",
+   "store": "let-mock-board-sets-v1",
+   "label": "Special Set Mathematics",
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "euler"
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-practice-problem-edits-v1|null": {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "label": null,
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "medium",
+   "keywords": [
+    "prime"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-1": {
+   "id": "math/History of Math & Math of Investment.pdf-1",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "gauss",
+    "mathematician"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-2": {
+   "id": "math/History of Math & Math of Investment.pdf-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "ancient"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-3": {
+   "id": "math/History of Math & Math of Investment.pdf-3",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "egypt",
+    "greek"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-4": {
+   "id": "math/History of Math & Math of Investment.pdf-4",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "ancient",
+    "egypt",
+    "numeral system"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-5": {
+   "id": "math/History of Math & Math of Investment.pdf-5",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "ancient",
+    "egypt"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-6": {
+   "id": "math/History of Math & Math of Investment.pdf-6",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "inscribed",
+    "circle"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-7": {
+   "id": "math/History of Math & Math of Investment.pdf-7",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "pythagoras"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-8": {
+   "id": "math/History of Math & Math of Investment.pdf-8",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "mathematician",
+    "pythagoras"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-9": {
+   "id": "math/History of Math & Math of Investment.pdf-9",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "mathematician",
+    "newton"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-11": {
+   "id": "math/History of Math & Math of Investment.pdf-11",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "pythagoras",
+    "greek",
+    "mathematician"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-12": {
+   "id": "math/History of Math & Math of Investment.pdf-12",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "greek",
+    "mathematician"
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-14": {
+   "id": "math/History of Math & Math of Investment.pdf-14",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "area of",
+    "polygon",
+    "volume"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-15": {
+   "id": "math/History of Math & Math of Investment.pdf-15",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": "Analytic Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-16": {
+   "id": "math/History of Math & Math of Investment.pdf-16",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "circle"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-17": {
+   "id": "math/History of Math & Math of Investment.pdf-17",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "egypt",
+    "ancient"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-18": {
+   "id": "math/History of Math & Math of Investment.pdf-18",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "euclid"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-19": {
+   "id": "math/History of Math & Math of Investment.pdf-19",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "archimedes"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-20": {
+   "id": "math/History of Math & Math of Investment.pdf-20",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Analytic Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "conic"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-21": {
+   "id": "math/History of Math & Math of Investment.pdf-21",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "mathematician"
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-22": {
+   "id": "math/History of Math & Math of Investment.pdf-22",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "trigonometr"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-23": {
+   "id": "math/History of Math & Math of Investment.pdf-23",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "low",
+   "keywords": [
+    "trigonometr"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-24": {
+   "id": "math/History of Math & Math of Investment.pdf-24",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "euclid",
+    "hypatia"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-25": {
+   "id": "math/History of Math & Math of Investment.pdf-25",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-26": {
+   "id": "math/History of Math & Math of Investment.pdf-26",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-27": {
+   "id": "math/History of Math & Math of Investment.pdf-27",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "mathematician"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-28": {
+   "id": "math/History of Math & Math of Investment.pdf-28",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "mathematician",
+    "hindu"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-30": {
+   "id": "math/History of Math & Math of Investment.pdf-30",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "logarithm"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-31": {
+   "id": "math/History of Math & Math of Investment.pdf-31",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "leibniz"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-32": {
+   "id": "math/History of Math & Math of Investment.pdf-32",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "euler",
+    "gauss"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-33": {
+   "id": "math/History of Math & Math of Investment.pdf-33",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-35": {
+   "id": "math/History of Math & Math of Investment.pdf-35",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "euclid",
+    "fermat",
+    "descartes"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-36": {
+   "id": "math/History of Math & Math of Investment.pdf-36",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-37": {
+   "id": "math/History of Math & Math of Investment.pdf-37",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "euclid"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-38": {
+   "id": "math/History of Math & Math of Investment.pdf-38",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "mathematician"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-39": {
+   "id": "math/History of Math & Math of Investment.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "mathematician"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-40": {
+   "id": "math/History of Math & Math of Investment.pdf-40",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "sphere"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-41": {
+   "id": "math/History of Math & Math of Investment.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-42": {
+   "id": "math/History of Math & Math of Investment.pdf-42",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-43": {
+   "id": "math/History of Math & Math of Investment.pdf-43",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "compound",
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-44": {
+   "id": "math/History of Math & Math of Investment.pdf-44",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "bond",
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-45": {
+   "id": "math/History of Math & Math of Investment.pdf-45",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "bond",
+    "compound",
+    "interest"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-46": {
+   "id": "math/History of Math & Math of Investment.pdf-46",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-47": {
+   "id": "math/History of Math & Math of Investment.pdf-47",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "principal",
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-49": {
+   "id": "math/History of Math & Math of Investment.pdf-49",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "loan",
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-51": {
+   "id": "math/History of Math & Math of Investment.pdf-51",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-52": {
+   "id": "math/History of Math & Math of Investment.pdf-52",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "low",
+   "keywords": [
+    "bond"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-53": {
+   "id": "math/History of Math & Math of Investment.pdf-53",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Assessment in Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "portfolio"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-54": {
+   "id": "math/History of Math & Math of Investment.pdf-54",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "low",
+   "keywords": [
+    "bond"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-55": {
+   "id": "math/History of Math & Math of Investment.pdf-55",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Assessment in Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "portfolio"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-56": {
+   "id": "math/History of Math & Math of Investment.pdf-56",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "bond"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-57": {
+   "id": "math/History of Math & Math of Investment.pdf-57",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-58": {
+   "id": "math/History of Math & Math of Investment.pdf-58",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "compound",
+    "interest",
+    "loan"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-59": {
+   "id": "math/History of Math & Math of Investment.pdf-59",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "compound",
+    "interest",
+    "principal"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-60": {
+   "id": "math/History of Math & Math of Investment.pdf-60",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "low",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-61": {
+   "id": "math/History of Math & Math of Investment.pdf-61",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-62": {
+   "id": "math/History of Math & Math of Investment.pdf-62",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-63": {
+   "id": "math/History of Math & Math of Investment.pdf-63",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-64": {
+   "id": "math/History of Math & Math of Investment.pdf-64",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-65": {
+   "id": "math/History of Math & Math of Investment.pdf-65",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-66": {
+   "id": "math/History of Math & Math of Investment.pdf-66",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "principal",
+    "compound"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-67": {
+   "id": "math/History of Math & Math of Investment.pdf-67",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "compound",
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-68": {
+   "id": "math/History of Math & Math of Investment.pdf-68",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-69": {
+   "id": "math/History of Math & Math of Investment.pdf-69",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-72": {
+   "id": "math/History of Math & Math of Investment.pdf-72",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "archimedes"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-73": {
+   "id": "math/History of Math & Math of Investment.pdf-73",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "sqrt("
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-74": {
+   "id": "math/History of Math & Math of Investment.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "euclid"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-75": {
+   "id": "math/History of Math & Math of Investment.pdf-75",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "volume",
+    "sphere"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-76": {
+   "id": "math/History of Math & Math of Investment.pdf-76",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "low",
+   "keywords": [
+    "trigonometr"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-77": {
+   "id": "math/History of Math & Math of Investment.pdf-77",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "fibonacci",
+    "abacus",
+    "hindu",
+    "numeral system"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-78": {
+   "id": "math/History of Math & Math of Investment.pdf-78",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "trigonometr"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-79": {
+   "id": "math/History of Math & Math of Investment.pdf-79",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "ancient",
+    "greek"
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-80": {
+   "id": "math/History of Math & Math of Investment.pdf-80",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "fermat"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-81": {
+   "id": "math/History of Math & Math of Investment.pdf-81",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "descartes",
+    "newton",
+    "leibniz",
+    "fermat",
+    "euler"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-82": {
+   "id": "math/History of Math & Math of Investment.pdf-82",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "mathematician",
+    "newton",
+    "leibniz"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-83": {
+   "id": "math/History of Math & Math of Investment.pdf-83",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-84": {
+   "id": "math/History of Math & Math of Investment.pdf-84",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "mathematician",
+    "gauss"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-85": {
+   "id": "math/History of Math & Math of Investment.pdf-85",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "logarithm",
+    "matrix"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-86": {
+   "id": "math/History of Math & Math of Investment.pdf-86",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "descartes"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-87": {
+   "id": "math/History of Math & Math of Investment.pdf-87",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "napier",
+    "newton",
+    "leibniz"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-88": {
+   "id": "math/History of Math & Math of Investment.pdf-88",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Technology in Mathematics Teaching",
+   "confidence": "medium",
+   "keywords": [
+    "computer"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-89": {
+   "id": "math/History of Math & Math of Investment.pdf-89",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "gauss",
+    "fermat"
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-90": {
+   "id": "math/History of Math & Math of Investment.pdf-90",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-91": {
+   "id": "math/History of Math & Math of Investment.pdf-91",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "low",
+   "keywords": [
+    "area of"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-92": {
+   "id": "math/History of Math & Math of Investment.pdf-92",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Logic & Set Theory",
+   "confidence": "high",
+   "keywords": [
+    "set",
+    "sets"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-94": {
+   "id": "math/History of Math & Math of Investment.pdf-94",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "mathematician",
+    "euler",
+    "gauss",
+    "newton"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-95": {
+   "id": "math/History of Math & Math of Investment.pdf-95",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Analytic Geometry",
+   "confidence": "high",
+   "keywords": [
+    "conic",
+    "ellipse",
+    "parabola",
+    "hyperbola"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-96": {
+   "id": "math/History of Math & Math of Investment.pdf-96",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "newton",
+    "leibniz"
+   ],
+   "runnerUp": "Logic & Set Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-97": {
+   "id": "math/History of Math & Math of Investment.pdf-97",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "polynomial",
+    "equation"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-98": {
+   "id": "math/History of Math & Math of Investment.pdf-98",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-99": {
+   "id": "math/History of Math & Math of Investment.pdf-99",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "newton",
+    "descartes",
+    "euler"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-100": {
+   "id": "math/History of Math & Math of Investment.pdf-100",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "inscribed",
+    "polygon",
+    "circle"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-101": {
+   "id": "math/History of Math & Math of Investment.pdf-101",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-103": {
+   "id": "math/History of Math & Math of Investment.pdf-103",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Logic & Set Theory",
+   "confidence": "medium",
+   "keywords": [
+    "set"
+   ],
+   "runnerUp": "Arithmetic & Number Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-104": {
+   "id": "math/History of Math & Math of Investment.pdf-104",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "sqrt("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-105": {
+   "id": "math/History of Math & Math of Investment.pdf-105",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "sequence",
+    "series"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-107": {
+   "id": "math/History of Math & Math of Investment.pdf-107",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "volume",
+    "polygon"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-108": {
+   "id": "math/History of Math & Math of Investment.pdf-108",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "roots",
+    "polynomial",
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-109": {
+   "id": "math/History of Math & Math of Investment.pdf-109",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "euler"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-110": {
+   "id": "math/History of Math & Math of Investment.pdf-110",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "root",
+    "complex number"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-111": {
+   "id": "math/History of Math & Math of Investment.pdf-111",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "triangle"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-112": {
+   "id": "math/History of Math & Math of Investment.pdf-112",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation",
+    "sequence"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-113": {
+   "id": "math/History of Math & Math of Investment.pdf-113",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "mathematician",
+    "descartes"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-114": {
+   "id": "math/History of Math & Math of Investment.pdf-114",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "logarithm"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-115": {
+   "id": "math/History of Math & Math of Investment.pdf-115",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": "History of Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-116": {
+   "id": "math/History of Math & Math of Investment.pdf-116",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "History of Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "mathematician",
+    "hypatia"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-117": {
+   "id": "math/History of Math & Math of Investment.pdf-117",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-118": {
+   "id": "math/History of Math & Math of Investment.pdf-118",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "principal",
+    "compound",
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-119": {
+   "id": "math/History of Math & Math of Investment.pdf-119",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-120": {
+   "id": "math/History of Math & Math of Investment.pdf-120",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-121": {
+   "id": "math/History of Math & Math of Investment.pdf-121",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "compound",
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-122": {
+   "id": "math/History of Math & Math of Investment.pdf-122",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "compound",
+    "interest"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/History of Math & Math of Investment.pdf-123": {
+   "id": "math/History of Math & Math of Investment.pdf-123",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "compound",
+    "interest",
+    "principal"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-1": {
+   "id": "math/CALC Techniques.pdf-1",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-3": {
+   "id": "math/CALC Techniques.pdf-3",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-5": {
+   "id": "math/CALC Techniques.pdf-5",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac(",
+    "logarithm"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-6": {
+   "id": "math/CALC Techniques.pdf-6",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-7": {
+   "id": "math/CALC Techniques.pdf-7",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "equation",
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-8": {
+   "id": "math/CALC Techniques.pdf-8",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "roots",
+    "quadratic",
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-10": {
+   "id": "math/CALC Techniques.pdf-10",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-11": {
+   "id": "math/CALC Techniques.pdf-11",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "radian"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-12": {
+   "id": "math/CALC Techniques.pdf-12",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-13": {
+   "id": "math/CALC Techniques.pdf-13",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-15": {
+   "id": "math/CALC Techniques.pdf-15",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "mean"
+   ],
+   "runnerUp": "Logic & Set Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-17": {
+   "id": "math/CALC Techniques.pdf-17",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "standard deviation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-18": {
+   "id": "math/CALC Techniques.pdf-18",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "variance",
+    "standard deviation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-19": {
+   "id": "math/CALC Techniques.pdf-19",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "variance",
+    "standard deviation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-20": {
+   "id": "math/CALC Techniques.pdf-20",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-21": {
+   "id": "math/CALC Techniques.pdf-21",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-22": {
+   "id": "math/CALC Techniques.pdf-22",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": "Analytic Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-23": {
+   "id": "math/CALC Techniques.pdf-23",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sequence",
+    "exponent"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-24": {
+   "id": "math/CALC Techniques.pdf-24",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sequence",
+    "exponent"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-25": {
+   "id": "math/CALC Techniques.pdf-25",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sequence",
+    "exponent"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-26": {
+   "id": "math/CALC Techniques.pdf-26",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "determinant",
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-27": {
+   "id": "math/CALC Techniques.pdf-27",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-28": {
+   "id": "math/CALC Techniques.pdf-28",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-31": {
+   "id": "math/CALC Techniques.pdf-31",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "sin"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-32": {
+   "id": "math/CALC Techniques.pdf-32",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "law of cosines",
+    "cos"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-33": {
+   "id": "math/CALC Techniques.pdf-33",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Calculus",
+   "confidence": "medium",
+   "keywords": [
+    "lim",
+    "limit"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-34": {
+   "id": "math/CALC Techniques.pdf-34",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "sin",
+    "trigonometr"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-38": {
+   "id": "math/CALC Techniques.pdf-38",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "sin",
+    "radian"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-39": {
+   "id": "math/CALC Techniques.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Analytic Geometry",
+   "confidence": "low",
+   "keywords": [
+    "slope"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-40": {
+   "id": "math/CALC Techniques.pdf-40",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Calculus",
+   "confidence": "low",
+   "keywords": [
+    "derivative"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-41": {
+   "id": "math/CALC Techniques.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-42": {
+   "id": "math/CALC Techniques.pdf-42",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "sec",
+    "tan"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-43": {
+   "id": "math/CALC Techniques.pdf-43",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sqrt(",
+    "frac("
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-45": {
+   "id": "math/CALC Techniques.pdf-45",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-46": {
+   "id": "math/CALC Techniques.pdf-46",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "function",
+    "polynomial"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-48": {
+   "id": "math/CALC Techniques.pdf-48",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-49": {
+   "id": "math/CALC Techniques.pdf-49",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-52": {
+   "id": "math/CALC Techniques.pdf-52",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "cos",
+    "sin",
+    "tan",
+    "cot",
+    "sec"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-53": {
+   "id": "math/CALC Techniques.pdf-53",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac(",
+    "logarithm"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-56": {
+   "id": "math/CALC Techniques.pdf-56",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-57": {
+   "id": "math/CALC Techniques.pdf-57",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "equation",
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-58": {
+   "id": "math/CALC Techniques.pdf-58",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "logarithm"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-61": {
+   "id": "math/CALC Techniques.pdf-61",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-62": {
+   "id": "math/CALC Techniques.pdf-62",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation",
+    "matrix"
+   ],
+   "runnerUp": "Logic & Set Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-63": {
+   "id": "math/CALC Techniques.pdf-63",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "quadratic",
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-64": {
+   "id": "math/CALC Techniques.pdf-64",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "roots",
+    "quadratic",
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-67": {
+   "id": "math/CALC Techniques.pdf-67",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-68": {
+   "id": "math/CALC Techniques.pdf-68",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-69": {
+   "id": "math/CALC Techniques.pdf-69",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-70": {
+   "id": "math/CALC Techniques.pdf-70",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-71": {
+   "id": "math/CALC Techniques.pdf-71",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "permutation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-72": {
+   "id": "math/CALC Techniques.pdf-72",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "low",
+   "keywords": [
+    "circle"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-74": {
+   "id": "math/CALC Techniques.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "high",
+   "keywords": [
+    "digit"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-75": {
+   "id": "math/CALC Techniques.pdf-75",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-76": {
+   "id": "math/CALC Techniques.pdf-76",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-77": {
+   "id": "math/CALC Techniques.pdf-77",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "mean"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-80": {
+   "id": "math/CALC Techniques.pdf-80",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "mean"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-81": {
+   "id": "math/CALC Techniques.pdf-81",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "standard deviation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-82": {
+   "id": "math/CALC Techniques.pdf-82",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "variance",
+    "standard deviation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-83": {
+   "id": "math/CALC Techniques.pdf-83",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-84": {
+   "id": "math/CALC Techniques.pdf-84",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-85": {
+   "id": "math/CALC Techniques.pdf-85",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-86": {
+   "id": "math/CALC Techniques.pdf-86",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sequence",
+    "exponent"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-87": {
+   "id": "math/CALC Techniques.pdf-87",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sequence",
+    "exponent"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-88": {
+   "id": "math/CALC Techniques.pdf-88",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sequence",
+    "exponent"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-89": {
+   "id": "math/CALC Techniques.pdf-89",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "determinant",
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-90": {
+   "id": "math/CALC Techniques.pdf-90",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "determinant",
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-95": {
+   "id": "math/CALC Techniques.pdf-95",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-98": {
+   "id": "math/CALC Techniques.pdf-98",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "cos",
+    "sin"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-99": {
+   "id": "math/CALC Techniques.pdf-99",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac(",
+    "sqrt("
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-100": {
+   "id": "math/CALC Techniques.pdf-100",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac(",
+    "sqrt("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-101": {
+   "id": "math/CALC Techniques.pdf-101",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "cos"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-102": {
+   "id": "math/CALC Techniques.pdf-102",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "sin"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-103": {
+   "id": "math/CALC Techniques.pdf-103",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "tan"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-104": {
+   "id": "math/CALC Techniques.pdf-104",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "law of cosines",
+    "cos"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-105": {
+   "id": "math/CALC Techniques.pdf-105",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "low",
+   "keywords": [
+    "law of cosines"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-106": {
+   "id": "math/CALC Techniques.pdf-106",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Calculus",
+   "confidence": "medium",
+   "keywords": [
+    "lim",
+    "limit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-108": {
+   "id": "math/CALC Techniques.pdf-108",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "medium",
+   "keywords": [
+    "tan",
+    "sin",
+    "trigonometr"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-109": {
+   "id": "math/CALC Techniques.pdf-109",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "cos",
+    "sin"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-112": {
+   "id": "math/CALC Techniques.pdf-112",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Analytic Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-113": {
+   "id": "math/CALC Techniques.pdf-113",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "cos",
+    "sin",
+    "radian"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-114": {
+   "id": "math/CALC Techniques.pdf-114",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "function"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-115": {
+   "id": "math/CALC Techniques.pdf-115",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-116": {
+   "id": "math/CALC Techniques.pdf-116",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sqrt(",
+    "frac("
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-117": {
+   "id": "math/CALC Techniques.pdf-117",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "sqrt(",
+    "frac("
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-118": {
+   "id": "math/CALC Techniques.pdf-118",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Calculus",
+   "confidence": "high",
+   "keywords": [
+    "integral",
+    "integrat"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/CALC Techniques.pdf-119": {
+   "id": "math/CALC Techniques.pdf-119",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac(",
+    "sqrt("
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-9": {
+   "id": "math/Special Set - Mathematics.pdf-9",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Analytic Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "slope"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-14": {
+   "id": "math/Special Set - Mathematics.pdf-14",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "low",
+   "keywords": [
+    "cos"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-15": {
+   "id": "math/Special Set - Mathematics.pdf-15",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "tan",
+    "sec",
+    "cos",
+    "sin",
+    "identity"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-18": {
+   "id": "math/Special Set - Mathematics.pdf-18",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "area of",
+    "cone"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-19": {
+   "id": "math/Special Set - Mathematics.pdf-19",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Analytic Geometry",
+   "confidence": "high",
+   "keywords": [
+    "parabola",
+    "hyperbola",
+    "ellipse"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-21": {
+   "id": "math/Special Set - Mathematics.pdf-21",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "sin",
+    "cos"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-23": {
+   "id": "math/Special Set - Mathematics.pdf-23",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "present value"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-24": {
+   "id": "math/Special Set - Mathematics.pdf-24",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "sin"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-27": {
+   "id": "math/Special Set - Mathematics.pdf-27",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Calculus",
+   "confidence": "medium",
+   "keywords": [
+    "integral",
+    "integrat"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-37": {
+   "id": "math/Special Set - Mathematics.pdf-37",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "sin",
+    "cos",
+    "cot"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-39": {
+   "id": "math/Special Set - Mathematics.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "equation",
+    "quadratic"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-42": {
+   "id": "math/Special Set - Mathematics.pdf-42",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Trigonometry",
+   "confidence": "high",
+   "keywords": [
+    "sin",
+    "cos"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-44": {
+   "id": "math/Special Set - Mathematics.pdf-44",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "logarithm"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-46": {
+   "id": "math/Special Set - Mathematics.pdf-46",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "matrix"
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-49": {
+   "id": "math/Special Set - Mathematics.pdf-49",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "equation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-50": {
+   "id": "math/Special Set - Mathematics.pdf-50",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "matrix"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-55": {
+   "id": "math/Special Set - Mathematics.pdf-55",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "quadratic"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Special Set - Mathematics.pdf-59": {
+   "id": "math/Special Set - Mathematics.pdf-59",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Logic & Set Theory",
+   "confidence": "low",
+   "keywords": [
+    "set"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-2": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "combination"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-3": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-3",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "medium",
+   "keywords": [
+    "digit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-4": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-4",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "permutation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-5": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-5",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-14": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-14",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "combination"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-16": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-16",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "probabilit"
+   ],
+   "runnerUp": "Logic & Set Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-18": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-18",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": "Logic & Set Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-19": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-19",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-21": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-21",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-22": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-22",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "probabilit",
+    "sample"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-23": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-23",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-25": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-25",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-28": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-28",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-29": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-29",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-30": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-30",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-31": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-31",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-32": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-32",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Logic & Set Theory",
+   "confidence": "low",
+   "keywords": [
+    "conditional"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-33": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-33",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-34": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-34",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "probabilit",
+    "coin"
+   ],
+   "runnerUp": "Logic & Set Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-37": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-37",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac(",
+    "binomial"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-39": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "probabilit",
+    "sample"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-40": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-40",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-41": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "mean",
+    "probabilit",
+    "standard deviation",
+    "sample"
+   ],
+   "runnerUp": "Logic & Set Theory"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-42": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-42",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "research",
+    "sampling"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-45": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-45",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "research",
+    "sampling"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-46": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-46",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "research",
+    "sampling"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-47": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-47",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "research",
+    "sampling"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-48": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-48",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "research",
+    "sampling"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-49": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-49",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "high",
+   "keywords": [
+    "sampling"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-55": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-55",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "mean"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-56": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-56",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "research"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-57": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-57",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "peso"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-58": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-58",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "mean"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-59": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-59",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "standard deviation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-60": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-60",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-61": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-61",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "standard deviation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-62": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-62",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "mean",
+    "sample"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-63": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-63",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "variance"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-64": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-64",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "sample"
+   ],
+   "runnerUp": "Strategies in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-65": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-65",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "variable"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-66": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-66",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "normal distribution",
+    "sample",
+    "variance"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-67": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-67",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "sample"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-68": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-68",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-69": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-69",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "permutation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-70": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-70",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-73": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-73",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "combination"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-74": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "medium",
+   "keywords": [
+    "combination"
+   ],
+   "runnerUp": "Trigonometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-75": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-75",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "combination"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-77": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-77",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "frac(",
+    "binomial"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-79": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-79",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "compound"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-80": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-80",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "low",
+   "keywords": [
+    "research"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-81": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-81",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "function"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-82": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-82",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-83": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-83",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "mode",
+    "mean"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-84": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-84",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-85": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-85",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "high",
+   "keywords": [
+    "sample",
+    "variance"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-86": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-86",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Logic & Set Theory",
+   "confidence": "medium",
+   "keywords": [
+    "subset"
+   ],
+   "runnerUp": "Research in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-87": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-87",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Research in Teaching Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "sampling"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-88": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-88",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "combination"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-89": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-89",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Arithmetic & Number Theory",
+   "confidence": "high",
+   "keywords": [
+    "digit"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-91": {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-91",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": null,
+   "topic": "Statistics & Probability",
+   "confidence": "low",
+   "keywords": [
+    "probabilit"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Set B Rationalization.pdf-23": {
+   "id": "math/Set B Rationalization.pdf-23",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "interest",
+    "present value"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Set A Rationalization.pdf-1": {
+   "id": "math/Set A Rationalization.pdf-1",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "sqrt("
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Set A Rationalization.pdf-76": {
+   "id": "math/Set A Rationalization.pdf-76",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "History Of Math & Math Of Investment",
+   "topic": "Mathematics of Investment",
+   "confidence": "low",
+   "keywords": [
+    "depreciation"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Basic, Advanced, Linear Algebra pre-test.pdf-31": {
+   "id": "math/Basic, Advanced, Linear Algebra pre-test.pdf-31",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "determinant",
+    "matrix"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Basic, Advanced, Linear Algebra pre-test.pdf-38": {
+   "id": "math/Basic, Advanced, Linear Algebra pre-test.pdf-38",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "matrix"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/Basic, Advanced, Linear Algebra pre-test.pdf-39": {
+   "id": "math/Basic, Advanced, Linear Algebra pre-test.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "matrix"
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-28": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-28",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "triangle"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-29": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-29",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "area of",
+    "triangle"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-30": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-30",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "sqrt("
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-31": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-31",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Mathematics of Investment",
+   "confidence": "high",
+   "keywords": [
+    "php"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-33": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-33",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "triangle"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-36": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-36",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "low",
+   "keywords": [
+    "polygon"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-39": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "medium",
+   "keywords": [
+    "diagonal"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-41": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "trapezoid",
+    "area of"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-42": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-42",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "diagonal",
+    "rhombus",
+    "area of"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-43": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-43",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "surface area",
+    "cylinder"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-44": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-44",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "College & Advanced Algebra",
+   "confidence": "high",
+   "keywords": [
+    "frac("
+   ],
+   "runnerUp": "Plane & Solid Geometry"
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-45": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-45",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "high",
+   "keywords": [
+    "sphere",
+    "inscribed",
+    "volume"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-48": {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-48",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Plane & Solid Geometry And Trigonometry",
+   "topic": "Plane & Solid Geometry",
+   "confidence": "low",
+   "keywords": [
+    "circle"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-39": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "medium",
+   "keywords": [
+    "problem solving"
+   ],
+   "runnerUp": "Strategies in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-41": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Strategies in Teaching Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "teaching"
+   ],
+   "runnerUp": "Mathematics Investigation & Modeling"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-42": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-42",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "high",
+   "keywords": [
+    "polya",
+    "problem-solving"
+   ],
+   "runnerUp": "College & Advanced Algebra"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-43": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-43",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "low",
+   "keywords": [
+    "polya"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-44": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-44",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "medium",
+   "keywords": [
+    "problem-solving",
+    "pattern"
+   ],
+   "runnerUp": "Strategies in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-45": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-45",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics of Investment",
+   "confidence": "medium",
+   "keywords": [
+    "principal"
+   ],
+   "runnerUp": "Mathematics Investigation & Modeling"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-46": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-46",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "high",
+   "keywords": [
+    "problem-solving",
+    "polya"
+   ],
+   "runnerUp": "Strategies in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-56": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-56",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "medium",
+   "keywords": [
+    "problem-solving",
+    "pattern"
+   ],
+   "runnerUp": "Statistics & Probability"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-71": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-71",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "high",
+   "keywords": [
+    "problem-solving",
+    "pattern"
+   ],
+   "runnerUp": "Strategies in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-72": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-72",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "high",
+   "keywords": [
+    "problem-solving",
+    "pattern"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-73": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-73",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "medium",
+   "keywords": [
+    "problem solving"
+   ],
+   "runnerUp": "Calculus"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-74": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "College & Advanced Algebra",
+   "confidence": "medium",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": "Mathematics Investigation & Modeling"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-75": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-75",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "medium",
+   "keywords": [
+    "polya"
+   ],
+   "runnerUp": "Strategies in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-79": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-79",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "College & Advanced Algebra",
+   "confidence": "low",
+   "keywords": [
+    "sequence"
+   ],
+   "runnerUp": null
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-83": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-83",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Mathematics Investigation & Modeling",
+   "confidence": "low",
+   "keywords": [
+    "pattern"
+   ],
+   "runnerUp": "Strategies in Teaching Mathematics"
+  },
+  "let-uploaded-pdf-problems-v1|math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-88": {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-88",
+   "store": "let-uploaded-pdf-problems-v1",
+   "label": "Special Set Mathematics",
+   "topic": "Strategies in Teaching Mathematics",
+   "confidence": "medium",
+   "keywords": [
+    "strateg",
+    "teaching"
+   ],
+   "runnerUp": "Mathematics Investigation & Modeling"
+  }
+ }
+}

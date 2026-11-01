@@ -1,0 +1,45 @@
+/* Phone refinement: quieter surfaces (buttons match desktop). Loads last; desktop is untouched. */
+@media (max-width: 767.98px) {
+  html[data-coreui-theme=dark] {
+    --ms-card: #171629; --ms-solid: #171629; --ms-hole: #201f38; --ms-line: rgba(255,255,255,.07);
+    --cui-border-color: rgba(255,255,255,.08); --cui-border-color-translucent: rgba(255,255,255,.08);
+  }
+  html[data-coreui-theme=light] {
+    --ms-card: #ffffff; --ms-solid: #ffffff; --ms-hole: #f1f0f8; --ms-line: rgba(40,30,120,.08);
+    --cui-border-color: rgba(40,30,120,.09); --cui-border-color-translucent: rgba(40,30,120,.09);
+  }
+
+  /* one faint wash instead of three bright ones; no film grain */
+  html[data-coreui-theme=dark] body { background: radial-gradient(80% 36% at 0% 0%, rgba(110,98,230,.14), transparent 70%), #0e0d1b !important; }
+  html[data-coreui-theme=light] body { background: radial-gradient(80% 36% at 0% 0%, rgba(110,98,230,.08), transparent 70%), #f6f5fb !important; }
+  body::after { display: none !important; }
+
+  /* flat surfaces: hairline border, no blur, no drop shadow */
+  .card, .ms-header, .ms-tabbar, .ms-status, .ms-sb-card, .ms-dialbg, .modal-content {
+    -webkit-backdrop-filter: none !important; backdrop-filter: none !important;
+  }
+  .card { box-shadow: none !important; border-radius: 16px; }
+  .card-header { font-weight: 600; }
+  .ms-header { background: transparent !important; }
+  .ms-tabbar { box-shadow: none !important; border-top: 1px solid var(--cui-border-color) !important; }
+  .form-control, .form-select { box-shadow: none !important; border-radius: 12px; }
+
+  /* hero: same vivid purple as desktop and the summary strips, small mascot */
+  .ms-hero { background: var(--ms-grad-glow), var(--ms-grad) !important; box-shadow: var(--ms-grad-shadow) !important; }
+  .ms-hero::after { width: 124px !important; height: 124px !important; top: -6px !important; right: 6px !important; opacity: .85; filter: none !important; }
+  .ms-hello { font-size: 1.4rem; font-weight: 600; }
+  .ms-pagehead img { animation: none !important; }
+
+  /* buttons: inherit the desktop look (gradient + glow) so phone and desktop match */
+  .ms-dial i { width: 52px; height: 52px; font-size: 1.3rem; }
+  .ms-dial .in i { background: #2f9e7a !important; }
+  .ms-dial .out i { background: #c9506f !important; }
+  .ms-dialbg { background: rgba(5,6,18,.55) !important; }
+
+  /* type: lighter weights, no all-caps labels */
+  .stat-value, .ms-sbg-n { font-weight: 600; }
+  .ms-stats span, .ms-sum span, .ms-nav-label, .ms-sbg-t { text-transform: none !important; letter-spacing: 0 !important; font-weight: 500; }
+
+  /* no unprompted motion */
+  .ms-content > * { animation: none !important; }
+}

@@ -1,0 +1,278 @@
+{
+ "bankMath": {
+  "questions": 2109,
+  "tokens": {
+   "frac(": {
+    "questions": 241,
+    "occurrences": 824
+   },
+   "sqrt(": {
+    "questions": 109,
+    "occurrences": 321
+   },
+   "mat(": {
+    "questions": 44,
+    "occurrences": 142
+   },
+   "^": {
+    "questions": 604,
+    "occurrences": 2495
+   },
+   "^(": {
+    "questions": 45,
+    "occurrences": 129
+   },
+   "sin(": {
+    "questions": 64,
+    "occurrences": 148
+   },
+   "cos(": {
+    "questions": 55,
+    "occurrences": 143
+   },
+   "tan(": {
+    "questions": 29,
+    "occurrences": 59
+   },
+   "cot(": {
+    "questions": 14,
+    "occurrences": 27
+   },
+   "sec(": {
+    "questions": 13,
+    "occurrences": 30
+   },
+   "csc(": {
+    "questions": 14,
+    "occurrences": 23
+   },
+   "arcsin/arccos/arctan": {
+    "questions": 8,
+    "occurrences": 10
+   },
+   "ln(": {
+    "questions": 10,
+    "occurrences": 30
+   },
+   "log(": {
+    "questions": 16,
+    "occurrences": 47
+   },
+   "pi": {
+    "questions": 78,
+    "occurrences": 235
+   },
+   "limit word": {
+    "questions": 24,
+    "occurrences": 40
+   },
+   "integral word": {
+    "questions": 63,
+    "occurrences": 95
+   },
+   "derivative word": {
+    "questions": 38,
+    "occurrences": 57
+   },
+   "real LaTeX": {
+    "questions": 1,
+    "occurrences": 4
+   },
+   "unicode math": {
+    "questions": 227,
+    "occurrences": 876
+   },
+   "$": {
+    "questions": 4,
+    "occurrences": 20
+   },
+   "$ before digit": {
+    "questions": 4,
+    "occurrences": 20
+   },
+   "PhP": {
+    "questions": 19,
+    "occurrences": 91
+   },
+   "Php": {
+    "questions": 15,
+    "occurrences": 76
+   },
+   "PHP": {
+    "questions": 2,
+    "occurrences": 7
+   },
+   "peso sign": {
+    "questions": 0,
+    "occurrences": 0
+   },
+   "P + digit": {
+    "questions": 40,
+    "occurrences": 215
+   },
+   "word peso(s)": {
+    "questions": 12,
+    "occurrences": 53
+   }
+  },
+  "unicodeMathChars": {
+   "°": 254,
+   "×": 226,
+   "θ": 85,
+   "→": 82,
+   "≈": 80,
+   "π": 43,
+   "±": 35,
+   "≠": 14,
+   "≥": 13,
+   "≤": 9,
+   "∈": 8,
+   "∩": 7,
+   "÷": 6,
+   "∪": 5,
+   "∫": 4,
+   "²": 3,
+   "∞": 2
+  }
+ },
+ "bankPlusMissingMath": {
+  "questions": 3847,
+  "tokens": {
+   "frac(": {
+    "questions": 485,
+    "occurrences": 1520
+   },
+   "sqrt(": {
+    "questions": 193,
+    "occurrences": 528
+   },
+   "mat(": {
+    "questions": 93,
+    "occurrences": 316
+   },
+   "^": {
+    "questions": 667,
+    "occurrences": 2658
+   },
+   "^(": {
+    "questions": 66,
+    "occurrences": 161
+   },
+   "sin(": {
+    "questions": 94,
+    "occurrences": 203
+   },
+   "cos(": {
+    "questions": 95,
+    "occurrences": 214
+   },
+   "tan(": {
+    "questions": 44,
+    "occurrences": 84
+   },
+   "cot(": {
+    "questions": 18,
+    "occurrences": 33
+   },
+   "sec(": {
+    "questions": 16,
+    "occurrences": 41
+   },
+   "csc(": {
+    "questions": 17,
+    "occurrences": 30
+   },
+   "arcsin/arccos/arctan": {
+    "questions": 15,
+    "occurrences": 20
+   },
+   "ln(": {
+    "questions": 18,
+    "occurrences": 48
+   },
+   "log(": {
+    "questions": 32,
+    "occurrences": 89
+   },
+   "pi": {
+    "questions": 98,
+    "occurrences": 283
+   },
+   "limit word": {
+    "questions": 38,
+    "occurrences": 75
+   },
+   "integral word": {
+    "questions": 107,
+    "occurrences": 160
+   },
+   "derivative word": {
+    "questions": 69,
+    "occurrences": 93
+   },
+   "real LaTeX": {
+    "questions": 1,
+    "occurrences": 4
+   },
+   "unicode math": {
+    "questions": 595,
+    "occurrences": 2067
+   },
+   "$": {
+    "questions": 7,
+    "occurrences": 35
+   },
+   "$ before digit": {
+    "questions": 7,
+    "occurrences": 34
+   },
+   "PhP": {
+    "questions": 19,
+    "occurrences": 91
+   },
+   "Php": {
+    "questions": 24,
+    "occurrences": 125
+   },
+   "PHP": {
+    "questions": 2,
+    "occurrences": 7
+   },
+   "peso sign": {
+    "questions": 0,
+    "occurrences": 0
+   },
+   "P + digit": {
+    "questions": 76,
+    "occurrences": 378
+   },
+   "word peso(s)": {
+    "questions": 16,
+    "occurrences": 63
+   }
+  },
+  "unicodeMathChars": {
+   "°": 578,
+   "×": 452,
+   "→": 244,
+   "θ": 181,
+   "π": 175,
+   "≈": 130,
+   "±": 48,
+   "≥": 43,
+   "≠": 41,
+   "∩": 38,
+   "∫": 33,
+   "≤": 22,
+   "∪": 22,
+   "÷": 16,
+   "∈": 14,
+   "²": 14,
+   "∀": 5,
+   "∞": 4,
+   "³": 3,
+   "∃": 3,
+   "∅": 1
+  }
+ }
+}

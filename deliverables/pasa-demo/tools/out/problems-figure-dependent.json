@@ -1,0 +1,3733 @@
+{
+ "count": 412,
+ "byWord": {
+  "illustrate": 26,
+  "figure": 81,
+  "diagram": 25,
+  "graph": 36,
+  "illustrated": 30,
+  "picture": 29,
+  "shown": 37,
+  "map": 16,
+  "chart": 24,
+  "illustrates": 67,
+  "image": 17,
+  "illustration": 6,
+  "illustrative": 1,
+  "illustrations": 10,
+  "illustrating": 3,
+  "table below": 2,
+  "illustrates___": 2
+ },
+ "note": "Keyword match only; \"graph\" and \"shown\" often appear in text-only stems.",
+ "items": [
+  {
+   "id": "XIV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "History of Mathematics",
+   "match": "illustrate",
+   "snippet": "A mathematics educator compares three historical numeral systems: System I uses symbols whose values are generally combined additively; Syst"
+  },
+  {
+   "id": "qb-1784540776040-evt18x",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "match": "figure",
+   "snippet": "A sequence of figures increases the number of shaded shapes in a consistent way from one figure to the next. Which problem-solving strategy "
+  },
+  {
+   "id": "qb-1787657863001-zoqrx3",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "match": "figure",
+   "snippet": "Which problem-solving strategy is most appropriate to determine the next figure in a sequence of rotating geometric shapes?"
+  },
+  {
+   "id": "qb-1787657863748-75colw",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "match": "Diagram",
+   "snippet": "Creating a visual representation to understand relationships is the heuristic known as:"
+  },
+  {
+   "id": "math-major-187",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "match": "graph",
+   "snippet": "From the variation table (distance = 50t), which graph best represents the data?"
+  },
+  {
+   "id": "qb-1783300500803-6gh7bl",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "match": "illustrated",
+   "snippet": "The property of real numbers illustrated by a + b = b + a for real numbers a and b is called ________."
+  },
+  {
+   "id": "math2013-014",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "match": "illustrated",
+   "snippet": "Identify the property of real numbers being illustrated: 3 + (2 + 5) = (3 + 2) + 5"
+  },
+  {
+   "id": "math-major-322",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "Looking at a graph that shows one complete sinusoidal wave with amplitude 1 and period 2pi, which of the following is TRUE about the graph?"
+  },
+  {
+   "id": "math-major-323",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "A sinusoidal graph has amplitude 1, period 2pi, and appears to be a cosine curve shifted to the right by pi/2. Which equation fits?"
+  },
+  {
+   "id": "math-major-324",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "A sinusoidal graph has amplitude 1, period 2pi, and crosses zero going upward at x = -pi/3. Which equation represents the graph?"
+  },
+  {
+   "id": "qb-1784973894334-qnuebc",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "Which of the following is TRUE about the graph, a curve oscillating between -1 and 1 around the x-axis?"
+  },
+  {
+   "id": "qb-1784973895959-5qa9ly",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "Which of the following is INCORRECT about the graph shown, a sine curve with amplitude 1, period 2*pi, and midline the x-axis?"
+  },
+  {
+   "id": "qb-1787657865738-cd4a4l",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "picture",
+   "snippet": "A student sees a bird on top of a 12m high light pole. The student is standing 20m from the base of the pole. At what angle must the student"
+  },
+  {
+   "id": "qb-1788524814902-jsgw7p",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "The graph of y = cos(x - frac(pi,3)) is shifted:"
+  },
+  {
+   "id": "math-major-202",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "In a figure where angles (x+5) and (2x+25) are supplementary alternate exterior angles formed by parallel lines, the value of x is ___."
+  },
+  {
+   "id": "math-major-208",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "Given an equilateral triangle XYZ with midpoints A, B, C respectively, what figure is formed by quadrilateral XABZ?"
+  },
+  {
+   "id": "math-major-215",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "Given triangle MNO with midpoints X, Y, Z respectively, what figure is formed by quadrilateral XNOZ?"
+  },
+  {
+   "id": "math-major-226",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "In the adjoining figure AF = BG, angle A ≅ angle B and AD = BE. To prove that triangle DAG ≅ triangle EBF, what congruence postulate should "
+  },
+  {
+   "id": "math-major-230",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "In the given figure, AC = BE, angle C ≅ angle E and angle A ≅ angle B. What congruence postulate can prove that triangle DAC ≅ triangle DEB?"
+  },
+  {
+   "id": "math-major-248",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "What is the area of the shaded region in a figure where a circle of radius 4 in is inscribed in a square? (1/4 shaded corner)"
+  },
+  {
+   "id": "math-major-260",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "The vertex of a figure is located at (2, 4). The figure is rotated and the image of the vertex is located at (-2, -4). Which of the followin"
+  },
+  {
+   "id": "math2014-026",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "picture",
+   "snippet": "What is the amount (in feet) of framing needed to frame a picture whose dimensions are 8 1/2 inches by 11 inches?"
+  },
+  {
+   "id": "qb-1784973851543-gf7g2p",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "In a figure, two rays form angles labeled (x+5) degrees and (2x+25) degrees along a straight line. What is the value of x?"
+  },
+  {
+   "id": "qb-1784973853040-3krogl",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "Given an equilateral triangle XYZ with midpoints A, B, C on its sides respectively, what figure is formed by quadrilateral XABZ?"
+  },
+  {
+   "id": "qb-1784973860758-y2hs57",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "Given the adjoining figure, triangle FAC is congruent to triangle GEC. Which of the following statements can be proven?"
+  },
+  {
+   "id": "qb-1784973866733-9jc7lb",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "What is the area of the shaded region in the given figure (a square of side 4 with an inscribed circle of radius 2)?"
+  },
+  {
+   "id": "math-major-077",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "figure",
+   "snippet": "A scatter plot shows points clustered along a diagonal going from lower-left to upper-right. The figure shows _____."
+  },
+  {
+   "id": "qb-1782469597128-gz6wgo",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "figure",
+   "snippet": "A scatter plot shows points going straight down vertically. The figure shows _____."
+  },
+  {
+   "id": "math-major-039",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "graph",
+   "snippet": "The vertical columns in a bar graph lie on the y-axis, while the x-axis is at the _____________ of the bars."
+  },
+  {
+   "id": "math-major-033",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "graph",
+   "snippet": "It is a line graph of class frequency plotted against class midpoint."
+  },
+  {
+   "id": "math-major-005",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "Graph",
+   "snippet": "The scores in a test are arranged together with the frequency of occurrence of each score. This presentation is called"
+  },
+  {
+   "id": "math-major-034",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "diagram",
+   "snippet": "It is a graphical presentation of numerical data using rectangles."
+  },
+  {
+   "id": "math2015-075",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "figure",
+   "snippet": "The figure shows several points lying exactly along an ascending straight line. This is called ___."
+  },
+  {
+   "id": "math2015-083",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "figure",
+   "snippet": "There are 5 types of correlation between paired data. The figure shows several points scattered randomly with no visible ascending or descen"
+  },
+  {
+   "id": "qb-1788524818584-8ozylf",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "shown",
+   "snippet": "A spinner for a child's game has the numbers 1 through 9 evenly spaced. If a child spins, find the probability that the number shown is divi"
+  },
+  {
+   "id": "math-major-394",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "match": "shown",
+   "snippet": "What is the standard form of the ellipse shown in a figure with center approximately at (3,1) and semi-major axis 6 and semi-minor axis 4?"
+  },
+  {
+   "id": "math-major-412",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "match": "graph",
+   "snippet": "In which quadrant can you find the graph of x^2 + y^2 + 12x - 16y + 84 = 0?"
+  },
+  {
+   "id": "qb-1784973870943-8pyvm8",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "match": "figure",
+   "snippet": "The vertex of a figure is located at (2,4). After a transformation, the image of the vertex is at (-2,-4). Which transformation describes th"
+  },
+  {
+   "id": "math2013-009",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "match": "map",
+   "snippet": "On a map one inch represents twenty miles. Two cities 120 miles apart would be separated on the map by how many inches?"
+  },
+  {
+   "id": "math2013-056",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "match": "picture",
+   "snippet": "If a picture frame is 27 cm long and 18 cm wide, what is the ratio of its length to its width?"
+  },
+  {
+   "id": "qb-1784540756825-1fjrpa",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "match": "illustrated",
+   "snippet": "Which property of integers is illustrated by a + b = b + a?"
+  },
+  {
+   "id": "math-major-080",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "match": "illustrated",
+   "snippet": "Which property of integers is illustrated by a + 0 = a?"
+  },
+  {
+   "id": "math-major-133",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "match": "chart",
+   "snippet": "Which of the following is usually used with multi-base arithmetic blocks in developing numeration concepts?"
+  },
+  {
+   "id": "qb-1784540772013-f8fb1j",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "match": "Chart",
+   "snippet": "What is the 5Ws Chart mainly used for?"
+  },
+  {
+   "id": "XXXIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "match": "graph",
+   "snippet": "Students can solve linear equations procedurally but cannot explain what the solution represents graphically. Which intervention is most app"
+  },
+  {
+   "id": "qb-1787657877984-xzstoc",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "match": "diagram",
+   "snippet": "What type of diagram is often used to represent cause-and-effect relationships and identify possible root causes of a problem?"
+  },
+  {
+   "id": "qb-1787657878351-jijwve",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "match": "Diagram",
+   "snippet": "A journalism teacher asks students to analyze a news article by identifying who was involved, what happened, where it occurred, when it took"
+  },
+  {
+   "id": "qb-1787657878614-b2jgra",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "match": "Map",
+   "snippet": "Which organizer is best for storytelling elements?"
+  },
+  {
+   "id": "qb-1784540766162-axgpp9",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "match": "Graph",
+   "snippet": "What is it called when test scores are organized with their frequencies?"
+  },
+  {
+   "id": "XXV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "match": "illustrate",
+   "snippet": "A teacher gives short problems during a lesson, examines students' responses, identifies a common misconception, and immediately modifies th"
+  },
+  {
+   "id": "XLVII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "match": "graph",
+   "snippet": "A mathematics teacher introduces a technology-supported lesson on quadratic functions. Students use a graphing application to manipulate coe"
+  },
+  {
+   "id": "math-major-097",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "match": "illustrated",
+   "snippet": "During a lesson on quadratic equations, a teacher gives a 5-minute exit ticket asking students to solve a simple quadratic. The teacher revi"
+  },
+  {
+   "id": "math-major-139",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "match": "Graph",
+   "snippet": "All of these can be performed in Excel EXCEPT:"
+  },
+  {
+   "id": "XXVII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "match": "graph",
+   "snippet": "A teacher uses a graphing application to allow students to change parameters in a quadratic function and immediately observe corresponding c"
+  },
+  {
+   "id": "qb-1788524827747-75qzhy",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "match": "Diagram",
+   "snippet": "A Bubble Diagram is primarily used for:"
+  },
+  {
+   "id": "qb-1788524827918-tpme5p",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "match": "Diagram",
+   "snippet": "Which visual organizer helps students create a visual representation of a story's elements, such as characters, setting, plot, and theme?"
+  },
+  {
+   "id": "profed-0177",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "I like to develop the synthesizing skills of my students. Which one should I do?"
+  },
+  {
+   "id": "profed-0388",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrated",
+   "snippet": "Nadia exhibit fear response to freely roaming dogs but does not show fear when a dog is on a leash or confined to a pen. Which conditioning "
+  },
+  {
+   "id": "profed-0501",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrated",
+   "snippet": "After having been humiliated by his teacher, a student evaluates that teacher very poorly, despite teacher’s excellent performance. Which tr"
+  },
+  {
+   "id": "profed-0524",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "Diagram",
+   "snippet": "The following are used in writing performance objective, except?"
+  },
+  {
+   "id": "profed-0531",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "Chart",
+   "snippet": "Teacher Agot likes to show how the launching of spaceships takes place. Which of the following materials available is most fit?"
+  },
+  {
+   "id": "profed-0555",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "graph",
+   "snippet": "Which is a type of graph in which lines represent each score or set of scores?"
+  },
+  {
+   "id": "profed-0562",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrates",
+   "snippet": "Which illustrates vicarious punishment?"
+  },
+  {
+   "id": "profed-0611",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrates",
+   "snippet": "The tendency to emphasize so much on school beautification to the detriment of pupils’ performance illustrates the:"
+  },
+  {
+   "id": "profed-0656",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "A student collapsed in her social studies class. It was found out that he did not eat her lunch. What principle is shown in the situation?"
+  },
+  {
+   "id": "profed-0726",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrate",
+   "snippet": "Which of the following examples illustrate the use of questions to focus pupils attention on the key points of the lesson?"
+  },
+  {
+   "id": "profed-0849",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "diagram",
+   "snippet": "Teacher E interviewed five students for their reasons for being absent twice during the week for several months. Then she showed the whole s"
+  },
+  {
+   "id": "profed-0858",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "Map",
+   "snippet": "A report from PAGASA showed an increasing trend in daily temperature from, January to March. How can student’s best present such trend to th"
+  },
+  {
+   "id": "profed-0859",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "graph",
+   "snippet": "A town mayor was requested to present how the different offices in the municipal halls are related to one another according to their related"
+  },
+  {
+   "id": "profed-0861",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "map",
+   "snippet": "In social science, which is the best visual in identifying the prominent cities and provinces located in the different regions of the countr"
+  },
+  {
+   "id": "qb-1782648764891-o7tgxi",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "Filipino family culture grew because of borrowed cultures from Chinese, Arabs, Indians, etc. Which cultural characteristic is shown?"
+  },
+  {
+   "id": "qb-1782648764897-k43wne",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "Children in slums have lower reading achievement than children in urban schools. What factor is shown to affect reading achievement?"
+  },
+  {
+   "id": "profed-464",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrates",
+   "snippet": "Obiwan is mandated by his tribe to take a spouse outside his tribe. This illustrates ___ marriage."
+  },
+  {
+   "id": "profed-foundations-of-teaching-learning-010",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "picture",
+   "snippet": "Teacher Liza avoids out-of-context facts recall, but introduces situations for learners to think-feel and do, such as making picture folders"
+  },
+  {
+   "id": "profed-foundations-of-teaching-learning-002",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "image",
+   "snippet": "The Professional role of Teachers is not 'the sage on the stage' but 'the guide from the side'. This implies that the __________."
+  },
+  {
+   "id": "profed-0806",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrates",
+   "snippet": "When students recognize a situation as something similar in a way to what was experienced before, the tendency is to use the knowledge and s"
+  },
+  {
+   "id": "qb-1783326229078-15jo2g",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrate",
+   "snippet": "Which do tool making, adherence to group behavior and language illustrate?"
+  },
+  {
+   "id": "qb-1783654412969-7il0qy",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "picture",
+   "snippet": "Which of the following best characterizes global learners, as opposed to analytic learners?"
+  },
+  {
+   "id": "qb-1784870957872-xduwmu",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "What is being shown by teachers who ignore slow learners and take pride only in the work of fast learners?"
+  },
+  {
+   "id": "qb-1784871024209-zlpj3z",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "Teacher Marlo strongly feels that Jammel possesses an acute complex-cognitive ability as shown by his ability to _______."
+  },
+  {
+   "id": "profed-220",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "map",
+   "snippet": "On arts and culture literacy, which of the following is an appropriate learning activity?"
+  },
+  {
+   "id": "profed-343",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "The teacher instills to the students the Filipino value of respect to the elderly that is shown through provision of spaces in the building,"
+  },
+  {
+   "id": "qb-1784871270272-0h5vem",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "Illustration",
+   "snippet": "For learners who are good in bodily-kinesthetic intelligence, which of the activities below will be most applicable and be appreciated when "
+  },
+  {
+   "id": "qb-1784871293747-ddqhqv",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "shown",
+   "snippet": "What characteristic of the learning environment is shown when the students use technology tools to connect new information to their prior kn"
+  },
+  {
+   "id": "qb-1784871347852-5isg19",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Foundations of Teaching-Learning",
+   "match": "illustrate",
+   "snippet": "Fernando Poe Junior became a legend in the show business because of his talent, determination, and hard work. What role does this illustrate"
+  },
+  {
+   "id": "profed-0651",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "The Professional Teacher",
+   "match": "illustrates",
+   "snippet": "Pick out the situation that illustrates the duty of a new teacher to the state:"
+  },
+  {
+   "id": "profed-curriculum-development-016",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "shown",
+   "snippet": "These foundations show the chronological development of curriculum mostly shown using a timeline."
+  },
+  {
+   "id": "profed-0049",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrates",
+   "snippet": "Which of the following cannot be considered a purpose of role playing as a spontaneous or unrehearsed dramatization, in which the actors imp"
+  },
+  {
+   "id": "profed-0632",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "picture",
+   "snippet": "When a school decides to work on a thematic curriculum which should be out of the picture?"
+  },
+  {
+   "id": "qb-1783327231633-7paffp",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "shown",
+   "snippet": "According to the Department of Education, grades of the learners should be shown every quarter of the year in a different percentage proport"
+  },
+  {
+   "id": "qb-1783327234489-2jq8b7",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "shown",
+   "snippet": "Which of the following is shown by the learners if the curriculum is said to be effective?"
+  },
+  {
+   "id": "qb-1783334483052-l4o2by",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrative",
+   "snippet": "Which of the illustrative verbs in stating objectives does NOT belong to the group?"
+  },
+  {
+   "id": "qb-1784871351610-aqbdnc",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrates",
+   "snippet": "Which of the following illustrates the major paradigm shift in education in the 21st century?"
+  },
+  {
+   "id": "profed-0633",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "map",
+   "snippet": "Teacher Mary wants to teach her pupils the technique on reading for information. Which technique should be used?"
+  },
+  {
+   "id": "profed-0685",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "diagram",
+   "snippet": "Teacher wants to compare 2 concepts. With which technique can accomplish this best?"
+  },
+  {
+   "id": "profed-0785",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "illustrated",
+   "snippet": "In the following method, the teacher starts a lesson stating the following findings: The flies died after three days in a tightly-covered bo"
+  },
+  {
+   "id": "qb-1782588987640-flaks2",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "shown",
+   "snippet": "What is being shown by teachers who ignore slow learners and take pride in the work of fast learners?"
+  },
+  {
+   "id": "profed-528",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "Diagram",
+   "snippet": "Which of the following activities is an activating strategy?"
+  },
+  {
+   "id": "profed-145",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "figure",
+   "snippet": "Among components in the instructional framework for learning strategies, which is demonstrated by teacher Jiny who worked together with her "
+  },
+  {
+   "id": "profed-1071",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "illustrates",
+   "snippet": "Information Processing Theory illustrates some methods for increasing retrieval of information. Which are the methods? I. Rehearsal – repeat"
+  },
+  {
+   "id": "profed-0617",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "map",
+   "snippet": "For comparing and contrasting which graphic organizers is most appropriate?"
+  },
+  {
+   "id": "profed-methods-strategies-of-teaching-006",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "Diagram",
+   "snippet": "If a teacher wants to develop in the learner the skill to organize ideas, which tool should he employ?"
+  },
+  {
+   "id": "profed-0356",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "picture",
+   "snippet": "If you make use of the indirect instruction method, you begin your lesson with:"
+  },
+  {
+   "id": "qb-1783326232912-20jdka",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "chart",
+   "snippet": "Which metacognitive strategies are used for students with special needs in cognitivism-based inclusive education settings? I. Concept mappin"
+  },
+  {
+   "id": "qb-1783327276205-b76lzz",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "illustrated",
+   "snippet": "A teacher fails to listen to what a poor performing pupil says because of the teacher's bias to the pupil. Which Filipino trait is illustrat"
+  },
+  {
+   "id": "qb-1783334489921-22nya7",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "Picture",
+   "snippet": "What activities may be conducted in between the discussion when the class gets bored?"
+  },
+  {
+   "id": "qb-1783334501108-ohxvs1",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies of Teaching",
+   "match": "illustrations",
+   "snippet": "Students learn best when they discover things by themselves. What materials will be most effective when conducting experiments?"
+  },
+  {
+   "id": "profed-0532",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Chart",
+   "snippet": "Teacher Bonnie likes to concretize abstract concept of the water molecule. She came up with a concrete presentation by using wires and plast"
+  },
+  {
+   "id": "profed-0860",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "graph",
+   "snippet": "In a Biology class, the students were asked to trace their own families’ closets relatives starting from their great grandparents. They cons"
+  },
+  {
+   "id": "profed-1053",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "picture",
+   "snippet": "According to Anabel, the student’s cognitive structure can be strengthened by allowing them to have a bird’s eye view or to see the “big pic"
+  },
+  {
+   "id": "qb-1782648764895-wt1nkk",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "illustrate",
+   "snippet": "Mr. Castro asked students to illustrate what they understood from reading. Which non-projected visual did he refer to?"
+  },
+  {
+   "id": "qb-1782648764895-dsuvub",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Chart",
+   "snippet": "Ms. Lualhati constructed a three-dimensional visual since real objects were impractical to bring. What did she construct?"
+  },
+  {
+   "id": "profed-0773",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "picture",
+   "snippet": "I like to show a close representation of the size and shape of the earth and its location in the entire solar system. What is the best instr"
+  },
+  {
+   "id": "profed-1179",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Chart",
+   "snippet": "Teacher June likes to concretize the abstract concepts of an atom. He came up with a concrete presentation of the atom by using wire and pla"
+  },
+  {
+   "id": "qb-1783327280051-w7ob6i",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "picture",
+   "snippet": "Teacher Zarah put the text description near the picture that she placed in the slide of her Canva presentation. Which principle in the utili"
+  },
+  {
+   "id": "qb-1783327281546-rci6zq",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "illustration",
+   "snippet": "Dr. Corpuz grouped her students towards the latter part of the class and asked them to summarize the lesson using a two-dimensional illustra"
+  },
+  {
+   "id": "qb-1783327287136-86yv0d",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Picture",
+   "snippet": "Teacher Vhon would like to show in his science class how solar and lunar eclipses occur. Which is the BEST instructional aid for his lesson?"
+  },
+  {
+   "id": "qb-1783327287331-wc1bm1",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Illustration",
+   "snippet": "Teacher Shiela will be discussing about wild animals next week. Which teaching material is NOT appropriate for her to utilize?"
+  },
+  {
+   "id": "qb-1783327291213-ncolmq",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "illustrates",
+   "snippet": "Information and Media literacy skills are 21st century skills that need to be integrated in the lessons for these skills to be developed. Wh"
+  },
+  {
+   "id": "qb-1783334454085-6kq9q7",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "illustrate",
+   "snippet": "Teacher Andres is a newly-hired teacher. He wanted to illustrate a lesson in tree planting as a way of mitigating climate change. Which of t"
+  },
+  {
+   "id": "qb-1783334456311-pob2i7",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Chart",
+   "snippet": "If Teacher Vernie wants to show a three-dimensional scene depicting the struggles of the people during the COVID-19 pandemic in her lesson i"
+  },
+  {
+   "id": "qb-1783334456583-9ol5c8",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "chart",
+   "snippet": "Teacher Carol was assigned in a geographically isolated and disadvantaged area (GIDA) and she wanted to use instructional support materials "
+  },
+  {
+   "id": "qb-1783334460093-m72a5l",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "illustration",
+   "snippet": "Multimedia should minimize extraneous processing according to Mayer (2001). Which of the following are applications of this function? I. Wri"
+  },
+  {
+   "id": "qb-1783334465586-g2esd9",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "shown",
+   "snippet": "Which is NOT TRUE about multimedia?"
+  },
+  {
+   "id": "qb-1783334466283-217yxo",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Picture",
+   "snippet": "Which of the following materials is appropriate for learners who want to visit the museum but cannot go due to the risks involved in long tr"
+  },
+  {
+   "id": "qb-1783334470231-ldzpg8",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "picture",
+   "snippet": "Which material is appropriate for presenting information containing pictures and charts about COVID-19 disease?"
+  },
+  {
+   "id": "qb-1783334473996-u9qvgw",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "map",
+   "snippet": "Authentic instructional materials are appropriate and good instructional materials. Which of the following presents an authentic material?"
+  },
+  {
+   "id": "qb-1783334508733-07n9bk",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "illustration",
+   "snippet": "In preparing storyboards for PowerPoint presentations, which must be strictly observed?"
+  },
+  {
+   "id": "profed-foundations-of-teaching-learning-040",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrations",
+   "snippet": "Along Piaget's principles, __________ is NOT appropriate for Social Studies learning at the cognitive level of adolescent learners."
+  },
+  {
+   "id": "profed-0383",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrated",
+   "snippet": "When small children call animals “dog”, what process is illustrated on Piaget’s cognitive development theory?"
+  },
+  {
+   "id": "profed-0475",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrated",
+   "snippet": "You arrange the rows of blocks in such a way that a row of 5 blocks is longer than a row of 7 blocks. If you ask which row has more, Grade 1"
+  },
+  {
+   "id": "profed-0812",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "shown",
+   "snippet": "A child was shown an amount of water in a glass. The teacher poured the whole amount to much taller and narrower glass and marks this glass "
+  },
+  {
+   "id": "profed-198",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "shown",
+   "snippet": "Which of the following is likely to be developed if infants are shown genuine affection?"
+  },
+  {
+   "id": "qb-1782963021543-y2ufcb",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrating",
+   "snippet": "What principle is behind Vygotsky's theory in illustrating guidance that leads to independent performance of students in learning?"
+  },
+  {
+   "id": "qb-1783326243991-4fl14q",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrated",
+   "snippet": "Hanah, a preschooler, does not want her teddy bear to be left in the cold. Based on Piaget's theory, which preschooler's mode/s of thinking "
+  },
+  {
+   "id": "qb-1783334465411-bbns1r",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "picture",
+   "snippet": "Sir Mike is going to teach fractions to Grade I learners. Following Bruner's Theory of Representation, which material should be presented fi"
+  },
+  {
+   "id": "qb-1783334484055-ra7ukv",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrations",
+   "snippet": "In the preschool class, which among these materials will greatly help in developing manual dexterity?"
+  },
+  {
+   "id": "qb-1783334488131-j3n0dd",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrations",
+   "snippet": "Why are there more illustrations in elementary books and less in the upper levels?"
+  },
+  {
+   "id": "profed-0186",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "picture",
+   "snippet": "Here are raw scores in a quiz 97, 95, 85, 83, 77, 75, 50, 10, 5, 2, 1. To get a picture of the group’s performance which measure of central "
+  },
+  {
+   "id": "profed-0420",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "table below",
+   "snippet": "Which text form would you choose if you want to have a valid and reliable test based on the table below? Test Form Validity Index Reliabilit"
+  },
+  {
+   "id": "qb-1782733418388-wvvtix",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "picture",
+   "snippet": "When is holistic rubric preferred? I. When gross judgment on a piece of work needs to be made. II. When one wants to assess each criterion s"
+  },
+  {
+   "id": "qb-1782733418400-1c0c10",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "figure",
+   "snippet": "A figure compares tutorial group sizes for Semester 1 (sizes 4,5,6 with frequencies 3,6,3) and Semester 2 (sizes 3,4,5,6,7 with frequencies "
+  },
+  {
+   "id": "qb-1782733418401-jr3nvm",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "shown",
+   "snippet": "Two normal curve figures are shown, one narrower and one wider, both marked with ±1SD spanning similar visual width on different scales. Whi"
+  },
+  {
+   "id": "qb-1782733418402-7rl7t3",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "shown",
+   "snippet": "Two skewed distribution figures are shown — one with a long tail to the right (most scores low/clustered left), one with a long tail to the "
+  },
+  {
+   "id": "qb-1782820691827-ramr58",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "Figure",
+   "snippet": "Study two figures showing score distributions: left has narrow peak (small ±1SD), right has wide peak (large ±1SD). Which is TRUE?"
+  },
+  {
+   "id": "profed-023",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "shown",
+   "snippet": "What is shown by results in a pre-test?"
+  },
+  {
+   "id": "profed-130",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "picture",
+   "snippet": "What is Miss Castro focusing on as she evaluated her Kindergarten students picture drawing and coloring for their design, color choice, and "
+  },
+  {
+   "id": "profed-0668",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "graph",
+   "snippet": "A test consists of a graph showing the relationship between age and population. Follow a series of true-false items based on the graph. Whic"
+  },
+  {
+   "id": "profed-assessment-evaluation-005",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "shown",
+   "snippet": "A class is taught how to conduct action research and is shown an analytic scoring rubric before starting their report. They use the rubric a"
+  },
+  {
+   "id": "qb-1783327239710-j88vd1",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "illustrate",
+   "snippet": "Here is an essay test: Cite the 4 Cs of the 21st-century skills. Explain each in not more than 2 sentences and illustrate how each can be de"
+  },
+  {
+   "id": "qb-1783327243529-i9u6fl",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "table below",
+   "snippet": "Study the table below then answer the question. Which is TRUE of this table? [Rating scale with descriptors: 3-Excellent Speaker, 2-Good Spe"
+  },
+  {
+   "id": "qb-1788211668208-5kan17",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "chart",
+   "snippet": "Which chart is best used to show the continuous trend of student achievement over quarterly periods?"
+  },
+  {
+   "id": "qb-1783654408088-zjs9sd",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "ProfEd",
+   "topic": "Field Study & Action Research",
+   "match": "diagram",
+   "snippet": "What is TRUE about the Introduction section of a research paper?"
+  },
+  {
+   "id": "gened-purposive-communication-english-003",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "Figure",
+   "snippet": "\"Red letter day\" is a/an:"
+  },
+  {
+   "id": "gened-purposive-communication-english-004",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is in: \"Lucy is violet by a mossy stone, half-hidden from the eye... fair as a star when only one is shining in the sk"
+  },
+  {
+   "id": "gened-purposive-communication-english-005",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is: \"He is the black sheep of the family\"?"
+  },
+  {
+   "id": "gened-150",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "Identify the figure of speech used in: \"Time is a thief that steals our youth.\""
+  },
+  {
+   "id": "gened-013",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is exemplified by: 'If you ask for the stars, I'll get them for you'?"
+  },
+  {
+   "id": "gened-015",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is exemplified by: 'The foreign delegates were the center of attention'?"
+  },
+  {
+   "id": "gened-020",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is exemplified by: 'She is the apple of my eyes'?"
+  },
+  {
+   "id": "gened-146",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is the following: “He is the black sheep of the family.”"
+  },
+  {
+   "id": "gened-147",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“...it droppeth as a gentle rain from heaven” is what figure of speech?"
+  },
+  {
+   "id": "gened-240",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is being exemplified in the statement below? \"She is the apple of my eyes\" has taken the exam.\""
+  },
+  {
+   "id": "gened-503",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is: “A tree whose hungry mouth is pressed against the earth’s sweet flowingbreast.”"
+  },
+  {
+   "id": "gened-517",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is the following: “He was helpless as a child.”"
+  },
+  {
+   "id": "gened-693",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is: “The Lord is my shepherd.”"
+  },
+  {
+   "id": "gened-940",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "For one to be a great gardener, he/she must have a GREEN THUMB. Which figure of speech was used in this statement?"
+  },
+  {
+   "id": "gened-949",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“The sun was a ball of fire over the mountain.” is an example of what figure of speech?"
+  },
+  {
+   "id": "gened-1204",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“Helen of Troy is the face who launched a thousand ship.” What figure of speech is used in the given sentence?"
+  },
+  {
+   "id": "gened-2075",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "Chart",
+   "snippet": "What is the instructional procedure used when a teachers gather information about Readers abilities to deal with the content and structure o"
+  },
+  {
+   "id": "gened-2270",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“The prodigal son, who is the black sheep of the family, has returned home.” What figure of speech was used in the given statement?"
+  },
+  {
+   "id": "gened-1222",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“Two heads are better than one” means that it’s better for two people to think of a solution than just oneperson. This is a classic example "
+  },
+  {
+   "id": "gened-1211",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "The figure of speech, which uses exaggerated statement for aesthetic reason."
+  },
+  {
+   "id": "gened-481",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "Figure",
+   "snippet": "Beyond this place of wrath and tears Looms but the horror of the shade, And yet the menace of the years Finds and shall find me unafraid Eve"
+  },
+  {
+   "id": "gened-944",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "In the poem “Ode to the West Wind”, Percy Shelly directly addressed the west wind. What figure ofspeech was used predominantly in the poem?"
+  },
+  {
+   "id": "gened-1631",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "illustrate",
+   "snippet": "Carl Sundburg wrote \"Jazz Fantasia\" which has for its first stanza: Drum on your drums, batter on your banjos, sob on the long cool winding "
+  },
+  {
+   "id": "gened-180",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "'He is the black sheep in the family.' Which figure of speech is used?"
+  },
+  {
+   "id": "qb-1782986976478-emqon4",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What is the figure of speech 'personification'?"
+  },
+  {
+   "id": "qb-1782986976478-p1r5fx",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What is an oxymoron?"
+  },
+  {
+   "id": "gened-0161",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "image",
+   "snippet": "Which is the correct sequence for the NCBTS passage? (1)The image of a good teacher... (2)The NCBTS defines a new paradigm... (3)Good teachi"
+  },
+  {
+   "id": "gened-0208",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is employed when the author states, \"O souls and spirits of the martyred brave, arise?\""
+  },
+  {
+   "id": "gened-0210",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What is the predominant figure of speech employed by the author of the poem 'Trees'?"
+  },
+  {
+   "id": "gened-0220",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What is the predominant figure of speech utilized by the author of 'I Am Looking for a Filipino'?"
+  },
+  {
+   "id": "gened-0238",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What is the figure of speech used in 'The Cask of Amontillado' selection?"
+  },
+  {
+   "id": "gened-0254",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is used in the line \"I wandered lonely as a cloud...\"?"
+  },
+  {
+   "id": "qb-1784869584458-6bsp0c",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is the following: “He was helpless as a child.”"
+  },
+  {
+   "id": "qb-1784869585774-1iphgb",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“…It droppeth as a gentle rain from heaven” is an example of this figure of speech."
+  },
+  {
+   "id": "qb-1784869586983-rovjuw",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is: “O wild west wind!”"
+  },
+  {
+   "id": "qb-1784869588312-egalvn",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“My head is bloody, but unbowed” is an example of which figure of speech?"
+  },
+  {
+   "id": "qb-1784869590733-t8ezih",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“The Lord is my shepherd” uses this figure of speech."
+  },
+  {
+   "id": "qb-1784869592028-hu3fbt",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "“He is the black sheep in the family.” Which figure of speech is used?"
+  },
+  {
+   "id": "qb-1784870093762-813xbf",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "illustrate",
+   "snippet": "The movements of the head, arms, and hands to illustrate, emphasize, or signal ideas in a presentation are examples of what kind of nonverba"
+  },
+  {
+   "id": "qb-1788279150187-u9b4bi",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "picture",
+   "snippet": "In an excerpt from John F. Kennedy's 'Inaugural Address,' Kennedy paints a picture of the United States as a nation that is"
+  },
+  {
+   "id": "gened-522",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "match": "figure",
+   "snippet": "Who was the literary figure known as “Huseng Sisiw”?"
+  },
+  {
+   "id": "gened-1703",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "Shown",
+   "snippet": "Shown below is a simple food web in a grassy community. The arrow symbol means eaten by. What would happen if all snakes are killed? Grass>G"
+  },
+  {
+   "id": "gened-1693",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "illustrates",
+   "snippet": "Which of the following examples best illustrates application of Boyle’s Law?"
+  },
+  {
+   "id": "gened-1714",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "image",
+   "snippet": "What kind of mirror is used in cars to give the driver a wider area and smaller image of the traffic behind him/her?"
+  },
+  {
+   "id": "gened-691",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "image",
+   "snippet": "Three-dimensional image reproduced from a pattern of interference is called"
+  },
+  {
+   "id": "gened-934",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "Graph",
+   "snippet": "A good way to make you web pages attractive is by applying:"
+  },
+  {
+   "id": "gened-1130",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "shown",
+   "snippet": "What characteristics of living things is shown by mimosa pudica (makahiya) when its leaflets fold upward when touched?"
+  },
+  {
+   "id": "gened-338",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "shown",
+   "snippet": "Which of the following scientific attitude is shown by the person who keeps seeking answer to things he is interested with?"
+  },
+  {
+   "id": "gened-0642",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "image",
+   "snippet": "A convex mirror has focal length f. An object is placed between f and 2f. The image formed is ___."
+  },
+  {
+   "id": "qb-1784870052231-2zu8ak",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "illustrates",
+   "snippet": "Which illustrates conduction?"
+  },
+  {
+   "id": "qb-1784870060102-2gem4w",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "illustrated",
+   "snippet": "Conduction is illustrated by all of these EXCEPT ___."
+  },
+  {
+   "id": "gened-sci-017",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "shown",
+   "snippet": "Miguel only creates inventions that respect and conserve natural resources and opposes pollution and illegal logging. What attitude is shown"
+  },
+  {
+   "id": "gened-sci-018",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "shown",
+   "snippet": "Copernicus believed the church was wrong about the sun revolving around the Earth, and defending this theory eventually cost him his life. W"
+  },
+  {
+   "id": "gened-sci-118",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "image",
+   "snippet": "A convex mirror always produces an image that is ______ of an object placed in front of it, regardless of the object's position."
+  },
+  {
+   "id": "qb-1787136420760-0gqq86",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "match": "image",
+   "snippet": "An object is placed in front of a convex mirror. What type of image is formed?"
+  },
+  {
+   "id": "gened-507",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "illustrates",
+   "snippet": "What illustrates a particular data series through rectangles?"
+  },
+  {
+   "id": "gened-379",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "illustrated",
+   "snippet": "Which property of real numbers is being illustrated in 5 + (2 + 6) = (5 + 2) + 6"
+  },
+  {
+   "id": "gened-935",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "Graph",
+   "snippet": "Graph of constant function"
+  },
+  {
+   "id": "gened-2224",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "chart",
+   "snippet": "Which of the following graphs is useful in displaying data or information that changes continuously over time?"
+  },
+  {
+   "id": "gened-926",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "figure",
+   "snippet": "If the opposite sides of a quadrilateral are equal, the figure is a ."
+  },
+  {
+   "id": "qb-1782986976437-1ln9d4",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "chart",
+   "snippet": "In a pie chart (360 degrees), what angle represents 25%?"
+  },
+  {
+   "id": "gened-0425",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "picture",
+   "snippet": "A picture frame is 27 cm long and 18 cm wide. What is the ratio of its length to its width?"
+  },
+  {
+   "id": "qb-1783656330704-1fnmoa",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "picture",
+   "snippet": "A photographer wishes to enlarge a picture 15 cm long and 10 cm wide so that it will be 30 cm wide. How long will the enlarged picture be?"
+  },
+  {
+   "id": "qb-1784869903174-rwhx56",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "match": "illustrates",
+   "snippet": "Which among these types of graphs best illustrates the progress in academic grades over four quarters?"
+  },
+  {
+   "id": "gened-0862",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "match": "illustrates",
+   "snippet": "Property worth P500,000 is taxed 1% giving P5,000; property worth P1,000,000 is taxed P10,000. This illustrates ___."
+  },
+  {
+   "id": "gened-995",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "match": "picture",
+   "snippet": "The picture of our national hero Dr. Jose P. Rizal has appeared in Philippine money since"
+  },
+  {
+   "id": "gened-1530",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "match": "image",
+   "snippet": "One of the priest who visited Rizal before the latter was executed whom Rizal made an image of theSacred Heart of Jesus during the latter’s "
+  },
+  {
+   "id": "gened-0929",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "match": "shown",
+   "snippet": "The Filipino's indomitable spirit is shown in his ___."
+  },
+  {
+   "id": "gened-0931",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "match": "illustration",
+   "snippet": "Out of used illustration boards, students came up with cute and functional bags for school children. Which Filipino trait is exhibited?"
+  },
+  {
+   "id": "qb-1782986976463-fjmuy6",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "match": "shown",
+   "snippet": "What is nepotism?"
+  },
+  {
+   "id": "qb-1782986976476-t5x6db",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "match": "illustrate",
+   "snippet": "What is the trolley problem used to illustrate?"
+  },
+  {
+   "id": "gened-0959",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "match": "illustrates",
+   "snippet": "Which illustrates this principle: 'Circumstances may change a good or an indifferent act into a punishable one'?"
+  },
+  {
+   "id": "gened-0962",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "match": "illustrates",
+   "snippet": "Which illustrates this principle: 'Antecedent passion may completely destroy freedom and moral responsibility'?"
+  },
+  {
+   "id": "qb-1783654325253-t91azt",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "match": "illustrating",
+   "snippet": "Diverse ethnic and linguistic groups in the Philippines speak distinct languages, illustrating the necessity for unity amidst diversity. Thi"
+  },
+  {
+   "id": "qb-1783654083383-ljycyz",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "match": "illustrates___",
+   "snippet": "The case of the European Union illustrates___"
+  },
+  {
+   "id": "qb-1783654089258-slpqwk",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "match": "illustrates",
+   "snippet": "China's vaccine diplomacy with the Philippines and Thailand illustrates"
+  },
+  {
+   "id": "qb-1783654090413-r71i3h",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "match": "illustrates___",
+   "snippet": "Due to frequent changes in oil prices and exchange rates, the government stops intervening in controlling oil price management to allow mark"
+  },
+  {
+   "id": "gened-0800",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "match": "illustrates",
+   "snippet": "My right is another man's duty. Which CORRECTLY illustrates this?"
+  },
+  {
+   "id": "gened-0801",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "match": "illustrates",
+   "snippet": "Every right has a built-in duty. Which CORRECTLY illustrates this?"
+  },
+  {
+   "id": "gened-0912",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "match": "illustrate",
+   "snippet": "Which pertains to the passionate Filipino dance that makes use of a fan or handkerchief to illustrate a couple in romance?"
+  },
+  {
+   "id": "qb-1783654300046-o5gexx",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "match": "illustrate",
+   "snippet": "If you require your students to illustrate graceful movements using lines, which line should you suggest?"
+  },
+  {
+   "id": "qb-1783654305934-o989ro",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "match": "illustrated",
+   "snippet": "A group of students created an illustrated rendition of a museum artifact's history and context, described by the narrator, for their Art Ap"
+  },
+  {
+   "id": "qb-1784869612562-mocfmp",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "match": "figure",
+   "snippet": "Who was the literary figure known as “Huseng Sisiw”?"
+  },
+  {
+   "id": "gened-640",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "match": "image",
+   "snippet": "A generalized image of an object is"
+  },
+  {
+   "id": "qb-1782986976469-69get9",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "match": "image",
+   "snippet": "What is self-concept?"
+  },
+  {
+   "id": "qb-1782986976470-epdz5h",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "match": "image",
+   "snippet": "What is the looking-glass self theory?"
+  },
+  {
+   "id": "qb-1782986976472-q790au",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "match": "image",
+   "snippet": "What is the body image and its role in self-concept?"
+  },
+  {
+   "id": "qb-1783654339729-kd452l",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "match": "shown",
+   "snippet": "For Sigmund Freud, what is the conscience of the Self that develops beginning the first five years of human life, such as shown by martyrs a"
+  },
+  {
+   "id": "gened-087",
+   "store": "json-pdf-inventory-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is the following? \"Lucy is violet by a mossy stone, half-hidden from the eye . . . fair as a star when only one is shi"
+  },
+  {
+   "id": "gened-125",
+   "store": "json-pdf-inventory-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is the following? \"He is the black sheep of the family.\""
+  },
+  {
+   "id": "drill::Math Major::Plane & Solid Geometry::qb-1784973857024-l7hqsy",
+   "store": "let-error-log-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "In the adjoining figure, rectangle ABCD, what congruence principle may be used to show that triangle ADC is congruent to triangle CBA?"
+  },
+  {
+   "id": "set-1781070613119-vxdlh-GenEd-150",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Values Education",
+   "match": "illustrates",
+   "snippet": "Charity begins at home. What best illustrates this value?"
+  },
+  {
+   "id": "set-1781070613119-vxdlh-ProfEd-4",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Principles of Teaching",
+   "match": "illustrated",
+   "snippet": "Research shows that visual imagery helps learners store information more effectively. Which teaching implication best reflects this principl"
+  },
+  {
+   "id": "set-1781070613119-vxdlh-ProfEd-13",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Facilitating Learning",
+   "match": "illustrating",
+   "snippet": "Which activity is LEAST appealing to bodily-kinesthetic learners?"
+  },
+  {
+   "id": "set-1781070613119-vxdlh-ProfEd-27",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Principles of Teaching",
+   "match": "illustrations",
+   "snippet": "To make a lesson meaningful, systematic, and motivating, teacher examples should be ___."
+  },
+  {
+   "id": "set-1781070613119-vxdlh-ProfEd-40",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child and Adolescent Development",
+   "match": "shown",
+   "snippet": "A child shown equal amounts of water in a tall narrow glass and a short wide glass insists the tall glass has more. Which stage and concept "
+  },
+  {
+   "id": "set-1781070613119-vxdlh-ProfEd-46",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Educational Technology",
+   "match": "Picture",
+   "snippet": "You want to show learners a close representation of the Earth's size, shape, and position in the solar system. What is the best instructiona"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-GenEd-2",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "\"Helen of Troy is the face who launched a thousand ships.\" The phrase 'the face' is used to refer to Helen as a whole person. What figure of"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-GenEd-30",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "\"In 1960, 58% of illiterates _____ women; the corresponding figure today is more than 60%.\" Choose the correct verb."
+  },
+  {
+   "id": "set-1781520012470-o7oqa-GenEd-81",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Philippine History",
+   "match": "figure",
+   "snippet": "Justice Jose Abad Santos, when asked to collaborate with Japanese forces, reportedly refused, saying he had only one life and was willing to"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-GenEd-121",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Biology",
+   "match": "illustrates",
+   "snippet": "Which concept in ecology illustrates the interconnected feeding relationships among all life forms in an ecosystem?"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-2",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Teaching Strategies",
+   "match": "illustrates",
+   "snippet": "After hearing a talk on honesty, Teacher Liza pauses to reflect, connecting the message to a similar experience from her past. Through this "
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-4",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Teaching Strategies",
+   "match": "illustrates",
+   "snippet": "Anna's best friend advises her to end a troubled relationship, but after reflecting on her own feelings, Anna decides to continue it anyway,"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-17",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Teaching Strategies",
+   "match": "illustrates",
+   "snippet": "After her Algebra teacher explains the concept of factoring trinomials, a student immediately applies what she learned by solving practice e"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-26",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrates",
+   "snippet": "A teacher focuses on having students memorize and master the rules for multiplying fractions, placing less emphasis on varied strategies or "
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-28",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "figure",
+   "snippet": "Which philosophy holds that the teacher is a revered figure, central to the educative process, and must therefore be excellent in both menta"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-53",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrate",
+   "snippet": "A student submits a research paper that is poorly written but elaborately bound and decorated to compensate for the weak content. Which Fili"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-81",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Teaching Strategies",
+   "match": "illustrate",
+   "snippet": "A teacher asks students how undiscovered elements might be found, and after students suggest the moon, the earth's core, and meteorites, the"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-135",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child and Adolescent Development",
+   "match": "illustrated",
+   "snippet": "A mother gives her son his favorite snack every time he cleans his room. Afterward, the boy cleans his room daily, anticipating the snack. W"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-ProfEd-149",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrated",
+   "snippet": "To whom do we owe the theory of deductive inference as illustrated through syllogisms?"
+  },
+  {
+   "id": "set-1781520012470-o7oqa-Math Major-123",
+   "store": "let-mock-board-sets-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "graph",
+   "snippet": "In the graph of y = -xsup2 - 6x - 15, what is the highest point (vertex)?"
+  },
+  {
+   "id": "profed-0812",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "shown",
+   "snippet": "A child was shown an amount of water in a glass. The teacher poured the whole amount to much taller and narrower glass and marks this glass"
+  },
+  {
+   "id": "profed-216",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Assessment & Evaluation",
+   "match": "shown",
+   "snippet": "Which assessment tool for affective learning is shown by the scale: Good ------- Bad, with numbers 3 2 1 0 1 2 3 on either side?"
+  },
+  {
+   "id": "math-major-150",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "illustrates",
+   "snippet": "Which of the following illustrates a normal curve with the same mean but different standard deviation?"
+  },
+  {
+   "id": "math-major-227",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "match": "figure",
+   "snippet": "In the adjoining figure, AB is perpendicular to CD. What congruence principle may be used to show that triangle ADC ≅ triangle CBA?"
+  },
+  {
+   "id": "profed-508",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrated",
+   "snippet": "When small children call all animals 'dogs,' what process is illustrated based on Piaget's theory?"
+  },
+  {
+   "id": "math-major-072",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "match": "chart",
+   "snippet": "Which of the following is used with multi-based arithmetic blocks in developing numeration concepts?"
+  },
+  {
+   "id": "profed-0020",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "The Professional Teacher",
+   "match": "shown",
+   "snippet": "The teacher instills to the students the Filipino value of respect to the elderly that is shown the provision of spaces in the building, gra"
+  },
+  {
+   "id": "gened-purposive-communication-english-001",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "match": "figure",
+   "snippet": "What figure of speech is used in: \"Princess Diana's sudden unexpected death was like a candle in the wind\"?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "image",
+   "snippet": "Statistical methods that help in noise reduction, speech recognition, and image compression are applications of Probability and Statistics i"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": null,
+   "match": "diagram",
+   "snippet": "A student realizes mid-exam that she does not remember a key formula and spontaneously switches to drawing a diagram to help herself recall "
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": null,
+   "match": "illustrates",
+   "snippet": "A preschooler draws a circle, calls it Mommy, and talks to it as if it were real. According to Piaget, this behavior BEST illustrates the pr"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": null,
+   "match": "shown",
+   "snippet": "A Grade 3 student is shown a set of 10 flowers: 7 roses and 3 daisies. When asked 'Are there more roses or more flowers?' she answers 'More "
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": null,
+   "match": "illustrates",
+   "snippet": "Which of the following scenarios illustrates the Malignancy of the GENERATIVITY VS. STAGNATION stage (Rejectivity)?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": null,
+   "match": "illustrate",
+   "snippet": "A teacher notices that several students keep making the same type of error in long division despite regular instruction. She administers a s"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "figure",
+   "snippet": "In the sentence 'Death stopped me,' the figure of speech used is _____."
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "figure",
+   "snippet": "The phrase 'Your wheel is dope' uses the word 'wheel' to refer to an entire vehicle. This figure of speech is _____."
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "illustrates",
+   "snippet": "Which sentence correctly illustrates a SECOND CONDITIONAL?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "illustrated",
+   "snippet": "Which number property is illustrated by (2 + 3) + 4 = 2 + (3 + 4)?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "graph",
+   "snippet": "What type of graph is used to display the frequency distribution of categorical data?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "illustrated",
+   "snippet": "Which number property is illustrated by the equation 12 + 2 = 2 + 12?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "Illustrations",
+   "snippet": "Teacher Cristina will be talking about venomous animals next meeting. Which among these is the LEAST likely option as a teaching material?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "illustrates",
+   "snippet": "Which of the following scenarios BEST illustrates a teacher applying TECHNOLOGICAL PEDAGOGICAL KNOWLEDGE (TPK) — without necessarily demonst"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "chart",
+   "snippet": "Which of the following is an example of a NON-PRINT instructional material?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "chart",
+   "snippet": "Which of the following is classified as an ELECTRONIC instructional material?"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "Diagram",
+   "snippet": "A Fishbone Diagram is also known as a _____ and is used for _____."
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": null,
+   "match": "illustrates",
+   "snippet": "Which of the following scenarios BEST illustrates the GOAL-DIRECTED characteristic at the TRANSFORMATION level of the Technology Integration"
+  },
+  {
+   "id": null,
+   "store": "let-practice-problem-edits-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "Diagram",
+   "snippet": "Teacher Uma's student uses lists, charts, and tables to work systematically through a word problem involving multiple conditions. Which prob"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-3",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrated",
+   "snippet": "Which principle of development is BEST illustrated when an infant gains head control before developing the ability to sit and then stand?"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-23",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A middle-aged person has become so devoted to community causes that they no longer allow time for themselves. According to Erikson, this BES"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-30",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A student is asked to recall a poem she memorized in Grade 3. She cannot recall it immediately, but after thinking for a while, a few lines "
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-36",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "shown",
+   "snippet": "A preschooler is shown two identical glasses of water. The water from one glass is poured into a taller, thinner glass. The child says the t"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-45",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "Which of the following situations MOST clearly illustrates reasoning at Kohlberg's LEVEL I (Pre-Conventional Morality)?"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-47",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A company policy forces a parent to work long hours, reducing the time she spends with her child at home. The child's academic performance d"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-51",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A dog conditioned to salivate to a bell tone begins salivating to a similar buzzer sound it has never been paired with food. This BEST illus"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-52",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A conditioned dog has been extinguished (bell no longer produces salivation). After a rest period, when the bell is rung again, the dog begi"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-63",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "picture",
+   "snippet": "A teacher introduces a new topic by presenting a big-picture overview before going into details. According to Ausubel, this strategy is call"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-64",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A student who already knows many examples of triangles (equilateral, isosceles, scalene) but has never learned the general concept polygon s"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-67",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A student who learned Spanish in high school finds that her previously learned English grammar interferes with her acquisition of Spanish gr"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A student who learned to solve linear equations now applies that reasoning to solve equations involving fractions at the next difficulty lev"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-76",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A child attributes feelings of sadness to the tree in the schoolyard after a storm damages its branches, saying the tree is crying. This BES"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-89",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "Which of the following scenarios BEST illustrates Kohlberg's Stage 2 (Instrumental Relativist Orientation)?"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-90",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A parent's employer requires overtime work that prevents the parent from attending school meetings or helping children with homework. Accord"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-91",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A student who has already learned addition and multiplication uses both to understand exponentiation as repeated multiplication. According t"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-136",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "INERTIA is the malignancy of Erikson's INDUSTRY VS. INFERIORITY stage. Which classroom scenario BEST illustrates this malignancy?"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-143",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrate",
+   "snippet": "A child who has only seen white swans assimilates a black swan into her 'swan' schema without difficulty. Later, she encounters an emu and c"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-147",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "A Grade 10 student recognizes that the relationship between the diameter and circumference of one circle applies to all circles, and uses th"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-162",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrates",
+   "snippet": "Which of the following learner behaviors BEST illustrates DERIVATIVE SUBSUMPTION according to Ausubel?"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-185",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "image",
+   "snippet": "The COMMUNITY LINKAGES section of the source states that Domain 6 of the PPST emphasizes the need for strengthening community linkages and p"
+  },
+  {
+   "id": "profed/Child and Adolescent Learners & Learning Principles.pdf-200",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Child & Adolescent Development",
+   "match": "illustrated",
+   "snippet": "SPECIFIC TRANSFER of learning is BEST illustrated by which of the following examples?"
+  },
+  {
+   "id": "math/Trigonometry & Plane and Solid Geometry.pdf-23",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "The graph of y = cos(x - π/3) is shifted _____."
+  },
+  {
+   "id": "math/Trigonometry & Plane and Solid Geometry.pdf-25",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "match": "graph",
+   "snippet": "The graph of y = 3 sin(2x) + 4 has:"
+  },
+  {
+   "id": "math/Abstract Algebra & Number Theory.pdf-54",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Number Theory",
+   "match": "illustrate",
+   "snippet": "The results of problems 48 and 49 (ab ≠ ba for these permutations) illustrate which property of permutation groups?"
+  },
+  {
+   "id": "math/History of Math & Math of Investment.pdf-40",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "diagram",
+   "snippet": "He is credited for the discovery of the law of inclined plane justified by his 'wreath of spheres' diagram."
+  },
+  {
+   "id": "math/History of Math & Math of Investment.pdf-91",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "Graph",
+   "snippet": "The Four-Color Theorem, proven in the 20th century, addresses which area of mathematics?"
+  },
+  {
+   "id": "math/History of Math & Math of Investment.pdf-106",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "map",
+   "snippet": "The Four-Color Theorem states that any map in a plane can be colored using no more than four colors such that _____."
+  },
+  {
+   "id": "gened/Science, Technology, and Society.pdf-94",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Physics",
+   "match": "illustrates",
+   "snippet": "Newton's Third Law of Motion (Law of Interaction) states that to every action there is always an equal and opposite reaction. Which scenario"
+  },
+  {
+   "id": "profed/Methods & Strategies & Field Studies.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "map",
+   "snippet": "A learner who thinks in pictures, prefers visual aids such as diagrams and maps, and would rather read a map than a book demonstrates _____."
+  },
+  {
+   "id": "math/Assessment and Evaluation 1.pdf-20",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "match": "figure",
+   "snippet": "What is faulty with the test item below? A figure with eight sides is called an _____. A. pentagon B. quadrilateral C. octagon D. heptagon"
+  },
+  {
+   "id": "math/Assessment and Evaluation 1.pdf-26",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "match": "figure",
+   "snippet": "Is this a good true-false test item? A circle is a closed plane figure and a polygon."
+  },
+  {
+   "id": "math/Assessment and Evaluation 1.pdf-28",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "match": "figure",
+   "snippet": "Study this matching type of test then answer the question. Column A: 1. Poly, 2. Triangle, 3. Pentagon, 4. Square, 5. Decagon, 6. Hexagon, 7"
+  },
+  {
+   "id": "math/Assessment and Evaluation 1.pdf-31",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "match": "diagram",
+   "snippet": "Study Teacher Z's matching test (Column A: Sum, Addends, Formula for area of rectangle, Multiplier, Product, Formula for perimeter of rectan"
+  },
+  {
+   "id": "math/TTL and Principles.pdf-7",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "illustrations",
+   "snippet": "In Bruner's Three-tiered Principle, a teacher uses diagrams and illustrations to help students visualize a mathematical concept. This corres"
+  },
+  {
+   "id": "math/TTL and Principles.pdf-18",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "diagram",
+   "snippet": "A student working on a math word problem draws a diagram to organize the given information. Under the problem-solving process, which step do"
+  },
+  {
+   "id": "math/TTL and Principles.pdf-19",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "diagram",
+   "snippet": "Which of the following is NOT listed as a strategy under Planning and Communicating a Solution in the problem-solving process?"
+  },
+  {
+   "id": "math/TTL and Principles.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "image",
+   "snippet": "Geometrical principles used in object recognition, image stitching, and 3D modeling are applications of geometry in which field?"
+  },
+  {
+   "id": "math/TTL and Principles.pdf-70",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "Map",
+   "snippet": "A teacher wants to use a graphic organizer that shows a sequence or process, such as the steps in solving an algebraic equation. Which graph"
+  },
+  {
+   "id": "math/TTL and Principles.pdf-71",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "Chart",
+   "snippet": "A teacher uses a graphic organizer to compare and contrast fractions and decimals. Which graphic organizer is most appropriate?"
+  },
+  {
+   "id": "math/TTL and Principles.pdf-72",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Linear Algebra",
+   "match": "Map",
+   "snippet": "Which graphic organizer is best used to organize what students Know, Want to know, and Have Learned?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-17",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "Chart",
+   "snippet": "Which of the following non-digital instructional materials is specifically designed to simulate a historical time period, a nature scene, or"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-18",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "Chart",
+   "snippet": "A teacher in a remote area with no solid walls needs to display student work and information for the class. Which conventional display board"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-33",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "picture",
+   "snippet": "In the ASSURE Model, the step 'State Objectives' is also known as the learning outcome. It describes _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-43",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "picture",
+   "snippet": "A Tableau is BEST described as _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-46",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "Diagram",
+   "snippet": "An Affinity Diagram is BEST used to _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-47",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "diagram",
+   "snippet": "A teacher wants to help students trace root causes of poor class performance. Which diagram is MOST appropriate?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-48",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "chart",
+   "snippet": "Which chart type is specifically a bar chart that prioritizes items from left to right in DECREASING order of magnitude or importance?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-49",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "Chart",
+   "snippet": "A Gantt Chart is BEST described as _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-50",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "map",
+   "snippet": "Which type of map provides three-dimensional representations and shows contours of the physical data of the earth?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-52",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "illustrations",
+   "snippet": "Which criterion for evaluating bulletin boards refers to ensuring that letters and illustrations can be seen from a good distance?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-75",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "diagram",
+   "snippet": "Which diagram type uses CIRCLES to show the relationship between two specific ideas, displaying shared and unique characteristics?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-76",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "chart",
+   "snippet": "A teacher wants to show the creation, growth, and change of a family structure starting from one ancestor and spreading out over several bra"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-77",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "Graph",
+   "snippet": "A visual representation of data that uses icons or pictures in relative sizes to highlight data patterns and trends is called a _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-86",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "Graph",
+   "snippet": "A Pictorial Graph is BEST defined as _____."
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "illustrate",
+   "snippet": "Teacher Ramon does not only teach Mathematics but also helps students connect their learning to real-world situations by drawing on his back"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-3",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "shown",
+   "snippet": "Which characteristic of a 21st century teacher is BEST shown when a teacher facilitates group activities, organizes learning stations, and m"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-9",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "illustrates",
+   "snippet": "Which of the following scenarios BEST illustrates the concept of Internet Safety?"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-45",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Methods & Strategies & Field Studies",
+   "match": "illustrate",
+   "snippet": "A student researches an international conflict, forms her own opinion using critical reasoning and knowledge about the world, and presents i"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-53",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "illustrate",
+   "snippet": "Instead of giving a worksheet for a unit on ecosystems, a teacher asks students to create a visual art piece or perform a role-play about th"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-56",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "map",
+   "snippet": "Teacher Norma takes her students to map the local environment surrounding the school as part of their eco-literacy unit. Students record the"
+  },
+  {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-34",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "illustrates",
+   "snippet": "Which scenario correctly illustrates conditional probability?"
+  },
+  {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-41",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": null,
+   "match": "diagram",
+   "snippet": "A tree diagram is most useful for which of the following?"
+  },
+  {
+   "id": "math/COMBINATORICS, PROBABILITY, AND STATISTICS.pdf-8-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "illustrates",
+   "snippet": "A reviewer defines subjective probability. Which classroom example best illustrates this type of probability rather than empirical or theore"
+  },
+  {
+   "id": "math/Set A Rationalization.pdf-67",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "graph",
+   "snippet": "The graph y = frac(x-1, x+2) is not defined at _____."
+  },
+  {
+   "id": "math/Set A Rationalization.pdf-68",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "CALC Techniques",
+   "match": "graph",
+   "snippet": "Determine the equation of the line tangent to the graph y = 2xsup2 + 1 at the point (1,3)."
+  },
+  {
+   "id": "math/Set A Rationalization.pdf-74",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Algebra",
+   "match": "map",
+   "snippet": "On a scaled map, a distance of 10 cm represents 5 km. If a street is 750 meters long, what is the length on the map, in centimeters?"
+  },
+  {
+   "id": "profed/Assessment of Learning.pdf-107",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Assessment",
+   "match": "illustrate",
+   "snippet": "Teacher Carla administers a test composed mainly of items testing factual recall with very few items testing analysis or evaluation. Which f"
+  },
+  {
+   "id": "profed/Assessment of Learning.pdf-108",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Assessment",
+   "match": "illustrates",
+   "snippet": "Which of the following assessment scenarios BEST illustrates the use of Assessment AS Learning?"
+  },
+  {
+   "id": "math/Logic and Set Theory.pdf-26",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Logic and Set Theory",
+   "match": "illustrated",
+   "snippet": "Which type of reasoning is illustrated by: Premise 1: All American are white. Premise 2: Joseph is white. Conclusion: Therefore, Joseph is A"
+  },
+  {
+   "id": "math/Abstract Algebra & Number Theory - 2.pdf-40",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Number Theory",
+   "match": "illustrates",
+   "snippet": "Congruence modulo m is an equivalence relation on the integers. Which of the following correctly illustrates the SYMMETRIC property of congr"
+  },
+  {
+   "id": "math/Abstract Algebra & Number Theory - 2.pdf-60",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Number Theory",
+   "match": "illustrates",
+   "snippet": "Which of the following congruences correctly illustrates the TRANSITIVE property?"
+  },
+  {
+   "id": "math/Abstract Algebra & Number Theory - 2.pdf-61",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Number Theory",
+   "match": "illustrates",
+   "snippet": "Which of the following illustrates the REFLEXIVE property of congruence?"
+  },
+  {
+   "id": "math/BASIC MATH.pdf-13",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Algebra",
+   "match": "illustrated",
+   "snippet": "Which type of proportion is illustrated when one quantity increases while the other decreases?"
+  },
+  {
+   "id": "math/BASIC MATH.pdf-38",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Algebra",
+   "match": "illustrated",
+   "snippet": "Which number property is illustrated by 3(8 + 5) = 3(8) + 3(5)?"
+  },
+  {
+   "id": "math/BASIC MATH.pdf-39",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Algebra",
+   "match": "illustrated",
+   "snippet": "Which number property is illustrated by 34 + 0 = 34?"
+  },
+  {
+   "id": "math/BASIC MATH.pdf-40",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Algebra",
+   "match": "illustrated",
+   "snippet": "Which number property is illustrated by 32 × 1 = 32?"
+  },
+  {
+   "id": "profed/Teacher and School Curriculum.pdf-16",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrates",
+   "snippet": "A teacher uses books of varying reading levels to match each learner's ability. This practice best illustrates curriculum as _____."
+  },
+  {
+   "id": "profed/Teacher and School Curriculum.pdf-82",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Curriculum Development",
+   "match": "illustrates",
+   "snippet": "Teacher Carla gives learners of different ability levels different forms of output — some write essays, some create models, and some record "
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-13",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrates",
+   "snippet": "Which of the following correctly illustrates an IRREGULAR verb?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-59",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrates",
+   "snippet": "Which sentence correctly illustrates the THIRD CONDITIONAL?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-60",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "A teacher asks students to identify the figure of speech in: 'She is AS flexible as a bamboo.' Which is it?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-63",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "The statement 'Edgar Allan Poe is NOT a bad writer' actually means he is an excellent writer. This figure of speech is _____."
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-64",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "Which sentence is an example of APOSTROPHE as a figure of speech?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-68",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrated",
+   "snippet": "A student reads: 'A fire station burns down.' What type of irony is illustrated?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-70",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "In 'The pen is mightier than the sword,' 'pen' refers to written words and 'sword' refers to military force. This figure of speech is _____."
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-71",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "Which statement correctly distinguishes PARADOX from OXYMORON?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-72",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "In Julius Caesar's 'I came, I saw, I conquered,' which figure of speech is demonstrated?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-96",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrates",
+   "snippet": "Which sentence correctly illustrates the FUTURE PERFECT PROGRESSIVE tense?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-10-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrates",
+   "snippet": "Which sentence correctly illustrates the use of an AUXILIARY verb followed by the proper verb form?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-27-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrates",
+   "snippet": "Which sentence correctly illustrates the SIMPLE PRESENT tense used for a habitual action?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-35-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrates",
+   "snippet": "Which sentence correctly illustrates a ZERO CONDITIONAL?"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-36-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrate",
+   "snippet": "A student writes: 'If we dance our night away, we will wake up late tomorrow.' The teacher marks it correct. Which conditional type does thi"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-42-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "figure",
+   "snippet": "A student encounters this sentence: 'The resort's entrance fee is only P1.00 per head.' The figure of speech used — naming a body part to re"
+  },
+  {
+   "id": "gened/Purposive Communication (English).pdf-57-2",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "illustrations",
+   "snippet": "Which element of fiction is defined as 'the significant value or truth about life and its nature that takes place in the illustrations of th"
+  },
+  {
+   "id": "math/C, P, & S Assessment.pdf-6",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "picture",
+   "snippet": "In how many ways can 6 students line up for a class picture?"
+  },
+  {
+   "id": "math/C, P, & S Assessment.pdf-20",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "shown",
+   "snippet": "A single die is rolled. Find the probability that the number shown on the face is a 2."
+  },
+  {
+   "id": "math/C, P, & S Assessment.pdf-72",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "match": "illustrate",
+   "snippet": "What is the primary purpose of a scatter plot?"
+  },
+  {
+   "id": "gened/PurCom Assessment.pdf-21",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Reading and Communication",
+   "match": "picture",
+   "snippet": "This picture needs ______."
+  },
+  {
+   "id": "math/Plane and Solid Geometry, and Trigonometry pre-test.pdf-48",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry And Trigonometry",
+   "match": "figure",
+   "snippet": "In the figure, two secants are drawn from external point P to a circle. AE = 12, EP = 5, PD = 4. What is the length of x (chord BC)?"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-4",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology and Media Literacy",
+   "match": "illustrates",
+   "snippet": "Teacher Gio independently identifies learning goals, designs his own instructional strategies, and acts on them without waiting for directiv"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-20",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology and Media Literacy",
+   "match": "illustrates",
+   "snippet": "Which of the following best illustrates the role of media in shaping how people act and think in certain ways?"
+  },
+  {
+   "id": "gened/Building and Enhancing New Literacies.pdf-60",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology and Media Literacy",
+   "match": "illustrate",
+   "snippet": "A student researches a global environmental issue, forms her own opinion using critical reasoning, and presents it to the class. Which dimen"
+  },
+  {
+   "id": "gened/TTL Assessment.pdf-3",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "illustrates",
+   "snippet": "Mrs. Gorres is implementing a technology-integration activity for 4th graders working on multiplication of two-digit numbers. Which of the f"
+  },
+  {
+   "id": "gened/TTL Assessment.pdf-14",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "Chart",
+   "snippet": "Science teacher Mr. Timothy Yip Wai-Lok brought a globe to his geography class. Which type of teaching aid does a globe fall under?"
+  },
+  {
+   "id": "gened/TTL Assessment.pdf-37",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "graph",
+   "snippet": "Teacher Karlo wants to show his Grade 4 students the fluctuations of the stock market over the last 10 months. Which of the following could "
+  },
+  {
+   "id": "gened/TTL Assessment.pdf-44",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "Illustrated",
+   "snippet": "Which of the following instructional materials is the MOST concrete?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-12",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "image",
+   "snippet": "An Infographic is best described as _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-51",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "picture",
+   "snippet": "Role-Playing as a dramatized experience is characterized by _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-55",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "Diagram",
+   "snippet": "An Affinity Diagram is used to _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-57",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "Chart",
+   "snippet": "A Pareto Chart is a type of bar chart that is prioritized from left to right in _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-58",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "Graph",
+   "snippet": "A Line Graph is BEST used to show information that _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-59",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "Graph",
+   "snippet": "A Pictorial Graph is different from a Bar Graph in that it _____."
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-60",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "map",
+   "snippet": "Which type of map combines data such as altitude, temperature, rainfall, precipitation, vegetation, and soil in a single projection?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-62",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "illustrations",
+   "snippet": "Which criterion for evaluating a bulletin board ensures that letters and illustrations can be seen from a good distance?"
+  },
+  {
+   "id": "gened/Technology for Teaching ang Learning.pdf-73",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Technology For Teaching And Learning",
+   "match": "illustrates",
+   "snippet": "Teacher Renz uses a computer-based drill program where his Grade 3 students answer math practice exercises and immediately receive feedback "
+  },
+  {
+   "id": "profed/Philosophical, Historical, and Legal Foundations.pdf-73",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "ProfEd",
+   "topic": "Educational Laws",
+   "match": "image",
+   "snippet": "Under the Code of Ethics, what does Section 3 of 'The Teacher and the Community' require of teachers regarding personal conduct?"
+  },
+  {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-32",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Research in Mathematics Education",
+   "match": "graph",
+   "snippet": "Teacher Quinn constructs a bar graph to compare the math performance frequencies of students from different sections. The bars in her graph "
+  },
+  {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-33",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Research in Mathematics Education",
+   "match": "graph",
+   "snippet": "Teacher Rex uses a graph that shows how students' average math scores changed week by week across a semester. Which type of graphical presen"
+  },
+  {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-34",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Research in Mathematics Education",
+   "match": "illustrate",
+   "snippet": "A teacher wants to illustrate what percentage of her class received each grade (A, B, C, D, F) to show how the whole class's grades are dist"
+  },
+  {
+   "id": "math/Research in Mathematics Education, Problem Solving, & Mathematical Investigation.pdf-44",
+   "store": "let-uploaded-pdf-problems-v1",
+   "inBank": false,
+   "category": "Math Major",
+   "topic": "Special Set Mathematics",
+   "match": "diagram",
+   "snippet": "Teacher Sara notices that her student Kris solves a complex word problem by first replacing the large numbers with simple ones (like 2 and 5"
+  }
+ ]
+}

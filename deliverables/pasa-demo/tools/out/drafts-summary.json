@@ -1,0 +1,34 @@
+{
+ "perGap": {
+  "Create": {
+   "drafts": 13,
+   "passed": 13,
+   "needs_human": 0
+  },
+  "Evaluate": {
+   "drafts": 11,
+   "passed": 9,
+   "needs_human": 2
+  },
+  "Thin topic": {
+   "drafts": 32,
+   "passed": 22,
+   "needs_human": 10
+  }
+ },
+ "total": {
+  "drafts": 56,
+  "passed": 44,
+  "needs_human": 12,
+  "discarded": 0
+ },
+ "detail": {
+  "Create / Create": 13,
+  "Evaluate / Evaluate": 11,
+  "Thin topic / Assessment in Mathematics": 6,
+  "Thin topic / Logic & Set Theory": 8,
+  "Thin topic / Mathematics Investigation & Modeling": 6,
+  "Thin topic / Research in Teaching Mathematics": 6,
+  "Thin topic / Technology in Mathematics Teaching": 6
+ }
+}

@@ -1,0 +1,1409 @@
+{
+ "count": 58,
+ "scope": "Math Major, bank + missing",
+ "byConfidence": {
+  "high": 23,
+  "medium-only": 35
+ },
+ "note": "high = ^na.. ; medium = ^<digits>a.. which can also be a legitimate 'x^2 a'. Review by hand.",
+ "items": [
+  {
+   "id": "math-major-055",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na5",
+     "snippet": "wers (True/False): 2^na5 = 32 total way"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540237936-v84pn6",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "erms in rows 1-8 = 8^na2 = 64, so row 9"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782471241103-dpue3i",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": " operation: frac(40a^3a*b^2a,12a*b^4a)"
+    },
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "ation: frac(40a^3a*b^2a,12a*b^4a) div "
+    },
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^4a",
+     "snippet": "ac(40a^3a*b^2a,12a*b^4a) div frac(27a*"
+    },
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": ") div frac(27a*b,12a^2a*b^3a)"
+    },
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": " frac(27a*b,12a^2a*b^3a)"
+    },
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "frac(40a^3a,27)"
+    }
+   ]
+  },
+  {
+   "id": "qb-1782510317815-c94zek",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^(2a",
+     "snippet": "s the product of (2x^(2a)+3x^(5a)) and "
+    },
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^(5a",
+     "snippet": "oduct of (2x^(2a)+3x^(5a)) and (3x^(7a)"
+    },
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^(7a",
+     "snippet": "2a)+3x^(5a)) and (3x^(7a)-5x^(10a))?"
+    },
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^(10a",
+     "snippet": "5a)) and (3x^(7a)-5x^(10a))?"
+    },
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^(15a",
+     "snippet": "15x^(15a)-x^(12a)+6x^(9"
+    },
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^(12a",
+     "snippet": "15x^(15a)-x^(12a)+6x^(9a)"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540231812-gtgifu",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "b^na2-a^na2+b-a-10"
+    },
+    {
+     "field": "choiceA",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "b^na2-a^na2+b-a-10"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "b^na2-a^na2+a-b-10"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "b^na2-a^na2+a-b-10"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "a^na2-b^na2+a-b-10"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "a^na2-b^na2+a-b-10"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540722168-qvzf7f",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "luating gives 4(3/2)^3a+18(3/2)^2a+8(3"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "es 4(3/2)^3a+18(3/2)^2a+8(3/2)-4 = 62."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540725261-dhjdml",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^6a",
+     "snippet": "atio r=3. a_7 = 6(3)^6a = 6(729) = 4,3"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540729149-r2qlvg",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "question",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "0],[3,1,-4]), find A^2a."
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " square matrix, so A^2a is not possibl"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657864323-7d0l04",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "nder equals f(2) = 2^3a - 2(2^2a) + 3("
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "ls f(2) = 2^3a - 2(2^2a) + 3(2) - 5 = "
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657864568-xh5pwr",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "f(1) = 1^2a = 1 and f(4) ="
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "^2a = 1 and f(4) = 4^2a = 16, so f(1) "
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112857942-8c3irb",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "c^na2 = a^na2+b^na2-"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "c^na2 = a^na2+b^na2-2ab cos("
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "c^na2 = a^na2+b^na2-2ab cos(C) = 4"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540733197-iqelew",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "Using cos(2A)=1-2sin^2a(A): sin(A)+1-2"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "2a(A): sin(A)+1-2sin^2a(A)=0. Let s=si"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "=0. Let s=sin(A): 2s^2a-s-1=0, (2s+1)("
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540733669-gza58z",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "By Law of Cosines: c^2a = 240^2a+360^2"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " Cosines: c^2a = 240^2a+360^2a-2(240)("
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "s: c^2a = 240^2a+360^2a-2(240)(360)cos"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657865874-zrry1k",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "the identity 1 - sin^2a x = cos^2a x."
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "y 1 - sin^2a x = cos^2a x."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112858849-mv1sz9",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "(1,2)(10)(6) = 30 cm^na2."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112859453-4wihvh",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "36pi cm^na3"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "27pi cm^na3"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "12pi cm^na3"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "9pi cm^na3"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "here = frac(4,3)pi r^na3 = frac(4,3)pi("
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "4,3)pi(27) = 36pi cm^na3."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112859767-1dgy7d",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "96 cm^na2"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "64 cm^na2"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "48 cm^na2"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "16 cm^na2"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": " area of a cube = 6s^na2 = 6(16) = 96 c"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "^na2 = 6(16) = 96 cm^na2."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112860388-lw9vsp",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "90pi cm^na3"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "30pi cm^na3"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "60pi cm^na3"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "300pi cm^na3"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "of a cylinder = pi r^na2 h = pi(9)(10) "
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": " pi(9)(10) = 90pi cm^na3."
+    }
+   ]
+  },
+  {
+   "id": "math-major-040",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "an theorem, c=sqrt(6^na2+8^na2)=sqrt(36"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "orem, c=sqrt(6^na2+8^na2)=sqrt(36+64)=s"
+    }
+   ]
+  },
+  {
+   "id": "math-major-058",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "Xsubn = n^na2 + 1"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "Xsubn = 2n(n^na2 + 1)"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "Xsubn = 2n^na2(n + 1)"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540735463-28uzd8",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "rean theorem: sqrt(8^2a+15^2a) = sqrt("
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "heorem: sqrt(8^2a+15^2a) = sqrt(64+225"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540736374-7hthxs",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "120 m^2a"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "100 m^2a"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "60 m^2a"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "360 m^2a"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " (10 x 20)/2 = 100 m^2a."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540738032-001yh1",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "Using r from A=pi*r^2a, r is about 5."
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657866513-9ceqo0",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "From Area = pi r^2a, r = sqrt(frac"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657866928-31usho",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "lume of the box is 8^3a = 512 cubic in"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657867225-wfmblf",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "of a cylinder = pi r^2a h = pi (4^2a)("
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " = pi r^2a h = pi (4^2a)(10) = 160pi c"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657867379-veowi1",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Plane & Solid Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " area of a cube = 6s^2a, so s^2a = fra"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "a cube = 6s^2a, so s^2a = frac(150,6) "
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "ng s = 5. Volume = s^3a = 125 cubic in"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112863025-mphqp8",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na4",
+     "snippet": " 2^n subsets; here 2^na4=16."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540752258-qh3chl",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Logic & Set Theory",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": " 2^n subsets. Here 2^3a = 8."
+    }
+   ]
+  },
+  {
+   "id": "math-major-047",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "t of determination r^na2 = (0.7)^na2 = "
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "nation r^na2 = (0.7)^na2 = 0.49, repres"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657868777-9rr0re",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^8a",
+     "snippet": "wer 8 questions is 2^8a = 256."
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657869499-wtjehn",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Statistics & Probability",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "ly one tail out of 2^3a = 8 total outc"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112866390-83zc6v",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "istance = sqrt((4-1)^na2+(6-2)^na2) = s"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "sqrt((4-1)^na2+(6-2)^na2) = sqrt(9+16) "
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540739702-6nfzpw",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "istance = sqrt((3-1)^2a+(4-0)^2a) = sq"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " sqrt((3-1)^2a+(4-0)^2a) = sqrt(4+16) "
+    }
+   ]
+  },
+  {
+   "id": "qb-1786039563985-1pmka6",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "(x - 3)^2a + (y - 5)^2a ="
+    },
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "(x - 3)^2a + (y - 5)^2a = 4"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "(x - 3)^2a + (y + 5)^2a ="
+    },
+    {
+     "field": "choiceB",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "(x - 3)^2a + (y + 5)^2a = 16"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "(x + 3)^2a + (y - 5)^2a ="
+    },
+    {
+     "field": "choiceC",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "(x + 3)^2a + (y - 5)^2a = 16"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657865449-5ksv9c",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "istance = sqrt((5-2)^2a+(7-3)^2a) = sq"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " sqrt((5-2)^2a+(7-3)^2a) = sqrt(9+16) "
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657865566-srwcob",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "ctor (a,b) is sqrt(a^2a+b^2a) = sqrt(3"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "(a,b) is sqrt(a^2a+b^2a) = sqrt(36+64)"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657870472-lgfm43",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "|3(2)+4(3)+9|,sqrt(3^2a+4^2a)) = frac("
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "+4(3)+9|,sqrt(3^2a+4^2a)) = frac(27,5)"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657870758-olcgrw",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Analytic Geometry",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "ance = sqrt((3-(-1))^2a + (5-2)^2a) = "
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "((3-(-1))^2a + (5-2)^2a) = sqrt(16+9) "
+    }
+   ]
+  },
+  {
+   "id": "math-major-054",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "sin^2a x"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "cos^2a x"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "tan^2a x"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "cot^2a x"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " = (1-cos2x)/2 = sin^2a(x), using the "
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540745568-djc95x",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "D' = 20 - 3/t^2a. At t=4: 20 - "
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540746068-fbbnic",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "-1/2 (ln x)^2a + C"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "1/2 (ln x)^2a + C"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "-2(ln x)^2a + C"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "2(ln x)^2a + C"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "integral of u du = u^2a/2 + C = (1/2)("
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "/2 + C = (1/2)(ln x)^2a + C."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540747014-udqakz",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "Antiderivative: x^3a-x^2a. At x=4: "
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "tiderivative: x^3a-x^2a. At x=4: 64-16"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784540747514-jcs999",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "from 0 to 6 of (6x-x^2a)^2a dx = pi(25"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " 0 to 6 of (6x-x^2a)^2a dx = pi(259.2)"
+    }
+   ]
+  },
+  {
+   "id": "qb-1786039573752-d0ltgc",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na",
+     "snippet": "y' = -16x^na(-3). At x=2, y"
+    }
+   ]
+  },
+  {
+   "id": "qb-1786039577346-q3cp3t",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "medium",
+     "match": "^4a",
+     "snippet": "frac(1,12)(3x - 1)^4a + C"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "medium",
+     "match": "^4a",
+     "snippet": "frac(1,4)(3x - 1)^4a + C"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "medium",
+     "match": "^4a",
+     "snippet": "frac(1,3)(3x - 1)^4a + C"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "medium",
+     "match": "^3a",
+     "snippet": "frac(1,12)(3x - 1)^3a + C"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^4a",
+     "snippet": " is frac(1,12)(3x-1)^4a + C."
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657871753-175rdn",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": "from 0 to 1 of (x^2)^2a dx = pi times "
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^4a",
+     "snippet": "es the integral of x^4a dx = pi[frac(x"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657872039-69y7l7",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^4a",
+     "snippet": "n, the integral of x^4a dx = frac(x^5,"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657872169-jwfwq0",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Calculus",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^2a",
+     "snippet": " antiderivative of x^2a is frac(x^3,3)"
+    }
+   ]
+  },
+  {
+   "id": "math-major-075",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "hits": [
+    {
+     "field": "choiceA",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "2^na2 x 3 x 5"
+    },
+    {
+     "field": "choiceB",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "2 x 3^na2 x 5"
+    },
+    {
+     "field": "choiceC",
+     "confidence": "high",
+     "match": "^na3",
+     "snippet": "2^na3 x 3 x 5"
+    },
+    {
+     "field": "choiceD",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "2 x 3 x 5^na2"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "60=4x15=2x2x3x5=2^na2 x 3 x 5."
+    }
+   ]
+  },
+  {
+   "id": "math-major-079",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "hits": [
+    {
+     "field": "question",
+     "confidence": "high",
+     "match": "^na10",
+     "snippet": "the remainder when 2^na10 is divided by "
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na10",
+     "snippet": "2^na10=1024; 1024 div"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112873480-e3cixk",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Arithmetic & Number Theory",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "36=2^na2 x 3^na2, so th"
+    },
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "36=2^na2 x 3^na2, so the number"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112874181-yfzonm",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na",
+     "snippet": "following A=P(1+r/n)^na(nt)."
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112874513-1ifwlp",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na2",
+     "snippet": "A=5000(1.04)^na2=5000(1.0816)=5"
+    }
+   ]
+  },
+  {
+   "id": "qb-1784112875171-jgt7lp",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na12",
+     "snippet": "e rate = (1+0.06/12)^na12 - 1 ≈ 0.0617, "
+    }
+   ]
+  },
+  {
+   "id": "math-major-086",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na5",
+     "snippet": "FV=100[(1.05^na5-1)/0.05] ≈ 552"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657873205-l9t561",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na",
+     "snippet": "g A = P(1+frac(r,n))^na^nt with P=4000"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^20a",
+     "snippet": "t=5, A = 4000(1.015)^20a is approximate"
+    }
+   ]
+  },
+  {
+   "id": "qb-1787657873352-pfv287",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics of Investment",
+   "hits": [
+    {
+     "field": "explanation",
+     "confidence": "high",
+     "match": "^na",
+     "snippet": "Using P = F/(1+i)^na^n with i=0.055"
+    },
+    {
+     "field": "explanation",
+     "confidence": "medium",
+     "match": "^10a",
+     "snippet": "= frac(54000,(1.055)^10a) is approximat"
+    }
+   ]
+  }
+ ]
+}

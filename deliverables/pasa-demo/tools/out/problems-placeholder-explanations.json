@@ -1,0 +1,3438 @@
+{
+ "count": 429,
+ "note": "Explanation is only a source attribution (e.g. \"Answer per ... answer key\") or empty: no reasoning to teach from. Not a doubt, so not in the self-doubt list.",
+ "items": [
+  {
+   "id": "I",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "History of Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "X",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "History of Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XIV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "History of Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "II",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "IV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "VI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "IX",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Mathematics Investigation & Modeling",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLIX",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "College & Advanced Algebra",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "L",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Trigonometry",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "V",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XX",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXXI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXXIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Strategies in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XVII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XVIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXVI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXIX",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXXIV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXXV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXXVIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXXIX",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLIV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLVII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Assessment in Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XIX",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXVIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXXVI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLIII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLVI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Research in Teaching Mathematics",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "math-major-139",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "snippet": "Source answer key: A. Excel can find measures of variation, create tables, and graph data, but graphing equations symbolically is limited."
+  },
+  {
+   "id": "XXI",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XXVII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XL",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLII",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "XLV",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "Math Major",
+   "topic": "Technology in Mathematics Teaching",
+   "snippet": "(empty explanation)"
+  },
+  {
+   "id": "gened-0008",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0009",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0051",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0056",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0057",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0059",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0068",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0079",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0084",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0085",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0086",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0093",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0094",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0095",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0102",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0108",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0112",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0116",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0118",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0120",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0122",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0124",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0130",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0131",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0133",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0136",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0140",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0143",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0149",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0150",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0151",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0152",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0153",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0154",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0155",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0157",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0166",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0184",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0208",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0209",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0210",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0212",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0213",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0216",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0220",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0228",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0229",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0230",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0232",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0233",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0235",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0238",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0243",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0244",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0250",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0251",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0253",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0254",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "qb-1788279080258-8g5hca",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Per the source answer key, option B is the intended correction for this item."
+  },
+  {
+   "id": "qb-1788279084042-y3rlj3",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Per the source answer key, the perfect tense 'have expected' is the intended correction here."
+  },
+  {
+   "id": "qb-1788279084951-wxwlu2",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Per the source answer key, the present-tense form 'tape' is the intended correction here."
+  },
+  {
+   "id": "qb-1788279087544-ywe4rx",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Per the source answer key, option C is the intended meaning for this idiom item."
+  },
+  {
+   "id": "gened-0257",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0259",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0260",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0261",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0264",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0296",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0306",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0307",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0312",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0313",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0318",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0321",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0322",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0324",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0328",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0329",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0333",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0346",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0349",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0352",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0353",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0354",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0355",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0356",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0359",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0362",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0363",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0365",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0366",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0372",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0374",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0932",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0527",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0528",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0529",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0531",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0534",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0535",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0539",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0543",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0546",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0549",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0552",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0553",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0555",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0558",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0561",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0562",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0567",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0570",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0572",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0574",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0575",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0576",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0577",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0578",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0583",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0585",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0586",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0587",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0588",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0590",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0591",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0594",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0597",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0598",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0601",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0610",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0611",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0613",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0617",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0619",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0620",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0621",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0623",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0626",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0628",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0630",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0631",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0632",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0633",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0634",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0640",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0645",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0646",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0647",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0650",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0653",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0654",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0655",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0656",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0659",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0666",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0667",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0668",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0669",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0671",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0674",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0678",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0679",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0680",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0684",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0685",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0686",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0687",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0689",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0691",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0702",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0709",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0712",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0714",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0719",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0721",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0722",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0723",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0731",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0733",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0739",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0741",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0760",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0761",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0977",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0985",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0986",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0988",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0991",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0969",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "qb-1788279119521-47dks5",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Per the source answer key, the magnets are oriented so that opposite poles face each other, causing attraction."
+  },
+  {
+   "id": "qb-1788279161655-5ftle9",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Per the source answer key, Iceland is identified as a location with loess deposits, consistent with its volcanic ash-derived wind-blown sedi"
+  },
+  {
+   "id": "gened-0377",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0378",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0380",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0381",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0382",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0383",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0385",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0386",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0388",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0389",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0391",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0392",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0393",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0394",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0396",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0397",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0398",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0399",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0400",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0403",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0407",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0408",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0409",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0410",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0412",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0413",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0415",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0416",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0417",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0418",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0419",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0420",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0421",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0422",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0424",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0425",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0426",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0427",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0428",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0429",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0430",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0431",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0432",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0433",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0434",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0435",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0436",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0437",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0438",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0439",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0440",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0441",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0442",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0443",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0444",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0445",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0447",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0448",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0449",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0451",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0452",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0454",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0455",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0456",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0457",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0458",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0460",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0461",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0462",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0463",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0464",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0465",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0467",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0468",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0469",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0470",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0473",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0476",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0478",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0479",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0480",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0481",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0482",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0485",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0486",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0487",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0488",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0489",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0490",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0492",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0493",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0494",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0497",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0499",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0500",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0501",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0502",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0504",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0505",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0506",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0507",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0509",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0510",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0511",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0512",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0514",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0516",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0517",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0519",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0521",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0523",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0524",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "qb-1788279105243-cocfbi",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Per the source answer key, choice C is marked correct for this item, though the smaller-to-larger ratio (35cm to 65cm) mathematically simpli"
+  },
+  {
+   "id": "gened-0762",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0766",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0769",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0771",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0777",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0778",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0780",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0781",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0788",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0789",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0790",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0791",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0794",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0803",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0807",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0808",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0819",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0823",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0825",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0830",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0831",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0835",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0842",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0846",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0849",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0852",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0865",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0869",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0871",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0872",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0874",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0876",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0880",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0884",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0889",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0896",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0903",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0909",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0913",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0920",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0922",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0925",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0929",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0931",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Life and Works of Rizal",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0902",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0940",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0943",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0949",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0950",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0953",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0955",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0956",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0961",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "qb-1788279131814-q52u28",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Ethics",
+   "snippet": "Per the source answer key, impotence (physical incapacity) is treated as the exception among the listed defects."
+  },
+  {
+   "id": "gened-0072",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0774",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "qb-1783073202094-hyo1cr",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0768",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0997",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0813",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0999",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0773",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0859",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0764",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0801",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "The Contemporary World",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0899",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0944",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0945",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0965",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Art Appreciation",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0904",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0910",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0967",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0968",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0970",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0973",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0974",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0975",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0976",
+   "store": "let-question-bank-v1",
+   "inBank": true,
+   "category": "GenEd",
+   "topic": "Understanding the Self",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "mock-GenEd::qb-1788279143118-ya3ojx",
+   "store": "let-error-log-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Per the source answer key, the fee bracket corresponds to a loan amount of Php50,000.00."
+  },
+  {
+   "id": "drill::GenEd::Purposive Communication (English)::qb-1788279085736-euqu3e",
+   "store": "let-error-log-v1",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Per the source answer key, 'Am' is the function word that does not carry the pitch change for emphasis."
+  },
+  {
+   "id": "gened-0308",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0088",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Purposive Communication (English)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0339",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Komunikasyon sa Wikang Filipino",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0471",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Mathematics (GenEd)",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "gened-0658",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Science and Technology",
+   "snippet": "Answer per LORIMAR LET Reviewer answer key."
+  },
+  {
+   "id": "qb-1788279143118-ya3ojx",
+   "store": "let-mock-board-sets-v2",
+   "inBank": false,
+   "category": "GenEd",
+   "topic": "Philippine History & Society",
+   "snippet": "Per the source answer key, the fee bracket corresponds to a loan amount of Php50,000.00."
+  }
+ ]
+}

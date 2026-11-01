@@ -1,0 +1,341 @@
+/* Compact lists, all screen sizes: one tight row per item — small type, details inline,
+   and the settle action (paid check / Pay / Received) pinned to the far right. Loads last. */
+.ms-day { padding: .45rem .7rem .15rem; font-size: .7rem; }
+
+/* ---- row shell ---- */
+html .ms-tx, html .ms-bill { padding: .3rem .5rem !important; gap: .5rem !important; min-height: 0; border-radius: 12px; margin-bottom: .1rem; }
+.card-body > .ms-bill, .card-body > .ms-tx { margin-bottom: .1rem; }
+html .ms-alloc { padding-block: .4rem; gap: .6rem; }
+
+/* ---- smaller type ---- */
+html .ms-tx .ms-tx-t, html .ms-bill .ms-tx-t { font-size: .84rem; font-weight: 600; line-height: 1.25; }
+html .ms-tx .ms-tx-s, html .ms-bill .ms-tx-s { font-size: .7rem; line-height: 1.25; }
+html .ms-tx .tabular, html .ms-bill .tabular { font-size: .82rem; min-width: 4.2em; }
+html .ms-r-top .tabular { font-size: .82rem; font-weight: 700; }
+html .ms-r-note, html .ms-bill .ms-r-note { font-size: .7rem; line-height: 1.2; }
+html .ms-bill .ms-due, html .ms-r .ms-due, html .ms-tx .ms-due { font-size: .66rem; padding: .02rem .4rem; line-height: 1.35; }
+html .ms-bill .ms-pillnote, html .ms-tx .ms-pillnote { font-size: .64rem; padding: .02rem .4rem; }
+html .ms-tx .ms-flag { font-size: .68rem; }
+
+/* ---- smaller chips, checks and buttons (sizes only; look is unchanged) ---- */
+html .ms-tx .ms-chip, html .ms-bill .ms-chip { width: 30px !important; height: 30px !important; flex: 0 0 30px !important; font-size: .85rem; border-width: 2px !important; margin: 0 !important; box-shadow: 0 0 8px -3px var(--c, #8b7bff); }
+html .ms-bill .ms-check, html .ms-tx .ms-check { width: 22px !important; height: 22px !important; min-width: 22px !important; min-height: 22px !important; flex: 0 0 22px !important; margin: 0 !important; font-size: .68rem; }
+html .ms-bill .btn-ghost, html .ms-tx .btn-ghost, html .ms-acts .ms-slot { width: 26px !important; height: 26px !important; min-width: 26px !important; min-height: 0 !important; flex: 0 0 26px !important; font-size: .85rem; }
+html .ms-bill .btn.btn-sm, html .ms-tx .btn.btn-sm { min-height: 0; height: 26px; padding: .1rem .55rem; font-size: .74rem; line-height: 1.2; flex: none; white-space: nowrap; }
+.ms-acts { gap: 0; }
+
+/* ---- plain rows (log entries, due-soon): title and details share one line ---- */
+.ms-tx > .min-w-0, .ms-bill:not(.ms-r) > .min-w-0 { display: flex; align-items: baseline; gap: .5rem; flex-wrap: nowrap; }
+.ms-tx .ms-tx-t, .ms-bill .ms-tx-t { flex: 0 1 auto; min-width: 4ch; max-width: 62%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ms-tx .ms-tx-s, .ms-bill .ms-tx-s { flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ms-bill:not(.ms-r) > .min-w-0 .ms-tx-s > * { vertical-align: baseline; }
+
+/* ---- bill / payday / schedule rows: [chip] title · details · amount · actions · [settle] ---- */
+.ms-r-main { display: flex; flex-direction: row !important; flex-wrap: nowrap; align-items: center; gap: .5rem; min-width: 0; flex: 1 1 auto; }   /* polish.css makes this a column — that is what stacked the rows */
+.ms-r-top, .ms-r-bot { display: contents; }
+.ms-r-main .ms-tx-t { order: 1; flex: 0 1 auto; max-width: 55%; }
+.ms-r-meta { order: 2; flex: 1 1 0; min-width: 0; display: flex; align-items: center; gap: .35rem; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; }
+.ms-r-meta > * { flex: 0 0 auto; }
+.ms-r-main b.tabular { order: 3; flex: 0 0 auto; text-align: right; }
+.ms-r-main .ms-acts { order: 4; flex: 0 0 auto; }
+html .ms-bill.ms-r > .ms-check { order: 9; margin-left: .1rem !important; }   /* the paid toggle is the settle button: far right */
+.ms-acts [data-act="recv"], .ms-acts [data-act="skippay"].btn { order: 2; }      /* Received / Restore stays the last thing in the row */
+.ms-acts [data-act="skippay"].btn-ghost { order: 1; }
+
+/* status lives on the edge, so the text can stay short */
+/* the whole row takes the status colour: overdue red, due soon orange, paid green */
+.ms-bill.overdue { background: rgba(244, 63, 94, .13); border-color: rgba(244, 63, 94, .35); box-shadow: inset 3px 0 0 #f43f5e; }
+.ms-bill.soon { background: rgba(245, 158, 11, .14); border-color: rgba(245, 158, 11, .35); box-shadow: inset 3px 0 0 #f59e0b; }
+.ms-bill.paid { background: rgba(18, 184, 134, .13); border-color: rgba(18, 184, 134, .35); box-shadow: inset 3px 0 0 #12b886; }
+
+/* ---- narrow screens: drop the least important detail first, never wrap ---- */
+@media (max-width: 479.98px) {
+  .ms-r-meta .ms-r-note { display: none; }
+  .ms-r-main .ms-tx-t { max-width: 48%; }
+  html .ms-tx .tabular, html .ms-bill .tabular { min-width: 0; }
+  html .ms-tx, html .ms-bill { gap: .4rem !important; padding-inline: .35rem !important; }
+  html .ms-bill .btn.btn-sm { padding-inline: .45rem; }
+}
+@media (max-width: 399.98px) {
+  html .ms-bill.ms-r .ms-chip { display: none !important; }   /* bills need the width for name, amount and buttons */
+  html .ms-bill .btn-ghost, html .ms-acts .ms-slot { width: 24px !important; min-width: 24px !important; flex-basis: 24px !important; }
+}
+@media (max-width: 359.98px) {
+  html .ms-tx .ms-chip, html .ms-bill .ms-chip { display: none !important; }
+  .ms-bill .btn.btn-sm i { display: none; }
+}
+
+/* =====================================================================
+   DENSITY SYSTEM — one rhythm for every screen and page.
+   gap between blocks .6rem · card padding .5/.75rem · header ~36px
+   list row ~38px · chip 30px · small button 26px · type: 1.15 / .86 / .84 / .7 / .66rem
+   ===================================================================== */
+:root { --d-gap: .6rem; --d-px: .75rem; --d-py: .5rem; --d-r: 14px; }
+
+/* page frame */
+@media (min-width: 768px) { html .ms-content { padding-top: .7rem; padding-inline: 1rem; } }
+html .ms-dash, html .ms-rail, html .ms-grid { gap: var(--d-gap) !important; }
+html .ms-dash .mb-3, html .ms-content .mb-3 { margin-bottom: var(--d-gap) !important; }
+html .ms-dash .mt-3, html .ms-content .mt-3 { margin-top: .5rem !important; }
+html .ms-top { margin-bottom: .45rem; }
+html .ms-hello { font-size: 1.15rem !important; font-weight: 700; letter-spacing: -.01em; line-height: 1.25; }
+html .ms-sub { font-size: .74rem; margin-top: 0; }
+html .ms-pagehead { min-height: 0 !important; margin-bottom: var(--d-gap) !important; align-items: center; gap: .6rem; }
+html .ms-pagehead img { height: 78px !important; margin: -16px 4px -14px 0 !important; }
+html .ms-pagehead .ms-stand { margin: -10px 0 -8px !important; }
+html .ms-qe { margin-bottom: var(--d-gap); }
+html .ms-status { padding: .5rem .75rem !important; margin-bottom: var(--d-gap) !important; border-radius: var(--d-r); }
+
+/* cards */
+html .card { border-radius: var(--d-r); }
+html .card:not(.ms-hero):hover { transform: none !important; }
+html .card > .card-header { padding: var(--d-py) var(--d-px) !important; font-size: .86rem !important; line-height: 1.3; }
+html .card > .card-body { padding: var(--d-py) var(--d-px) !important; }
+html .card > .card-header a { font-size: .78rem; }
+html .kpi-label { font-size: .66rem; letter-spacing: .06em; }
+html .kpi-sub { font-size: .72rem; }
+html .stat-value { font-size: 1.1rem; }
+html .kpi-icon { flex-basis: 28px; height: 28px; }
+
+/* hero: smaller number, small mascot, quick actions as one tidy row */
+html .ms-hero-num { font-size: 2.2rem !important; line-height: 1.15; }
+html .ms-hero .card-body > * { padding-right: 0 !important; }
+html .ms-hero .card-body > :nth-child(-n+4) { padding-right: 150px !important; }
+html .ms-hero::after { width: 150px !important; height: 150px !important; top: 6px !important; right: 10px !important; }
+@media (max-width: 575.98px) { html .ms-hero .card-body > :nth-child(-n+4) { padding-right: 104px !important; } html .ms-hero::after { width: 104px !important; height: 104px !important; top: 8px !important; right: 4px !important; } }
+html .ms-quick { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .4rem; margin-top: .6rem; padding-right: 0 !important; }
+html .ms-quick > *, html .ms-quick > *:hover, html .ms-quick > *:active { flex-direction: column; justify-content: center; align-items: center; gap: .3rem; min-height: 0; padding: .5rem .25rem; border-radius: 14px; font-size: .7rem; font-weight: 600; line-height: 1.15; text-align: center;
+  background: rgba(8,12,50,.38) !important; border: 1px solid rgba(255,255,255,.18) !important; box-shadow: none !important; transform: none !important; white-space: normal; overflow: hidden; }
+html .ms-quick > * span { overflow: visible; text-overflow: clip; }
+html .ms-quick i { width: 38px !important; height: 38px !important; flex: 0 0 38px; aspect-ratio: 1; font-size: 1.1rem; box-shadow: none !important; }
+html .ms-stats { gap: .5rem .75rem; padding-top: .5rem; }
+html .ms-stats b, html .ms-sum b { font-size: .95rem; font-weight: 700; letter-spacing: 0; }
+html .ms-stats span, html .ms-sum span { font-size: .62rem; }
+
+/* milestone card: ring + numbers on the left, the boy on the right — same height as the hero */
+html .ms-goalcard { flex-direction: row !important; align-items: center; }
+html .ms-goalcard .card-body { flex: 1 1 auto !important; min-width: 0; padding: var(--d-py) var(--d-px) !important; flex-direction: row; justify-content: center !important; align-items: center !important; gap: .8rem !important; }
+html .ms-goalcard::after { display: block !important; position: static !important; flex: 0 0 150px !important; width: 150px !important; height: 150px !important; min-height: 0 !important; margin: 0 .4rem 0 0 !important; background-size: contain; background-position: center; background-repeat: no-repeat; }
+html .ms-ring { flex-basis: 64px; height: 64px; }
+html .ms-ring::before { width: 50px; height: 50px; }
+html .ms-ring b { font-size: .9rem; }
+html .ms-goalcard .stat-value { font-size: 1.2rem; }
+@media (max-width: 575.98px) { html .ms-goalcard::after { flex-basis: 96px !important; width: 96px !important; height: 104px !important; } html .ms-goalcard .card-body { gap: .6rem !important; } }
+
+/* accounts: a tidy grid of short cards instead of tall scrolling ones */
+html .ms-cards, html .ms-accts { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--d-gap); overflow: visible; padding: 0 !important; margin-inline: 0 !important; scroll-snap-type: none; }
+html .ms-cards .ms-bankcard, html .ms-accts .ms-bankcard { flex: none; min-width: 0; }
+html .ms-bankcard { min-height: 0 !important; gap: .35rem !important; padding: .55rem .7rem !important; border-radius: var(--d-r) !important; box-shadow: 0 14px 24px -14px var(--c), inset 0 1px 0 rgba(255,255,255,.4) !important; }
+html .ms-bankcard:hover { transform: none !important; }
+html .ms-bankcard::before { width: 90px; height: 90px; right: -26px; top: -30px; }
+html .ms-bankcard::after { width: 90px; height: 90px; right: 28px; bottom: -48px; }
+html .ms-bc-ic { width: 28px !important; height: 28px !important; flex-basis: 28px !important; border-radius: 9px; font-size: .85rem; }
+html .ms-bc-sub { font-size: .66rem; }
+html .ms-bc-bal { font-size: 1.1rem !important; }
+html .ms-bc-btn { width: 26px; height: 26px; min-height: 0; border-radius: 8px; }
+@media (max-width: 575.98px) { html .ms-cards, html .ms-accts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; } }
+
+/* plan rows, summaries, legends, charts */
+html .ms-alloc { padding: .35rem 0 !important; gap: .6rem; }
+html .ms-rb { flex-basis: 34px; height: 34px; }
+html .ms-rb::before { width: 28px; height: 28px; }
+html .ms-rb b { font-size: .6rem; }
+html .ms-alloc .fw-semibold { font-size: .84rem; }
+html .ms-alloc .btn.btn-sm { min-height: 0; height: 26px; min-width: 0 !important; padding: .1rem .55rem; font-size: .74rem; line-height: 1.2; white-space: nowrap; }
+html .ms-sum { margin: .3rem var(--d-px) .4rem !important; padding: .5rem .75rem !important; gap: .4rem 1.2rem !important; border-radius: 12px; }
+html .ms-leg { padding: .2rem 0 !important; font-size: .8rem !important; }
+html .chart-box { height: 150px !important; }
+html .ms-donut { width: min(100%, 130px); }
+html .ms-seg button { min-height: 24px; padding: .15rem .55rem; font-size: .7rem; }
+html .ms-member { padding-block: .4rem; }
+html .ms-pill { padding: .2rem .8rem; }
+
+html .ms-hero-add { position: absolute; right: 14px; bottom: 14px; width: 40px; height: 40px; border-radius: 50%; border: 0; display: flex; align-items: center; justify-content: center; padding: 0; line-height: 0; color: #fff; background: linear-gradient(135deg,#8e7dff,#5b4bff); box-shadow: 0 8px 18px -4px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.4); cursor: pointer; }
+html .ms-hero-add:active { transform: scale(.92); }
+html .ms-hero-add svg { display: block; }
+
+/* ---- Bills header: tabs, add button and summary scaled to match the compact rows ---- */
+html .card-header.ms-billhead { padding: .45rem .6rem !important; gap: .4rem; min-height: 0; }
+html .ms-billhead .nav-pills { padding: 2px; border-radius: 10px; }
+html .ms-billhead .nav-pills .nav-link { min-height: 26px; padding: .15rem .45rem !important; font-size: .76rem; font-weight: 600; border-radius: 8px !important; }
+html .ms-billhead .ms-addbtn { min-height: 0; height: 30px; padding: .1rem .6rem; font-size: .76rem; font-weight: 600; border-radius: 10px; gap: .25rem; }
+html .ms-billhead .ms-addbtn i { font-size: .8rem; }
+html .ms-billhead + .ms-sum, html .card > .ms-sum { margin: .2rem .6rem .3rem !important; padding: .4rem .65rem !important; border-radius: 10px; gap: .3rem 1rem !important; }
+html .ms-sum b { font-size: .88rem; }
+html .ms-sum span { font-size: .6rem; }
+html .ms-sum .flex-grow-1 { min-width: 110px; }
+html .ms-sum .progress, html .ms-sum [class*="bar"] { height: 5px; }
+
+/* ---- breathing room between account cards and the section below (glow + .mb-3 override had collapsed it) ---- */
+html .ms-dash > .mb-3:has(> .ms-cards), html .ms-content > .mb-3:has(> .ms-cards) { margin-bottom: 1.1rem !important; }
+html .ms-cards { padding-bottom: .15rem !important; }
+
+/* ---- phone: mascot sits on the right, inline with title, subtitle and month switcher ---- */
+@media (max-width: 575.98px) {
+  html .ms-pagehead { grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+  html .ms-pagehead > img, html .ms-pagehead > .ms-stand { display: block !important; grid-column: 2; grid-row: 1 / span 2; justify-self: end; align-self: center; }
+  html .ms-pagehead img { height: 96px !important; width: auto; margin: -6px 0 -6px 0 !important; }
+}
+
+/* ---- Activity filters: search + select scaled to the compact rows ---- */
+html .card-header.ms-logbar { padding: .45rem .6rem !important; gap: .4rem; min-height: 0; }
+html .ms-logbar .ms-search { border-radius: 10px !important; }
+html .ms-logbar .ms-search input, html .ms-logbar .ms-logsel { height: 30px; min-height: 0; padding-top: .1rem; padding-bottom: .1rem; font-size: .78rem; border-radius: 10px; }
+html .ms-logbar .ms-search input { padding-left: 1.7rem; }
+html .ms-logbar .ms-search i { font-size: .78rem; left: .55rem; }
+html .ms-logbar .ms-logsel { min-width: 84px; padding-left: .6rem; padding-right: 1.6rem; background-size: 12px; background-position: right .5rem center; }
+
+/* ---- summary strips: spread the stats across the full width instead of bunching them left ---- */
+html .ms-sum { justify-content: space-between; align-items: flex-start; }
+html .ms-sum > div:not(.flex-grow-1) { flex: 0 0 auto; }
+html .ms-sum > div:last-child:not(.flex-grow-1) { text-align: right; }
+
+/* ---- Accounts hero: the stats sit below the mascot, so they don't need its reserved right padding; use the full width ---- */
+html .ms-cell .ms-hero .card-body > .ms-stats, html .ms-hero .card-body > .ms-stats { padding-right: 0 !important; gap: .6rem 1.4rem; }
+html .ms-hero .ms-stats > div { min-width: 0; }
+
+/* ---- Accounts page: the whole card is the tap target (opens the edit popup) ---- */
+html .ms-bankcard[data-act] { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+html .ms-bankcard[data-act]:active { transform: scale(.98) !important; }
+html .ms-bankcard .ms-bc-go { margin-left: auto; opacity: .7; font-size: .85rem; align-self: center; }
+
+/* ---- Summary strips (Bills + Activity): same purple hero treatment as Home and Accounts ---- */
+html[data-coreui-theme] .ms-sum {
+  position: relative; overflow: hidden; border: 0 !important; border-radius: 14px;
+  background: var(--ms-grad-glow), var(--ms-grad) !important;
+  box-shadow: var(--ms-grad-shadow) !important;
+  color: #fff;
+}
+html[data-coreui-theme] .ms-sum span { color: rgba(255,255,255,.74); font-weight: 600; }
+html[data-coreui-theme] .ms-sum b { color: #fff; font-size: 1.05rem; font-weight: 800; letter-spacing: -.01em; }
+html[data-coreui-theme] .ms-sum .text-success { color: #c9fbe6 !important; }
+html[data-coreui-theme] .ms-sum .text-danger { color: #ffe0e6 !important; }
+html[data-coreui-theme] .ms-sum .ms-bar { background: rgba(255,255,255,.24) !important; }
+html[data-coreui-theme] .ms-sum .ms-bar i { background: #6ee7b7 !important; box-shadow: none !important; }
+html.ms-low .ms-sum { box-shadow: 0 8px 14px -12px rgba(90,60,255,.7) !important; }
+
+/* ---- One purple everywhere: every gradient surface/control uses the same --ms-grad (hero, strips, sidebar card, buttons, active states) ---- */
+html[data-coreui-theme] .ms-sb-card,
+html[data-coreui-theme] .ms-nav a.active,
+html[data-coreui-theme] .btn-primary,
+html[data-coreui-theme] .nav-pills .nav-link.active,
+html[data-coreui-theme] .ms-pill.on,
+html[data-coreui-theme] .ms-seg button[aria-pressed=true],
+html[data-coreui-theme] .ms-fab,
+html[data-coreui-theme] .ms-hero-add { background-image: var(--ms-grad) !important; background-color: #6a3df0 !important; border-color: transparent !important; color: #fff !important; }
+html[data-coreui-theme] .ms-sb-card { background-image: var(--ms-grad-glow), var(--ms-grad) !important; box-shadow: var(--ms-grad-shadow) !important; border: 0 !important; }
+html[data-coreui-theme] .progress-bar { background-image: linear-gradient(90deg,#2a3dff,#6a3df0 60%,#b13de0) !important; }
+
+/* ---- Pop-ups (Add income, Money out, bills...): compact, only as tall as the content needs ---- */
+html .modal-dialog { max-width: 420px; }
+html .modal-content { border-radius: 18px; }
+html .modal-header { padding: .6rem .9rem; } html .modal-title { font-size: 1rem; }
+html .modal-header .btn-close { transform: scale(.8); }
+html .modal-body { padding: .7rem .9rem .4rem; }
+html .modal-footer { padding: .5rem .9rem; gap: .4rem; }
+html .modal-footer .btn { --cui-btn-padding-y: .3rem; --cui-btn-padding-x: .9rem; --cui-btn-font-size: .9rem; border-radius: 10px; }
+html .modal .mb-3 { margin-bottom: .55rem !important; }
+html .modal .form-label { font-size: .74rem; margin-bottom: .15rem; }
+html .modal .form-control, html .modal .form-select { min-height: 36px !important; padding: .25rem .65rem !important; font-size: .92rem !important; border-radius: 10px !important; }
+html .modal .ms-chips, html .modal .ms-presets { gap: .25rem; }
+html .modal .ms-chips .ms-pill, html .modal .ms-presets .ms-pill { padding: .1rem .55rem; font-size: .74rem; }
+html .modal .ms-chips.mt-2 { margin-top: .3rem !important; }
+@media (max-width: 767.98px) {
+  html .modal-dialog { max-width: none; }
+  html .modal-content { border-radius: 18px 18px 0 0; max-height: 82vh; }
+  html .modal-body { overflow-y: auto; }
+  /* iOS zooms into inputs under 16px, so touch screens keep that size but lose the extra height */
+  html .modal .form-control, html .modal .form-select { font-size: 16px !important; }
+}
+
+/* ---- Account name combobox ---- */
+html .ms-combo { position: relative; }
+html .ms-combo-list { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 5; max-height: 190px; overflow-y: auto; padding: .25rem; border-radius: 12px; background: var(--ms-solid, var(--ms-card)); border: 1px solid var(--cui-border-color); box-shadow: 0 14px 28px -10px rgba(0,0,0,.55); }
+html .ms-combo-opt { display: flex; align-items: center; gap: .55rem; width: 100%; padding: .38rem .55rem; border: 0; border-radius: 8px; background: none; color: var(--cui-body-color); font-size: .9rem; text-align: left; }
+html .ms-combo-opt i { flex: 0 0 10px; height: 10px; border-radius: 50%; }
+html .ms-combo-opt span { margin-left: auto; font-size: .72rem; color: var(--cui-secondary-color); }
+html .ms-combo-opt:hover, html .ms-combo-opt.on { background: rgba(var(--ms-accent-rgb), .18); }
+
+/* accounts: gridfit.js picks the column count and makes the biggest card(s) larger so no corner is left empty */
+html .ms-cards.ms-fit, html .ms-accts.ms-fit { grid-auto-flow: row dense; }
+html .ms-fit > .ms-bankcard { justify-content: space-between; }
+html .ms-fit > .ms-bankcard.ms-feat { padding: .9rem 1.1rem !important; gap: .6rem !important; }
+html .ms-fit > .ms-bankcard.ms-feat .ms-bc-ic { width: 38px !important; height: 38px !important; flex-basis: 38px !important; font-size: 1.05rem; }
+html .ms-fit > .ms-bankcard.ms-feat .ms-bc-sub { font-size: .76rem; }
+html .ms-fit > .ms-bankcard.ms-feat .ms-bc-bal { font-size: 1.6rem !important; }
+html .ms-fit > .ms-bankcard.ms-feat .fw-semibold { font-size: 1.05rem; }
+html .ms-fit > .ms-bankcard.ms-feat::before { width: 150px; height: 150px; right: -40px; top: -48px; }
+html .ms-fit > .ms-bankcard.ms-feat::after { width: 140px; height: 140px; right: 56px; bottom: -78px; }
+
+/* dashboard (wide): greeting + month switcher share row 1; the main column and the rail both start on row 2 and end level */
+@container page (min-width:1160px) {
+  html .ms-dash { align-items: stretch !important; grid-template-rows: auto 1fr; }
+  html .ms-dash > .ms-top { display: contents; }
+  html .ms-dash .ms-greet-txt { grid-column: 1; grid-row: 1; align-self: center; }
+  html .ms-dash .ms-top > .ms-seg { grid-column: 2; grid-row: 1; align-self: center; justify-self: stretch; margin: 0; display: flex; }
+  html .ms-dash .ms-top > .ms-seg .ms-month-l { flex: 1; }
+  html .ms-dash > .ms-dash-main { grid-column: 1; grid-row: 2; display: flex; flex-direction: column; }
+  html .ms-dash > .ms-rail { grid-column: 2; grid-row: 2; position: static !important; }
+  html .ms-dash-main > :last-child { flex: 1 1 auto; margin-bottom: 0 !important; }
+  html .ms-rail > :last-child { flex: 1 1 auto; display: flex; flex-direction: column; }
+  html .ms-rail > :last-child > .card-body { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+}
+
+/* ---- Home hero: the boy gets his own lane on the right; everything else (number, bar, buttons, stats) lives in the left column ---- */
+@container (min-width:480px) {
+  html .ms-cell .ms-hero { --m: clamp(140px, 27cqi, 220px); }
+  html .ms-cell .ms-hero .card-body { padding-right: calc(var(--m) + 18px) !important; }
+  html .ms-cell .ms-hero .card-body > *,
+  html .ms-cell .ms-hero .card-body > :nth-child(-n+5),
+  html .ms-cell .ms-hero .card-body > .ms-quick,
+  html .ms-cell .ms-hero .card-body > .ms-stats { padding-right: 0 !important; }
+  /* mascot centred in the lane, clear of the + button */
+  html .ms-cell .ms-hero::after { width: var(--m) !important; height: var(--m) !important; top: 14px !important; right: 12px !important; }
+  /* shrunk buttons + stats */
+  html .ms-cell .ms-quick { gap: .35rem; }
+  html .ms-cell .ms-quick > * { padding: .4rem .2rem; font-size: .66rem; }
+  html .ms-cell .ms-quick i { width: 32px !important; height: 32px !important; flex-basis: 32px; font-size: .95rem; }
+  html .ms-cell .ms-hero .ms-stats { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; gap: .4rem .6rem; }
+  html .ms-cell .ms-hero .ms-stats span { font-size: .58rem; line-height: 1.2; white-space: normal; }
+  html .ms-cell .ms-hero .ms-stats b { font-size: .88rem; }
+}
+
+/* ---- header: the sidebar already shows the logo from 768px up, so drop the duplicate next to the page title ---- */
+@media (min-width: 768px) { html .ms-crumb-logo { display: none !important; } }
+
+/* ---- header title: two-line (title + today's date) so the left side isn't a lone word ---- */
+html .ms-crumb-t { display: flex; flex-direction: column; justify-content: center; line-height: 1.15; min-width: 0; }
+html .ms-crumb-t small { font-size: .72rem; font-weight: 500; color: var(--cui-secondary-color); letter-spacing: 0; white-space: nowrap; margin-top: .1rem; }
+@media (max-width: 575.98px) { html .ms-crumb-t small { display: none; } }
+
+/* ---- header: global search hidden (the Activity page has its own search/filter). Delete this rule to bring it back. ---- */
+html .ms-header .ms-gs { display: none !important; }
+
+/* ---- Milestone card: ring + numbers sit at the left edge (like the hero's text), mascot hugs the right with breathing room.
+   Applies at every width: the card body is flex:1 and was centring its content in the leftover space, which left a big gap on the left
+   and pushed the mascot against the right edge. ---- */
+html .ms-cell .ms-goalcard .card-body { justify-content: flex-start !important; padding-left: 1.5rem !important; gap: 1.1rem !important; }
+html .ms-cell .ms-goalcard::after { margin: 0 1rem 0 auto !important; }
+@media (max-width: 575.98px) { html .ms-cell .ms-goalcard .card-body { padding-left: 1rem !important; gap: .7rem !important; } html .ms-cell .ms-goalcard::after { margin-right: .6rem !important; } }
+
+/* ---- bank logos: the image IS the tile. It fills the whole rounded square edge to edge (no white panel, no padding behind it). ---- */
+html .ms-bc-ic img { padding: 0 !important; background: none !important; object-fit: cover !important; border-radius: inherit !important; width: 100% !important; height: 100% !important; }
+
+/* ---- bright logo colours (e.g. GoTyme cyan): dark text on the card so it stays readable ---- */
+html .ms-bankcard.ms-bc-light { color: #05262c !important; }
+
+/* month switcher row on Bills / Activity: switcher on the left, the page's summary strip filling the rest (wraps under it on phones) */
+html .ms-monthbar-top { display: flex; align-items: stretch; flex-wrap: wrap; gap: .5rem .6rem; margin: 0 0 .6rem !important; }
+html .ms-monthbar-top .ms-seg { align-self: center; flex: none; }
+html .ms-monthbar-top .ms-sum { flex: 1 1 260px; margin: 0 !important; min-width: 0; }
+html .ms-monthbar-top .ms-note, html .ms-monthbar-top .btn { align-self: center; }
+
+/* the mascot keeps its place: far end of the top row, floating, overlapping the row's edges so it adds no height */
+html .ms-boy { flex: none; align-self: center; height: 92px; width: auto; margin: -16px 2px -16px auto; pointer-events: none; animation: msFloat 6s ease-in-out infinite; filter: drop-shadow(0 12px 16px rgba(10,5,80,.5)) drop-shadow(0 0 18px rgba(130,120,255,.3)); }
+html.ms-low .ms-boy { animation: none !important; }
+html .ms-boyrow { justify-content: flex-end; min-height: 56px; }
+@media (max-width: 767.98px) {
+  html .ms-monthbar-top .ms-boy { order: 2; margin-left: auto; height: 78px; margin-top: -12px; margin-bottom: -12px; }
+  html .ms-monthbar-top .ms-sum { order: 3; flex-basis: 100%; }
+}
+@media (max-width: 359.98px) { html .ms-boy { display: none; } }

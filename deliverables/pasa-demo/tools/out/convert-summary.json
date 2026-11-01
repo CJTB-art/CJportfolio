@@ -1,0 +1,15 @@
+{
+ "questions": 2109,
+ "questionsChanged": 935,
+ "spans": 4493,
+ "currencyEdits": 446,
+ "fixes": {
+  "FIX_NA_EXPONENT": 95,
+  "FIX_TRAILING_A": 171
+ },
+ "flags": {},
+ "flaggedQuestions": 0,
+ "reverted": 0,
+ "fields": 16509,
+ "manualEdits": 6
+}

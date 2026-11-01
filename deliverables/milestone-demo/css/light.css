@@ -1,0 +1,185 @@
+/* Milestone — LIGHT theme refinement.
+   Everything here is scoped to html[data-coreui-theme=light], so dark mode cannot change. Loads last.
+   Delete this file (and its <link>/PRECACHE line) to go back to the previous light look.
+
+   Design rules for this theme:
+   1. Surfaces are solid white on a cool grey-lavender canvas; edges come from a 1px hairline + a layered soft shadow (no blur, no glow).
+   2. One ink colour for text, one muted colour for labels; every text colour is >= 4.5:1 on its surface.
+   3. Fields are white with a visible border, so they read as "type here" (dark mode's inset-dark trick does not work on white).
+   4. Indigo is the only accent. Green / red / amber are used for meaning only, in darker shades that stay readable on tints.
+   5. The hero, bank cards and the "Milestone" sidebar card keep their vivid gradients: they are the focal points. */
+
+html[data-coreui-theme=light]{
+  /* ---- tokens ---- */
+  --cui-body-bg:#f4f5fb; --cui-body-color:#1c1d3f; --cui-secondary-color:#5a5f86; --cui-emphasis-color:#0e0f2e;
+  --cui-border-color:rgba(38,42,112,.12); --cui-border-color-translucent:rgba(38,42,112,.12);
+  --ms-card:#fff; --ms-card-head:transparent; --ms-solid:#fff; --ms-hole:#fff;
+  --ms-line:rgba(38,42,112,.10); --ms-hover:rgba(85,70,240,.06);
+  --ms-accent:#5b4bff; --ms-accent-rgb:91,75,255; --ms-accent-hover:#4636e6;
+  --cui-primary:#5b4bff; --cui-primary-rgb:91,75,255; --cui-link-color:#4a3de0; --cui-link-hover-color:#3326b8;
+  --ms-soft:#eceefa;                       /* segmented-control / chip trough */
+  --ms-field-bd:#d2d6ec; --ms-field-bd-h:#aab0da;
+  --ms-sh-1:0 1px 2px rgba(24,26,80,.06);
+  --ms-sh-2:0 1px 2px rgba(24,26,80,.05),0 12px 28px -16px rgba(36,40,130,.20);
+  --ms-sh-3:0 2px 4px rgba(24,26,80,.06),0 26px 50px -20px rgba(36,40,130,.34);
+  /* semantic colours, darkened to pass contrast on white and on their own tints */
+  --ms-pos:#0b7a55; --ms-neg:#d1203f; --ms-warn:#94600a;
+}
+html[data-coreui-theme=light] ::selection{background:rgba(91,75,255,.22)}
+
+/* ---- canvas: calm, almost flat; no grain, no heavy colour fields ---- */
+html[data-coreui-theme=light] body{
+  background:radial-gradient(900px 520px at 96% -12%,rgba(99,102,241,.10),transparent 70%),radial-gradient(760px 520px at -8% -6%,rgba(56,189,248,.07),transparent 70%),#f4f5fb;
+  background-attachment:scroll}
+html[data-coreui-theme=light] body::after{display:none}
+
+/* ---- cards: white, hairline edge, soft layered shadow. The hero keeps its own look. ---- */
+html[data-coreui-theme=light] .card:not(.ms-hero){background:#fff;background-image:none;border:1px solid var(--ms-line)!important;box-shadow:var(--ms-sh-2)!important}
+html[data-coreui-theme=light] .card:not(a):hover{transform:none}                   /* big containers should not bob; only clickable cards lift */
+html[data-coreui-theme=light] a.card:hover{box-shadow:var(--ms-sh-3)!important}
+html[data-coreui-theme=light] .card-header{background:transparent!important;border-bottom:1px solid var(--ms-line)!important;color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light] .card-footer{border-top:1px solid var(--ms-line)}
+html[data-coreui-theme=light] .ms-hero{border:0!important;box-shadow:0 24px 46px -24px rgba(70,50,230,.55),inset 0 0 0 1px rgba(255,255,255,.2),inset 0 1px 0 rgba(255,255,255,.45)!important}
+
+/* ---- header ---- */
+html[data-coreui-theme=light] .ms-header.is-scrolled{box-shadow:0 1px 0 var(--ms-line),0 10px 24px -20px rgba(30,32,110,.45)}
+html[data-coreui-theme=light] .ms-sync{background:#fff;border:1px solid var(--ms-line);color:var(--cui-secondary-color)}
+html[data-coreui-theme=light] .ms-avatar{box-shadow:0 0 0 2px #fff,0 0 0 3px rgba(91,75,255,.28),0 6px 14px -6px rgba(91,75,255,.55)}
+html[data-coreui-theme=light] .ms-badge{box-shadow:0 0 0 2px var(--cui-body-bg)}
+
+/* ---- search: the old navy slab is gone. White pill, hairline border, accent ring on focus ---- */
+html[data-coreui-theme=light] .ms-gs,html[data-coreui-theme=light] .ms-search{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:99px!important}
+html[data-coreui-theme=light] .ms-gs:focus-within,html[data-coreui-theme=light] .ms-search:focus-within{box-shadow:none!important}
+html[data-coreui-theme=light] .ms-gs input,html[data-coreui-theme=light] .ms-search input{
+  background:#fff;color:var(--cui-body-color);border:1px solid var(--ms-field-bd);box-shadow:var(--ms-sh-1);
+  transition:border-color .15s,box-shadow .15s,width .2s var(--ms-spring)}
+html[data-coreui-theme=light] .ms-gs input{height:40px;border-radius:99px;width:240px}
+html[data-coreui-theme=light] .ms-gs input:focus{width:290px}
+html[data-coreui-theme=light] .ms-gs input:hover,html[data-coreui-theme=light] .ms-search input:hover{border-color:var(--ms-field-bd-h)}
+html[data-coreui-theme=light] .ms-gs input:focus,html[data-coreui-theme=light] .ms-search input:focus{border-color:var(--ms-accent);box-shadow:0 0 0 3px rgba(91,75,255,.16)}
+html[data-coreui-theme=light] .ms-gs input::placeholder,html[data-coreui-theme=light] .ms-search input::placeholder{color:#868baf;opacity:1}
+html[data-coreui-theme=light] .ms-gs i,html[data-coreui-theme=light] .ms-search i{color:#7a7fa6;transition:color .15s}
+html[data-coreui-theme=light] .ms-gs:focus-within i,html[data-coreui-theme=light] .ms-search:focus-within i{color:var(--ms-accent)}
+html[data-coreui-theme=light] .ms-search input{border-radius:99px}
+
+/* ---- fields: white, visible border, no inset shadow ---- */
+html[data-coreui-theme=light] .form-control,html[data-coreui-theme=light] .form-select{
+  background-color:#fff;color:var(--cui-body-color);border:1px solid var(--ms-field-bd);box-shadow:none;border-radius:12px;
+  transition:border-color .15s,box-shadow .15s}
+html[data-coreui-theme=light] .form-control:hover,html[data-coreui-theme=light] .form-select:hover{border-color:var(--ms-field-bd-h)}
+html[data-coreui-theme=light] .form-control:focus,html[data-coreui-theme=light] .form-select:focus{border-color:var(--ms-accent);box-shadow:0 0 0 3px rgba(91,75,255,.16)}
+html[data-coreui-theme=light] .form-control::placeholder{color:#868baf;opacity:1}
+html[data-coreui-theme=light] .form-control:disabled,html[data-coreui-theme=light] .form-select:disabled{background-color:#f1f2fa;color:#868baf}
+html[data-coreui-theme=light] .form-label{color:var(--cui-secondary-color);font-weight:600}
+html[data-coreui-theme=light] .form-check-input{border-color:var(--ms-field-bd-h)}
+html[data-coreui-theme=light] .form-check-input:checked{background-color:var(--ms-accent);border-color:var(--ms-accent)}
+
+/* ---- quick-entry bar ("grab 120 gcash yesterday") reads as a field too ---- */
+html[data-coreui-theme=light] .ms-qe{background:#fff;border:1px solid var(--ms-field-bd);box-shadow:var(--ms-sh-1);border-radius:16px}
+html[data-coreui-theme=light] .ms-qe:hover{border-color:var(--ms-field-bd-h)}
+html[data-coreui-theme=light] .ms-qe:focus-within{border-color:var(--ms-accent);box-shadow:0 0 0 3px rgba(91,75,255,.16)}
+html[data-coreui-theme=light] .ms-qe input::placeholder{color:#868baf;opacity:1}
+html[data-coreui-theme=light] .ms-understood{background:rgba(91,75,255,.07);border-color:rgba(91,75,255,.2)}
+
+/* ---- buttons ---- */
+html[data-coreui-theme=light] .btn-primary{box-shadow:0 6px 14px -6px rgba(91,75,255,.6),inset 0 1px 0 rgba(255,255,255,.3)}
+html[data-coreui-theme=light] .btn-secondary{--cui-btn-color:#2a2c57;--cui-btn-bg:#eceefa;--cui-btn-border-color:#eceefa;--cui-btn-hover-color:#14163f;--cui-btn-hover-bg:#dfe2f4;--cui-btn-hover-border-color:#dfe2f4;--cui-btn-active-color:#14163f;--cui-btn-active-bg:#d5d9ef;--cui-btn-active-border-color:#d5d9ef;box-shadow:none}
+html[data-coreui-theme=light] .btn-outline-success{--cui-btn-color:var(--ms-pos);--cui-btn-bg:rgba(18,184,134,.07);--cui-btn-border-color:rgba(11,122,85,.38);--cui-btn-hover-bg:#0e9a6f;--cui-btn-hover-border-color:#0e9a6f;--cui-btn-hover-color:#fff;--cui-btn-active-bg:#0b7a55;--cui-btn-active-border-color:#0b7a55;--cui-btn-active-color:#fff}
+html[data-coreui-theme=light] .btn-outline-primary{--cui-btn-bg:rgba(91,75,255,.05)}
+html[data-coreui-theme=light] .btn-outline-secondary{--cui-btn-bg:#fff;--cui-btn-border-color:var(--ms-field-bd)}
+html[data-coreui-theme=light] .btn-outline-danger{--cui-btn-color:var(--ms-neg);--cui-btn-border-color:rgba(209,32,63,.4);--cui-btn-hover-bg:var(--ms-neg);--cui-btn-hover-border-color:var(--ms-neg)}
+html[data-coreui-theme=light] .btn-ghost:hover{background:rgba(91,75,255,.08);color:var(--ms-accent)}
+
+/* ---- segmented controls: white thumb on a soft trough (month switcher, range, Confirmed/Variable/Paydays) ---- */
+html[data-coreui-theme=light] .ms-seg,html[data-coreui-theme=light] .nav-pills{background:var(--ms-soft);box-shadow:inset 0 0 0 1px var(--ms-line)}
+html[data-coreui-theme=light] .ms-seg button:hover:not(:disabled):not([aria-pressed=true]){color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light] .ms-seg button[aria-pressed=true],html[data-coreui-theme=light] .nav-pills .nav-link.active{
+  background:#fff!important;color:var(--ms-accent)!important;box-shadow:0 1px 2px rgba(24,26,80,.14),0 0 0 1px var(--ms-line)!important}
+html[data-coreui-theme=light] .nav-pills .nav-link:not(.active):hover{color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light] .ms-month-l{color:var(--cui-emphasis-color)}
+/* filter chips: tinted + accent text when selected */
+html[data-coreui-theme=light] .ms-pill{background:#fff;border-color:var(--ms-field-bd);color:var(--cui-secondary-color)}
+html[data-coreui-theme=light] .ms-pill:hover{background:var(--ms-hover);border-color:var(--ms-field-bd-h);color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light] .ms-pill.on{background:rgba(91,75,255,.1)!important;border-color:rgba(91,75,255,.45)!important;color:var(--ms-accent)!important}
+
+/* ---- sidebar: light surface; the vivid pieces (active pill, goal card) stay as the accents ---- */
+html[data-coreui-theme=light]{--ms-sb-text:#4d5179}
+html[data-coreui-theme=light] .ms-sidebar{background:#fff;border:1px solid var(--ms-line);box-shadow:var(--ms-sh-3)}
+html[data-coreui-theme=light] .ms-brand{color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light] .ms-nav-label{color:#8388ad}
+html[data-coreui-theme=light] .ms-nav a{color:#4d5179}
+html[data-coreui-theme=light] .ms-nav a:not(.active):hover{background:rgba(91,75,255,.07);color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light] .ms-nav a.active{box-shadow:0 8px 18px -8px rgba(91,75,255,.65),inset 0 1px 0 rgba(255,255,255,.3)!important}
+html[data-coreui-theme=light] .ms-sb-foot button{color:#4d5179}
+html[data-coreui-theme=light] .ms-sb-foot button:hover{background:rgba(91,75,255,.07);color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light] .ms-sb-card{background:linear-gradient(150deg,#5b4bff,#8a52f0 68%,#b84fe0);border:0;box-shadow:0 14px 26px -14px rgba(91,75,255,.75),inset 0 1px 0 rgba(255,255,255,.3)}
+html[data-coreui-theme=light] .ms-vibe{background:radial-gradient(120px 90px at 50% 30%,rgba(91,75,255,.14),transparent 70%),linear-gradient(180deg,#f6f5ff,#eff1ff);border:1px solid var(--ms-line);box-shadow:none}
+html[data-coreui-theme=light] .ms-vibe p{color:var(--cui-secondary-color)}
+html[data-coreui-theme=light] .ms-vibe b{color:var(--cui-emphasis-color)}
+html[data-coreui-theme=light].ms-collapsed .ms-sb-foot button{background:var(--ms-soft)}
+@media (max-width:767.98px){html[data-coreui-theme=light] .ms-sidebar{box-shadow:none}html.ms-open[data-coreui-theme=light] .ms-sidebar{box-shadow:14px 0 40px -10px rgba(20,22,80,.35)}}
+
+/* ---- rows: crisp ring icons (no neon glow), quiet hover ---- */
+html[data-coreui-theme=light] .ms-tx .ms-chip,html[data-coreui-theme=light] .ms-bill .ms-chip{
+  background:color-mix(in srgb,var(--c,#8b7bff) 10%,#fff);border:2px solid color-mix(in srgb,var(--c,#8b7bff) 72%,#fff);box-shadow:none;color:color-mix(in srgb,var(--c,#8b7bff) 82%,#000)}
+html[data-coreui-theme=light] .ms-bill.overdue{background:rgba(209,32,63,.045);border-color:rgba(209,32,63,.28)}
+html[data-coreui-theme=light] .ms-bill.overdue .ms-chip{border-color:#e0405c}
+html[data-coreui-theme=light] .ms-bill:hover,html[data-coreui-theme=light] .ms-tx:hover{background:rgba(91,75,255,.04);border-color:var(--ms-line)}
+html[data-coreui-theme=light] .ms-bill.overdue:hover{background:rgba(209,32,63,.06);border-color:rgba(209,32,63,.34)}
+html[data-coreui-theme=light] .ms-check{border-color:#b9bee0}
+html[data-coreui-theme=light] .ms-check:hover{border-color:var(--ms-pos)}
+html[data-coreui-theme=light] .ms-check.on{box-shadow:none}
+html[data-coreui-theme=light] .ms-day{color:var(--ms-accent)}
+html[data-coreui-theme=light] .ms-tx .btn-ghost{opacity:.7}
+
+/* ---- summary strip, tables, lists ---- */
+html[data-coreui-theme=light] .ms-sum{background:#f6f7fd;border:1px solid var(--ms-line)}
+html[data-coreui-theme=light] .table{--cui-table-border-color:var(--ms-line);--cui-table-hover-bg:rgba(91,75,255,.04)}
+html[data-coreui-theme=light] .table thead th{background:#f6f7fd;border-bottom:1px solid var(--ms-line)}
+html[data-coreui-theme=light] .list-group-item{border-color:var(--ms-line)}
+html[data-coreui-theme=light] .ms-acct{border:1px solid var(--ms-line)!important;border-left:4px solid var(--c)!important;background:#fff;background-image:none;box-shadow:var(--ms-sh-2)}
+html[data-coreui-theme=light] .ms-mini{background:#f6f7fd}
+html[data-coreui-theme=light] .ms-mini:hover{background:rgba(91,75,255,.09)}
+html[data-coreui-theme=light] .ms-wi-cmp>div{background:#f3f4fb}
+html[data-coreui-theme=light] .ms-wi-cmp>div.on{background:rgba(91,75,255,.09);border-color:rgba(91,75,255,.25)}
+html[data-coreui-theme=light] .ms-invite,html[data-coreui-theme=light] .ms-pillnote{background:#f3f4fb}
+
+/* ---- progress + rings: neutral track, no glow (hero and sidebar card keep theirs) ---- */
+html[data-coreui-theme=light] .progress{background:#e6e8f6;overflow:hidden}
+html[data-coreui-theme=light] .progress-bar{box-shadow:none}
+html[data-coreui-theme=light] .ms-content .card:not(.ms-hero) .ms-bar{background:#e6e8f6}
+html[data-coreui-theme=light] .ms-content .card:not(.ms-hero) .ms-bar i{box-shadow:none}
+html[data-coreui-theme=light] .ms-ring{background:conic-gradient(var(--ms-accent) calc(var(--p) * 1%),#e6e8f6 0)}
+html[data-coreui-theme=light] .ms-rb{background:conic-gradient(var(--c) calc(var(--p) * 1%),rgba(38,42,112,.11) 0)}
+
+/* ---- status + meaning colours, readable on white and on their tints ---- */
+html[data-coreui-theme=light] .ms-status{border-color:rgba(var(--c),.34)}
+html[data-coreui-theme=light] .text-success{color:var(--ms-pos)!important}
+html[data-coreui-theme=light] .text-danger{color:var(--ms-neg)!important}
+html[data-coreui-theme=light] .ms-hero .text-danger{color:#ffe0e6!important}
+html[data-coreui-theme=light] .ms-hero .text-success{color:#c9fbe6!important}
+html[data-coreui-theme=light] .pill-done.on,html[data-coreui-theme=light] .ms-note.ok,html[data-coreui-theme=light] .ms-delta.up{color:var(--ms-pos)}
+html[data-coreui-theme=light] .ms-delta.down,html[data-coreui-theme=light] .ms-qe-msg.bad,html[data-coreui-theme=light] .ms-sd-r.tot.bad b{color:var(--ms-neg)}
+html[data-coreui-theme=light] .ms-note.warn,html[data-coreui-theme=light] .ms-flag,html[data-coreui-theme=light] .ms-due.warn{color:var(--ms-warn)}
+html[data-coreui-theme=light] .ms-due.bad{color:#bf1c3f}
+html[data-coreui-theme=light] .ms-due.ok{color:#0a7455}
+html[data-coreui-theme=light] .ms-fc.ok>i{color:var(--ms-pos)}
+html[data-coreui-theme=light] .ms-bp-i.good>i{color:var(--ms-pos)}
+html[data-coreui-theme=light] .ms-bp-e i{color:var(--ms-pos)}
+html[data-coreui-theme=light] .ms-bp-i.bad>i{color:var(--ms-neg)}
+html[data-coreui-theme=light] .ms-bp-i.warn>i,html[data-coreui-theme=light] .ms-fc.warn>i{color:var(--ms-warn)}
+html[data-coreui-theme=light] .ms-fc.bad>i{color:var(--ms-neg)}
+
+/* ---- overlays: bell panel, modal, toast, mobile tab bar ---- */
+html[data-coreui-theme=light] .ms-bellpanel{background:#fff;border:1px solid var(--ms-line);box-shadow:var(--ms-sh-3)}
+html[data-coreui-theme=light] .ms-bp-h{border-bottom:1px solid var(--ms-line)}
+html[data-coreui-theme=light] .ms-bp-i{border-bottom-color:var(--ms-line)}
+html[data-coreui-theme=light] .modal-content{background:#fff;border:1px solid var(--ms-line);box-shadow:var(--ms-sh-3)}
+html[data-coreui-theme=light] .modal-header,html[data-coreui-theme=light] .modal-footer{border-color:var(--ms-line)}
+html[data-coreui-theme=light] .modal-backdrop{--cui-backdrop-bg:#14163f;--cui-backdrop-opacity:.45}
+html[data-coreui-theme=light] .toast{box-shadow:0 14px 32px -12px rgba(20,22,80,.5)}
+@media (max-width:767.98px){
+  html[data-coreui-theme=light] .ms-tabbar{border:1px solid var(--ms-line)!important;box-shadow:0 10px 30px -10px rgba(30,32,110,.35)!important}
+  html[data-coreui-theme=light] .ms-tabbar a.active{background:rgba(91,75,255,.1)}
+  html[data-coreui-theme=light] .ms-fab{box-shadow:0 8px 20px -6px rgba(91,75,255,.6)!important}
+}
