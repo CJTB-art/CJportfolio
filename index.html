@@ -742,6 +742,17 @@ table, .hero-proof, .package-price .num { font-variant-numeric: tabular-nums; }
   .contact-section .profile-btn { justify-content: center; }
 }
 @media (max-width: 400px) { .project-visual .project-demo-panel .demo-frame-titlebar span:last-child { display: none; } }
+@media (min-width: 861px) {
+  .sample-section { display: flex; flex-direction: column; }
+  .sample-section > * { order: 1; }
+  .sample-section > .sample-heading { order: 0; }
+  .sample-section > .sample-downloads { order: 2; display: grid; grid-template-columns: minmax(0, 1fr) 4.8rem minmax(0, 1fr); gap: .6rem; margin: 1.1rem 0 0; font-size: 0; }
+  .sample-section > .sample-caption { order: 3; margin-top: .6rem; }
+  .sample-downloads .text-link { grid-row: 1; justify-self: center; font-size: .86rem; }
+  .sample-downloads .text-link:first-of-type { grid-column: 1; }
+  .sample-downloads .text-link:last-of-type { grid-column: 3; }
+}
+
 </style>
     <link rel="stylesheet" href="demo-launcher.css" />
   </head>
