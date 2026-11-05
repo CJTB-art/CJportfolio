@@ -36,8 +36,8 @@
   min-width: 0; overflow: hidden; border: 1px solid var(--rule);
   background: var(--paper); box-shadow: 0 8px 22px rgb(26 26 26 / 10%);
 }
-.workspace-work-row, .pasa-work-row, .milestone-work-row { align-items: start; }
-.workspace-work-row .project-visual, .pasa-work-row .project-visual, .milestone-work-row .project-visual { min-width: 0; margin-right: 0; }
+.workspace-work-row, .pasa-work-row, .milestone-work-row, .inventory-work-row { align-items: start; }
+.workspace-work-row .project-visual, .pasa-work-row .project-visual, .milestone-work-row .project-visual, .inventory-work-row .project-visual { min-width: 0; margin-right: 0; }
 .project-demo-panel .demo-frame-titlebar span:last-child {
   color: var(--muted); font-size: .58rem; letter-spacing: .08em;
 }
@@ -91,17 +91,17 @@ body.demo-overlay-open { overflow: hidden; }
   .demo-best-desktop { display: block; }
 }
 @media (min-width: 861px) {
-  .work-row.workspace-work-row, .work-row.pasa-work-row, .work-row.milestone-work-row {
+  .work-row.workspace-work-row, .work-row.pasa-work-row, .work-row.milestone-work-row, .work-row.inventory-work-row {
     width: min(1900px, calc(100vw - 3rem));
     margin-left: calc((100% - min(1900px, calc(100vw - 3rem))) / 2);
   }
-  .workspace-work-row .work-copy, .pasa-work-row .work-copy, .milestone-work-row .work-copy { grid-column: 1 / 5; }
-  .workspace-work-row .project-visual, .pasa-work-row .project-visual, .milestone-work-row .project-visual { grid-column: 5 / -1; }
+  .workspace-work-row .work-copy, .pasa-work-row .work-copy, .milestone-work-row .work-copy, .inventory-work-row .work-copy { grid-column: 1 / 5; }
+  .workspace-work-row .project-visual, .pasa-work-row .project-visual, .milestone-work-row .project-visual, .inventory-work-row .project-visual { grid-column: 5 / -1; }
 }
 @media (max-width: 860px) {
-  .work-row.workspace-work-row, .work-row.pasa-work-row, .work-row.milestone-work-row { width: auto; margin-left: 0; }
-  .workspace-work-row .work-copy, .pasa-work-row .work-copy, .milestone-work-row .work-copy,
-  .workspace-work-row .project-visual, .pasa-work-row .project-visual, .milestone-work-row .project-visual {
+  .work-row.workspace-work-row, .work-row.pasa-work-row, .work-row.milestone-work-row, .work-row.inventory-work-row { width: auto; margin-left: 0; }
+  .workspace-work-row .work-copy, .pasa-work-row .work-copy, .milestone-work-row .work-copy, .inventory-work-row .work-copy,
+  .workspace-work-row .project-visual, .pasa-work-row .project-visual, .milestone-work-row .project-visual, .inventory-work-row .project-visual {
     grid-column: 1 / -1;
   }
 }

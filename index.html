@@ -9,12 +9,13 @@
     <meta property="og:description" content="Virtual assistant for online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Christe Jan Besinan" />
-    <!-- ASK: once this is live at a real domain, add <meta property="og:url" content="https://yourdomain.com/" /> here, and set the "url" field in the Person schema below to the same address -->
-    <meta property="og:image" content="images/portrait.jpg" />
+    <meta property="og:url" content="https://cjportfolio-theta.vercel.app/" />
+    <link rel="canonical" href="https://cjportfolio-theta.vercel.app/" />
+    <meta property="og:image" content="https://cjportfolio-theta.vercel.app/images/portrait.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Christe Jan Besinan – Inventory &amp; Sales Data Virtual Assistant" />
     <meta name="twitter:description" content="Virtual assistant for online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
-    <meta name="twitter:image" content="images/portrait.jpg" />
+    <meta name="twitter:image" content="https://cjportfolio-theta.vercel.app/images/portrait.jpg" />
     <meta name="theme-color" content="#F5F2EA" />
     <link rel="icon" href="logo.png" type="image/png" />
     <script type="application/ld+json">
@@ -24,7 +25,7 @@
         "name": "Christe Jan Besinan",
         "jobTitle": "Inventory & Sales Data Virtual Assistant",
         "description": "Virtual assistant for online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets.",
-        "url": "",
+        "url": "https://cjportfolio-theta.vercel.app/",
         "email": "mailto:besinanchristejan@gmail.com",
         "alumniOf": {
           "@type": "CollegeOrUniversity",
@@ -376,6 +377,90 @@
         .hero-visual { width: min(100%, 30rem); padding-bottom: 1.6rem; }
         .photo-frame img { aspect-ratio: 4 / 5; max-height: calc(100svh - 13rem); object-position: 50% 18%; }
       }
+      .package-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; margin: 0 .4rem; }
+      .package { border: 1px solid var(--rule); padding: 1.2rem; display: flex; flex-direction: column; gap: .6rem; background: rgb(255 255 255 / 35%); }
+      .package h3 { margin: 0; font: 400 1.5rem/1.1 var(--serif); }
+      .package p { margin: 0; font-size: .85rem; color: var(--muted); }
+      .package .package-price { font: 500 .75rem var(--mono); color: inherit; margin-top: auto; padding-top: .4rem; }
+      @media (max-width: 860px) { .package-grid { grid-template-columns: 1fr; } }
+      .how-steps { margin: .8rem 0 0; padding-left: 1.2rem; font-size: .8rem; color: var(--muted); }
+      .how-steps li { padding: .2rem 0; }
+      .inventory-work-row .workspace-privacy-card { background-image: repeating-linear-gradient(to bottom, transparent 0 2.2rem, color-mix(in srgb, var(--rule) 45%, transparent) 2.2rem calc(2.2rem + 1px)); }
+      .package { transition: border-color .2s ease, transform .2s ease; }
+      .package:hover { border-color: var(--accent); transform: translateY(-2px); }
+      .package .package-price { font: 400 1.9rem/1 var(--serif); letter-spacing: 0; }
+      a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+      .sample-downloads { margin: .6rem .4rem 0; font-size: .8rem; }
+      /* polish: alignment, calmer About column, motion */
+      .about-section { align-items: start; }
+      .field-aside { padding-bottom: 0; }
+      .field-sketch { position: static; display: block; width: min(70%, 15rem); margin: 1.4rem 0 .4rem auto; }
+      .service-grid { grid-template-columns: 1fr; gap: 1.1rem; }
+      .service-grid li { padding: .55rem 0; }
+      .packages-section { padding-bottom: 2.4rem; }
+      @media (min-width: 861px) {
+        .work-section .section-head { box-sizing: border-box; width: min(1900px, calc(100vw - 3rem)); margin-left: calc((100% - min(1900px, calc(100vw - 3rem))) / 2); margin-right: 0; padding: 0 .4rem; }
+      }
+      @keyframes rise { from { opacity: 0; transform: translateY(18px); } }
+      @keyframes settle { from { opacity: 0; } }
+      .hero h1, .hero-lead, .hero-actions, .hero-meta { animation: rise .85s cubic-bezier(.2, .7, .2, 1) both; }
+      .hero-lead { animation-delay: .12s; }
+      .hero-actions { animation-delay: .22s; }
+      .hero-meta { animation-delay: .3s; }
+      .hero-visual { animation: settle 1.1s .25s ease both; }
+      @supports (animation-timeline: view()) {
+        .work-row, .package, .contact-grid { animation: rise linear both; animation-timeline: view(); animation-range: entry 0% entry 40%; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .hero h1, .hero-lead, .hero-actions, .hero-meta, .hero-visual, .work-row, .package, .contact-grid { animation: none; }
+      }
+      /* about section refinement */
+      .about-story { grid-template-columns: minmax(0, 1fr) 11rem; gap: 1.6rem; }
+      .about-copy { max-width: 38rem; font-size: 1.32rem; line-height: 1.38; }
+      .about-copy::first-letter { float: none; margin: 0; font: inherit; }
+      .about-more p { font-size: .98rem; line-height: 1.5; max-width: 34rem; color: var(--muted); }
+      .facts { grid-template-columns: 7.2rem minmax(0, 1fr); gap: .5rem .9rem; margin-top: 1.4rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .82rem; }
+      .about-portrait { margin: .4rem 0 0; transform: rotate(1.5deg); }
+      .field-aside { display: grid; grid-template-columns: minmax(0, 1fr) 11rem; column-gap: 1.4rem; align-items: center; padding-top: .8rem; }
+      .field-aside h3 { grid-column: 1 / -1; }
+      .field-notes { grid-column: 1; grid-template-columns: 1fr; gap: .7rem; font-size: .8rem; }
+      .field-aside .field-sketch { grid-column: 2; grid-row: 2; width: 100%; margin: 0; }
+      .field-aside .services-tools { grid-column: 1 / -1; margin-top: 1.4rem; }
+      .service-grid ul { display: grid; grid-template-columns: 1fr 1fr; column-gap: 1.6rem; }
+      @media (max-width: 860px) { .about-story { grid-template-columns: minmax(0, 1fr) 8rem; } }
+      @media (max-width: 540px) { .about-story, .field-aside, .service-grid ul { grid-template-columns: 1fr; } .field-aside .field-sketch { grid-column: 1; grid-row: auto; width: 9rem; margin-top: 1rem; } .about-portrait { max-width: 9rem; } }
+      /* signature look: deep ink-blue moments, scroll progress */
+      .package:nth-child(2) { background: var(--ink-blue); border-color: var(--ink-blue); color: #f5f2ea; box-shadow: 0 18px 36px rgb(36 60 89 / 28%); }
+      .package:nth-child(2) p { color: rgb(245 242 234 / 78%); }
+      .package:nth-child(2) .package-price { color: var(--highlight); }
+      .package:nth-child(2) .text-link { color: #f5f2ea; }
+      .package:nth-child(2):hover { border-color: var(--highlight); }
+      .contact-section { background: var(--ink-blue); color: #f5f2ea; box-shadow: 0 0 0 100vmax var(--ink-blue); clip-path: inset(0 -100vmax); margin-top: 3rem; padding: 4rem .4rem 3.4rem; border-top: 0; }
+      .contact-section .eyebrow { color: var(--highlight); }
+      .contact-section h2 { color: #f5f2ea; }
+      .contact-section .contact-side { border-left-color: rgb(245 242 234 / 28%); }
+      .contact-section a, .contact-section .contact-mail { color: #f5f2ea; text-decoration-color: var(--highlight); }
+      .contact-section .contact-mail { font-size: clamp(1.1rem, 2.4vw, 1.6rem); }
+      .contact-section .work-meta, .contact-section .reply-note, .contact-section .how-steps { color: rgb(245 242 234 / 72%); }
+      .contact-section .signature { color: var(--highlight); }
+      .footer { margin-top: 0; }
+      @supports (animation-timeline: scroll()) {
+        @keyframes progress { to { transform: scaleX(1); } }
+        html::before { content: ""; position: fixed; inset: 0 0 auto; height: 3px; z-index: 50; background: var(--accent); transform: scaleX(0); transform-origin: 0 50%; animation: progress linear both; animation-timeline: scroll(root); }
+      }
+      @media (prefers-reduced-motion: reduce) { html::before { display: none; } }
+      /* hero statement: ink-blue block, messy-to-clean tag, nav underline */
+      .hero-visual { isolation: isolate; }
+      .hero-visual::before { content: ""; position: absolute; z-index: -1; inset: 3.2rem -1rem 1rem 5rem; background: var(--ink-blue); }
+      .hero-visual::after { content: "1 Mar 2026  \2192  2026-03-01  \2713"; position: absolute; z-index: 3; left: -1.4rem; bottom: 4rem; padding: .55rem .85rem; background: var(--paper); color: var(--ink); border: 1px solid var(--ink); font: 500 .68rem var(--mono); box-shadow: 4px 4px 0 var(--highlight); transform: rotate(-3deg); animation: bob 5.5s ease-in-out infinite; }
+      @keyframes bob { 50% { transform: rotate(-3deg) translateY(-7px); } }
+      .photo-frame { box-shadow: 0 24px 44px rgb(26 26 26 / 22%); }
+      .site-nav a { position: relative; }
+      .site-nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 1px; background: var(--accent); transform: scaleX(0); transform-origin: 0 50%; transition: transform .25s ease; }
+      .site-nav a:hover::after, .site-nav a:focus-visible::after { transform: scaleX(1); }
+      .project-demo-panel { box-shadow: 0 22px 46px rgb(26 26 26 / 14%); }
+      @media (max-width: 860px) { .hero-visual::after { left: 0; bottom: 3.4rem; } .hero-visual::before { inset: 3rem 0 1rem 3rem; } }
+      @media (prefers-reduced-motion: reduce) { .hero-visual::after { animation: none; } }
     </style>
     <link rel="stylesheet" href="demo-launcher.css" />
   </head>
@@ -402,6 +487,7 @@
           <a class="site-name" href="#top">Christe Jan Besinan</a>
           <nav class="site-nav" aria-label="Main navigation">
             <a href="#work">Work</a>
+            <a href="#packages">Packages</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             <a href="RESUME.pdf" download>Résumé</a>
@@ -473,14 +559,51 @@
             </div>
           </div>
           <p class="sample-caption eyebrow">Sample data. Not real figures.</p>
+          <p class="sample-downloads"><a class="text-link" href="samples/messy-stock-sample.csv" download>Download the messy sample (CSV)</a> · <a class="text-link" href="samples/clean-stock-sample.csv" download>Download the cleaned sample (CSV)</a></p>
         </section>
 
         <section class="work-section container" id="work" aria-labelledby="work-title">
-          <div class="section-head"><div><p class="eyebrow">01 / Work</p><h2 id="work-title">Selected work</h2></div><p class="eyebrow">Built with care</p></div>
+          <div class="section-head"><div><p class="eyebrow">01 / Work</p><h2 id="work-title">Selected work</h2></div></div>
+
+          <article class="work-row inventory-work-row">
+            <div class="work-copy">
+              <span class="work-number" aria-hidden="true">01</span>
+              <div class="work-info">
+                <h3>Branch stock cleanup and reporting</h3>
+                <p class="work-meta">2025 to 2026 · Built solo · Multi-branch distributor, 19,000+ part numbers, about 25 locations</p>
+                <p class="work-meta">Branch inventory, sales and in-transit files came in with inconsistent branch names, the same part under several codes, and mixed formats. I built cleanup rules and monthly reports so purchasing could work from one reliable stock and sales picture.</p>
+                <ul class="tag-list" aria-label="Inventory work tags"><li>Excel</li><li>pandas</li><li>Reporting</li></ul>
+                <div class="work-details">
+                  <details><summary>What I did</summary><div class="detail-body"><ul>
+                    <li>Standardized branch names across inventory, sales and in-transit files (39 different spellings mapped to 21 standard names)</li>
+                    <li>Matched part numbers that exist under several codes (about 330 duplicate groups) so stock and sales roll up to one row</li>
+                    <li>Classified stock into overstock, non-moving and depleting items using sales history, stock months and supplier lead times, to guide reorders</li>
+                  </ul></div></details>
+                  <details open><summary>What changed</summary><div class="detail-body"><ul>
+                    <li>One standard month-end workbook now covers about 65,000 branch stock lines and 19,000+ part numbers</li>
+                    <li>Duplicate part codes and mismatched branch names are caught before they split stock or sales across separate rows</li>
+                    <li>Purchasing gets ranked overstock, non-moving and low-stock lists built from a full year of sales data (about 400,000 sales lines)</li>
+                  </ul></div></details>
+                </div>
+              </div>
+            </div>
+            <figure class="project-visual">
+              <div class="project-demo-panel">
+                <div class="demo-frame-titlebar"><span>Inventory cleanup · Real work</span><span>PRIVATE DATA</span></div>
+                <div class="workspace-privacy-card" role="note">
+                  <p class="eyebrow">Result</p>
+                  <h4>One clean view of 19,000+ parts across 25 locations</h4>
+                  <p>Real files and company records stay private. I can walk you through the process on a call.</p>
+                </div>
+                <p class="demo-frame-caption">FIGURES ARE FROM MY WORK AT LYR. FILES ARE KEPT PRIVATE.</p>
+              </div>
+              <figcaption class="caption">01 / Excel · pandas · Reporting</figcaption>
+            </figure>
+          </article>
 
           <article class="work-row workspace-work-row">
             <div class="work-copy">
-              <span class="work-number" aria-hidden="true">01</span>
+              <span class="work-number" aria-hidden="true">02</span>
               <div class="work-info">
                 <h3>LYR Workspace</h3>
                 <p class="work-meta">2025 to 2026 · Built solo · Used company-wide</p>
@@ -494,7 +617,7 @@
                     <li>Task assignments, reminders, subtasks, and audit history.</li>
                     <li>Connected operations tools behind role-based access.</li>
                   </ul></div></details>
-                  <details><summary>What's changed</summary><div class="detail-body"><ul>
+                  <details open><summary>What's changed</summary><div class="detail-body"><ul>
                     <li>The dashboard was removed; the calendar is now the center of task planning.</li>
                     <li>Unscheduled tasks stay in To-do and can be plotted into available time.</li>
                     <li>Day and week views surface tasks still waiting to be scheduled.</li>
@@ -514,13 +637,14 @@
                 </div>
                 <p class="demo-frame-caption">INTERNAL COMPANY SCREENS AND RECORDS ARE KEPT PRIVATE.</p>
               </div>
-              <figcaption class="caption">01 / Flask · Calendar · Task planning</figcaption>
+              <figcaption class="caption">02 / Flask · Calendar · Task planning</figcaption>
             </figure>
           </article>
 
+          <div class="section-head"><div><p class="eyebrow">Also built</p></div></div>
             <article class="work-row pasa-work-row">
             <div class="work-copy">
-              <span class="work-number" aria-hidden="true">02</span>
+              <span class="work-number" aria-hidden="true">03</span>
               <div class="work-info">
                 <h3>PASA</h3>
                 <p class="work-meta">2026 · Built solo · Interactive demo</p>
@@ -533,7 +657,7 @@
                     <li>A practice signal based on section practice, the latest mock, and eligible flashcard recall.</li>
                     <li>Readiness is an activity signal, not a prediction of passing.</li>
                   </ul></div></details>
-                  <details><summary>What's changed</summary><div class="detail-body"><ul>
+                  <details open><summary>What's changed</summary><div class="detail-body"><ul>
                     <li>The paper-inspired redesign now carries across public and learner-facing screens.</li>
                     <li>Routes, question content, scoring, and readiness behavior stayed the same through the redesign.</li>
                   </ul></div></details>
@@ -548,13 +672,13 @@
                 </div>
                 <p class="demo-frame-caption">DEMO DATA. SAVED ONLY IN YOUR BROWSER.</p>
               </div>
-              <figcaption class="caption">02 / SvelteKit · Public interactive demo</figcaption>
+              <figcaption class="caption">03 / SvelteKit · Public interactive demo</figcaption>
             </figure>
           </article>
 
             <article class="work-row milestone-work-row">
             <div class="work-copy">
-              <span class="work-number" aria-hidden="true">03</span>
+              <span class="work-number" aria-hidden="true">04</span>
               <div class="work-info">
                 <h3>Milestone</h3>
                 <p class="work-meta">2025 to 2026 · Built solo · React and Vite</p>
@@ -567,7 +691,7 @@
                     <li>Income planning, bill tracking, cash-flow forecasts, savings goals, and spending insights.</li>
                     <li>Transfers, reconciliation, and undo for changes.</li>
                   </ul></div></details>
-                  <details><summary>What's changed</summary><div class="detail-body"><ul>
+                  <details open><summary>What's changed</summary><div class="detail-body"><ul>
                     <li>Money movement is recorded as dated ledger entries; balances, totals, and activity follow those entries.</li>
                     <li>Payday-aware bill reserves feed the safe-to-spend estimate, and changes can be undone.</li>
                   </ul></div></details>
@@ -584,9 +708,33 @@
                 </div>
                 <p class="demo-frame-caption">DEMO DATA. SAVED ONLY IN YOUR BROWSER.</p>
               </div>
-              <figcaption class="caption">03 / React · Vite · Public interactive demo</figcaption>
+              <figcaption class="caption">04 / React · Vite · Public interactive demo</figcaption>
             </figure>
           </article>
+        </section>
+
+        <section class="packages-section container" id="packages" aria-labelledby="packages-title">
+          <div class="section-head"><div><p class="eyebrow">02 / Packages</p><h2 id="packages-title">Ways to work together</h2></div><p class="eyebrow">Prices in USD</p></div>
+          <div class="package-grid">
+            <article class="package">
+              <h3>One-time cleanup</h3>
+              <p>Send one messy file. I fix duplicates, date formats and SKUs, and return a clean Excel or Google Sheet with a short change log.</p>
+              <p class="package-price">From 25 · 1 to 2 days</p>
+              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20One-time%20cleanup">Ask about this</a>
+            </article>
+            <article class="package">
+              <h3>Monthly stock and sales report</h3>
+              <p>Each month I clean your latest export and send a one-page stock and sales summary with low-stock flags.</p>
+              <p class="package-price">From 80 per month</p>
+              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Monthly%20report">Ask about this</a>
+            </article>
+            <article class="package">
+              <h3>Small internal tool</h3>
+              <p>An order form, tracker or dashboard that replaces a spreadsheet workflow, built and handed over with simple instructions.</p>
+              <p class="package-price">From 150 · 1 to 2 weeks</p>
+              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Small%20internal%20tool">Ask about this</a>
+            </article>
+          </div>
         </section>
 
         <section class="about-section container" id="about" aria-labelledby="about-title">
@@ -602,7 +750,7 @@
                     <dt>Degree</dt><dd>BSEd Major in Mathematics, Cum Laude, 2026</dd>
                     <dt>University</dt><dd>USeP Tagum–Mabini Campus, Davao del Norte</dd>
                     <dt>Location</dt><dd>Tagum, Davao del Norte, Philippines</dd>
-                    <dt>Looking for</dt><dd>Full-stack roles, remote-first, in the Philippines or abroad</dd>
+                    <dt>Available for</dt><dd>Remote VA projects: inventory and sales data, spreadsheet cleanup, reporting, and small internal tools</dd>
                   </dl>
                 </div>
               </div>
@@ -620,14 +768,15 @@
               <li><span class="check-box" aria-hidden="true"></span>Reporting</li>
             </ul>
             <img class="field-sketch" src="images/field-notes-sketch.webp" alt="Hand-drawn paper, pencil, and checked stamp" width="854" height="680" loading="lazy" />
-            <details class="services-tools">
+            <details class="services-tools" open>
               <summary>Services and tools</summary>
               <div class="service-grid">
                 <div id="services"><h3>What I do</h3><ul>
+                  <li><strong>Spreadsheet cleanup and inventory reports</strong><span>Duplicates, mixed date formats and messy SKUs turned into one clean sheet in Excel or Google Sheets.</span></li>
+                  <li><strong>Sales and stock reporting</strong><span>Operational views for sales, stock levels, discrepancies and settlements.</span></li>
+                  <li><strong>Data pipelines and analysis</strong><span>pandas scripts for branch data cleanup, Pareto stock classification and reorder recommendations.</span></li>
                   <li><strong>Internal tools and process automation</strong><span>Replacing Excel and paper workflows with web tools.</span></li>
                   <li><strong>Full-stack web apps</strong><span>Flask and Python, React, built solo. LYR Workspace is in daily company-wide use.</span></li>
-                  <li><strong>Data pipelines and analysis</strong><span>pandas scripts for branch data cleanup, Pareto stock classification and reorder recommendations.</span></li>
-                  <li><strong>Dashboards and reporting</strong><span>Operational views for sales, discrepancies and settlements.</span></li>
                   <li><strong>Educational web apps</strong><span>Exam-prep and classroom tools, from a math-education background: PASA, Math Quest.</span></li>
                 </ul></div>
                 <div id="tools"><h3>Tools</h3><p class="tool-line">Python, Flask, React, JavaScript, HTML and CSS, MySQL, pandas, Excel, Google Sheets, GitHub, VS Code.</p></div>
@@ -647,6 +796,11 @@
               <!-- ASK: add your LinkedIn and GitHub/Upwork links here once you have them. -->
               <!-- CONFIRM: reply-time claim -->
               <p class="reply-note">I reply within one working day.</p>
+              <ol class="how-steps">
+                <li>Send one file, or a short description of the mess.</li>
+                <li>I send a fixed quote within one working day.</li>
+                <li>I deliver the clean file with a short change log.</li>
+              </ol>
               <!-- /CONFIRM: reply-time claim -->
               <img class="signature" src="images/christe-signature.webp" alt="Christe Jan Besinan's handwritten signature" width="815" height="398" loading="lazy" />
             </div>
