@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Christe Jan Besinan – Inventory &amp; Sales Data Virtual Assistant</title>
-    <meta name="description" content="Virtual assistant for online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
+    <meta name="description" content="Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
     <meta property="og:title" content="Christe Jan Besinan – Inventory &amp; Sales Data Virtual Assistant" />
-    <meta property="og:description" content="Virtual assistant for online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
+    <meta property="og:description" content="Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Christe Jan Besinan" />
     <meta property="og:url" content="https://cjportfolio-theta.vercel.app/" />
@@ -14,7 +14,7 @@
     <meta property="og:image" content="https://cjportfolio-theta.vercel.app/images/portrait.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Christe Jan Besinan – Inventory &amp; Sales Data Virtual Assistant" />
-    <meta name="twitter:description" content="Virtual assistant for online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
+    <meta name="twitter:description" content="Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
     <meta name="twitter:image" content="https://cjportfolio-theta.vercel.app/images/portrait.jpg" />
     <meta name="theme-color" content="#F5F2EA" />
     <link rel="icon" href="logo.png" type="image/png" />
@@ -24,7 +24,7 @@
         "@type": "Person",
         "name": "Christe Jan Besinan",
         "jobTitle": "Inventory & Sales Data Virtual Assistant",
-        "description": "Virtual assistant for online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets.",
+        "description": "Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets.",
         "url": "https://cjportfolio-theta.vercel.app/",
         "email": "mailto:besinanchristejan@gmail.com",
         "alumniOf": {
@@ -465,6 +465,13 @@
       .profile-btn { display: inline-block; padding: .5rem .8rem; border: 1px solid rgb(245 242 234 / 45%); font: 500 .72rem var(--mono); letter-spacing: .04em; text-decoration: none; transition: border-color .2s ease; }
       .profile-btn:hover { border-color: var(--highlight); }
       .profile-btn.is-placeholder { opacity: .55; border-style: dashed; cursor: not-allowed; pointer-events: none; }
+      .terms-section { padding-bottom: 2.4rem; }
+      .terms-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.4rem; margin: 0 .4rem; }
+      .term { border-top: 1px solid var(--rule); padding-top: .8rem; }
+      .term h3 { margin: 0 0 .4rem; font: 500 .72rem var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+      .term p { margin: 0; font-size: .85rem; color: var(--muted); }
+      @media (max-width: 980px) { .terms-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+      @media (max-width: 560px) { .terms-grid { grid-template-columns: 1fr; } }
     </style>
     <link rel="stylesheet" href="demo-launcher.css" />
   </head>
@@ -509,7 +516,7 @@
               <a class="button-link" href="mailto:besinanchristejan@gmail.com?subject=A%20messy%20file%20for%20you">Send me one messy file <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
               <a class="text-link" href="#work">See the work</a>
             </div>
-            <p class="hero-meta">Based in Tagum, Philippines (UTC+8). Open to remote VA work.</p>
+            <p class="hero-meta">Based in Tagum, Philippines (UTC+8). Available for US and UK clients, with working hours that overlap yours.</p>
           </div>
           <div class="hero-visual">
             <div class="photo-frame">
@@ -648,11 +655,11 @@
           </section>
 
         <section class="packages-section container" id="packages" aria-labelledby="packages-title">
-          <div class="section-head"><div><p class="eyebrow">02 / Packages</p><h2 id="packages-title">Ways to work together</h2></div><p class="eyebrow">Prices in USD</p></div>
+          <div class="section-head"><div><p class="eyebrow">02 / Packages</p><h2 id="packages-title">Ways to work together</h2></div><p class="eyebrow">Prices in USD · fixed quote before work starts</p></div>
           <div class="package-grid">
             <article class="package">
               <h3>One-time cleanup</h3>
-              <p>Send one messy file. I fix duplicates, date formats and SKUs, and return a clean Excel or Google Sheet with a short change log.</p>
+              <p>Send one messy file, such as an Excel sheet or a CSV export from your store or marketplace. I fix duplicates, date formats and SKUs, and return a clean file with a short change log.</p>
               <p class="package-price">From $25 · 1 to 2 days</p>
               <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20One-time%20cleanup">Ask about this</a>
             </article>
@@ -679,7 +686,7 @@
               <div class="work-info">
                 <h3>PASA</h3>
                 <p class="work-meta">2026 · Built solo · Interactive demo</p>
-                <p class="work-meta">A review app for the Licensure Examination for Teachers (LET). Learners practice by subject (GenEd, ProfEd and Major), work toward a daily question goal, and track their readiness as they go.</p>
+                <p class="work-meta">A review app for the Licensure Examination for Teachers (LET), the Philippine teacher licensing exam. Learners practice by subject (GenEd, ProfEd and Major), work toward a daily question goal, and track their readiness as they go.</p>
                 <ul class="tag-list" aria-label="PASA tags"><li>SvelteKit</li><li>Interactive demo</li></ul>
                 <div class="work-details">
                   <details><summary>What's in it</summary><div class="detail-body"><ul>
@@ -746,6 +753,16 @@
 
         
 
+        <section class="terms-section container" id="terms" aria-labelledby="terms-title">
+          <div class="section-head"><div><p class="eyebrow">03 / Working together</p><h2 id="terms-title">How we would work</h2></div></div>
+          <div class="terms-grid">
+            <div class="term"><h3>Hours</h3><p>I can overlap with UK business hours and US East Coast mornings. Tell me your hours and I will plan around them.</p></div>
+            <div class="term"><h3>Communication</h3><p>Email, Google Meet or Zoom, and a short written update after each task.</p></div>
+            <div class="term"><h3>Payment</h3><p>PayPal, Wise or Upwork. All prices are in USD.</p></div>
+            <div class="term"><h3>Your data</h3><p>I am happy to sign an NDA, and I delete your files on request when the job is done.</p></div>
+          </div>
+        </section>
+
         <section class="about-section container" id="about" aria-labelledby="about-title">
           <div class="about-left">
             <p class="eyebrow">About</p>
@@ -754,11 +771,12 @@
               <div>
                 <p class="about-copy">I'm a self-taught developer and Assistant Manager at LYR Motorparts Corp., a multi-branch motorcycle parts distributor. LYR's operations were running long before I started. What I build is LYR Workspace, a Flask platform that has grown into the tool the whole company uses for purchasing, monitoring and logistics.</p>
                 <div class="about-more">
-                  <p>Outside work I'm building PASA, a LET board exam reviewer launching soon, and Milestone, a personal finance tracker.</p>
+                  <p>Outside work I'm building PASA, a reviewer app for the Philippine teacher licensing exam (LET), launching soon, and Milestone, a personal finance tracker.</p>
                   <dl class="facts">
-                    <dt>Degree</dt><dd>BSEd Major in Mathematics, Cum Laude, 2026</dd>
-                    <dt>University</dt><dd>USeP Tagum–Mabini Campus, Davao del Norte</dd>
-                    <dt>Location</dt><dd>Tagum, Davao del Norte, Philippines</dd>
+                    <dt>Degree</dt><dd>Bachelor of Secondary Education (BSEd), Major in Mathematics, Cum Laude, 2026</dd>
+                    <dt>University</dt><dd>University of Southeastern Philippines (USeP), Tagum–Mabini Campus</dd>
+                    <dt>Location</dt><dd>Tagum, Philippines (UTC+8)</dd>
+                    <dt>Working hours</dt><dd>I can overlap with UK business hours and US East Coast mornings. Tell me your hours and I will plan around them.</dd>
                     <dt>Available for</dt><dd>Remote VA projects: inventory and sales data, spreadsheet cleanup, reporting, and small internal tools</dd>
                   </dl>
                 </div>
@@ -810,7 +828,7 @@
                 <a class="profile-btn is-placeholder" href="#" aria-disabled="true" tabindex="-1" title="Link coming soon">GitHub</a>
               </div>
               <!-- CONFIRM: reply-time claim -->
-              <p class="reply-note">I reply within one working day.</p>
+              <p class="reply-note">I reply within one working day (Philippine time, UTC+8).</p>
               <ol class="how-steps">
                 <li>Send one file, or a short description of the mess.</li>
                 <li>I send a fixed quote within one working day.</li>
