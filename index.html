@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Christe Jan Besinan – Inventory &amp; Sales Data Virtual Assistant</title>
-    <meta name="description" content="Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
-    <meta property="og:title" content="Christe Jan Besinan – Inventory &amp; Sales Data Virtual Assistant" />
-    <meta property="og:description" content="Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
+    <title>Christe Jan Besinan – E-commerce Operations VA (Inventory, Orders &amp; Stock Reports)</title>
+    <meta name="description" content="E-commerce operations virtual assistant for US and UK online sellers. I keep inventory and order data accurate, flag low stock, and deliver clean spreadsheets and monthly stock and sales reports in Excel and Google Sheets." />
+    <meta property="og:title" content="Christe Jan Besinan – E-commerce Operations VA (Inventory, Orders &amp; Stock Reports)" />
+    <meta property="og:description" content="E-commerce operations virtual assistant for US and UK online sellers. I keep inventory and order data accurate, flag low stock, and deliver clean spreadsheets and monthly stock and sales reports in Excel and Google Sheets." />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Christe Jan Besinan" />
     <meta property="og:url" content="https://cjportfolio-theta.vercel.app/" />
     <link rel="canonical" href="https://cjportfolio-theta.vercel.app/" />
     <meta property="og:image" content="https://cjportfolio-theta.vercel.app/images/portrait.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Christe Jan Besinan – Inventory &amp; Sales Data Virtual Assistant" />
-    <meta name="twitter:description" content="Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets." />
+    <meta name="twitter:title" content="Christe Jan Besinan – E-commerce Operations VA (Inventory, Orders &amp; Stock Reports)" />
+    <meta name="twitter:description" content="E-commerce operations virtual assistant for US and UK online sellers. I keep inventory and order data accurate, flag low stock, and deliver clean spreadsheets and monthly stock and sales reports in Excel and Google Sheets." />
     <meta name="twitter:image" content="https://cjportfolio-theta.vercel.app/images/portrait.jpg" />
     <meta name="theme-color" content="#F5F2EA" />
     <link rel="icon" href="logo.png" type="image/png" />
@@ -23,15 +23,15 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Christe Jan Besinan",
-        "jobTitle": "Inventory & Sales Data Virtual Assistant",
-        "description": "Virtual assistant for US and UK online sellers and small product businesses. I clean up spreadsheets, keep inventory and order data accurate, and turn it into sales and stock reports in Excel and Google Sheets.",
+        "jobTitle": "E-commerce Operations Virtual Assistant",
+        "description": "E-commerce operations virtual assistant for US and UK online sellers. I keep inventory and order data accurate, flag low stock, and deliver clean spreadsheets and monthly stock and sales reports in Excel and Google Sheets.",
         "url": "https://cjportfolio-theta.vercel.app/",
         "email": "mailto:besinanchristejan@gmail.com",
         "alumniOf": {
           "@type": "CollegeOrUniversity",
           "name": "University of Southeastern Philippines (USeP), Tagum–Mabini Campus"
         },
-        "knowsAbout": ["Excel", "Google Sheets", "Inventory tracking", "Sales reporting", "Data cleanup"]
+        "knowsAbout": ["Excel", "Google Sheets", "Inventory tracking", "Order tracking", "Sales reporting", "Data cleanup", "Spreadsheet automation"]
       }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -636,6 +636,8 @@ table, .hero-proof, .package-price .num { font-variant-numeric: tabular-nums; }
 .reveal { transition: opacity .7s var(--ease) calc(var(--i, 0) * 70ms), transform .7s var(--ease) calc(var(--i, 0) * 70ms); }
 .js .reveal:not(.is-in) { opacity: 0; transform: translateY(14px); }
 @media (prefers-reduced-motion: reduce) { .js .reveal:not(.is-in) { opacity: 1; transform: none; } .reveal { transition: none; } }
+.hero-role { margin: 0 0 1.1rem; color: var(--accent); }
+.also-line { margin: 0 0 1.6rem; color: var(--muted); font: .74rem/1.6 var(--mono); letter-spacing: .04em; }
 </style>
     <link rel="stylesheet" href="demo-launcher.css" />
   </head>
@@ -674,8 +676,9 @@ table, .hero-proof, .package-price .num { font-variant-numeric: tabular-nums; }
       <main id="main">
         <section class="hero container" id="top" aria-labelledby="hero-title">
           <div class="hero-copy">
+            <p class="eyebrow hero-role">E-commerce operations VA · inventory, orders, stock reports</p>
             <h1 id="hero-title">I turn messy stock sheets into reports online sellers can <span class="act-on">act on<svg class="act-underline" viewBox="0 0 330 22" aria-hidden="true"><path d="M3 14C70 4 116 18 174 10s100-6 153 1" /></svg></span>.</h1>
-            <p class="hero-lead">I work with inventory, purchasing and branch stock data for a multi-branch motorcycle parts distributor, so I know how product data behaves in real operations. I clean it up, keep it accurate, and report on it.</p>
+            <p class="hero-lead">I keep inventory, orders and stock reports accurate for online sellers. My day job is purchasing and branch stock data at a multi-branch motorcycle parts distributor, so I know how product data breaks in real operations, and I automate the repetitive parts with Excel, Google Sheets and Python.</p>
             <div class="hero-actions">
               <a class="button-link" href="mailto:besinanchristejan@gmail.com?subject=A%20messy%20file%20for%20you">Send me one messy file <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
               <a class="text-link" href="#work">See the work</a>
@@ -821,25 +824,26 @@ table, .hero-proof, .package-price .num { font-variant-numeric: tabular-nums; }
 
         <section class="packages-section container" id="packages" aria-labelledby="packages-title">
           <div class="section-head reveal"><div><p class="eyebrow">02 / Packages</p><h2 id="packages-title">Ways to work together</h2></div><p class="eyebrow">Prices in USD · fixed quote before work starts</p></div>
-          <div class="package-grid">
+          <p class="also-line">Also available: order and inventory tracking · product listing data entry · sales and stock dashboards · admin and data support</p>
+        <div class="package-grid">
             <article class="package reveal">
-              <h3>One-time cleanup</h3>
-              <p>Send one messy file, such as an Excel sheet or a CSV export from your store or marketplace. I fix duplicates, date formats and SKUs, and return a clean file with a short change log.</p>
+              <h3>Stock health check</h3>
+              <p>Send one inventory or order export (Excel, or a CSV from your store or marketplace). I fix duplicates, date formats and SKUs, then return a clean file with a short change log and a one-page list of low-stock and duplicate items.</p>
               <p class="package-price"><span class="from">From</span><span class="num">$25</span><span class="unit">1 to 2 days</span></p>
-              <a class="button-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20One-time%20cleanup">Ask about this</a>
+              <a class="button-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Stock%20health%20check">Ask about this</a>
             </article>
             <article class="package reveal">
               <span class="package-tag">Best for ongoing work</span>
             <h3>Monthly stock and sales report</h3>
-              <p>Each month I clean your latest export and send a one-page stock and sales summary with low-stock flags.</p>
+              <p>Each month I clean your latest inventory and order exports, flag low stock, and send a one-page stock and sales summary.</p>
               <p class="package-price"><span class="from">From</span><span class="num">$80</span><span class="unit">per month</span></p>
               <a class="button-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Monthly%20stock%20and%20sales%20report">Ask about this</a>
             </article>
             <article class="package reveal">
-              <h3>Small internal tool</h3>
-              <p>An order form, tracker or dashboard that replaces a spreadsheet workflow, built and handed over with simple instructions.</p>
-              <p class="package-price"><span class="from">From</span><span class="num">$150</span><span class="unit">1 to 2 weeks</span></p>
-              <a class="button-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Small%20internal%20tool">Ask about this</a>
+              <h3>Spreadsheet automation or small tool</h3>
+              <p>I turn a repeated spreadsheet routine into a one-click report, order form or tracker, built and handed over with simple instructions.</p>
+              <p class="package-price"><span class="from">From</span><span class="num">$300</span><span class="unit">1 to 2 weeks</span></p>
+              <a class="button-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Spreadsheet%20automation%20or%20small%20tool">Ask about this</a>
             </article>
           </div>
         </section>
@@ -943,7 +947,7 @@ table, .hero-proof, .package-price .num { font-variant-numeric: tabular-nums; }
                     <dt>University</dt><dd>University of Southeastern Philippines (USeP), Tagum–Mabini Campus</dd>
                     <dt>Location</dt><dd>Tagum, Philippines (UTC+8)</dd>
                     <dt>Working hours</dt><dd>I can overlap with UK business hours and US East Coast mornings. Tell me your hours and I will plan around them.</dd>
-                    <dt>Available for</dt><dd>Remote VA projects: inventory and sales data, spreadsheet cleanup, reporting, and small internal tools</dd>
+                    <dt>Available for</dt><dd>Remote VA projects: inventory and order data, spreadsheet cleanup, stock and sales reporting, spreadsheet automation, and small internal tools</dd>
                   </dl>
                 </div>
               </div>
