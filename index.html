@@ -461,6 +461,10 @@
       .project-demo-panel { box-shadow: 0 22px 46px rgb(26 26 26 / 14%); }
       @media (max-width: 860px) { .hero-visual::after { left: 0; bottom: 3.4rem; } .hero-visual::before { inset: 3rem 0 1rem 3rem; } }
       @media (prefers-reduced-motion: reduce) { .hero-visual::after { animation: none; } }
+      .profile-buttons { display: flex; flex-wrap: wrap; gap: .5rem; margin: .9rem 0 0; }
+      .profile-btn { display: inline-block; padding: .5rem .8rem; border: 1px solid rgb(245 242 234 / 45%); font: 500 .72rem var(--mono); letter-spacing: .04em; text-decoration: none; transition: border-color .2s ease; }
+      .profile-btn:hover { border-color: var(--highlight); }
+      .profile-btn.is-placeholder { opacity: .55; border-style: dashed; cursor: not-allowed; pointer-events: none; }
     </style>
     <link rel="stylesheet" href="demo-launcher.css" />
   </head>
@@ -607,7 +611,7 @@
               <div class="work-info">
                 <h3>LYR Workspace</h3>
                 <p class="work-meta">2025 to 2026 · Built solo · Used company-wide</p>
-                <p class="work-meta">A calendar-centered workspace built on top of LYR's existing operations. It brings task planning and the company's connected tools into one place, with role-based accounts and an audit trail.</p>
+                <p class="work-meta">A Flask platform built on top of LYR's existing operations. It covers task planning on a shared calendar, order forms, in-transit monitoring, warehouse cleanup, and discrepancy and settlement tracking, with role-based accounts and an audit trail.</p>
                 <ul class="tag-list" aria-label="Workspace tags"><li>Flask</li><li>Calendar</li><li>Task planning</li></ul>
                 <div class="work-details">
                   <details><summary>What's in it</summary><div class="detail-body"><ul>
@@ -641,6 +645,33 @@
             </figure>
           </article>
 
+          </section>
+
+        <section class="packages-section container" id="packages" aria-labelledby="packages-title">
+          <div class="section-head"><div><p class="eyebrow">02 / Packages</p><h2 id="packages-title">Ways to work together</h2></div><p class="eyebrow">Prices in USD</p></div>
+          <div class="package-grid">
+            <article class="package">
+              <h3>One-time cleanup</h3>
+              <p>Send one messy file. I fix duplicates, date formats and SKUs, and return a clean Excel or Google Sheet with a short change log.</p>
+              <p class="package-price">From $25 · 1 to 2 days</p>
+              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20One-time%20cleanup">Ask about this</a>
+            </article>
+            <article class="package">
+              <h3>Monthly stock and sales report</h3>
+              <p>Each month I clean your latest export and send a one-page stock and sales summary with low-stock flags.</p>
+              <p class="package-price">From $80 per month</p>
+              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Monthly%20report">Ask about this</a>
+            </article>
+            <article class="package">
+              <h3>Small internal tool</h3>
+              <p>An order form, tracker or dashboard that replaces a spreadsheet workflow, built and handed over with simple instructions.</p>
+              <p class="package-price">From $150 · 1 to 2 weeks</p>
+              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Small%20internal%20tool">Ask about this</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="work-section container" id="also-built" aria-label="Also built">
           <div class="section-head"><div><p class="eyebrow">Also built</p></div></div>
             <article class="work-row pasa-work-row">
             <div class="work-copy">
@@ -713,29 +744,7 @@
           </article>
         </section>
 
-        <section class="packages-section container" id="packages" aria-labelledby="packages-title">
-          <div class="section-head"><div><p class="eyebrow">02 / Packages</p><h2 id="packages-title">Ways to work together</h2></div><p class="eyebrow">Prices in USD</p></div>
-          <div class="package-grid">
-            <article class="package">
-              <h3>One-time cleanup</h3>
-              <p>Send one messy file. I fix duplicates, date formats and SKUs, and return a clean Excel or Google Sheet with a short change log.</p>
-              <p class="package-price">From 25 · 1 to 2 days</p>
-              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20One-time%20cleanup">Ask about this</a>
-            </article>
-            <article class="package">
-              <h3>Monthly stock and sales report</h3>
-              <p>Each month I clean your latest export and send a one-page stock and sales summary with low-stock flags.</p>
-              <p class="package-price">From 80 per month</p>
-              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Monthly%20report">Ask about this</a>
-            </article>
-            <article class="package">
-              <h3>Small internal tool</h3>
-              <p>An order form, tracker or dashboard that replaces a spreadsheet workflow, built and handed over with simple instructions.</p>
-              <p class="package-price">From 150 · 1 to 2 weeks</p>
-              <a class="text-link" href="mailto:besinanchristejan@gmail.com?subject=Package%3A%20Small%20internal%20tool">Ask about this</a>
-            </article>
-          </div>
-        </section>
+        
 
         <section class="about-section container" id="about" aria-labelledby="about-title">
           <div class="about-left">
@@ -793,7 +802,13 @@
               <p class="work-meta">The easiest way to reach me is email.</p>
               <a class="contact-mail" href="mailto:besinanchristejan@gmail.com?subject=A%20messy%20file%20for%20you">besinanchristejan@gmail.com</a>
               <p class="work-meta"><a href="RESUME.pdf" download>Download my résumé (PDF)</a></p>
-              <!-- ASK: add your LinkedIn and GitHub/Upwork links here once you have them. -->
+              <!-- TODO: to activate a button below, replace href="#" with your real URL, add target="_blank" rel="noopener", and delete class is-placeholder, aria-disabled and tabindex from that button. -->
+              <div class="profile-buttons">
+                <a class="profile-btn is-placeholder" href="#" aria-disabled="true" tabindex="-1" title="Link coming soon">OnlineJobs.ph</a>
+                <a class="profile-btn is-placeholder" href="#" aria-disabled="true" tabindex="-1" title="Link coming soon">Upwork</a>
+                <a class="profile-btn is-placeholder" href="#" aria-disabled="true" tabindex="-1" title="Link coming soon">LinkedIn</a>
+                <a class="profile-btn is-placeholder" href="#" aria-disabled="true" tabindex="-1" title="Link coming soon">GitHub</a>
+              </div>
               <!-- CONFIRM: reply-time claim -->
               <p class="reply-note">I reply within one working day.</p>
               <ol class="how-steps">
